@@ -1,0 +1,111 @@
+# caps set C (holdout): sentence-start typos, shift held too long, typos after a period, names/brands kept, lowercase pronoun i
+Freind from work gave me a sourdough starter, so I am baking bread this weekend.	Friend from work gave me a sourdough starter, so I am baking bread this weekend.	cap first word
+Recipie says two cups of buttermilk, but we only have regular milk.	Recipe says two cups of buttermilk, but we only have regular milk.	cap first word
+Teh dog chewed through the garden hose again.	The dog chewed through the garden hose again.	cap first word
+Probaly the best okonomiyaki I have ever eaten was in Dotonbori.	Probably the best okonomiyaki I have ever eaten was in Dotonbori.	cap first word, names
+Arrvied in Kyoto around noon and went straight to Nishiki Market.	Arrived in Kyoto around noon and went straight to Nishiki Market.	cap first word, names
+Evreyone in the group needs to upload their section of the report by Friday.	Everyone in the group needs to upload their section of the report by Friday.	cap first word
+Lokos like the bug only happens in Safari.	Looks like the bug only happens in Safari.	cap first word
+Wehn the vet called, Biscuit was already asleep in the car.	When the vet called, Biscuit was already asleep in the car.	cap first word
+Appearently the tomatoes need more calcium, not more water.	Apparently the tomatoes need more calcium, not more water.	cap first word
+Tonihgt we pitch to three angel investors over Zoom.	Tonight we pitch to three angel investors over Zoom.	cap first word
+Guesss who just got tickets to see Hozier in October!	Guess who just got tickets to see Hozier in October!	cap first word
+Beacuse the recording drifted after an hour, we had to rerun the spike sorting on all four probes.	Because the recording drifted after an hour, we had to rerun the spike sorting on all four probes.	cap first word, long
+Whcih pan should I use for the frittata, the cast iron or the nonstick?	Which pan should I use for the frittata, the cast iron or the nonstick?	cap first word
+Docter says my blood pressure is a bit high but nothing to worry about yet.	Doctor says my blood pressure is a bit high but nothing to worry about yet.	cap first word
+Smoebody tell Ravi the cake order is under my name.	Somebody tell Ravi the cake order is under my name.	cap first word
+Remnid everyone that the party starts at six, not seven.	Remind everyone that the party starts at six, not seven.	cap first word
+Honsetly that boss fight took me forty tries.	Honestly that boss fight took me forty tries.	cap first word
+Perhpas we should water the hydrangeas in the morning instead.	Perhaps we should water the hydrangeas in the morning instead.	cap first word
+Thankfuly the console error points straight at the useEffect hook.	Thankfully the console error points straight at the useEffect hook.	cap first word
+Breifly, the layer five units fire before the whisker touch.	Briefly, the layer five units fire before the whisker touch.	cap first word
+Excelent pitch today.	Excellent pitch today.	cap first word, short
+Usualy the cat sleeps on my keyboard while I grade papers.	Usually the cat sleeps on my keyboard while I grade papers.	cap first word
+Ofcourse I will bring the potato salad.	Of␣course I will bring the potato salad.	cap first word, space
+Intresting result, the theta power drops right before the animal turns.	Interesting result, the theta power drops right before the animal turns.	cap first word
+Eventualy we took the Hankyu line back to Osaka.	Eventually we took the Hankyu line back to Osaka.	cap first word, names
+Seperate the basil seedlings before they get too crowded.	Separate the basil seedlings before they get too crowded.	cap first word
+Tihs is the third time the build has failed on Vercel today.	This is the third time the build has failed on Vercel today.	cap first word
+Hpw do I thicken the gravy without flour?	How do I thicken the gravy without flour?	cap first word
+Cna someone pick up the balloons from Party City?	Can someone pick up the balloons from Party City?	cap first word
+Accidently deleted the main branch, but GitHub let me restore it.	Accidentally deleted the main branch, but GitHub let me restore it.	cap first word
+Thansk so much, Kenji!	Thanks so much, Kenji!	cap first word, short
+SHould I add miso to the marinade or keep it simple?	Should I add miso to the marinade or keep it simple?	shift held
+COuld you feed Pepper tonight? I will be at the lab late.	Could you feed Pepper tonight? I will be at the lab late.	shift held
+STill waiting on the blood test results from Dr. Adeyemi.	Still waiting on the blood test results from Dr. Adeyemi.	shift held
+OKay, on my way.	Okay, on my way.	shift held, short
+YEah, the frontend reaches the API but the cookies never get set.	Yeah, the frontend reaches the API but the cookies never get set.	shift held
+GOod news, the grant reviewers liked the Neuropixels aim.	Good news, the grant reviewers liked the Neuropixels aim.	shift held
+TOday the tomato plants finally have flowers.	Today the tomato plants finally have flowers.	shift held
+PRobably going to play the new Zelda after dinner.	Probably going to play the new Zelda after dinner.	shift held
+LEt's meet at the Osaka Castle gate at nine.	Let's meet at the Osaka Castle gate at nine.	shift held
+OUr demo crashed five minutes before the pitch, of course.	Our demo crashed five minutes before the pitch, of course.	shift held
+EVery spike train looks noisier since we changed the ground wire.	Every spike train looks noisier since we changed the ground wire.	shift held
+HAppy birthday to Marguerite, everyone please sign the card by Thursday.	Happy birthday to Marguerite, everyone please sign the card by Thursday.	shift held
+ONly two tickets left for the Mitski show in Brooklyn.	Only two tickets left for the Mitski show in Brooklyn.	shift held
+WAit, did anyone actually book the restaurant for Saturday?	Wait, did anyone actually book the restaurant for Saturday?	shift held
+FIrst we toast the sesame seeds, then grind them with a little sugar.	First we toast the sesame seeds, then grind them with a little sugar.	shift held
+KYoto was cold, but the maple leaves at Tofuku-ji were worth it.	Kyoto was cold, but the maple leaves at Tofuku-ji were worth it.	shift held, name
+MOchi threw up on the rug again, so I am calling the vet.	Mochi threw up on the rug again, so I am calling the vet.	shift held, name
+The patch is deployed. NOw the login page loads in under a second.	The patch is deployed. Now the login page loads in under a second.	shift held after period
+Dinner was lovely. SHe even made the dumplings from scratch.	Dinner was lovely. She even made the dumplings from scratch.	shift held after period
+YOu have to try the takoyaki stand by the station.	You have to try the takoyaki stand by the station.	shift held
+DOes the clinic take walk-ins on Saturdays?	Does the clinic take walk-ins on Saturdays?	shift held
+The soup needs more salt. alos add a squeeze of lemon at the end.	The soup needs more salt. also|Also add a squeeze of lemon at the end.	after period
+We landed at Kansai Airport. tomrrow we take the train into Kyoto.	We landed at Kansai Airport. tomorrow|Tomorrow we take the train into Kyoto.	after period
+My group finally picked a topic. basicly we are modeling bike traffic on campus.	My group finally picked a topic. basically|Basically we are modeling bike traffic on campus.	after period
+I lost the ranked match again. somhow my teammate was afk the entire time.	I lost the ranked match again. somehow|Somehow my teammate was afk the entire time.	after period, slang
+Biscuit got his shots today. teh vet says he is a little overweight.	Biscuit got his shots today. the|The vet says he is a little overweight.	after period
+The nurse took my temperature twice. aparrently the first reading was way off.	The nurse took my temperature twice. apparently|Apparently the first reading was way off.	after period
+Pitch deck is done. hopfully the investors like the traction slide.	Pitch deck is done. hopefully|Hopefully the investors like the traction slide.	after period
+The peppers are finally turning red. nexy year I will plant them earlier.	The peppers are finally turning red. next|Next year I will plant them earlier.	after period
+The opening act ran long. everybdy was restless by the time the band came on.	The opening act ran long. everybody|Everybody was restless by the time the band came on.	after period
+Party is at Ngozi's place. brinng a gift under twenty dollars, nothing fancy.	Party is at Ngozi's place. bring|Bring a gift under twenty dollars, nothing fancy.	after period
+Fixed the CORS error. tunrs out the proxy was stripping the headers.	Fixed the CORS error. turns|Turns out the proxy was stripping the headers.	after period
+The new probe has 384 channels. unfortuantely half of them are just noise.	The new probe has 384 channels. unfortunately|Unfortunately half of them are just noise.	after period
+We hiked up Fushimi Inari before sunrise. absolutly worth the early alarm.	We hiked up Fushimi Inari before sunrise. absolutely|Absolutely worth the early alarm.	after period, names
+The professor approved our proposal. finnaly we can start collecting data.	The professor approved our proposal. finally|Finally we can start collecting data.	after period
+Pepper knocked the water bowl over. probly she wants attention.	Pepper knocked the water bowl over. probably|Probably she wants attention.	after period
+The doctor ordered an MRI. supossedly it only takes twenty minutes.	The doctor ordered an MRI. supposedly|Supposedly it only takes twenty minutes.	after period
+The investors asked about churn. luckilly we had the numbers ready.	The investors asked about churn. luckily|Luckily we had the numbers ready.	after period
+The roses look sad. maybee they need more sun.	The roses look sad. maybe|Maybe they need more sun.	after period
+The encore was incredible. definitly seeing them again next tour.	The encore was incredible. definitely|Definitely seeing them again next tour.	after period
+Tests pass locally. stragely they fail in the CI container.	Tests pass locally. strangely|Strangely they fail in the CI container.	after period
+Ordered the cake from the bakery on Elm Street. whoevr picks it up gets the first slice.	Ordered the cake from the bakery on Elm Street. whoever|Whoever picks it up gets the first slice.	after period
+Did you read the patch notes? thay nerfed my favorite character.	Did you read the patch notes? they|They nerfed my favorite character.	after question mark
+Yuta Yamamoto is presenting the decoding resluts at lab meeting on Tuesday.	Yuta Yamamoto is presenting the decoding results at lab meeting on Tuesday.	names
+My son plays Mario Kart on the Nintendo Switch while I cook dinner.	My son plays Mario Kart on the Nintendo Switch while I cook dinner.	names, clean
+We booked a ryokan in Arashiyama through Booking.com for two nights.	We booked a ryokan in Arashiyama through Booking.com for two nights.	names, clean
+Kenji reccomended a tiny izakaya in Namba that only seats eight people.	Kenji recommended a tiny izakaya in Namba that only seats eight people.	names
+Professor Okonkwo wants our final report formatted in LaTeX.	Professor Okonkwo wants our final report formatted in LaTeX.	names, clean
+The Le Creuset pot from Aunt Wilhelmina is perfect for braising short ribs.	The Le Creuset pot from Aunt Wilhelmina is perfect for braising short ribs.	names, clean
+Ines and Tomasz are flying in from Melbourne for the birthday dinner.	Ines and Tomasz are flying in from Melbourne for the birthday dinner.	names, clean
+Dr. Adeyemi sent the referral to the cardiology clinic at Northwestern.	Dr. Adeyemi sent the referral to the cardiology clinic at Northwestern.	names, clean
+Our startup, Fernweh Labs, got into the Techstars program in Boulder.	Our startup, Fernweh Labs, got into the Techstars program in Boulder.	names, clean
+Linnea is bringing her corgi Waffles to the garden party, so keep the gate shut.	Linnea is bringing her corgi Waffles to the garden party, so keep the gate shut.	names, clean
+We sorted the units with Kilosort and plotted everyting in MATLAB.	We sorted the units with Kilosort and plotted everything in MATLAB.	names
+Phoebe Bridgers played two encores at the Hollywood Bowl.	Phoebe Bridgers played two encores at the Hollywood Bowl.	names, clean
+My daughter beat Ganondorf on her first try and I am still stuck in the Water Temple.	My daughter beat Ganondorf on her first try and I am still stuck in the Water Temple.	names, clean
+Yuta said the Sentry alerts started after the Redux upgrade.	Yuta said the Sentry alerts started after the Redux upgrade.	names, clean
+We bought tomato cages and Miracle-Gro at Home Depot this mornnig.	We bought tomato cages and Miracle-Gro at Home Depot this morning.	names
+Yamamoto-sensei approved the budget for two more Intan headstages.	Yamamoto-sensei approved the budget for two more Intan headstages.	names, clean
+The stage at Kiyomizu-dera was packed, so we went to Gion for matcha instead.	The stage at Kiyomizu-dera was packed, so we went to Gion for matcha instead.	names, clean
+Can you ask Yusuf whether the Postgres container is running on his MacBook?	Can you ask Yusuf whether the Postgres container is running on his MacBook?	names, clean
+My iPhone shows the reminder, but the Apple Watch never buzzes.	My iPhone shows the reminder, but the Apple Watch never buzzes.	names, clean
+i burned the garlic again, so we are ordering Thai food.	i|I burned the garlic again, so we are ordering Thai food.	pronoun i
+when i got home the dog had eaten half the birthday cake	when i|I got home the dog had eaten half the birthday cake	pronoun i, lowercase chat
+Should i bring the tripod to the concert or will security take it?	Should i|I bring the tripod to the concert or will security take it?	pronoun i
+i suspect the memory leak is in the websocket handler.	i|I suspect the memory leak is in the websocket handler.	pronoun i
+Honestly i did not expect the judges to ask about our burn rate.	Honestly i|I did not expect the judges to ask about our burn rate.	pronoun i
+Before i forget, the vet appointment moved to Thursday at four.	Before i|I forget, the vet appointment moved to Thursday at four.	pronoun i
+Last night i finally finished Hollow Knight after sixty hours.	Last night i|I finally finished Hollow Knight after sixty hours.	pronoun i, names
+Do you know if i should fast before the blood draw?	Do you know if i|I should fast before the blood draw?	pronoun i
+i planted garlic along the fence and the squirells dug up every single clove within a week.	i|I planted garlic along the fence and the squirrels dug up every single clove within a week.	pronoun i
+Yuta and i will split the slides for the course project.	Yuta and i|I will split the slides for the course project.	pronoun i, names
+i'm running late, save me a seat near the stage	i'm|I'm running late, save me a seat near the stage	pronoun i, contraction
+If i record another session tonight, could someone check the impedences and refill the saline before the morning group arrives?	If i|I record another session tonight, could someone check the impedances and refill the saline before the morning group arrives?	pronoun i, long
+and i also forgot to buy eggs	and i|I also forgot to buy eggs	pronoun i, lowercase chat
+wihch is why the build breaks on Safari	which|Which is why the build breaks on Safari	first word lowercase
+Thnak you for hosting, the curry was amazing.	Thank you for hosting, the curry was amazing.	cap first word
+THe second recording looks much cleaner.	The second recording looks much cleaner.	shift held
+but the cherry tomatos split after the rain	but the cherry tomatoes split after the rain	lowercase chat

@@ -1,0 +1,153 @@
+# clean-names set C (holdout): correctly typed everyday sentences full of names, places, brands, romaji and foreign words
+# CLEAN file: typed == expected on every line (minus the <reset> marker); measures false corrections
+# format: typed<TAB>expected<TAB>note
+Made karaage tonight with the leftover chicken thighs, Haruto ate four pieces.	Made karaage tonight with the leftover chicken thighs, Haruto ate four pieces.	clean cooking
+Dashi is simmering, can someone grab the natto from the fridge?	Dashi is simmering, can someone grab the natto from the fridge?	clean cooking
+itadakimasu! first attempt at homemade gyoza, a bit lopsided but tasty	itadakimasu! first attempt at homemade gyoza, a bit lopsided but tasty	clean cooking
+Siobhan taught me how to fold the gyoza wrappers properly.	Siobhan taught me how to fold the gyoza wrappers properly.	clean cooking
+The oden needs another hour, so dinner will be around eight.	The oden needs another hour, so dinner will be around eight.	clean cooking
+Picked up chorizo and manchego for tapas night at Priya's place.	Picked up chorizo and manchego for tapas night at Priya's place.	clean cooking
+Joaquin's bulgogi marinade uses grated Asian pear, garlic and soy sauce.	Joaquin's bulgogi marinade uses grated Asian pear, garlic and soy sauce.	clean cooking
+My kimchi jar finally started bubbling on the counter.	My kimchi jar finally started bubbling on the counter.	clean cooking
+Does anyone want katsu curry or should I make pho instead?	Does anyone want katsu curry or should I make pho instead?	clean cooking
+We ran out of matcha powder, adding it to the Muji order.	We ran out of matcha powder, adding it to the Muji order.	clean cooking
+gracias for the paella pan, Joaquin, it fits perfectly on our stove	gracias for the paella pan, Joaquin, it fits perfectly on our stove	clean cooking
+Nakamura says the secret to fluffy onigiri is wetting your hands with salt water.	Nakamura says the secret to fluffy onigiri is wetting your hands with salt water.	clean cooking
+Our Shinkansen to Kyoto leaves Shinagawa at 7:42 tomorrow morning.	Our Shinkansen to Kyoto leaves Shinagawa at 7:42 tomorrow morning.	clean travel
+Yuki booked a ryokan near Gion for two nights.	Yuki booked a ryokan near Gion for two nights.	clean travel
+Took the train from Kyoto to Osaka and went straight to Dotonbori for takoyaki.	Took the train from Kyoto to Osaka and went straight to Dotonbori for takoyaki.	clean travel
+sugoi, the torii gates at Fushimi Inari go on forever	sugoi, the torii gates at Fushimi Inari go on forever	clean travel
+Aoi recommends the okonomiyaki place behind Namba station.	Aoi recommends the okonomiyaki place behind Namba station.	clean travel
+We tried kitsune udon in Arashiyama after the bamboo grove.	We tried kitsune udon in Arashiyama after the bamboo grove.	clean travel
+Grabbing onigiri and a canned coffee at the konbini before the Nara day trip.	Grabbing onigiri and a canned coffee at the konbini before the Nara day trip.	clean travel
+Watanabe's uncle runs a tiny izakaya in Umeda, he says come by any night.	Watanabe's uncle runs a tiny izakaya in Umeda, he says come by any night.	clean travel
+arigatou gozaimasu to everyone who sent restaurant tips for Osaka!	arigatou gozaimasu to everyone who sent restaurant tips for Osaka!	clean travel
+Kinkakuji was packed so we went to Ginkakuji and the Philosopher's Path instead.	Kinkakuji was packed so we went to Ginkakuji and the Philosopher's Path instead.	clean travel
+Keep your Suica card handy, it works on the Osaka subway too.	Keep your Suica card handy, it works on the Osaka subway too.	clean travel
+Tanaka-sensei says Nishiki Market closes earlier than you'd think.	Tanaka-sensei says Nishiki Market closes earlier than you'd think.	clean travel
+Since Yuta is landing at Itami around six, could Yuki grab him and meet us at the okonomiyaki place in Namba for dinner?	Since Yuta is landing at Itami around six, could Yuki grab him and meet us at the okonomiyaki place in Namba for dinner?	clean travel, long
+Our group for the course project is me, Dmitri, Aoife and Hinata.	Our group for the course project is me, Dmitri, Aoife and Hinata.	clean course
+Ishikawa wants the literature review drafted in Notion by Wednesday.	Ishikawa wants the literature review drafted in Notion by Wednesday.	clean course
+Can we meet in the Berkeley library at four to finish the poster?	Can we meet in the Berkeley library at four to finish the poster?	clean course
+I uploaded the dataset and the cleaning script to the shared GitHub repo.	I uploaded the dataset and the cleaning script to the shared GitHub repo.	clean course
+Oluwaseun is handling the stats, Zhao is doing the figures in Figma.	Oluwaseun is handling the stats, Zhao is doing the figures in Figma.	clean course
+Professor Suzuki extended the deadline to Friday at midnight.	Professor Suzuki extended the deadline to Friday at midnight.	clean course
+Sorry Saoirse, I forgot to add your name to the title slide.	Sorry Saoirse, I forgot to add your name to the title slide.	clean course
+The rubric says twelve minutes max including questions.	The rubric says twelve minutes max including questions.	clean course
+daijoubu, I can cover the intro if Takumi is still sick.	daijoubu, I can cover the intro if Takumi is still sick.	clean course
+Ren just beat the final boss in Elden Ring on his first try.	Ren just beat the final boss in Elden Ring on his first try.	clean gaming
+Anyone up for Mario Kart after dinner? Hinata keeps winning on Rainbow Road.	Anyone up for Mario Kart after dinner? Hinata keeps winning on Rainbow Road.	clean gaming
+ggs everyone, Yamamoto carried that last match	ggs everyone, Yamamoto carried that last match	clean gaming
+My Switch battery died right before the save point, gomen.	My Switch battery died right before the save point, gomen.	clean gaming
+Started a new Stardew Valley farm with Yuki over the weekend.	Started a new Stardew Valley farm with Yuki over the weekend.	clean gaming
+Nguyen is streaming Zelda on Twitch tonight at nine.	Nguyen is streaming Zelda on Twitch tonight at nine.	clean gaming
+Takumi pulled a five-star character on his first ten-pull, so lucky.	Takumi pulled a five-star character on his first ten-pull, so lucky.	clean gaming
+We need one more player for the Valorant squad on Saturday.	We need one more player for the Valorant squad on Saturday.	clean gaming
+the new Pokemon game runs surprisingly well on the Switch	the new Pokemon game runs surprisingly well on the Switch	clean gaming
+Dmitri's Minecraft build of Osaka Castle is honestly impressive.	Dmitri's Minecraft build of Osaka Castle is honestly impressive.	clean gaming
+Mochi the shiba refuses to walk past the Shibuya crossing anymore.	Mochi the shiba refuses to walk past the Shibuya crossing anymore.	clean pets
+Our cat Natto knocked the matcha whisk off the counter again.	Our cat Natto knocked the matcha whisk off the counter again.	clean pets
+Saoirse is dog-sitting Biscuit while we're in Kyoto.	Saoirse is dog-sitting Biscuit while we're in Kyoto.	clean pets
+Took Kuro to the vet in Emeryville for his booster shots.	Took Kuro to the vet in Emeryville for his booster shots.	clean pets
+The hamster escaped and Haruto found her inside his sneaker.	The hamster escaped and Haruto found her inside his sneaker.	clean pets
+Priya's corgi Ziggy has an Instagram with more followers than me.	Priya's corgi Ziggy has an Instagram with more followers than me.	clean pets
+kawaii overload, the kittens at the shelter in Fitzroy all have tiny bandanas	kawaii overload, the kittens at the shelter in Fitzroy all have tiny bandanas	clean pets
+Yuki ordered a raised food bowl for our old greyhound.	Yuki ordered a raised food bowl for our old greyhound.	clean pets
+Please don't feed Pudding any more karaage, the vet says he's chubby.	Please don't feed Pudding any more karaage, the vet says he's chubby.	clean pets
+My appointment with Dr. Watanabe is at 10:15 on Thursday.	My appointment with Dr. Watanabe is at 10:15 on Thursday.	clean doctor
+The clinic in Kichijoji takes walk-ins on weekday mornings.	The clinic in Kichijoji takes walk-ins on weekday mornings.	clean doctor
+Dr. Nguyen says my blood pressure is fine but I should cut back on ramen.	Dr. Nguyen says my blood pressure is fine but I should cut back on ramen.	clean doctor
+Picked up the prescription at the pharmacy near Parramatta station.	Picked up the prescription at the pharmacy near Parramatta station.	clean doctor
+Haruto needs a doctor's note for school, can you call the clinic?	Haruto needs a doctor's note for school, can you call the clinic?	clean doctor
+Turns out it's just a sprain, no fracture, so no cast needed.	Turns out it's just a sprain, no fracture, so no cast needed.	clean doctor
+Daijoubu, the doctor said the rash is only an allergy.	Daijoubu, the doctor said the rash is only an allergy.	clean doctor
+The nurse at the Melbourne clinic was so patient with Aoi.	The nurse at the Melbourne clinic was so patient with Aoi.	clean doctor
+Booked a follow-up for the flu shot through the hospital app.	Booked a follow-up for the flu shot through the hospital app.	clean doctor
+Our pitch to the investors in Emeryville is next Tuesday at two.	Our pitch to the investors in Emeryville is next Tuesday at two.	clean pitch
+Yuta built the demo on Vercel and the deck lives in Figma.	Yuta built the demo on Vercel and the deck lives in Figma.	clean pitch
+Can you tighten slide seven, Priya? The market size numbers feel soft.	Can you tighten slide seven, Priya? The market size numbers feel soft.	clean pitch
+The partner from Anthropic asked how we handle data privacy.	The partner from Anthropic asked how we handle data privacy.	clean pitch
+Yamamoto is presenting, I'll take the technical questions.	Yamamoto is presenting, I'll take the technical questions.	clean pitch
+Raycast and Todoist both have onboarding flows we could borrow from.	Raycast and Todoist both have onboarding flows we could borrow from.	clean pitch
+We're targeting busy parents in Oakland and Berkeley first.	We're targeting busy parents in Oakland and Berkeley first.	clean pitch
+Siobhan rewrote the opening line, it's much punchier now.	Siobhan rewrote the opening line, it's much punchier now.	clean pitch
+Joaquin wants to add a slide comparing us to Partiful and Luma.	Joaquin wants to add a slide comparing us to Partiful and Luma.	clean pitch
+Rehearsal in the Shinjuku coworking space at 6, bring your laptop charger.	Rehearsal in the Shinjuku coworking space at 6, bring your laptop charger.	clean pitch
+otsukaresama to the whole team, the pitch went really well	otsukaresama to the whole team, the pitch went really well	clean pitch
+The shiso is taking over the whole planter box.	The shiso is taking over the whole planter box.	clean garden
+Planted daikon and edamame seeds in the raised beds this morning.	Planted daikon and edamame seeds in the raised beds this morning.	clean garden
+Tanaka gave me cuttings from her hydrangeas, they're already rooting.	Tanaka gave me cuttings from her hydrangeas, they're already rooting.	clean garden
+Snails ate half the lettuce again, any tips Aoife?	Snails ate half the lettuce again, any tips Aoife?	clean garden
+My tomatoes in Fitzroy are finally turning red.	My tomatoes in Fitzroy are finally turning red.	clean garden
+The persimmon tree at grandma's house in Yokohama has hundreds of fruit this year.	The persimmon tree at grandma's house in Yokohama has hundreds of fruit this year.	clean garden
+Hinata helped me mulch the bonsai and repot the jade plant.	Hinata helped me mulch the bonsai and repot the jade plant.	clean garden
+Bought compost and a new hose from the garden centre in Parramatta.	Bought compost and a new hose from the garden centre in Parramatta.	clean garden
+The watering schedule is in Obsidian if you need it while I'm away.	The watering schedule is in Obsidian if you need it while I'm away.	clean garden
+Got two tickets for the Fujii Kaze concert at the Greek Theatre in Berkeley!	Got two tickets for the Fujii Kaze concert at the Greek Theatre in Berkeley!	clean concert
+Nakamura is queuing for merch already, she's been there since noon.	Nakamura is queuing for merch already, she's been there since noon.	clean concert
+The opening act was a jazz trio from Melbourne, really tight.	The opening act was a jazz trio from Melbourne, really tight.	clean concert
+My ears are still ringing from the Oakland show last night.	My ears are still ringing from the Oakland show last night.	clean concert
+Doors open at 7, set starts at 8:30, meet by the east gate.	Doors open at 7, set starts at 8:30, meet by the east gate.	clean concert
+sugoi, they played the whole album front to back	sugoi, they played the whole album front to back	clean concert
+Zhao filmed the encore on his iPhone, the audio is surprisingly clean.	Zhao filmed the encore on his iPhone, the audio is surprisingly clean.	clean concert
+Saoirse posted her setlist predictions in the group chat, mostly ballads.	Saoirse posted her setlist predictions in the group chat, mostly ballads.	clean concert
+Planning a surprise for Aoi's birthday, don't tell her!	Planning a surprise for Aoi's birthday, don't tell her!	clean birthday
+I made a Partiful for Saturday, RSVP by Wednesday please.	I made a Partiful for Saturday, RSVP by Wednesday please.	clean birthday
+Yuki is bringing the cake from the bakery in Kichijoji.	Yuki is bringing the cake from the bakery in Kichijoji.	clean birthday
+Can someone pick up balloons and candles? I'll handle the yakiniku reservation.	Can someone pick up balloons and candles? I'll handle the yakiniku reservation.	clean birthday
+Venmo me 25 each for the gift, we're getting her the Uniqlo puffer she wanted.	Venmo me 25 each for the gift, we're getting her the Uniqlo puffer she wanted.	clean birthday
+lol Ren already spoiled it, she knows	lol Ren already spoiled it, she knows	clean birthday
+Let's do karaoke in Shibuya after dinner, I booked the room until midnight.	Let's do karaoke in Shibuya after dinner, I booked the room until midnight.	clean birthday
+Priya can't make it till 9 but she'll meet us at the izakaya.	Priya can't make it till 9 but she'll meet us at the izakaya.	clean birthday
+Oluwaseun made a playlist on Spotify for the party.	Oluwaseun made a playlist on Spotify for the party.	clean birthday
+happy birthday Aoi!! omedetou, have the best year	happy birthday Aoi!! omedetou, have the best year	clean birthday
+Reminder: the dress code is "something blue" because it's her favorite color.	Reminder: the dress code is "something blue" because it's her favorite color.	clean birthday
+The Vercel build keeps failing on the image optimization step.	The Vercel build keeps failing on the image optimization step.	clean debug
+Dmitri found the bug, a missing await in the checkout handler.	Dmitri found the bug, a missing await in the checkout handler.	clean debug
+Takumi, can you check the GitHub Actions logs for the staging deploy?	Takumi, can you check the GitHub Actions logs for the staging deploy?	clean debug
+Cleared the cache and the login page finally loads on Safari.	Cleared the cache and the login page finally loads on Safari.	clean debug
+ChatGPT suggested a fix but it broke the dark mode toggle.	ChatGPT suggested a fix but it broke the dark mode toggle.	clean debug
+Nguyen thinks the memory leak is coming from the websocket listener.	Nguyen thinks the memory leak is coming from the websocket listener.	clean debug
+I added console logs everywhere and still can't reproduce it on macOS.	I added console logs everywhere and still can't reproduce it on macOS.	clean debug
+The Figma specs say the button should be 44 pixels tall, ours is 40.	The Figma specs say the button should be 44 pixels tall, ours is 40.	clean debug
+Rolled back to yesterday's deploy until we figure out the timezone issue.	Rolled back to yesterday's deploy until we figure out the timezone issue.	clean debug
+Ishikawa pushed a hotfix, please pull main before you rebase.	Ishikawa pushed a hotfix, please pull main before you rebase.	clean debug
+The error only happens when the user's name has an apostrophe, like O'Brien.	The error only happens when the user's name has an apostrophe, like O'Brien.	clean debug
+Logged the issue in Todoist and assigned it to Zhao.	Logged the issue in Todoist and assigned it to Zhao.	clean debug
+Lab meeting moved to Thursday, Yamamoto is presenting the hippocampus recordings.	Lab meeting moved to Thursday, Yamamoto is presenting the hippocampus recordings.	clean lab
+Haruto spike-sorted the overnight session but the channel map looks off.	Haruto spike-sorted the overnight session but the channel map looks off.	clean lab
+We lost signal on four electrodes after the second day of recording.	We lost signal on four electrodes after the second day of recording.	clean lab
+Suzuki wants to compare the place cells across all three mice.	Suzuki wants to compare the place cells across all three mice.	clean lab
+The Neuropixels probe drifted about fifty microns during the session.	The Neuropixels probe drifted about fifty microns during the session.	clean lab
+Siobhan's slides on theta oscillations were really clear.	Siobhan's slides on theta oscillations were really clear.	clean lab
+Can someone share the raw traces on the lab Notion page?	Can someone share the raw traces on the lab Notion page?	clean lab
+Aoife suggested we filter below 300 hertz before detecting spikes.	Aoife suggested we filter below 300 hertz before detecting spikes.	clean lab
+Dmitri is rerunning the analysis on the cluster overnight.	Dmitri is rerunning the analysis on the cluster overnight.	clean lab
+The calcium imaging data from Nakamura's rig looks noisy today.	The calcium imaging data from Nakamura's rig looks noisy today.	clean lab
+otsukaresama to everyone who stayed late for the surgeries.	otsukaresama to everyone who stayed late for the surgeries.	clean lab
+ciao Dmitri, see you at the cafe at noon	ciao Dmitri, see you at the cafe at noon	clean misc
+merci for the croissants, Aoife, they were still warm	merci for the croissants, Aoife, they were still warm	clean misc
+danke for fixing my bike, Zhao!	danke for fixing my bike, Zhao!	clean misc
+Salut! Just landed in Melbourne, heading to the hotel now.	Salut! Just landed in Melbourne, heading to the hotel now.	clean misc
+hola Joaquin, can you send me the tapas place address?	hola Joaquin, can you send me the tapas place address?	clean misc
+Sorry if that sounded naive, I'm still new to the lab.	Sorry if that sounded naive, I'm still new to the lab.	clean misc
+Ordered banh mi and two pho from the place on Telegraph.	Ordered banh mi and two pho from the place on Telegraph.	clean misc
+senpai said the exam covers everything since week three	senpai said the exam covers everything since week three	clean misc
+Watanabe-senpai is retiring from the lab in March.	Watanabe-senpai is retiring from the lab in March.	clean misc
+Grubhub says the katsu bowls will arrive in 20 minutes.	Grubhub says the katsu bowls will arrive in 20 minutes.	clean misc
+Gomen, my iPhone died, I'll text you when I'm home.	Gomen, my iPhone died, I'll text you when I'm home.	clean misc
+I keep all my recipes in Obsidian with tags for each cuisine.	I keep all my recipes in Obsidian with tags for each cuisine.	clean misc
+Yuta and Haruto are flying into Kansai on the 14th.	Yuta and Haruto are flying into Kansai on the 14th.	clean misc
+and then Hinata dropped her onigiri in the koi pond	and then Hinata dropped her onigiri in the koi pond	clean misc
+Ishikawa will send the invoice through Notion later.	Ishikawa will send the invoice through Notion later.	clean misc
+matcha soft serve in Uji was worth the line	matcha soft serve in Uji was worth the line	clean misc
+The Dia browser crashed twice during my demo, so embarrassing.	The Dia browser crashed twice during my demo, so embarrassing.	clean misc
+I asked ChatGPT for a gyoza dipping sauce and it was actually good.	I asked ChatGPT for a gyoza dipping sauce and it was actually good.	clean misc
+Kichijoji has the best used bookstores, we spent all afternoon there.	Kichijoji has the best used bookstores, we spent all afternoon there.	clean misc
+Joaquin made chorizo tacos and Siobhan brought kimchi fried rice.	Joaquin made chorizo tacos and Siobhan brought kimchi fried rice.	clean misc
+The doctor in Shinjuku spoke English, which was such a relief.	The doctor in Shinjuku spoke English, which was such a relief.	clean misc
+Ren's band is playing a small venue in Emeryville on Friday.	Ren's band is playing a small venue in Emeryville on Friday.	clean misc
+Itadakimasu, everyone, dig in before the karaage gets cold.	Itadakimasu, everyone, dig in before the karaage gets cold.	clean misc
+Gomen, running late.	Gomen, running late.	clean short
+Thanks again, Tanaka-san!	Thanks again, Tanaka-san!	clean short
+Matcha or hojicha today?	Matcha or hojicha today?	clean short

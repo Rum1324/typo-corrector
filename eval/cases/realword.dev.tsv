@@ -1,0 +1,129 @@
+# realword.dev.tsv - real-word slips (a valid word typed for another valid word), dev split: casual chat, work email, AI-assistant prompts
+# format: typed<TAB>expected<TAB>note; note = left|right typed->meant (left: the words before the slip already make it odd, right: only later words do); two slips are joined by "; "
+just got a weird email form the landlord about the heating	just got a weird email from the landlord about the heating	right form->from
+Attached is the summary form last Thursday's planning session.	Attached is the summary from last Thursday's planning session.	right form->from
+Based on you previous answer, can you suggest three more titles?	Based on your previous answer, can you suggest three more titles?	left you->your
+can i borrow you charger for like ten minutes?	can i borrow your charger for like ten minutes?	right you->your
+Please complete the attached from and return it to HR by Friday.	Please complete the attached form and return it to HR by Friday.	left from->form
+Can your explain how recursion works using a simple example?	Can you explain how recursion works using a simple example?	right your->you
+let me know when your get home safe	let me know when you get home safe	right your->you
+Please find out updated price list attached.	Please find our updated price list attached.	right out->our
+Help me figure our why this formula returns zero.	Help me figure out why this formula returns zero.	left our->out
+i though you said the party was in friday	i thought you said the party was on friday	left though->thought; right in->on
+we should invite them to out place next weekend	we should invite them to our place next weekend	left out->our
+I'm not sure if the exact figure, but it was close to 4,000 units.	I'm not sure of the exact figure, but it was close to 4,000 units.	right if->of
+Give me a quick overview if the French Revolution in five bullet points.	Give me a quick overview of the French Revolution in five bullet points.	right if->of
+want to hang our after class tomorrow or are you busy?	want to hang out after class tomorrow or are you busy?	right our->out
+Please remember to turn of the projector before you leave the room.	Please remember to turn off the projector before you leave the room.	left of->off
+Make a list off healthy snacks I can bring to work.	Make a list of healthy snacks I can bring to work.	left off->of
+you talked to the hosts, did the say what time the party starts?	you talked to the hosts, did they say what time the party starts?	right the->they
+Thank you for you patience while we looked into out records.	Thank you for your patience while we looked into our records.	left you->your; left out->our
+The report is due in Friday, so please send your sections by Wednesday.	The report is due on Friday, so please send your sections by Wednesday.	right in->on
+What us the difference between a list and a tuple in Python?	What is the difference between a list and a tuple in Python?	left us->is
+i left my keys on they kitchen table again	i left my keys on the kitchen table again	left they->the
+Unfortunately the room is now available on the 12th either, so we need another date.	Unfortunately the room is not available on the 12th either, so we need another date.	right now->not
+Do no include any personal opinions in the summary.	Do not include any personal opinions in the summary.	right no->not
+ok 7 works for me, see you the!	ok 7 works for me, see you then!	right the->then
+Good news: the fix is not live, so customers should see the correct totals.	Good news: the fix is now live, so customers should see the correct totals.	right not->now
+let me know of you need a ride form the airport	let me know if you need a ride from the airport	right of->if; left form->from
+Explain how too set up a virtual environment on a Mac.	Explain how to set up a virtual environment on a Mac.	left too->to
+we're finally her, where are you sitting?	we're finally here, where are you sitting?	right her->here
+We know have approval from finance to move ahead with the order.	We now have approval from finance to move ahead with the order.	right know->now
+Is it more efficient to use a dictionary rather then a list here?	Is it more efficient to use a dictionary rather than a list here?	left then->than
+if you see Mika tell here i said happy birthday	if you see Mika tell her i said happy birthday	left here->her
+I think the timeline is to aggressive given our current staffing.	I think the timeline is too aggressive given our current staffing.	right to->too
+Please not that the office will be closed thus Friday for the holiday.	Please note that the office will be closed this Friday for the holiday.	left not->note; right thus->this
+i'm taking tomorrow of so i can finally sleep in	i'm taking tomorrow off so i can finally sleep in	left of->off
+We are looking forward too seeing you at the conference in May.	We are looking forward to seeing you at the conference in May.	left too->to
+are you still on bed? it's almost noon	are you still in bed? it's almost noon	right on->in
+Can you tell me if its safe to eat rice that was left out overnight?	Can you tell me if it's safe to eat rice that was left out overnight?	right its->it's
+do you want to come with is to the beach on saturday?	do you want to come with us to the beach on saturday?	left is->us
+First summarize the article, the list there questions it leaves open.	First summarize the article, then list three questions it leaves open.	right the->then; right there->three
+I think its a good idea to loop in legal before we sign.	I think it's a good idea to loop in legal before we sign.	right its->it's
+How does caffeine effect sleep if I drink it after 3 pm?	How does caffeine affect sleep if I drink it after 3 pm?	right effect->affect
+i'm now sure if i can make it tonight, sorry	i'm not sure if i can make it tonight, sorry	right now->not
+The committee will announce it's decision at the end of the month.	The committee will announce its decision at the end of the month.	right it's->its
+This explanation is quiet confusing, can you make it simpler?	This explanation is quite confusing, can you make it simpler?	right quiet->quite
+can't talk right not, i'm about to board	can't talk right now, i'm about to board	left not->now
+We can't afford to loose another week on this migration.	We can't afford to lose another week on this migration.	left loose->lose
+i asked my parents and the said i can borrow their car	i asked my parents and they said i can borrow their car	right the->they
+Show me were the bug is in this function.	Show me where the bug is in this function.	left were->where
+heading out no, do you need anything from the store?	heading out now, do you need anything from the store?	right no->now
+The new policy will take affect on the first of April.	The new policy will take effect on the first of April.	left affect->effect
+What is the most important think to know before learning Rust?	What is the most important thing to know before learning Rust?	left think->thing
+the handle on my suitcase is coming lose	the handle on my suitcase is coming loose	left lose->loose
+Your free trail ends on November 30, after which the standard rate applies.	Your free trial ends on November 30, after which the standard rate applies.	left trail->trial
+I have and interview at 10 tomorrow, any tips?	I have an interview at 10 tomorrow, any tips?	left and->an
+I spoke with the vendor and the have confirmed delivery for net week.	I spoke with the vendor and they have confirmed delivery for next week.	right the->they; right net->next
+the library is really quite today, come study here	the library is really quiet today, come study here	right quite->quiet
+I believe three was a misunderstanding about the delivery address.	I believe there was a misunderstanding about the delivery address.	right three->there
+How so I convert a string to a date in JavaScript?	How do I convert a string to a date in JavaScript?	right so->do
+we hiked the ridge trial this morning and the view was unreal	we hiked the ridge trail this morning and the view was unreal	left trial->trail
+The samples where shipped on Tuesday and should arrive by Friday.	The samples were shipped on Tuesday and should arrive by Friday.	right where->were
+Make the tone a little but warmer without changing the meaning.	Make the tone a little bit warmer without changing the meaning.	left but->bit
+i thing we should leave a bit earlier to beat traffic	i think we should leave a bit earlier to beat traffic	left thing->think
+it was a fun trip even thought it rained the hole time	it was a fun trip even though it rained the whole time	left thought->though; right hole->whole
+Just a quick note that were moving the daily sync to 9:15 starting Monday.	Just a quick note that we're moving the daily sync to 9:15 starting Monday.	right were->we're
+Take these five headlines and make then shorter and clearer.	Take these five headlines and make them shorter and clearer.	left then->them
+the food was great, a bit pricey through	the food was great, a bit pricey though	left through->though
+Could you walk me though the approval process once more?	Could you walk me through the approval process once more?	left though->through
+Translate this paragraph into Spanish, than check it for tone.	Translate this paragraph into Spanish, then check it for tone.	left than->then
+do you want tea for coffee with your cake?	do you want tea or coffee with your cake?	right for->or
+Please review the contract an send me your comments by Thursday.	Please review the contract and send me your comments by Thursday.	right an->and
+Sort the rows by date and them remove any duplicates form the list.	Sort the rows by date and then remove any duplicates from the list.	left them->then; left form->from
+Explain what is going one in this regular expression.	Explain what is going on in this regular expression.	left one->on
+can i ask you on more favor?	can i ask you one more favor?	right on->one
+Kenji as already signed off on the design, so we can proceed.	Kenji has already signed off on the design, so we can proceed.	right as->has
+Tell me it this sentence is grammatically correct.	Tell me if this sentence is grammatically correct.	right it->if
+i'm do tired i could fall asleep standing up	i'm so tired i could fall asleep standing up	left do->so
+Thank you or getting back to me so quickly.	Thank you for getting back to me so quickly.	left or->for
+Write a short reminder asking parents to sign the consent from before the school trip.	Write a short reminder asking parents to sign the consent form before the school trip.	right from->form
+honestly the sequel was way better then the first on	honestly the sequel was way better than the first one	left then->than; right on->one
+i need to but a gift for my sister before saturday	i need to buy a gift for my sister before saturday	left but->buy
+At his point I think we should escalate to the regional manager.	At this point I think we should escalate to the regional manager.	right his->this
+Write a unit text for this function in Python.	Write a unit test for this function in Python.	left text->test
+meet me at he station around six?	meet me at the station around six?	left he->the
+I am note sure the vendor received our last message.	I am not sure the vendor received our last message.	left note->not
+Make the test in the heading bold and center it.	Make the text in the heading bold and center it.	right test->text
+can someone fox the printer on the third floor?	can someone fix the printer on the third floor?	left fox->fix
+If the client agrees, than we can star the pilot in early June.	If the client agrees, then we can start the pilot in early June.	left than->then; right star->start
+Could you sing the attached agreement and send it back today?	Could you sign the attached agreement and send it back today?	right sing->sign
+I already tired restarting the router and it still drops the connection.	I already tried restarting the router and it still drops the connection.	right tired->tried
+i night be a few minutes late, the bus is stuck	i might be a few minutes late, the bus is stuck	left night->might
+You can copy and past the table straight into the template.	You can copy and paste the table straight into the template.	left past->paste
+I'll past the error message below so you can take a look.	I'll paste the error message below so you can take a look.	left past->paste
+thanks for dinner last might, it was so fun	thanks for dinner last night, it was so fun	left might->night
+On side 6, the revenue chart still shows last year's figures.	On slide 6, the revenue chart still shows last year's figures.	right side->slide
+we where just talking about you, were are you?	we were just talking about you, where are you?	left where->were; right were->where
+Turn this data into a bar chat with months along the bottom.	Turn this data into a bar chart with months along the bottom.	left chat->chart
+i'm so tried, can we just order in tonight?	i'm so tired, can we just order in tonight?	left tried->tired
+I've uploaded all the flies to the project folder.	I've uploaded all the files to the project folder.	left flies->files
+Make a packing lost for a weekend camping trip.	Make a packing list for a weekend camping trip.	left lost->list
+did you get my massage about the tickets?	did you get my message about the tickets?	right massage->message
+Legal has finished reviewing the contact and has two small changes.	Legal has finished reviewing the contract and has two small changes.	right contact->contract
+Tell me now to remove a coffee stain from a white shirt.	Tell me how to remove a coffee stain from a white shirt.	right now->how
+I've asked the contractors and will let you now when I hear back from then.	I've asked the contractors and will let you know when I hear back from them.	left now->know; left then->them
+have to run, talk to you latter!	have to run, talk to you later!	left latter->later
+The even starts at 6 pm, and doors open half an hour earlier.	The event starts at 6 pm, and doors open half an hour earlier.	right even->event
+Which library should I sue to parse CSV files in Go?	Which library should I use to parse CSV files in Go?	right sue->use
+do you gave time for a quick call later?	do you have time for a quick call later?	left gave->have
+I was wondering if you cold share the latest sales figures.	I was wondering if you could share the latest sales figures.	left cold->could
+What are the five largest cities in the word by population?	What are the five largest cities in the world by population?	right word->world
+wait do you still love in Sapporo or did you move?	wait do you still live in Sapporo or did you move?	right love->live
+Check of this paragraph sounds to formal for a cover letter.	Check if this paragraph sounds too formal for a cover letter.	left of->if; right to->too
+I couldn't fund the attachment you mentioned in your last email.	I couldn't find the attachment you mentioned in your last email.	right fund->find
+Help me fine a good name for a bakery in Portland.	Help me find a good name for a bakery in Portland.	right fine->find
+sounds food to me, see you at seven	sounds good to me, see you at seven	left food->good
+The dress code for the team dinner is causal, so jeans are fine.	The dress code for the team dinner is casual, so jeans are fine.	right causal->casual
+How can I safe a Word document as a PDF?	How can I save a Word document as a PDF?	left safe->save
+the staging sever is down again, can someone restart it?	the staging server is down again, can someone restart it?	left sever->server
+You many want to review the totals on page three.	You may want to review the totals on page three.	left many->may
+i tired calling you twice bit it went to voicemail	i tried calling you twice but it went to voicemail	right tired->tried; left bit->but
+Plan a dinner men for six people, including one vegetarian.	Plan a dinner menu for six people, including one vegetarian.	left men->menu
+it tool me two hours to get home last night	it took me two hours to get home last night	left tool->took
+Please full out the survey before the end of the week.	Please fill out the survey before the end of the week.	left full->fill
+How do I calculate the angel between two vectors?	How do I calculate the angle between two vectors?	right angel->angle
+I haven't heard back from the supplier get.	I haven't heard back from the supplier yet.	left get->yet
+Should there be a coma before the word because in this sentence?	Should there be a comma before the word because in this sentence?	right coma->comma
+What dose this error message mean and how do I fix it?	What does this error message mean and how do I fix it?	right dose->does
+Which laptop should I chose if I mostly edit photos?	Which laptop should I choose if I mostly edit photos?	left chose->choose

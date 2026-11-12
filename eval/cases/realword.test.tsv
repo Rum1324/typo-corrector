@@ -1,0 +1,132 @@
+# realword.test.tsv - real-word slips (a valid word typed for another valid word), test split: personal notes and to-do lists, journal entries, technical Q&A, code-review comments
+# format: typed<TAB>expected<TAB>note; note = one "left|right typed->meant" per slip in sentence order (left = the words before the slip already make it odd, right = only later words do)
+Remember to bring you passport and the printed tickets on Thursday.	Remember to bring your passport and the printed tickets on Thursday.	right you->your
+call the vet about out appointment on the 14th	call the vet about our appointment on the 14th	left out->our
+buy milk an eggs on the way home from the gym	buy milk and eggs on the way home from the gym	left an->and
+Lunch with Priya at moon on Friday, book the corner table.	Lunch with Priya at noon on Friday, book the corner table.	left moon->noon
+Go to the gum at 6:30 before work, legs and core today.	Go to the gym at 6:30 before work, legs and core today.	left gum->gym
+need to but a birthday card for Aunt Rosa by Saturday	need to buy a birthday card for Aunt Rosa by Saturday	left but->buy
+Stop buy the pharmacy after work and pick up the refill.	Stop by the pharmacy after work and pick up the refill.	left buy->by
+First the bank, the the post office if there is time.	First the bank, then the post office if there is time.	right the->then
+Ask Marco if the still have the spare key to the storage unit.	Ask Marco if they still have the spare key to the storage unit.	right the->they
+Tell Dana they plumber is coming between 9 and 11 on Tuesday.	Tell Dana the plumber is coming between 9 and 11 on Tuesday.	right they->the
+Test the upstairs neighbors about their package that landed on our porch.	Text the upstairs neighbors about their package that landed on our porch.	right test->text
+Weekend plan: clean the garage, than take the old paint to the recycling center.	Weekend plan: clean the garage, then take the old paint to the recycling center.	left than->then
+Pack sunscreen and a hat to because the forecast says 31 degrees.	Pack sunscreen and a hat too because the forecast says 31 degrees.	right to->too
+Need too renew the car registration before the end of the month.	Need to renew the car registration before the end of the month.	left too->to
+The cat needs it's flea treatment on the first of every month.	The cat needs its flea treatment on the first of every month.	left it's->its
+Check whether its cheaper to fly into Oakland or San Jose.	Check whether it's cheaper to fly into Oakland or San Jose.	right its->it's
+Tighten the lose handle on the back door before it falls off.	Tighten the loose handle on the back door before it falls off.	left lose->loose
+water the plants ever other day while Sam is away	water the plants every other day while Sam is away	left ever->every
+Book the campsite for tree nights starting July 3rd.	Book the campsite for three nights starting July 3rd.	left tree->three
+Dinner with the neighbors is in Saturday at 7, bring dessert.	Dinner with the neighbors is on Saturday at 7, bring dessert.	right in->on
+The deadline is on two weeks, so start the application tonight.	The deadline is in two weeks, so start the application tonight.	right on->in
+Get a copy if the lease from the property manager.	Get a copy of the lease from the property manager.	right if->of
+The package has now arrived yet, call the courier tomorrow morning.	The package has not arrived yet, call the courier tomorrow morning.	right now->not
+The spare key is no under the mat anymore, it's with Farah.	The spare key is not under the mat anymore, it's with Farah.	right no->not
+Check if Omar as the ladder we lent him in March.	Check if Omar has the ladder we lent him in March.	left as->has
+Turn of the space heater before leaving the house.	Turn off the space heater before leaving the house.	right of->off
+Only on slice of cake left, save it for Dad.	Only one slice of cake left, save it for Dad.	right on->one
+Eat launch with the team at the Thai place on 4th, 12:30 sharp.	Eat lunch with the team at the Thai place on 4th, 12:30 sharp.	left launch->lunch
+Ask the landlord to send is the new parking rules.	Ask the landlord to send us the new parking rules.	left is->us
+Find out were the kids left the spare house key.	Find out where the kids left the spare house key.	left were->where
+Got a letter form the council about out parking permit renewal.	Got a letter from the council about our parking permit renewal.	left form->from left out->our
+Ask Dana of she can bring here projector to the meeting on Monday.	Ask Dana if she can bring her projector to the meeting on Monday.	left of->if left here->her
+Tomorrow: finish the slides, the email the to Ingrid before noon.	Tomorrow: finish the slides, then email them to Ingrid before noon.	right the->then right the->them
+I felt quiet proud of myself after the 10k this morning.	I felt quite proud of myself after the 10k this morning.	right quiet->quite
+The house was so quite after everyone left that I could hear the clock.	The house was so quiet after everyone left that I could hear the clock.	left quite->quiet
+Started a free trail of the language app and did three lessons.	Started a free trial of the language app and did three lessons.	left trail->trial
+I'm so tried tonight that I can barely keep my eyes open.	I'm so tired tonight that I can barely keep my eyes open.	left tried->tired
+I tired the new ramen place near the station and it was great.	I tried the new ramen place near the station and it was great.	right tired->tried
+Grandma showed me he own wedding album and we talked for hours.	Grandma showed me her own wedding album and we talked for hours.	right he->her
+It feels strange to be back her after so many years away.	It feels strange to be back here after so many years away.	left her->here
+We sent to the lake after lunch and stayed until sunset.	We went to the lake after lunch and stayed until sunset.	right sent->went
+Spent the whole evening taking with Dad on the phone about the move.	Spent the whole evening talking with Dad on the phone about the move.	right taking->talking
+I've bee thinking a lot about whether to take the job in Denver.	I've been thinking a lot about whether to take the job in Denver.	left bee->been
+Last might I couldn't sleep, so I read until two.	Last night I couldn't sleep, so I read until two.	left might->night
+I was tying to stay calm but my hands were shaking.	I was trying to stay calm but my hands were shaking.	right tying->trying
+My brother sad he would visit in the spring.	My brother said he would visit in the spring.	left sad->said
+I hop tomorrow is a little easier than today was.	I hope tomorrow is a little easier than today was.	right hop->hope
+The hole family came over for dinner, even Uncle Tobias.	The whole family came over for dinner, even Uncle Tobias.	right hole->whole
+I need to clam down before I answer that email.	I need to calm down before I answer that email.	left clam->calm
+Honestly I think I worry more that I need to.	Honestly I think I worry more than I need to.	right that->than
+Today was better then yesterday, mostly because I slept eight hours.	Today was better than yesterday, mostly because I slept eight hours.	left then->than
+The new schedule has had a good affect on my sleep.	The new schedule has had a good effect on my sleep.	left affect->effect
+I won far too many books already and still bought three more today.	I own far too many books already and still bought three more today.	right won->own
+Mia and I walked our to the lighthouse before breakfast.	Mia and I walked out to the lighthouse before breakfast.	right our->out
+I mad soup from the leftover chicken and froze half of it.	I made soup from the leftover chicken and froze half of it.	left mad->made
+I bad a long talk with my manager and feel much lighter now.	I had a long talk with my manager and feel much lighter now.	left bad->had
+Walked form the station to the museum because the weather was perfect.	Walked from the station to the museum because the weather was perfect.	left form->from
+Spent the afternoon filling in the visa from and scanning documents.	Spent the afternoon filling in the visa form and scanning documents.	right from->form
+I don't know of I'll ever get used to these early mornings.	I don't know if I'll ever get used to these early mornings.	right of->if
+It was the best day I've had all moth.	It was the best day I've had all month.	left moth->month
+This has been bothering me for a whole.	This has been bothering me for a while.	right whole->while
+I finished the scrapbook for my parents and showed it to the.	I finished the scrapbook for my parents and showed it to them.	right the->them
+We where going to hike the canyon trial but the road was closed.	We were going to hike the canyon trail but the road was closed.	left where->were left trial->trail
+I an going to the farmers market an then to Lucia's for dinner.	I am going to the farmers market and then to Lucia's for dinner.	left an->am left an->and
+I went the draft to Paolo and for no I'm waiting for his notes.	I sent the draft to Paolo and for now I'm waiting for his notes.	right went->sent right no->now
+It was quiet cold this morning, to cold for a run.	It was quite cold this morning, too cold for a run.	right quiet->quite right to->too
+How do I read a CSV form S3 without downloading the whole file first?	How do I read a CSV from S3 without downloading the whole file first?	left form->from
+You can sue a dictionary comprehension to invert the mapping in one line.	You can use a dictionary comprehension to invert the mapping in one line.	right sue->use
+The validation lose stops improving after epoch 12 while training loss keeps dropping.	The validation loss stops improving after epoch 12 while training loss keeps dropping.	left lose->loss
+I'm new to machine leaning and can't tell if my loss curve looks normal.	I'm new to machine learning and can't tell if my loss curve looks normal.	left leaning->learning
+Is the mode memorizing the training set, or is the test set just from a different distribution?	Is the model memorizing the training set, or is the test set just from a different distribution?	right mode->model
+You need to set the random see before splitting, otherwise the folds change every run.	You need to set the random seed before splitting, otherwise the folds change every run.	left see->seed
+The stack race points to line 88, but the real bug is in the caller.	The stack trace points to line 88, but the real bug is in the caller.	left race->trace
+Two threads update the counter without a lock, so you have a trace condition.	Two threads update the counter without a lock, so you have a race condition.	right trace->race
+anyone know why the regex doesn't math when the string has a trailing space?	anyone know why the regex doesn't match when the string has a trailing space?	left math->match
+it dose not work on windows because the path separator is different	it does not work on windows because the path separator is different	left dose->does
+Check that the file exits before you try to open it.	Check that the file exists before you try to open it.	right exits->exists
+The script should exist with a nonzero status when validation fails.	The script should exit with a nonzero status when validation fails.	right exist->exit
+You forgot to wait the fetch call, so data is still a promise.	You forgot to await the fetch call, so data is still a promise.	right wait->await
+Convert the column to flat before computing the mean, it is stored as strings.	Convert the column to float before computing the mean, it is stored as strings.	right flat->float
+The has of the file changes every build even though the contents are identical.	The hash of the file changes every build even though the contents are identical.	left has->hash
+Make sure they vocabulary and the model come from the same checkpoint.	Make sure the vocabulary and the model come from the same checkpoint.	right they->the
+The scatter pot shows two clear clusters, but the labels overlap.	The scatter plot shows two clear clusters, but the labels overlap.	left pot->plot
+The numbers in the second table look of, the totals do not add up.	The numbers in the second table look off, the totals do not add up.	left of->off
+Let me know it you still see the timeout after increasing the pool size.	Let me know if you still see the timeout after increasing the pool size.	right it->if
+Each worker gets it's own copy of the model, so memory use triples.	Each worker gets its own copy of the model, so memory use triples.	left it's->its
+Training is slower then I expected, about 40 minutes per epoch.	Training is slower than I expected, about 40 minutes per epoch.	left then->than
+I checked the docs and three is no built-in way to stream the response.	I checked the docs and there is no built-in way to stream the response.	right three->there
+Does dropout effect inference, or is it only active during training?	Does dropout affect inference, or is it only active during training?	left effect->affect
+You loose precision when you cast the timestamps to 32-bit floats.	You lose precision when you cast the timestamps to 32-bit floats.	left loose->lose
+The parser builds a syntax three and then walks it twice.	The parser builds a syntax tree and then walks it twice.	left three->tree
+Where are the flies written when I run the export job in Docker?	Where are the files written when I run the export job in Docker?	right flies->files
+Iterate though the rows with a generator instead, it uses far less memory.	Iterate through the rows with a generator instead, it uses far less memory.	left though->through
+It works even thought the config file is missing, which worries me.	It works even though the config file is missing, which worries me.	left thought->though
+If your run it twice the second call is much faster then the first.	If you run it twice the second call is much faster than the first.	right your->you left then->than
+The model does well on the validation set, bit it's accuracy drops on new data.	The model does well on the validation set, but its accuracy drops on new data.	left bit->but right it's->its
+Check of the index exists before calling drop, otherwise if throws.	Check if the index exists before calling drop, otherwise it throws.	left of->if right if->it
+Thanks for you patience on this review, it took me a while.	Thanks for your patience on this review, it took me a while.	left you->your
+Thank your for splitting this into smaller commits.	Thank you for splitting this into smaller commits.	right your->you
+This looks food to me, just one small comment on the error handling.	This looks good to me, just one small comment on the error handling.	left food->good
+The test of the diff looks fine, I only have questions about the retry loop.	The rest of the diff looks fine, I only have questions about the retry loop.	right test->rest
+I think the have already fixed this upstream, can we just bump the dependency?	I think they have already fixed this upstream, can we just bump the dependency?	right the->they
+This depends in the order of the keys, which is not guaranteed.	This depends on the order of the keys, which is not guaranteed.	left in->on
+Why us this check needed if the caller already validates the token?	Why is this check needed if the caller already validates the token?	right us->is
+I would move this our of the loop, it does not depend on the index.	I would move this out of the loop, it does not depend on the index.	left our->out
+this should probably live in out shared helpers package instead	this should probably live in our shared helpers package instead	left out->our
+This is a but hard to follow, could you split it into two functions?	This is a bit hard to follow, could you split it into two functions?	left but->bit
+This looks like a big: the index is never reset between batches.	This looks like a bug: the index is never reset between batches.	right big->bug
+Ready to mere once CI is green and Tomasz has approved.	Ready to merge once CI is green and Tomasz has approved.	left mere->merge
+There are a log of nested if statements here, an early return would help.	There are a lot of nested if statements here, an early return would help.	left log->lot
+The patch to the config file is built by joining strings with a slash, so it breaks on Windows.	The path to the config file is built by joining strings with a slash, so it breaks on Windows.	right patch->path
+The with is fixed at 80 here, should it come from the config?	The width is fixed at 80 here, should it come from the config?	left with->width
+The text still passes if I delete this line, so it is not covering the fix.	The test still passes if I delete this line, so it is not covering the fix.	right text->test
+nit: to spaces after the colon here, please delete one of them	nit: two spaces after the colon here, please delete one of them	right to->two
+Same think here, the early return skips the cleanup.	Same thing here, the early return skips the cleanup.	left think->thing
+We now this endpoint is slow, so the extra query worries me.	We know this endpoint is slow, so the extra query worries me.	right now->know
+Should this import come form the public API instead of the internal module?	Should this import come from the public API instead of the internal module?	left form->from
+The signup from validation runs twice now, once on blur and once on submit.	The signup form validation runs twice now, once on blur and once on submit.	right from->form
+I ran it locally and it works a expected with the new flag.	I ran it locally and it works as expected with the new flag.	right a->as
+Let's leave it for now, I think well revisit it when the new API lands.	Let's leave it for now, I think we'll revisit it when the new API lands.	right well->we'll
+I think were leaking the file handle when the parse fails.	I think we're leaking the file handle when the parse fails.	left were->we're
+The sever returns 200 even when the payload is invalid, is that intended?	The server returns 200 even when the payload is invalid, is that intended?	left sever->server
+Can you double check the units her?	Can you double check the units here?	left her->here
+Add the missing import at the to.	Add the missing import at the top.	left to->top
+Let me know what you thing.	Let me know what you think.	left thing->think
+I though the test was flaky, bit it fails every time on CI.	I thought the test was flaky, but it fails every time on CI.	left though->thought left bit->but
+The function is to long for one screen, and I thing half of it belongs in a helper.	The function is too long for one screen, and I think half of it belongs in a helper.	right to->too left thing->think
+Can you function return early of the list is empty?	Can your function return early if the list is empty?	right you->your left of->if
+Do no merge this yet, the migration us still running on staging.	Do not merge this yet, the migration is still running on staging.	left no->not left us->is
+I fine it easier to read when he guard clauses come first.	I find it easier to read when the guard clauses come first.	left fine->find right he->the

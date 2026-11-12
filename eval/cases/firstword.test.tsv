@@ -1,0 +1,111 @@
+# firstword set B: every line starts after <reset>. (a) first word misspelled, (b) first token is a fragment of an existing word (keep as is), (c) first word correct
+<reset>recieved the invoice from the movers this morning, way higher than the quote	received the invoice from the movers this morning, way higher than the quote
+<reset>wehn does the hackathon judging start?	when does the hackathon judging start?
+<reset>probaly skipping the gym today, my knee still hurts	probably skipping the gym today, my knee still hurts
+<reset>shoudl we order pizza for demo night or just snacks	should we order pizza for demo night or just snacks
+<reset>tommorow I open the bookstore at seven	tomorrow I open the bookstore at seven
+<reset>definately rewatching that concert film this weekend	definitely rewatching that concert film this weekend
+<reset>grocries are on the counter if you need anyting	groceries are on the counter if you need anything
+<reset>apparantly the landlord wants two months of rent as a deposit	apparently the landlord wants two months of rent as a deposit
+<reset>abstarct is too long, can you trim it to 200 words?	abstract is too long, can you trim it to 200 words?
+<reset>calender invite for the retro should be in your inbox now	calendar invite for the retro should be in your inbox now	realword
+<reset>pharmcy closes at eight on Sundays	pharmacy closes at eight on Sundays
+<reset>alot of the boxes are still sitting in the hallway	a␣lot of the boxes are still sitting in the hallway	space insertion
+<reset>beleive me, the second album is way better than the first	believe me, the second album is way better than the first
+<reset>thier team won the best design prize last year	their team won the best design prize last year
+<reset>intresting result, but the sample size is tiny and they never report variance	interesting result, but the sample size is tiny and they never report variance
+<reset>schedual for next week is pinned next to the register	schedule for next week is pinned next to the register
+<reset>accomodation near the venue is fully booked, so we might crash at Leo's	accommodation near the venue is fully booked, so we might crash at Leo's
+<reset>seperate the receipts for work and personal stuff before you scan them	separate the receipts for work and personal stuff before you scan them
+<reset>untill the new lease starts we are stayng with my aunt	until the new lease starts we are staying with my aunt
+<reset>hopefuly the doctor can see me before Thursday	hopefully the doctor can see me before Thursday
+<reset>manger said I can swap my Saturday shift with Priya	manager said I can swap my Saturday shift with Priya	realword
+<reset>dinnr at Maya's on Saturday, bring dessert if you can	dinner at Maya's on Saturday, bring dessert if you can
+<reset>experiement section needs at least one more baseline	experiment section needs at least one more baseline
+<reset>reciept got lost so I can't return the jacket	receipt got lost so I can't return the jacket
+<reset>sombody left a laptop charger in the big meeting room	somebody left a laptop charger in the big meeting room
+<reset>honsetly the sequel was better than the original	honestly the sequel was better than the original
+<reset>wierd, the sensor feed stopped streaming right at midnght	weird, the sensor feed stopped streaming right at midnight
+<reset>neccessary forms for the new apartment are in the blue folder	necessary forms for the new apartment are in the blue folder
+<reset>comittee meets every second Tuesday in room 4B	committee meets every second Tuesday in room 4B
+<reset>ususally the trains are fine but today was total chaos	usually the trains are fine but today was total chaos
+<reset>beacuse of the storm the gig got pushed to next month	because of the storm the gig got pushed to next month
+<reset>arguement in the discussion feels circular to me	argument in the discussion feels circular to me
+<reset>excercise helps but my back still aches after a long shift	exercise helps but my back still aches after a long shift
+<reset>cancled the internet plan before the move, so no wifi until Monday	canceled|cancelled the internet plan before the move, so no wifi until Monday
+<reset>resturant on Fifth has a new brunch menu we should try	restaurant on Fifth has a new brunch menu we should try
+<reset>preformance review got moved to Firday afternoon	performance review got moved to Friday afternoon
+<reset>remeber to bring your badge for check-in at the hackathon	remember to bring your badge for check-in at the hackathon
+<reset>truely one of the best soundtracks I have heard in years	truly one of the best soundtracks I have heard in years
+<reset>wrok is crazy this week, can we do Sunday instead?	work is crazy this week, can we do Sunday instead?
+<reset>citaion style in the references is all over the place	citation style in the references is all over the place
+<reset>playlst for the road trip is ready, mostly old indie stuf	playlist for the road trip is ready, mostly old indie stuff
+<reset>deadine moved to Wednesday, so we get one more day	deadline moved to Wednesday, so we get one more day
+<reset>symtoms usually go away after a few days	symptoms usually go away after a few days
+<reset>colegues from the Berlin office are visting next week	colleagues from the Berlin office are visiting next week
+<reset>prototpye crashed right before our pitch	prototype crashed right before our pitch
+<reset>haev you seen the reviews for the new Nolan film?	have you seen the reviews for the new Nolan film?
+<reset>methodolgy is solid but the writing is rough	methodology is solid but the writing is rough
+<reset>Thnaks for covering my shift yesterday	Thanks for covering my shift yesterday
+<reset>Plase send me the slides after the call	Please send me the slides after the call
+<reset>Hwo did the move go?	How did the move go?
+<reset>teh landlord finally fixed the heater	the landlord finally fixed the heater
+<reset>ofcourse, I can cover Tuesday	of␣course, I can cover Tuesday	space insertion
+<reset>okya, let's meet at noon by the fountain	okay, let's meet at noon by the fountain
+<reset>chekc the fridge	check the fridge
+<reset>basicaly the plan is to finish the backend tonight, sleep for three hours, then polish the frontend and record the demo before the noon deadline	basically the plan is to finish the backend tonight, sleep for three hours, then polish the frontend and record the demo before the noon deadline
+<reset>ple are already lining up outside for the sale	ple are already lining up outside for the sale	fragment of people
+<reset>ing the budget with finance tomorrow at ten	ing the budget with finance tomorrow at ten	fragment of reviewing
+<reset>tion of the data is still unclear to me	tion of the data is still unclear to me	fragment of interpretation
+<reset>ment is due on the first of every month	ment is due on the first of every month	fragment of payment
+<reset>ure out what time the movie starts and I'll book seats	ure out what time the movie starts and I'll book seats	fragment of figure
+<reset>ight shifts pay two dollars more per hour	ight shifts pay two dollars more per hour	fragment of night
+<reset>ould be great if you could join us for dinner	ould be great if you could join us for dinner	fragment of would
+<reset>eople at the party were mostly from my old job	eople at the party were mostly from my old job	fragment of people
+<reset>ernal reviewers flagged the same issue with the baselines	ernal reviewers flagged the same issue with the baselines	fragment of external
+<reset>ction keeps timing out on the demo server, any ideas?	ction keeps timing out on the demo server, any ideas?	fragment of function
+<reset>ually I take the bus, but today I biked to work	ually I take the bus, but today I biked to work	fragment of usually
+<reset>ortunately the pharmacy still had my prescripton in stock	ortunately the pharmacy still had my prescription in stock	fragment of fortunately
+<reset>ments for the lease need two signatures	ments for the lease need two signatures	fragment of documents
+<reset>ery store closes early on public holidays	ery store closes early on public holidays	fragment of grocery
+<reset>ably we should rent a bigger van for the move	ably we should rent a bigger van for the move	fragment of probably
+<reset>tly the hotel had no rooms left for the conference	tly the hotel had no rooms left for the conference	fragment of apparently
+<reset>ence talk was recorded, link coming soon	ence talk was recorded, link coming soon	fragment of conference
+<reset>ather says it will rain all weekend, so maybe a movie marathon instead	ather says it will rain all weekend, so maybe a movie marathon instead	fragment of weather
+<reset>ager wants the reprot on her desk by noon	ager wants the report on her desk by noon	fragment of manager
+<reset>iend of mine is selling her couch before she moves	iend of mine is selling her couch before she moves	fragment of friend
+<reset>ning the hackathon still feels unreal	ning the hackathon still feels unreal	fragment of winning
+<reset>ssion section is way too long and repeats the intro	ssion section is way too long and repeats the intro	fragment of discussion
+<reset>tor said to rest for a week and drink more water	tor said to rest for a week and drink more water	fragment of doctor
+<reset>tment viewing is at 3 on Saturday, can you come?	tment viewing is at 3 on Saturday, can you come?	fragment of apartment
+<reset>ckets for the show sold out in ten mintues	ckets for the show sold out in ten minutes	fragment of tickets
+<reset>nally we decided to keep the old logo	nally we decided to keep the old logo	fragment of finally
+<reset>e meeting is at noon	e meeting is at noon	fragment of the
+<reset>lo everyone, quick update on the move	lo everyone, quick update on the move	fragment of hello
+<reset>agenda for Thursday is in the shared drive	agenda for Thursday is in the shared drive
+<reset>bought the wrong size again, so they're going back tomorrow	bought the wrong size again, so they're going back tomorrow
+<reset>soundtrack was honestly the best part of the movie	soundtrack was honestly the best part of the movie
+<reset>headache is better now that I drank some water	headache is better now that I drank some water
+<reset>movers quoted way more than we expected	movers quoted way more than we expected
+<reset>judges loved the demo but the backend was held together with tape	judges loved the demo but the backend was held together with tape
+<reset>reviewer two clearly did not read the appendix	reviewer two clearly did not read the appendix
+<reset>brunch at eleven, then maybe the flea market?	brunch at eleven, then maybe the flea market?
+<reset>meeting notes are in the doc, but I didnt get to the action items	meeting notes are in the doc, but I didnt get to the action items
+<reset>coupon expired yesterday so the total came out highr than I thought	coupon expired yesterday so the total came out higher than I thought
+<reset>concert tickets are in my email somwhere	concert tickets are in my email somewhere
+<reset>sleep has been terrible since I started the new medicaton	sleep has been terrible since I started the new medication
+<reset>boxes labeled kitchen go on the left side of the van, everything else can go wherever there is spcae	boxes labeled kitchen go on the left side of the van, everything else can go wherever there is space
+<reset>teammates are asleep and the demo is in four hours, send coffe	teammates are asleep and the demo is in four hours, send coffee
+<reset>paper uses a diffrent dataset than the one they cite in table 2	paper uses a different dataset than the one they cite in table 2
+<reset>weekend plans? I was thinking hiking if the weather holds	weekend plans? I was thinking hiking if the weather holds
+<reset>customers keep asking if we have the blue mugs in stock	customers keep asking if we have the blue mugs in stock
+<reset>lunch with the clients went well, they want a follow-up call next wek	lunch with the clients went well, they want a follow-up call next week
+<reset>I think the playlist needs more upbeat songs	I think the playlist needs more upbeat songs
+<reset>Monday works for me, just not before ten	Monday works for me, just not before ten
+<reset>physio said to stretch twice a day and avoid running for now	physio said to stretch twice a day and avoid running for now
+<reset>keys go to the new tenants on the 30th, so we need to finsh cleaning by then	keys go to the new tenants on the 30th, so we need to finish cleaning by then
+<reset>slides look great, maybe bump the font size on the results	slides look great, maybe bump the font size on the results
+<reset>trailer gave away the whole plot, which was really anoying	trailer gave away the whole plot, which was really annoying
+<reset>but the scanner at self-checkout kept rejecting my coupon	but the scanner at self-checkout kept rejecting my coupon
+<reset>sounds good, thanks	sounds good, thanks
+<reset>a few of us are going bowling Saturday night if you're free	a few of us are going bowling Saturday night if you're free

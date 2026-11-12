@@ -1,0 +1,153 @@
+# clean-tech.test.tsv - correctly typed technical chat/notes (identifiers, commands, paths, URLs, jargon, abbreviations), Set B topics
+# CLEAN file: typed == expected on every line; measures false corrections
+# format: typed<TAB>expected<TAB>optional note
+standup notes: PR #482 is blocked on the JWT refresh logic, need a review from backend	standup notes: PR #482 is blocked on the JWT refresh logic, need a review from backend
+can we push the sprint retro to 3pm? I'm still debugging the webhook retries	can we push the sprint retro to 3pm? I'm still debugging the webhook retries
+moved the OAuth callback handler to src/auth/callback.ts per yesterday's discussion	moved the OAuth callback handler to src/auth/callback.ts per yesterday's discussion
+action items: bump deps, fix the flaky e2e test, update CHANGELOG.md	action items: bump deps, fix the flaky e2e test, update CHANGELOG.md
+FYI the staging env is down, nginx is returning 502 on /api/v2/orders	FYI the staging env is down, nginx is returning 502 on /api/v2/orders
+Priya wants a CRUD demo for the client by Thursday, nothing fancy	Priya wants a CRUD demo for the client by Thursday, nothing fancy
+I'll share my screen and walk through the k8s manifests after lunch	I'll share my screen and walk through the k8s manifests after lunch
+reminder: prod deploy freeze starts Friday at 6pm PT	reminder: prod deploy freeze starts Friday at 6pm PT
+let's rename get_user_by_id to fetchUserById so it matches the TS conventions	let's rename get_user_by_id to fetchUserById so it matches the TS conventions
+the MAX_RETRY_COUNT constant is set to 5 in config/defaults.yaml, should we lower it?	the MAX_RETRY_COUNT constant is set to 5 in config/defaults.yaml, should we lower it?
+quick sync re: the monorepo migration, 15 min?	quick sync re: the monorepo migration, 15 min?
+ran kubectl get pods -n payments and two of them are in CrashLoopBackOff	ran kubectl get pods -n payments and two of them are in CrashLoopBackOff
+ordered a USB-C hub w/ 100W passthrough, approx $45 on sale	ordered a USB-C hub w/ 100W passthrough, approx $45 on sale
+comparing the M4 MacBook Air 16GB vs 24GB, my prev one had 8GB and swapped constantly	comparing the M4 MacBook Air 16GB vs 24GB, my prev one had 8GB and swapped constantly
+need a 27" 4K monitor, ideally w/ USB-C and a KVM switch	need a 27" 4K monitor, ideally w/ USB-C and a KVM switch
+the mechanical keyboard ships in 3-5 business days, tracking info is in my email	the mechanical keyboard ships in 3-5 business days, tracking info is in my email
+grocery list: oat milk, eggs, coffee beans, misc snacks for the hackathon	grocery list: oat milk, eggs, coffee beans, misc snacks for the hackathon
+bought a 2TB NVMe SSD for the homelab, it's like 7000 MB/s read	bought a 2TB NVMe SSD for the homelab, it's like 7000 MB/s read
+returning the earbuds, the latency over Bluetooth 5.3 is still bad on calls	returning the earbuds, the latency over Bluetooth 5.3 is still bad on calls
+anyone know a good standing desk under $400? asking for my home office setup	anyone know a good standing desk under $400? asking for my home office setup
+watching the new Dune tonight, IMAX at 7:45 if anyone wants to come	watching the new Dune tonight, IMAX at 7:45 if anyone wants to come
+made a Spotify playlist for coding, mostly lo-fi and synthwave: open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS	made a Spotify playlist for coding, mostly lo-fi and synthwave: open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS
+finally finished Severance s2, the finale was wild	finally finished Severance s2, the finale was wild
+my yt-dlp script to grab lecture audio broke again after the update	my yt-dlp script to grab lecture audio broke again after the update
+built a tiny CLI in Rust that scrobbles my vinyl to Last.fm lol	built a tiny CLI in Rust that scrobbles my vinyl to Last.fm lol
+trying to hit 8k steps a day, my Apple Watch says I'm averaging 5.2k	trying to hit 8k steps a day, my Apple Watch says I'm averaging 5.2k
+dentist appt at 9:30 tomorrow so I'll miss standup, will post async updates	dentist appt at 9:30 tomorrow so I'll miss standup, will post async updates
+started a sleep log in a CSV, planning to plot it w/ pandas on the weekend	started a sleep log in a CSV, planning to plot it w/ pandas on the weekend
+doctor said my vitamin D is low, taking 2000 IU daily now	doctor said my vitamin D is low, taking 2000 IU daily now
+stretching every 50 min with a cron job that pings me on Slack	stretching every 50 min with a cron job that pings me on Slack
+physio exercises: 3 sets of 12, twice a day, no running for 2 weeks	physio exercises: 3 sets of 12, twice a day, no running for 2 weeks
+I wrote a Shortcuts automation that logs water intake to a Notion db	I wrote a Shortcuts automation that logs water intake to a Notion db
+moving on the 15th, need to cancel Comcast and set up fiber at the new place	moving on the 15th, need to cancel Comcast and set up fiber at the new place
+labeled all the boxes w/ QR codes that link to a Google Sheet inventory, overkill but fun	labeled all the boxes w/ QR codes that link to a Google Sheet inventory, overkill but fun
+new apartment has gigabit Ethernet in every room, finally no more mesh Wi-Fi	new apartment has gigabit Ethernet in every room, finally no more mesh Wi-Fi
+the router config is backed up to ~/Documents/backups/router-2026-11.json	the router config is backed up to ~/Documents/backups/router-2026-11.json
+lease starts Dec 1, movers quoted approx $1,200 for a 1BR	lease starts Dec 1, movers quoted approx $1,200 for a 1BR
+forwarding mail via USPS, the address change also needs to happen on GitHub billing	forwarding mail via USPS, the address change also needs to happen on GitHub billing
+packed the Raspberry Pi cluster first, it's the most fragile thing I own	packed the Raspberry Pi cluster first, it's the most fragile thing I own
+landlord wants proof of income as a PDF, sending it tonight	landlord wants proof of income as a PDF, sending it tonight
+hackathon team name is null_pointers, we're building a voice-to-SQL tool	hackathon team name is null_pointers, we're building a voice-to-SQL tool
+registered for the 36h hackathon, theme is LLM agents for civic data	registered for the 36h hackathon, theme is LLM agents for civic data
+I'll handle the frontend in Next.js, Kenji does the FastAPI backend	I'll handle the frontend in Next.js, Kenji does the FastAPI backend
+our repo is github.com/example-org/civic-agent, please star it lol	our repo is github.com/example-org/civic-agent, please star it lol
+demo is at 10am, make sure the .env has OPENAI_API_KEY set but don't commit it	demo is at 10am, make sure the .env has OPENAI_API_KEY set but don't commit it
+we need a fallback if the tokenizer chokes on non-ASCII input	we need a fallback if the tokenizer chokes on non-ASCII input
+pitch deck outline: problem, demo, architecture, impact, next steps	pitch deck outline: problem, demo, architecture, impact, next steps
+judges asked about latency, p95 is around 800ms w/o caching	judges asked about latency, p95 is around 800ms w/o caching
+pushing a hotfix, the WebSocket reconnect logic was firing twice	pushing a hotfix, the WebSocket reconnect logic was firing twice
+Devpost submission closes at 11:59pm, video max 3 min	Devpost submission closes at 11:59pm, video max 3 min
+won 2nd place in the infra track!! prize is $500 in cloud credits	won 2nd place in the infra track!! prize is $500 in cloud credits
+reading the FlashAttention-3 paper, the async warp specialization trick is clever	reading the FlashAttention-3 paper, the async warp specialization trick is clever
+arxiv.org/abs/2307.09288 has the Llama 2 details on RLHF	arxiv.org/abs/2307.09288 has the Llama 2 details on RLHF
+the ablation in Table 4 shows LoRA w/ rank 8 is basically as good as rank 64	the ablation in Table 4 shows LoRA w/ rank 8 is basically as good as rank 64
+note to self: their eval uses pass@1 on HumanEval, not pass@10	note to self: their eval uses pass@1 on HumanEval, not pass@10
+skimmed the Mamba paper, selective state spaces vs attention is a neat framing	skimmed the Mamba paper, selective state spaces vs attention is a neat framing
+adding refs to my Zotero library, exporting as BibTeX to refs.bib	adding refs to my Zotero library, exporting as BibTeX to refs.bib
+the appendix has the hyperparams: lr 3e-4, batch size 512, cosine decay	the appendix has the hyperparams: lr 3e-4, batch size 512, cosine decay
+Section 3.2 explains how they finetune the reward model w/ pairwise comparisons	Section 3.2 explains how they finetune the reward model w/ pairwise comparisons
+paper club Thursday: we're doing the Chinchilla scaling laws paper	paper club Thursday: we're doing the Chinchilla scaling laws paper
+their code is at github.com/state-spaces/mamba but the CUDA kernels need sm_80+	their code is at github.com/state-spaces/mamba but the CUDA kernels need sm_80+
+Saturday plan: farmers market, then board games at Leo's around 4	Saturday plan: farmers market, then board games at Leo's around 4
+bring the Switch, Mario Kart tournament w/ a bracket I made in a spreadsheet	bring the Switch, Mario Kart tournament w/ a bracket I made in a spreadsheet
+hike at Mt Tam if the weather holds, approx 6 mi loop	hike at Mt Tam if the weather holds, approx 6 mi loop
+dinner at 7:30? I booked via OpenTable for 5 ppl	dinner at 7:30? I booked via OpenTable for 5 ppl
+Sam's birthday party is Sunday, Venmo me $20 for the gift	Sam's birthday party is Sunday, Venmo me $20 for the gift
+I set up a Discord bot that rolls dice for our D&D session, it's in the #tabletop channel	I set up a Discord bot that rolls dice for our D&D session, it's in the #tabletop channel
+anyone up for climbing Friday night? the gym has a new V4 circuit	anyone up for climbing Friday night? the gym has a new V4 circuit
+@maya can you bring your projector? movie night at my place	@maya can you bring your projector? movie night at my place
+weekend project: rewrite my dotfiles in Nix and probably regret it	weekend project: rewrite my dotfiles in Nix and probably regret it
+working the Saturday shift at the cafe, then the IT help desk on Monday	working the Saturday shift at the cafe, then the IT help desk on Monday
+my shift at the library starts at 2pm, I'll reply after 6	my shift at the library starts at 2pm, I'll reply after 6
+manager asked me to automate the inventory spreadsheet, writing a quick Python script	manager asked me to automate the inventory spreadsheet, writing a quick Python script
+timesheet is due Friday, logged 18.5 hours this week	timesheet is due Friday, logged 18.5 hours this week
+tutoring two students in intro CS tonight, topic is recursion and Big O	tutoring two students in intro CS tonight, topic is recursion and Big O
+fixed the shared printer at the front desk by reinstalling the driver, hero of the day	fixed the shared printer at the front desk by reinstalling the driver, hero of the day
+use `git rebase -i HEAD~3` to squash those fixup commits before merging	use `git rebase -i HEAD~3` to squash those fixup commits before merging
+run `brew install jq` first, the script pipes the JSON through it	run `brew install jq` first, the script pipes the JSON through it
+pip install torch==2.5.1 broke my env, rolling back to the prev venv	pip install torch==2.5.1 broke my env, rolling back to the prev venv
+swift build -c release takes forever on my laptop, approx 4 min	swift build -c release takes forever on my laptop, approx 4 min
+the bug is in utils/date_helpers.py, the tz offset is applied twice	the bug is in utils/date_helpers.py, the tz offset is applied twice
+set NODE_ENV=production and the bundle drops to 180 KB gzipped	set NODE_ENV=production and the bundle drops to 180 KB gzipped
+the regex ^[a-z0-9_-]{3,16}$ rejects usernames with dots, is that intended?	the regex ^[a-z0-9_-]{3,16}$ rejects usernames with dots, is that intended?
+docs are at https://docs.python.org/3/library/re.html if you need the flags	docs are at https://docs.python.org/3/library/re.html if you need the flags
+config lives in ~/.config/nvim/init.lua, I switched from vimscript last month	config lives in ~/.config/nvim/init.lua, I switched from vimscript last month
+the CI runs on ubuntu-22.04 with Node 20 and pnpm 9	the CI runs on ubuntu-22.04 with Node 20 and pnpm 9
+we're on v2.14.3 now, the changelog lists the breaking changes for v3	we're on v2.14.3 now, the changelog lists the breaking changes for v3
+upgraded to macOS 15.2 and Xcode 16, the simulator finally stopped crashing	upgraded to macOS 15.2 and Xcode 16, the simulator finally stopped crashing
+kwargs get forwarded to the HTTP client, so you can pass timeout=30 there	kwargs get forwarded to the HTTP client, so you can pass timeout=30 there
+impl note: the mutex guards the cache map, readers use an RWLock	impl note: the mutex guards the cache map, readers use an RWLock
+tmp files go in /tmp/build-cache, they get wiped on reboot	tmp files go in /tmp/build-cache, they get wiped on reboot
+the enum has PENDING, ACTIVE, and ARCHIVED, but the API also returns DELETED	the enum has PENDING, ACTIVE, and ARCHIVED, but the API also returns DELETED
+struct UserProfile needs a Codable conformance for the new endpoint	struct UserProfile needs a Codable conformance for the new endpoint
+func handleTap() is never called because the gesture recognizer isn't attached	func handleTap() is never called because the gesture recognizer isn't attached
+the linter flags every TODO comment, can we relax that rule in .eslintrc.json?	the linter flags every TODO comment, can we relax that rule in .eslintrc.json?
+refactor plan: split OrderService into OrderReader and OrderWriter, then add tests	refactor plan: split OrderService into OrderReader and OrderWriter, then add tests
+codegen from the OpenAPI spec produces types in src/generated/api.ts	codegen from the OpenAPI spec produces types in src/generated/api.ts
+email me at sam.ito@example.com or ping me on Slack, whichever is faster	email me at sam.ito@example.com or ping me on Slack, whichever is faster
+the tokenizer vocab is 32k, BPE trained on the code subset	the tokenizer vocab is 32k, BPE trained on the code subset
+sudo chown -R $USER /usr/local/bin fixed the permission errors	sudo chown -R $USER /usr/local/bin fixed the permission errors
+grep -rn "deprecated" src/ gives like 40 hits, not touching that today	grep -rn "deprecated" src/ gives like 40 hits, not touching that today
+yaml vs toml for the new config? I'd go toml, fewer indentation surprises	yaml vs toml for the new config? I'd go toml, fewer indentation surprises
+the webhook handler gets ctx, req, and res objects, which feels like a lot	the webhook handler gets ctx, req, and res objects, which feels like a lot
+params are validated w/ zod, args from the CLI go through commander	params are validated w/ zod, args from the CLI go through commander
+lib/ and pkg/ are both legacy dirs, src/ is the real source	lib/ and pkg/ are both legacy dirs, src/ is the real source
+dev and prod use separate Postgres instances, staging shares the dev one	dev and prod use separate Postgres instances, staging shares the dev one
+check out youtu.be/dQw4w9WgXcQ for the conference talk, it's the one about async Rust	check out youtu.be/dQw4w9WgXcQ for the conference talk, it's the one about async Rust
+the blog post is at example.com/blog/how-we-cut-cold-starts, mostly about lazy imports	the blog post is at example.com/blog/how-we-cut-cold-starts, mostly about lazy imports
+TIL `npm i` and `npm install` are identical, I always typed the long one	TIL `npm i` and `npm install` are identical, I always typed the long one
+LLM evals are hard, our rubric gives partial credit for near-misses	LLM evals are hard, our rubric gives partial credit for near-misses
+the JWT expires after 15 min, the refresh token after 30 days	the JWT expires after 15 min, the refresh token after 30 days
+ETA for the backend PR is EOD, frontend is blocked on it	ETA for the backend PR is EOD, frontend is blocked on it
+I'll write a short RFC for moving from REST to gRPC internally	I'll write a short RFC for moving from REST to gRPC internally
+the notebook is in notebooks/eda_v2.ipynb, the plots are at the bottom	the notebook is in notebooks/eda_v2.ipynb, the plots are at the bottom
+posted the hackathon recap w/ #buildinpublic and #LLM tags, got a few replies	posted the hackathon recap w/ #buildinpublic and #LLM tags, got a few replies
+her Notion page has a nice template for 1:1s, copying it to my workspace	her Notion page has a nice template for 1:1s, copying it to my workspace
+the moving checklist is in checklist.md in my Obsidian vault under Personal/Moving	the moving checklist is in checklist.md in my Obsidian vault under Personal/Moving
+I'm OOO next Mon-Wed for the move, Alex is covering on-call	I'm OOO next Mon-Wed for the move, Alex is covering on-call
+the venue Wi-Fi blocks port 22, so we tunnel SSH over 443	the venue Wi-Fi blocks port 22, so we tunnel SSH over 443
+groceries were $87.40 this week, tracking it in a budget.csv I parse w/ awk	groceries were $87.40 this week, tracking it in a budget.csv I parse w/ awk
+I keep my meds schedule in a todo.txt, synced via Syncthing	I keep my meds schedule in a todo.txt, synced via Syncthing
+concert tix go on sale Fri 10am, I'll try w/ two browsers open	concert tix go on sale Fri 10am, I'll try w/ two browsers open
+the movie's runtime is 2h 46m, so plan dinner before	the movie's runtime is 2h 46m, so plan dinner before
+my cover is up on SoundCloud, mixed in Logic Pro w/ a cheap USB mic	my cover is up on SoundCloud, mixed in Logic Pro w/ a cheap USB mic
+the paper's dataset is 1.4T tokens, deduped w/ MinHash	the paper's dataset is 1.4T tokens, deduped w/ MinHash
+pre-commit hooks run black, ruff, and mypy, so expect a few seconds of delay	pre-commit hooks run black, ruff, and mypy, so expect a few seconds of delay
+@jordan kebab-case routes break on the old router, use /user-settings not /userSettings	@jordan kebab-case routes break on the old router, use /user-settings not /userSettings
+SCREAMING_CASE for env vars please: DATABASE_URL, REDIS_URL, SENTRY_DSN	SCREAMING_CASE for env vars please: DATABASE_URL, REDIS_URL, SENTRY_DSN
+snake_case in Python, camelCase in TS, I know, I know	snake_case in Python, camelCase in TS, I know, I know
+pls add a README.md section on how to run the seed script locally	pls add a README.md section on how to run the seed script locally
+my notes for the reading group are in papers/2026-11-scaling.md	my notes for the reading group are in papers/2026-11-scaling.md
+brb, grabbing coffee	brb, grabbing coffee
+the new place is 12 min from the office by bike, 25 by bus	the new place is 12 min from the office by bike, 25 by bus
+finetune finished overnight, val loss went from 1.92 to 1.41	finetune finished overnight, val loss went from 1.92 to 1.41
+the shift swap is approved, I'm off Saturday now so the hike is on	the shift swap is approved, I'm off Saturday now so the hike is on
+reading list: Attention Is All You Need, the GPT-3 paper, and the RETRO paper	reading list: Attention Is All You Need, the GPT-3 paper, and the RETRO paper
+back up the Postgres db w/ pg_dump before running the migration, just in case	back up the Postgres db w/ pg_dump before running the migration, just in case
+Spotify Wrapped says I listened to 41,000 min of music, mostly while debugging	Spotify Wrapped says I listened to 41,000 min of music, mostly while debugging
+the deps tree has 1,200 packages, half of them pulled in by one test framework	the deps tree has 1,200 packages, half of them pulled in by one test framework
+Package.swift now pins swift-argument-parser to 1.5.0, rebuild before you test	Package.swift now pins swift-argument-parser to 1.5.0, rebuild before you test
+and also bump the timeout to 30s	and also bump the timeout to 30s
+w/ the updated schema, e.g., the new created_at column	w/ the updated schema, e.g., the new created_at column
+see src/lib/parser.ts for the details	see src/lib/parser.ts for the details
+etc. etc., you get the idea	etc. etc., you get the idea
+approx 2 hrs if the auth flow cooperates	approx 2 hrs if the auth flow cooperates
+or we could just use a mutex	or we could just use a mutex
+merged, thanks! v1.2.3 is tagged	merged, thanks! v1.2.3 is tagged
+info is in the docs folder, misc stuff under misc/	info is in the docs folder, misc stuff under misc/
+notes.md and train.py are both in the repo root	notes.md and train.py are both in the repo root
+Thursday works for me, the hackathon kickoff is Friday	Thursday works for me, the hackathon kickoff is Friday

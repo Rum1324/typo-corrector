@@ -1,0 +1,151 @@
+# clean-british set C (holdout): correctly typed Australian/British English (UK spellings, Aussie slang); typed == expected on every line, measures false corrections
+Brekkie's ready, love, come down before the eggs go cold.	Brekkie's ready, love, come down before the eggs go cold.	slang
+I've put the aluminium tray in the oven at two hundred degrees.	I've put the aluminium tray in the oven at two hundred degrees.	spelling
+Grill the cheese until it's golden, not burnt.	Grill the cheese until it's golden, not burnt.
+The courgettes from the garden went straight into the frittata.	The courgettes from the garden went straight into the frittata.	spelling
+Ran out of plain flour, so I used self-raising and it turned out fine.	Ran out of plain flour, so I used self-raising and it turned out fine.
+Use your judgement with the chilli, defo less than last time.	Use your judgement with the chilli, defo less than last time.	mixed
+Mum reckons the secret is a knob of butter in the porridge.	Mum reckons the secret is a knob of butter in the porridge.	mixed
+Avo on toast with feta and lime, heaps better than the cafe version.	Avo on toast with feta and lime, heaps better than the cafe version.	slang
+I've learnt to keep the coriander in a jar of water in the fridge.	I've learnt to keep the coriander in a jar of water in the fridge.	spelling
+Can someone pop to the bottle-o and grab a cheap red for the bolognese?	Can someone pop to the bottle-o and grab a cheap red for the bolognese?	slang
+The recipe calls for caster sugar but I've only got icing sugar.	The recipe calls for caster sugar but I've only got icing sugar.
+Tea's at six, don't be late.	Tea's at six, don't be late.	short
+Burnt the first batch of scones, but the second lot came out lovely.	Burnt the first batch of scones, but the second lot came out lovely.
+Our flight to Osaka got cancelled, so we're rebooked through Tokyo tomorrow arvo.	Our flight to Osaka got cancelled, so we're rebooked through Tokyo tomorrow arvo.	mixed
+The ryokan in Kyoto had paper screens and the comfiest futons.	The ryokan in Kyoto had paper screens and the comfiest futons.
+Travelling by shinkansen is so smooth, my green tea didn't even wobble.	Travelling by shinkansen is so smooth, my green tea didn't even wobble.	spelling
+We queued forty minutes for okonomiyaki in Dotonbori and it was worth every second.	We queued forty minutes for okonomiyaki in Dotonbori and it was worth every second.	spelling
+Bring your sunnies, Fushimi Inari is blazing in the afternoon.	Bring your sunnies, Fushimi Inari is blazing in the afternoon.	slang
+I realised my rail pass doesn't cover the Nozomi trains.	I realised my rail pass doesn't cover the Nozomi trains.	spelling
+The deer at Nara kept bowing at us, absolutely adorable.	The deer at Nara kept bowing at us, absolutely adorable.
+Grabbed brekkie from a konbini, the egg sandwiches are unreal.	Grabbed brekkie from a konbini, the egg sandwiches are unreal.	slang
+Our hostel in Osaka was a narrow four-storey building with no lift.	Our hostel in Osaka was a narrow four-storey building with no lift.	spelling
+Kinkakuji was stunning but chockers with tour groups.	Kinkakuji was stunning but chockers with tour groups.	slang
+The kids watched four films on the aeroplane and didn't sleep a wink.	The kids watched four films on the aeroplane and didn't sleep a wink.	spelling
+Picked up some ceramic cups as souvenirs for the rellies.	Picked up some ceramic cups as souvenirs for the rellies.	slang
+Cheers for the tip about the Philosopher's Path, we walked it at dawn.	Cheers for the tip about the Philosopher's Path, we walked it at dawn.	slang
+If the flight lands on time we'll drop our bags at the ryokan and catch the train to Arashiyama before the bamboo grove gets chockers.	If the flight lands on time we'll drop our bags at the ryokan and catch the train to Arashiyama before the bamboo grove gets chockers.	long
+Our group still hasn't organised who's writing the literature review.	Our group still hasn't organised who's writing the literature review.	spelling
+The lecturer wants the report formatted with Harvard referencing.	The lecturer wants the report formatted with Harvard referencing.
+I'll analyse the survey data tonight and share the graphs tomorrow.	I'll analyse the survey data tonight and share the graphs tomorrow.	spelling
+Uni library closes at ten on weekdays during semester.	Uni library closes at ten on weekdays during semester.	slang
+Can we meet at the student centre on Wednesday to finalise the slides?	Can we meet at the student centre on Wednesday to finalise the slides?	spelling
+Honestly, the maths in our model section is beyond me.	Honestly, the maths in our model section is beyond me.	spelling
+Enrolment for next term opens on Monday, don't forget.	Enrolment for next term opens on Monday, don't forget.	spelling
+My tutor said our methodology was skilful but far too long.	My tutor said our methodology was skilful but far too long.	spelling
+I reckon we prioritise the prototype and polish the write-up later.	I reckon we prioritise the prototype and polish the write-up later.	mixed
+The assessment is worth forty per cent, so no pressure.	The assessment is worth forty per cent, so no pressure.
+Our project programme has six milestones and we're behind on two.	Our project programme has six milestones and we're behind on two.	spelling
+Submitted at 11:58 pm, cutting it fine as usual.	Submitted at 11:58 pm, cutting it fine as usual.
+Organise the spreadsheet by date first, then we'll split the sections.	Organise the spreadsheet by date first, then we'll split the sections.	spelling
+Mate, that boss fight took me three hours last night.	Mate, that boss fight took me three hours last night.	slang
+Keen for a few rounds of Mario Kart after tea?	Keen for a few rounds of Mario Kart after tea?	slang
+My controller's left stick has started drifting, so annoying.	My controller's left stick has started drifting, so annoying.
+The new patch nerfed my favourite character, I'm gutted.	The new patch nerfed my favourite character, I'm gutted.	spelling
+That speedrun was sus, no way he skipped the whole castle.	That speedrun was sus, no way he skipped the whole castle.	slang
+Stoked, finally got the platinum trophy!	Stoked, finally got the platinum trophy!	slang
+Lag was shocking tonight, the servers must be overloaded.	Lag was shocking tonight, the servers must be overloaded.
+My grandson taught me how to build a cottage in Minecraft.	My grandson taught me how to build a cottage in Minecraft.
+We should queue as a squad on Friday arvo.	We should queue as a squad on Friday arvo.	slang
+I'm practising parries in training mode before ranked.	I'm practising parries in training mode before ranked.	spelling
+I dreamt about Tetris blocks after playing all weekend.	I dreamt about Tetris blocks after playing all weekend.	spelling
+Saved at the last checkpoint, then the whole game crashed.	Saved at the last checkpoint, then the whole game crashed.
+The dog chewed through my favourite pair of thongs.	The dog chewed through my favourite pair of thongs.	mixed
+Biscuit has learnt to open the back door with her nose.	Biscuit has learnt to open the back door with her nose.	spelling
+Our cat's behaviour has been odd since we moved the litter tray.	Our cat's behaviour has been odd since we moved the litter tray.	spelling
+Took the puppy to the vet for her second lot of jabs.	Took the puppy to the vet for her second lot of jabs.
+The budgie keeps whistling the jingle from the footy ads.	The budgie keeps whistling the jingle from the footy ads.	slang
+She's a proper sook when it thunders and hides under the bed.	She's a proper sook when it thunders and hides under the bed.	slang
+Feeding time is seven sharp or the chooks start a racket.	Feeding time is seven sharp or the chooks start a racket.	slang
+I'm sceptical that the grain-free kibble makes any difference.	I'm sceptical that the grain-free kibble makes any difference.	spelling
+Our neighbour feeds the cat every arvo, so she's getting chubby.	Our neighbour feeds the cat every arvo, so she's getting chubby.	mixed
+Grey with a white stripe on his tail, you can't miss him.	Grey with a white stripe on his tail, you can't miss him.	spelling
+The kitten fell asleep in the pocket of my pyjamas.	The kitten fell asleep in the pocket of my pyjamas.	spelling
+Walked the dog along the kerb to keep her off the wet grass.	Walked the dog along the kerb to keep her off the wet grass.	spelling
+The GP referred us to a paediatric specialist for Lily's ear infections.	The GP referred us to a paediatric specialist for Lily's ear infections.	spelling
+My appointment is at quarter past nine, I'll catch the bus.	My appointment is at quarter past nine, I'll catch the bus.
+Bring your Medicare card and the referral letter.	Bring your Medicare card and the referral letter.
+Blood test results came back normal, thank goodness.	Blood test results came back normal, thank goodness.
+Doctor reckons it's just a sprain, keep it elevated and iced.	Doctor reckons it's just a sprain, keep it elevated and iced.	slang
+Picked up the prescription from the chemist on the way home.	Picked up the prescription from the chemist on the way home.
+They checked my oestrogen levels as part of the routine bloods.	They checked my oestrogen levels as part of the routine bloods.	spelling
+The specialist was lovely and very patient with all my questions.	The specialist was lovely and very patient with all my questions.
+Need to book a follow-up in six weeks' time.	Need to book a follow-up in six weeks' time.
+Couldn't manoeuvre into the hospital car park, it was chockers.	Couldn't manoeuvre into the hospital car park, it was chockers.	mixed
+I've been told to cut back on salt and walk thirty minutes a day.	I've been told to cut back on salt and walk thirty minutes a day.
+The nurse took my blood pressure twice because the first reading was high.	The nurse took my blood pressure twice because the first reading was high.
+Our pitch deck is ten slides, and the demo is on slide four.	Our pitch deck is ten slides, and the demo is on slide four.
+Investors want to see the licence agreement before they commit.	Investors want to see the licence agreement before they commit.	spelling
+We've realised the market is bigger in Europe than in Australia.	We've realised the market is bigger in Europe than in Australia.	spelling
+Can you practise the opening with me before we head in?	Can you practise the opening with me before we head in?	spelling
+The judges loved the colour scheme on the prototype.	The judges loved the colour scheme on the prototype.	spelling
+Our defence of the pricing model was a bit shaky.	Our defence of the pricing model was a bit shaky.	spelling
+We need to recognise that the competitor launched first.	We need to recognise that the competitor launched first.	spelling
+The accelerator programme runs for twelve weeks starting in March.	The accelerator programme runs for twelve weeks starting in March.	spelling
+It's an honour to be shortlisted, even if we don't win.	It's an honour to be shortlisted, even if we don't win.	spelling
+We can't fulfil orders that size until we hire another developer.	We can't fulfil orders that size until we hire another developer.	spelling
+The catalogue integration is what sets us apart.	The catalogue integration is what sets us apart.	spelling
+Heaps of interest from the angels, but nobody's signed a term sheet yet.	Heaps of interest from the angels, but nobody's signed a term sheet yet.	slang
+The tomatoes need staking before the wind picks up.	The tomatoes need staking before the wind picks up.
+I'll plough through the weeding on Saturday morning.	I'll plough through the weeding on Saturday morning.	spelling
+Planted a row of lavender along the fence for the bees.	Planted a row of lavender along the fence for the bees.
+The possums ate every single strawberry overnight.	The possums ate every single strawberry overnight.
+Mulch the beds well, it's going to be a scorcher.	Mulch the beds well, it's going to be a scorcher.
+My lemon tree finally fruited after four years.	My lemon tree finally fruited after four years.
+The new raised bed is two metres long and nearly full already.	The new raised bed is two metres long and nearly full already.	spelling
+Need to prune the roses before spring.	Need to prune the roses before spring.
+Sowed the broad beans in a sunny spot near the shed.	Sowed the broad beans in a sunny spot near the shed.
+Grey water from the washing machine goes on the lawn now.	Grey water from the washing machine goes on the lawn now.	spelling
+The tradie said the retaining wall needs proper drainage.	The tradie said the retaining wall needs proper drainage.	slang
+Herbs are going gangbusters this year.	Herbs are going gangbusters this year.
+Bought a second-hand wheelbarrow but the tyre is flat.	Bought a second-hand wheelbarrow but the tyre is flat.	spelling
+The gig was absolutely electric, I've lost my voice.	The gig was absolutely electric, I've lost my voice.
+Tickets went on sale at nine and sold out by quarter past.	Tickets went on sale at nine and sold out by quarter past.
+We're meeting at the pub across the road before the doors open.	We're meeting at the pub across the road before the doors open.
+The support act was a local band, and they were brilliant.	The support act was a local band, and they were brilliant.
+Crikey, the queue for the merch stand was massive.	Crikey, the queue for the merch stand was massive.	slang
+My ears are still ringing from the encore.	My ears are still ringing from the encore.
+A few bogans near the front got rowdy, but security sorted them out.	A few bogans near the front got rowdy, but security sorted them out.	slang
+Cheers for driving, we'll stop at the servo on the way back.	Cheers for driving, we'll stop at the servo on the way back.	slang
+The orchestra played a stunning programme of Elgar and Holst.	The orchestra played a stunning programme of Elgar and Holst.	spelling
+She dedicated the last song to her mum and there wasn't a dry eye in the place.	She dedicated the last song to her mum and there wasn't a dry eye in the place.	spelling
+Next time we're getting seats in the dress circle, my knees can't handle three hours of standing.	Next time we're getting seats in the dress circle, my knees can't handle three hours of standing.	long
+Stoked for tonight!	Stoked for tonight!	short
+Favourite song of the night was the acoustic one, hands down.	Favourite song of the night was the acoustic one, hands down.	spelling
+Right, who's bringing the cake for Kylie's thirtieth?	Right, who's bringing the cake for Kylie's thirtieth?
+I reckon a barbie at the park is easier than booking a restaurant.	I reckon a barbie at the park is easier than booking a restaurant.	slang
+Sorry, can't make Saturday, got rellies visiting from Perth.	Sorry, can't make Saturday, got rellies visiting from Perth.	slang
+Can everyone chip in twenty bucks for the present?	Can everyone chip in twenty bucks for the present?
+Nan's popped a cheque in the card again, bless her.	Nan's popped a cheque in the card again, bless her.	spelling
+I'll grab the balloons and streamers from the two dollar shop.	I'll grab the balloons and streamers from the two dollar shop.
+Shall we do pressies before or after dinner?	Shall we do pressies before or after dinner?	slang
+Mate, she'll be stoked, she's been on about that jewellery for months.	Mate, she'll be stoked, she's been on about that jewellery for months.	mixed
+Venue's booked for seven, bring a plate.	Venue's booked for seven, bring a plate.
+Ta for organising, you're a legend.	Ta for organising, you're a legend.	slang
+Maccas on the way home after, obviously.	Maccas on the way home after, obviously.	slang
+Who's got the ute? We need to carry the esky and the chairs.	Who's got the ute? We need to carry the esky and the chairs.	slang
+Hooroo, see you all Saturday!	Hooroo, see you all Saturday!	slang
+Footy's on at the pub this arvo if anyone's keen to come along.	Footy's on at the pub this arvo if anyone's keen to come along.	slang
+lol defo keen, count me in	lol defo keen, count me in	slang lowercase
+Apologise to Hamish for me, I totally forgot to reply.	Apologise to Hamish for me, I totally forgot to reply.	spelling
+The login page throws an error when the session cookie has expired.	The login page throws an error when the session cookie has expired.
+I've traced the bug to the date parser, it assumes American format.	I've traced the bug to the date parser, it assumes American format.
+The colour picker component isn't rendering in Safari.	The colour picker component isn't rendering in Safari.	spelling
+Cleared the cache and the stylesheet finally loaded.	Cleared the cache and the stylesheet finally loaded.
+Can you check whether the API returns a 401 or a 403?	Can you check whether the API returns a 401 or a 403?
+The behaviour changed after we upgraded React, so I'm rolling back.	The behaviour changed after we upgraded React, so I'm rolling back.	spelling
+I've added logging around the checkout flow to catch the race condition.	I've added logging around the checkout flow to catch the race condition.
+The centre column overflows on mobile, the flex container needs a min-width.	The centre column overflows on mobile, the flex container needs a min-width.	spelling
+Staging is fine but production keeps timing out.	Staging is fine but production keeps timing out.
+Spelt the environment variable wrong, that's an hour I'll never get back.	Spelt the environment variable wrong, that's an hour I'll never get back.	spelling
+Rebased onto main and the tests are green again.	Rebased onto main and the tests are green again.
+The electrode impedance was too high on channels twelve to sixteen.	The electrode impedance was too high on channels twelve to sixteen.
+We analysed the spike sorting output from Tuesday's session.	We analysed the spike sorting output from Tuesday's session.	spelling
+I've organised the recordings by date on the shared drive.	I've organised the recordings by date on the shared drive.	spelling
+Our supervisor wants a figure showing firing rates across the whole trial.	Our supervisor wants a figure showing firing rates across the whole trial.
+The behavioural task had a ninety per cent hit rate.	The behavioural task had a ninety per cent hit rate.	spelling
+Can we prioritise the histology before the next round of recordings?	Can we prioritise the histology before the next round of recordings?	spelling
+I'm sceptical the oscillations are real, they might be artefacts.	I'm sceptical the oscillations are real, they might be artefacts.	spelling
+The labour of manually curating clusters is getting out of hand.	The labour of manually curating clusters is getting out of hand.	spelling
+Calcium imaging looks much cleaner after motion correction.	Calcium imaging looks much cleaner after motion correction.

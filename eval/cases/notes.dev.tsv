@@ -1,0 +1,132 @@
+# notes.dev.tsv - technical study notes (Set A topics)
+# format: typed<TAB>expected<TAB>optional note
+- read the intrestign paper on dendritic spikes tomorow morning	- read the interesting paper on dendritic spikes tomorrow morning
+- the axon initial segment is where action potentals start	- the axon initial segment is where action potentials start
+Met with Prof. Tanaka abuot the Hebbian plasticity projct.	Met with Prof. Tanaka about the Hebbian plasticity project.
+- ReLU vs. softmax: softmax is only used at the output layer	- ReLU vs. softmax: softmax is only used at the output layer
+- need to rerun the trainign script with a smaller batch size	- need to rerun the training script with a smaller batch size
+Learning rate 3e-4 seemed to work bettet than 1e-3.	Learning rate 3e-4 seemed to work better than 1e-3.
+- #todo buy grocwries after the lab meeting	- #todo buy groceries after the lab meeting
+- lunch: ramen near the station, it was increible	- lunch: ramen near the station, it was incredible
+- the LSTM forgets long sequences, maybe try a transfomer instead	- the LSTM forgets long sequences, maybe try a transformer instead
+Grandma called and asked when I'm comming home for New Year.	Grandma called and asked when I'm coming home for New Year.
+- see [[Synaptic plasticity]] for the full derivation #neuro	- see [[Synaptic plasticity]] for the full derivation #neuro
+- membrane potential rests around -70 mV in most nwurons	- membrane potential rests around -70 mV in most neurons
+- the tokenizer splits rare words into subword peices	- the tokenizer splits rare words into subword pieces
+- GPU memory ran out agaun at epoch 12	- GPU memory ran out again at epoch 12
+Train from Kyoto to Osaka only takes 15 mintues on the shinkansen, so convnient.	Train from Kyoto to Osaka only takes 15 minutes on the shinkansen, so convenient.
+- firing rate jumped to 40 Hz after stimulaton	- firing rate jumped to 40 Hz after stimulation
+<reset>but CI is still failing on the macOS runner	but CI is still failing on the macOS runner
+- config lives in `config.yaml`, never commmit the secrets	- config lives in `config.yaml`, never commit the secrets
+Exam on Thursday and I still have not reviewed backprop propery.	Exam on Thursday and I still have not reviewed backprop properly.
+- soccer practce moved to Saturday becuase of the rain	- soccer practice moved to Saturday because of the rain
+- embeddings collapse when the learning rate is too high	- embeddings collapse when the learning rate is too high
+- tried `torch.compile` but it made things slower, wierd	- tried `torch.compile` but it made things slower, weird
+Recievd a packahe from Mom with snacks and a new sweater.	Received a package from Mom with snacks and a new sweater.
+- dropout of 0.1 helps on the small dataset, i.e. less overfitting	- dropout of 0.1 helps on the small dataset, i.e. less overfitting
+- hyperparameters to sweep: lr, weight decay, warmup sreps	- hyperparameters to sweep: lr, weight decay, warmup steps
+- the hippocampus is critical for forming new memories, see [[Memory consolidation]]	- the hippocampus is critical for forming new memories, see [[Memory consolidation]]
+Took the night bus to Tokyo and could barely sleeep.	Took the night bus to Tokyo and could barely sleep.
+- async functions retun a promise, remember to await tgem	- async functions return a promise, remember to await them
+- regex for dates works but looks ugly, see `utils/dates.py`	- regex for dates works but looks ugly, see `utils/dates.py`
+- dinner with the lab, everyone ordered yakitori and beer	- dinner with the lab, everyone ordered yakitori and beer
+- Hebbian rule: clels that fire togther wire together	- Hebbian rule: cells that fire together wire together
+- the GPU node on the cluster is reserved untill Friday	- the GPU node on the cluster is reserved until Friday
+Need to finsih the literature review before the committee meeting.	Need to finish the literature review before the committee meeting.
+- Kilosort took three hours	- Kilosort took three hours
+- backprop through time is just the chain rule unrolled ober timesteps	- backprop through time is just the chain rule unrolled over timesteps
+- my brother started university this spring, he is studying chenistry	- my brother started university this spring, he is studying chemistry
+Weekend plan: laundry, gym, and cleaning the fridge.	Weekend plan: laundry, gym, and cleaning the fridge.
+- the validation loss plateaus aftet epoch 30	- the validation loss plateaus after epoch 30
+- localhost:8080 refuses connections, probalby the firewall	- localhost:8080 refuses connections, probably the firewall
+- synaptic weights are initialized from a normal distribtion	- synaptic weights are initialized from a normal distribution
+Bought onigiri at the konbini and ate it on the platforn.	Bought onigiri at the konbini and ate it on the platform.
+- need to email the professor about the deadlne extension	- need to email the professor about the deadline extension
+- json parsing fails whrn the file has a trailling comma	- json parsing fails when the file has a trailing comma
+- the dentate gyrus does pattern separation, CA3 does pattern completion	- the dentate gyrus does pattern separation, CA3 does pattern completion
+My sister's wedding is in Novmber so I booked flights early.	My sister's wedding is in November so I booked flights early.
+- tennis with Ken at 7, bribg the extra racket	- tennis with Ken at 7, bring the extra racket
+- softmax temprature controls how peaky the outpur is	- softmax temperature controls how peaky the output is
+- the yaml indentation was wrong, wasted an hour on taht	- the yaml indentation was wrong, wasted an hour on that
+- LTP requires NMDA receptor activaiton and calcium influx	- LTP requires NMDA receptor activation and calcium influx
+Studied in the library until it closed, then got curry on the way hime.	Studied in the library until it closed, then got curry on the way home.
+- my notes on [[Backpropagation]] are a mess, need to rewrite everyrhing	- my notes on [[Backpropagation]] are a mess, need to rewrite everything
+- pyramidal cells in layer 5 projecy to the thalamus	- pyramidal cells in layer 5 project to the thalamus
+Cooked miso soup and rice for dinnwr, simple but good.	Cooked miso soup and rice for dinner, simple but good.
+- batch norm behaves differentlu at inference time	- batch norm behaves differently at inference time
+- the repo has no README, so nobody knows how to instakl it	- the repo has no README, so nobody knows how to install it
+- train loss goes down but val loss goes up, classic overfitting	- train loss goes down but val loss goes up, classic overfitting
+Dad wants me to help fix his laptp when I visit next montg.	Dad wants me to help fix his laptop when I visit next month.
+- PyTorch DataLoader with num_workers=8 is much fasyer	- PyTorch DataLoader with num_workers=8 is much faster
+- resting potential depends mostly on potassium leak channels	- resting potential depends mostly on potassium leak channels
+- climbed Mt. Takao with friends, the view was amazinf	- climbed Mt. Takao with friends, the view was amazing
+- tokenizer adds a special token at the begining of each sequence	- tokenizer adds a special token at the beginning of each sequence
+- remember to cite the original LSTM paper (Hochreiter 1997)	- remember to cite the original LSTM paper (Hochreiter 1997)
+Midterm grades came out today and I did much better than I exoected, probably because I actually slept before the exam this time.	Midterm grades came out today and I did much better than I expected, probably because I actually slept before the exam this time.
+- the regex matches too greedily, use a lazy quantifier instesd	- the regex matches too greedily, use a lazy quantifier instead
+<reset>weight decay of 0.01 seems to be the sweet spoy	weight decay of 0.01 seems to be the sweet spot
+- lab meeting moved to 3pm, prepate slides on the calcium imagng data	- lab meeting moved to 3pm, prepare slides on the calcium imaging data
+Went to the onsen in Hakone, best bath of my lofe.	Went to the onsen in Hakone, best bath of my life.
+- dendrites integrate inputs nonlinearly, not just as passive cables	- dendrites integrate inputs nonlinearly, not just as passive cables
+- `git rebase` messed up somthign so I had to reser my branch	- `git rebase` messed up something so I had to reset my branch
+- the attention heads seem to learn positional pattrens	- the attention heads seem to learn positional patterns
+Grocery list: eggs, milk, tofu, spinsch, bananas	Grocery list: eggs, milk, tofu, spinach, bananas
+- swimming laps before class really helps me focud	- swimming laps before class really helps me focus
+- the classifier overpredicts the majority class, try a weighted loss	- the classifier overpredicts the majority class, try a weighted loss
+- GPU utilization is only 30%, the data pipeline is the bottlneck	- GPU utilization is only 30%, the data pipeline is the bottleneck
+My roommate made okonomiyaki for the whole floor last night and it was honestly better than the resturant we went to in Osaka.	My roommate made okonomiyaki for the whole floor last night and it was honestly better than the restaurant we went to in Osaka.
+- axons are myelinated, which speeds up conducton a lot	- axons are myelinated, which speeds up conduction a lot
+- the config file overrides the default learning rate, etc.	- the config file overrides the default learning rate, etc.
+- e.g. dopamine is a nuerotransmiter that encodes reward predicton error	- e.g. dopamine is a neurotransmitter that encodes reward prediction error
+Finally fixed the memory leak, it was acutaly a circular refrence.	Finally fixed the memory leak, it was actually a circular reference.
+- basketball game on Sunday, our team lost by two poimts	- basketball game on Sunday, our team lost by two points
+- write the methds section before the results	- write the methods section before the results
+- hyperparameter search finished overnigt, best paramteres saved	- hyperparameter search finished overnight, best parameters saved
+- the subway map in Tokyo is confusing but the signs are in Englsh	- the subway map in Tokyo is confusing but the signs are in English
+Need to renew my student visa befor March.	Need to renew my student visa before March.
+- vanishing gradients are why we use ReLU instead of sigmid	- vanishing gradients are why we use ReLU instead of sigmoid
+- ran the unit tests locally and all of them passed	- ran the unit tests locally and all of them passed
+- calcium imaging shows sparse activity in the barrel cortx	- calcium imaging shows sparse activity in the barrel cortex
+Baked banana bread with my mom over the weeknd.	Baked banana bread with my mom over the weekend.
+- the server returns 500 when the paylod is emptyy	- the server returns 500 when the payload is empty
+<reset>and attention is quadratic in sequence length	and attention is quadratic in sequence length
+- practice problems for the stats exam: chapters 4 to 7, esp. hypothesis testing	- practice problems for the stats exam: chapters 4 to 7, esp. hypothesis testing
+- tried the new cafe near campus, honestly a bit dissapointed	- tried the new cafe near campus, honestly a bit disappointed
+- the dataset has a lot of mislabeled exmples	- the dataset has a lot of mislabeled examples
+Kids at the summer camp loved the brain model I brought.	Kids at the summer camp loved the brain model I brought.
+- inhibitory interneurons keep the network from blowing up	- inhibitory interneurons keep the network from blowing up
+- `npm install` fails behind the univrsity proxy, a VPN might be neccesary	- `npm install` fails behind the university proxy, a VPN might be necessary
+- reminder: call the dentist to reschedle	- reminder: call the dentist to reschedule
+My little cousin asked why the sky is blue and I cuold not explan it well.	My little cousin asked why the sky is blue and I could not explain it well.
+- gradient clipping fixed it	- gradient clipping fixed it
+- the Kyoto temples were crowdrd, should have gone earlir	- the Kyoto temples were crowded, should have gone earlier
+- added type hints to the whoole codebase	- added type hints to the whole codebase
+- the spike trains look more regullar after the drug	- the spike trains look more regular after the drug
+Practiced kanji for an hour, still forgeting the stroke order.	Practiced kanji for an hour, still forgetting the stroke order.
+- the softmax output sums to one, so it acts like a probabilitty distribution	- the softmax output sums to one, so it acts like a probability distribution
+- advisor wants the introducction by Monday	- advisor wants the introduction by Monday
+- runnimg in the mornings makes me less anxiouus	- running in the mornings makes me less anxious
+- suprisngly, the small transformer baseline is strongerr than the CNN	- surprisingly, the small transformer baseline is stronger than the CNN
+- dad grilled fish and vegetablees for everyone	- dad grilled fish and vegetables for everyone
+Postsynaptic currents were recorded in voltage clammp mode.	Postsynaptic currents were recorded in voltage clamp mode.
+- check whether the embeddings are normalizedd before the dot product	- check whether the embeddings are normalized before the dot product
+- the hyperparamter sweep crashed due to a typo in the yaml cofnig	- the hyperparameter sweep crashed due to a typo in the yaml config
+- need to buy a birthday present for my nephew, maybe a Lego set	- need to buy a birthday present for my nephew, maybe a Lego set
+- I keep confusing precisoin and recall on the quizz	- I keep confusing precision and recall on the quiz
+- spent all aftrenoon debuggging a race condition	- spent all afternoon debugging a race condition
+Microscope booked until Friday.	Microscope booked until Friday.
+- learning rate warmup prevents instabillity eaarly in training	- learning rate warmup prevents instability early in training
+- the Osaka castle musuem was smaller than I imagnied	- the Osaka castle museum was smaller than I imagined
+- `localhost` works but the dockr container cannot reach the databse	- `localhost` works but the docker container cannot reach the database
+THe dendritic tree of a Purkinje cell is huge.	The dendritic tree of a Purkinje cell is huge.	caps slip
+- WHen the loss spikes, check the learning rate schedulle first	- When the loss spikes, check the learning rate schedule first	caps slip
+- backprop is basically gradient descent appliedto a computation graph	- backprop is basically gradient descent applied␣to a computation graph	merged words
+Went to the gym and thenate a huge bowl of udon.	Went to the gym and then␣ate a huge bowl of udon.	merged words
+- the encoder maps tokens intoa dense vector space	- the encoder maps tokens into␣a dense vector space	merged words
+<reset>the model is now converging, the loss is stuck at 2.3	the model is not converging, the loss is stuck at 2.3	realword
+- moved the old checkpoints form the SSD to the external drive	- moved the old checkpoints from the SSD to the external drive	realword
+- the neurons fire in bursts of tree or four spikes	- the neurons fire in bursts of three or four spikes	realword
+Teh first week of the rotation was mostly reading papers.	The first week of the rotation was mostly reading papers.
+<reset>teh refractory period lasts aproximatly 2 ms	the refractory period lasts approximately 2 ms
+- the lab's elctrophysiolgy rig needs recalibrating before Friday #lab	- the lab's electrophysiology rig needs recalibrating before Friday #lab
+<reset>implmentaion details are in the repo but the documnetaion is still missing	implementation details are in the repo but the documentation is still missing

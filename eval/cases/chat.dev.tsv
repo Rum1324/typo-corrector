@@ -1,0 +1,132 @@
+# chat.dev.tsv - casual chat messages (Slack, LINE, iMessage, AI prompts), typo set A
+# format: typed<TAB>expected[<TAB>note]; slang, elongations and apostrophe-less contractions are intentional
+hey are you free tonigt? wanna grab ramen lol	hey are you free tonight? wanna grab ramen lol
+idk if i can make it, my profesor moved the deadline agian	idk if i can make it, my professor moved the deadline again
+omg the train to kyoto was sooo crowded	omg the train to kyoto was sooo crowded
+tbh i dont think the experimemt worked, the sampls look weird	tbh i dont think the experiment worked, the samples look weird
+just pushed the fix, can you reveiw it when you get a sec?	just pushed the fix, can you review it when you get a sec?
+my mom made curry and its honestly the best thinf ever	my mom made curry and its honestly the best thing ever
+ngl that exam was brutal, i barely finsihed the last section	ngl that exam was brutal, i barely finished the last section
+lmk when youre hime, ill call you	lmk when youre home, ill call you
+wfh today bc the trains are delayd after the stoem	wfh today bc the trains are delayed after the storm
+can you summarize this paper for me? focus on the methids section	can you summarize this paper for me? focus on the methods section
+brb grabbing coffee	brb grabbing coffee
+the shinkansen tickets were way more expensice than i expectedd	the shinkansen tickets were way more expensive than i expected
+yesss we won the match 3-1!! the goalie was insane	yesss we won the match 3-1!! the goalie was insane
+pls remimnd me to buy milk and eggs tomorow	pls remind me to buy milk and eggs tomorrow
+my little brother keeps stealing my charger xD	my little brother keeps stealing my charger xD
+hmmm the model accuracy dropped after i chnaged the lesrning rate	hmmm the model accuracy dropped after i changed the learning rate
+ofc ill help, just send me the lnk	ofc ill help, just send me the link
+thx for the notes! i totally missed yesterdays lecture	thx for the notes! i totally missed yesterdays lecture
+nooo i left my umbrella on the subwya	nooo i left my umbrella on the subway
+im so tired, thje lab meeting ran for three hourss	im so tired, the lab meeting ran for three hours
+does anyone know a good sushi place near shibuya statiom?	does anyone know a good sushi place near shibuya station?
+btw the build is failing on main, someone merged without runign tests	btw the build is failing on main, someone merged without running tests
+ive been studing for 6 hours straigt and my brain is mush	ive been studying for 6 hours straight and my brain is mush
+dad wants to know if were cominng for dinner on sunday	dad wants to know if were coming for dinner on sunday
+cant beleive the view from tokyo tower at night, absolutely beautifull	cant believe the view from tokyo tower at night, absolutely beautiful
+write a pyhton function that removes duplicatws from a list	write a python function that removes duplicates from a list
+lol my cat just knocked my noodles off the tsble	lol my cat just knocked my noodles off the table
+the refferee was so biased, we shoud have won	the referee was so biased, we should have won
+didnt sleep at all, finals week is killing me	didnt sleep at all, finals week is killing me
+can u explain the difference between a process and a theead?	can u explain the difference between a process and a thread?
+grandma sent us a huge box of mikan from ehime :)	grandma sent us a huge box of mikan from ehime :)
+i need to recieve the pacakge before friday	i need to receive the package before friday
+the gpu cluster is down for mainetnace, infrastucture team says til thursday	the gpu cluster is down for maintenance, infrastructure team says til thursday
+wanna play basketbal after class?	wanna play basketball after class?
+tge onsen in hakone was so relaxing	the onsen in hakone was so relaxing
+my code compiles but the outptu is completly wrong	my code compiles but the output is completely wrong
+ngl this matcha latte is overrated	ngl this matcha latte is overrated
+who's picking up the kids from soccer pratice today?	who's picking up the kids from soccer practice today?
+we should book the ryokan early, golden week fills up fadt	we should book the ryokan early, golden week fills up fast
+idk why but my results look difernt every time i run it	idk why but my results look different every time i run it
+send me the slides pls, i'll add the graphs tonight	send me the slides pls, i'll add the graphs tonight
+the professor said the midterm will cover chaptrs 1 throigh 6	the professor said the midterm will cover chapters 1 through 6
+im gonna try the new tonkotsu plaxe by the univeristy	im gonna try the new tonkotsu place by the university
+yo did u see that last minute goal?? crazyyy	yo did u see that last minute goal?? crazyyy
+refactor this so it doesnt use global varaibels	refactor this so it doesnt use global variables
+mom says hi and wantsto know when youre visitng	mom says hi and wants␣to know when youre visiting	merged words
+the confernce deadline got extendd by a week!!	the conference deadline got extended by a week!!
+tbh the hardest part of the trip was figuring out the bus systen	tbh the hardest part of the trip was figuring out the bus system
+lmao he fell asleep during the presentation	lmao he fell asleep during the presentation
+can you check if the dataset has missing valeus	can you check if the dataset has missing values
+just finished my first half marathon, my lges are dead	just finished my first half marathon, my legs are dead
+pls dont forget we have the group meeting at 3	pls dont forget we have the group meeting at 3
+the convenince store onigiri here is so cheao	the convenience store onigiri here is so cheap
+i acidentaly deleted the brnach, can we recover it?	i accidentally deleted the branch, can we recover it?
+ugh my alarm didnt go off and i misssed first period	ugh my alarm didnt go off and i missed first period
+what time does the last train leave from osaka	what time does the last train leave from osaka
+my sister jusst got into med schhool, so proud of her	my sister just got into med school, so proud of her
+explain recursion like im five pls	explain recursion like im five pls
+the coach made us run sprimts for an hour, i can barly walk	the coach made us run sprints for an hour, i can barely walk
+rn im debugging a memory leak that only happens in produxtion	rn im debugging a memory leak that only happens in production
+does the reserch lab have a printer i can use?	does the research lab have a printer i can use?
+okkk ill bring snakcs for the movie night	okkk ill bring snacks for the movie night
+THanks for dinner last night, the tempura was amazng	Thanks for dinner last night, the tempura was amazing
+cant find my student id anywhere, have you seen it?	cant find my student id anywhere, have you seen it?
+the visa applicaiton needs a photo and a bank statment	the visa application needs a photo and a bank statement
+my advisoe wants a draft of the introdution by monday	my advisor|adviser wants a draft of the introduction by monday
+imo the second implementaton is cleaner and easier to maintian	imo the second implementation is cleaner and easier to maintain
+we got lost in kyoto for like two hours lol but then we found an incredivle little temple with nobody else around	we got lost in kyoto for like two hours lol but then we found an incredible little temple with nobody else around
+hey can you pick up some vegetbles on the way back?	hey can you pick up some vegetables on the way back?
+the unit tests pass lpcally but fial on ci	the unit tests pass locally but fail on ci
+my dad finally learned how to use line stickers xD	my dad finally learned how to use line stickers xD
+whats the best way to memorize kanji? i keep forgetinf them	whats the best way to memorize kanji? i keep forgetting them
+the soccer tournament got cancelled because of the typhoonn	the soccer tournament got cancelled because of the typhoon
+yesss i passed the driving test on my first try	yesss i passed the driving test on my first try
+can you translate this email into polite japanese for my landlord	can you translate this email into polite japanese for my landlord
+the pcr machine is booked all week, so anoyign	the pcr machine is booked all week, so annoying
+pls review my pull rewuest before standup	pls review my pull request before standup
+my brother and i are planning a surpirse party for our parents aniversary	my brother and i are planning a surprise party for our parents anniversary
+ngl im kinda nervous about the job interveiw tomorrow	ngl im kinda nervous about the job interview tomorrow
+the vending machines here sell hot corn soup, japan is wild	the vending machines here sell hot corn soup, japan is wild
+THe trains in japan are always on time, its kinda unreal	The trains in japan are always on time, its kinda unreal
+and then he said the server was down for the whole weekeend	and then he said the server was down for the whole weekend
+i literaly cannot find a single quiet cafe near campis	i literally cannot find a single quiet cafe near campus
+can you write a reged that matches email adresses?	can you write a regex that matches email addresses?
+my grandpa is turning 90 next mnoth, we're throwing a big party	my grandpa is turning 90 next month, we're throwing a big party
+ugh i forgot my bento on the kitchen countre	ugh i forgot my bento on the kitchen counter
+we're doing hotpot tonight, bring whatever veggies u hasve	we're doing hotpot tonight, bring whatever veggies u have
+the deer in nara are so agressive lmao one ate my map	the deer in nara are so aggressive lmao one ate my map
+pls tell me the bus to the airpoet still runs this late	pls tell me the bus to the airport still runs this late
+my roommate keeps leaving dishes in the sink and its drivng me crazy, like i get that we're both busy but come on	my roommate keeps leaving dishes in the sink and its driving me crazy, like i get that we're both busy but come on
+whats a good name for a variable that stores the user count lol	whats a good name for a variable that stores the user count lol
+the pipette calibraton is off again, results are all over the place	the pipette calibration is off again, results are all over the place
+ok so the seminar got moved to room 204, tell the othets	ok so the seminar got moved to room 204, tell the others
+cant wait for the weekend, im gonna sleep 12 hours	cant wait for the weekend, im gonna sleep 12 hours
+the hike was quiet long and my phone died halfway thru	the hike was quite long and my phone died halfway thru	realword
+hmm dose this code have a race condition or am i paranoid	hmm does this code have a race condition or am i paranoid	realword
+the strawberry daifuku from that shop is unreal, buy like five	the strawberry daifuku from that shop is unreal, buy like five
+idk how to tell my parents i want to swich majors	idk how to tell my parents i want to switch majors
+my little sister started pisno lessons and she practices evry day	my little sister started piano lessons and she practices every day
+i think the reveiwr didnt even read our manuscipt	i think the reviewer didnt even read our manuscript
+sorry im late, the train stopped bc someone was onthe tracks	sorry im late, the train stopped bc someone was on␣the tracks	merged words
+honestly evrythign at this izakaya is so good	honestly everything at this izakaya is so good
+can u send me the asignmnet instructions again? i lost them	can u send me the assignment instructions again? i lost them
+we need to finalize the schduel for the trip to hiroshima	we need to finalize the schedule for the trip to hiroshima
+nooo the databse migratoin failed halfway, rollback pls	nooo the database migration failed halfway, rollback pls
+ngl the porblme set this week was way harder than the lectures	ngl the problem set this week was way harder than the lectures
+my mom keeps sending me recipes on line, today it was nikujaga lol	my mom keeps sending me recipes on line, today it was nikujaga lol
+pls explain the diference between precision and recal	pls explain the difference between precision and recall
+tbh the accomodaiton in kyoto was cheaper than i expected	tbh the accommodation in kyoto was cheaper than i expected
+the kids had a blast at the aquarium, the pemguins were the higlight	the kids had a blast at the aquarium, the penguins were the highlight
+i was gonna go to the gym but its raining sooo hard	i was gonna go to the gym but its raining sooo hard
+lmk if you need help with the presnetaion slides, im free after 5	lmk if you need help with the presentation slides, im free after 5
+the new intern pushed directly to main and broke the whole pipelime	the new intern pushed directly to main and broke the whole pipeline
+brb my dad is calling, prolly about the car insurannce	brb my dad is calling, prolly about the car insurance
+we lost the semifinal on penalties, im still not over it	we lost the semifinal on penalties, im still not over it
+could you make this paragraph sound less formal? its for a group chst	could you make this paragraph sound less formal? its for a group chat
+the stats came back and the effect is actually significamt!!	the stats came back and the effect is actually significant!!
+i havent eaten all day, gonna grab a sandwhich from the konbini	i havent eaten all day, gonna grab a sandwich from the konbini
+does anyone wanna split a taxi to the hoyel after the concert?	does anyone wanna split a taxi to the hotel after the concert?
+my brotger is visiting next week so ill be offline mosst of the time	my brother is visiting next week so ill be offline most of the time
+the clasroom aircon is broken and its like 35 degrees in here	the classroom aircon is broken and its like 35 degrees in here
+ok i fixed the bugg, it was an off by one eror in the for loop	ok i fixed the bug, it was an off by one error in the for loop
+inthe end we just ordered pizza and watched movies all night	in␣the end we just ordered pizza and watched movies all night	merged words
+my aunt sent a photo of her cat wearing a tiny kimono xD	my aunt sent a photo of her cat wearing a tiny kimono xD
+i thing the shrine closes at 5, we should hurry	i think the shrine closes at 5, we should hurry	realword
+the flight was delayed so we're now going to make the connection	the flight was delayed so we're not going to make the connection	realword
+just got back form the dentist, my face is numb lol	just got back from the dentist, my face is numb lol	realword
+can you help me write a cover lettter? i'm applying for a summer internsip at a robotics startup and the deadline is friday	can you help me write a cover letter? i'm applying for a summer internship at a robotics startup and the deadline is friday
+the traiining loss looks fine but valudation loss keeps going up	the training loss looks fine but validation loss keeps going up
+WHat time should we leave for the fireworks tomorrow?	What time should we leave for the fireworks tomorrow?

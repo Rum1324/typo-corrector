@@ -1,0 +1,111 @@
+# firstword set A: every line starts with <reset>; first-word typos, mid-word fragments (must stay unchanged), correct first words
+<reset>waht do you think about the new menu	what do you think about the new menu	first word typo
+<reset>ing the results now, give me ten minutes	ing the results now, give me ten minutes	fragment of testing
+<reset>Recieved your message, I will call back after lunch.	Received your message, I will call back after lunch.	first word typo
+<reset>The bus to Hiroshima was packed this morning.	The bus to Hiroshima was packed this morning.	correct first word
+<reset>tomorow we leave for Kyoto on the early train	tomorrow we leave for Kyoto on the early train	first word typo
+<reset>ple are already lining up outside the bakrey	ple are already lining up outside the bakery	fragment of people
+<reset>Probaly the best ramen I have had in Osaka.	Probably the best ramen I have had in Osaka.	first word typo
+<reset>can you review my pull reqeust when you have time	can you review my pull request when you have time	correct first word
+<reset>Apparantly the server kept crashing so we rolled back the deploy.	Apparently the server kept crashing so we rolled back the deploy.	first word typo
+<reset>nally it just calls the old API	nally it just calls the old API	fragment of internally
+<reset>Definately bring an umbrella, it rains a lot in Tokyo in June.	Definitely bring an umbrella, it rains a lot in Tokyo in June.	first word typo
+<reset>yestreday the centrifuge made a strnage noise again	yesterday the centrifuge made a strange noise again	first word typo
+<reset>We should add more salt to the soup.	We should add more salt to the soup.	correct first word
+<reset>tion of the paper still needs work	tion of the paper still needs work	fragment of introduction
+<reset>Plaese send me the slides before the meetign.	Please send me the slides before the meeting.	first word typo
+<reset>studyign for the chemistry final all weekend	studying for the chemistry final all weekend	first word typo
+<reset>my brother finally pased his driving test	my brother finally passed his driving test	correct first word
+<reset>ment was postponed until after the holidays	ment was postponed until after the holidays	fragment of tournament
+<reset>Gonig to the gym after work, want to come?	Going to the gym after work, want to come?	first word typo
+<reset>tahnks for picking up the kids today	thanks for picking up the kids today	first word typo
+<reset>ure out which train goes to Hakone frist	ure out which train goes to Hakone first	fragment of figure
+<reset>Results from the second batch look much cleaner.	Results from the second batch look much cleaner.	correct first word
+<reset>Somtimes the build passes locally but fails on CI.	Sometimes the build passes locally but fails on CI.	first word typo
+<reset>teh printer in the lab is jammed again	the printer in the lab is jammed again	first word typo
+<reset>ight be easier to just order pizza	ight be easier to just order pizza	fragment of might
+<reset>Basicly we need more samples before we can say anything.	Basically we need more samples before we can say anything.	first word typo
+<reset>and then we got lost in Shinjuku staiton for an hour	and then we got lost in Shinjuku station for an hour	correct first word
+<reset>shoudl I book the ryokan for two nights or three?	should I book the ryokan for two nights or three?	first word typo
+<reset>ould you pick up milk on the way hoem?	ould you pick up milk on the way home?	fragment of could
+<reset>Remeber grandma's birthday is next Sunday.	Remember grandma's birthday is next Sunday.	first word typo
+<reset>acutally the match was moved to Saturday morning	actually the match was moved to Saturday morning	first word typo
+<reset>Thanks, that fixed the memory leak.	Thanks, that fixed the memory leak.	correct first word
+<reset>eople in the lab are using the new pipettes	eople in the lab are using the new pipettes	fragment of people
+<reset>Unfortunatly the museum is closed on Mondays, so we will have to move the Kamakura day trip to Tusday and skip the temple.	Unfortunately the museum is closed on Mondays, so we will have to move the Kamakura day trip to Tuesday and skip the temple.	first word typo, long
+<reset>finsihed the literature review, starting on methods now	finished the literature review, starting on methods now	first word typo
+<reset>also the coach wants everyone there by six	also the coach wants everyone there by six	correct first word
+<reset>ernal reviewers asked for more ablation studies	ernal reviewers asked for more ablation studies	fragment of external
+<reset>Wierd, the test only fails on the second run.	Weird, the test only fails on the second run.	first word typo
+<reset>breakfst was just toast and coffee again	breakfast was just toast and coffee again	first word typo
+<reset>Running the simulation overnight shoud be fine.	Running the simulation overnight should be fine.	correct first word
+<reset>ction is missing a semicolon on line fourty	ction is missing a semicolon on line forty	fragment of function
+<reset>Evrey station in Tokyo seems to have a different exit system.	Every station in Tokyo seems to have a different exit system.	first word typo
+<reset>alot of people showed up to the lab meeting	a␣lot of people showed up to the lab meeting	first word typo, split
+<reset>so the exam covers chapters four through nine	so the exam covers chapters four through nine	correct first word
+<reset>ally liked the onsen in Beppu	ally liked the onsen in Beppu	fragment of really
+<reset>Wehre did you park the car?	Where did you park the car?	first word typo
+<reset>untill the reviewer replies we cannot merge the pull request	until the reviewer replies we cannot merge the pull request	first word typo
+<reset>Dad burned the rice again, so we ordered takeout.	Dad burned the rice again, so we ordered takeout.	correct first word
+<reset>ster is going to the same university as me	ster is going to the same university as me	fragment of sister
+<reset>Excercise in the morning helps me focus during class.	Exercise in the morning helps me focus during class.	first word typo
+<reset>Woudln't it be easier to take the shinkansen?	Wouldn't it be easier to take the shinkansen?	first word typo
+<reset>I left my umbrella on the train in Nagoya.	I left my umbrella on the train in Nagoya.	correct first word
+<reset>ization takes forever on the full datset	ization takes forever on the full dataset	fragment of tokenization
+<reset>preformance review is on Thursday afternoon	performance review is on Thursday afternoon	first word typo
+<reset>Seperate the egg whites first, then whisk them until stiff.	Separate the egg whites first, then whisk them until stiff.	first word typo
+<reset>but the reviewer still wants another experiment	but the reviewer still wants another experiment	correct first word
+<reset>ther said dinner will be late tonight	ther said dinner will be late tonight	fragment of mother
+<reset>proffesor Tanaka extended the deadline by a week	professor Tanaka extended the deadline by a week	first word typo
+<reset>Hwo long does it take to get to Nara from here?	How long does it take to get to Nara from here?	first word typo
+<reset>Our team lost in the semifinal, but it was a grat season.	Our team lost in the semifinal, but it was a great season.	correct first word
+<reset>ese is my favorite part of the bento	ese is my favorite part of the bento	fragment of cheese
+<reset>thier flight lands at Haneda around nine	their flight lands at Haneda around nine	first word typo
+<reset>Experiement three failed because the buffer was contaminated, so I am remaking it now and will rerun everything tomorrow morning if the incubater is free.	Experiment three failed because the buffer was contaminated, so I am remaking it now and will rerun everything tomorrow morning if the incubator is free.	first word typo, long
+<reset>please remind me to email the landlord	please remind me to email the landlord	correct first word
+<reset>ning for the marathon is going well, but my kne hurts	ning for the marathon is going well, but my knee hurts	fragment of training
+<reset>neccessary changes are in the second commit, but the parser tests still fail on Widnows.	necessary changes are in the second commit, but the parser tests still fail on Windows.	first word typo
+<reset>Waiitng for the bus in the rain is the worst.	Waiting for the bus in the rain is the worst.	first word typo
+<reset>Kids are asleep, finally.	Kids are asleep, finally.	correct first word
+<reset>tely forgot about the quiz tomorrow	tely forgot about the quiz tomorrow	fragment of completely
+<reset>dinenr is ready, come downstairs	dinner is ready, come downstairs	first word typo
+<reset>Becasue of the typhoon all ferries are cancelled today.	Because of the typhoon all ferries are cancelled today.	first word typo
+<reset>Let's meet at the east exit at noon.	Let's meet at the east exit at noon.	correct first word
+<reset>ence next week is in Yokohama, so I need to finsh my poster	ence next week is in Yokohama, so I need to finish my poster	fragment of conference
+<reset>befroe the exam I always reread my notes	before the exam I always reread my notes	first word typo
+<reset>Wnat to grab sushi near the station tonight?	Want to grab sushi near the station tonight?	first word typo
+<reset>tests are green on main again	tests are green on main again	correct first word
+<reset>dule says the express leaves at 10:42	dule says the express leaves at 10:42	fragment of schedule
+<reset>recomend trying the matcha soft serve in Uji	recommend trying the matcha soft serve in Uji	first word typo
+<reset>Mayeb next week?	Maybe next week?	first word typo
+<reset>Is the convinience store open all night?	Is the convenience store open all night?	correct first word
+<reset>bly need to rerun the whole pipeline	bly need to rerun the whole pipeline	fragment of probably
+<reset>beleive it or not the toddler ate all his broccoli	believe it or not the toddler ate all his broccoli	first word typo
+<reset>Coudl you check whether the microscope is free this afternon?	Could you check whether the microscope is free this afternoon?	first word typo
+<reset>after lunch I will run the PCR agian	after lunch I will run the PCR again	correct first word
+<reset>ressive results on the benchmark this time	ressive results on the benchmark this time	fragment of impressive
+<reset>annoucement about the tournament schedule went out this morning	announcement about the tournament schedule went out this morning	first word typo
+<reset>Freind of mine runs a cafe in Kanazawa, you should vist it.	Friend of mine runs a cafe in Kanazawa, you should visit it.	first word typo
+<reset>The flashcards realy helped with vocabulary.	The flashcards really helped with vocabulary.	correct first word
+<reset>gether we finished the puzzle in two hours	gether we finished the puzzle in two hours	fragment of together
+<reset>usualy the dataset loads in under a minute	usually the dataset loads in under a minute	first word typo
+<reset>Haev you seen my charger anywhere?	Have you seen my charger anywhere?	first word typo
+<reset>my sister made curry with way too much chili	my sister made curry with way too much chili	correct first word
+<reset>ack is overflowing again, check the recursion	ack is overflowing again, check the recursion	fragment of stack
+<reset>wokring from home today because the kids are sick	working from home today because the kids are sick	first word typo
+<reset>Intresting result, but we need a control group.	Interesting result, but we need a control group.	first word typo
+<reset>Merge conflicts everywhere after the rebase.	Merge conflicts everywhere after the rebase.	correct first word
+<reset>ause the game went into extra time we missed dinner	ause the game went into extra time we missed dinner	fragment of because
+<reset>lsat night the baby finally slept through	last night the baby finally slept through	first word typo
+<reset>Traning starts again next week after the break.	Training starts again next week after the break.	first word typo
+<reset>We took the cable car up to see Mount Fuji.	We took the cable car up to see Mount Fuji.	correct first word
+<reset>vious version handled that edge case corectly	vious version handled that edge case correctly	fragment of previous
+<reset>dosen't the library close at eight on Fridays?	doesn't the library close at eight on Fridays?	first word typo
+<reset>Teh calendar invite is in your inbox.	The calendar invite is in your inbox.	first word typo
+<reset>OK, I will bring the snacks for the game.	OK, I will bring the snacks for the game.	correct first word
+<reset>ious about the results of the blood test	ious about the results of the blood test	fragment of anxious
+<reset>quesiton for the TA: is the midterm open book?	question for the TA: is the midterm open book?	first word typo
+<reset>Absolutly delicious, we should come back here.	Absolutely delicious, we should come back here.	first word typo
+<reset>which notebook has the calibraton data?	which notebook has the calibration data?	correct first word
+<reset>ting to Kyoto by bus is cheaper but slower	ting to Kyoto by bus is cheaper but slower	fragment of getting
+<reset>Honestly the mock exam was harder than the real one.	Honestly the mock exam was harder than the real one.	correct first word

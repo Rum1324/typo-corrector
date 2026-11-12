@@ -1,0 +1,111 @@
+# firstword set C (holdout): every line starts with <reset>. (a) first word misspelled, (b) first token is a fragment of an existing word (keep as is), (c) first word correct
+<reset>simmerd the onions for twenty minutes but they never got sweet	simmered the onions for twenty minutes but they never got sweet
+<reset>ple of eggs and some leftover rice is all I need for fried rice	ple of eggs and some leftover rice is all I need for fried rice	fragment of couple
+<reset>Garlic goes in last or it burns, trsut me	Garlic goes in last or it burns, trust me
+<reset>Recipie says two cups of stock but I only had one	Recipe says two cups of stock but I only had one
+<reset>Mabye we should roast the squash instead of steaming it?	Maybe we should roast the squash instead of steaming it?
+<reset>ing the onions slowly makes all the difference	ing the onions slowly makes all the difference	fragment of cooking
+<reset>somone left the lid off the rice cooker again	someone left the lid off the rice cooker again
+<reset>Chiken thighs go in at 425 for about 35 minutes	Chicken thighs go in at 425 for about 35 minutes
+<reset>miso soup turned out better than the restaurant's, honestly	miso soup turned out better than the restaurant's, honestly
+<reset>vinager and a pinch of sugar fixed the sauce	vinegar and a pinch of sugar fixed the sauce
+<reset>ipe calls for mirin but I only have sake	ipe calls for mirin but I only have sake	fragment of recipe
+<reset>Tomorow we take the Shinkansen to Osaka at 9:10	Tomorrow we take the Shinkansen to Osaka at 9:10
+<reset>Fushimi Inari at sunrise was worth waking up for	Fushimi Inari at sunrise was worth waking up for
+<reset>beutiful day at Kinkakuji, the gold looked unreal in the sun	beautiful day at Kinkakuji, the gold looked unreal in the sun
+<reset>nally we wanted to see Nara too, but there wasn't time	nally we wanted to see Nara too, but there wasn't time	fragment of originally
+<reset>reservaton for the kaiseki dinner is at 6:30	reservation for the kaiseki dinner is at 6:30
+<reset>Dotonbori was loud and crowded and I loved every secnod of it	Dotonbori was loud and crowded and I loved every second of it
+<reset>Thankfuly the JR pass covers the Haruka train to the airport	Thankfully the JR pass covers the Haruka train to the airport
+<reset>tion at Kyoto Station was so confusing, we got lost twice	tion at Kyoto Station was so confusing, we got lost twice	fragment of navigation
+<reset>abuot to board, see you guys in Osaka	about to board, see you guys in Osaka
+<reset>ryokan breakfast had like eleven tiny dishes	ryokan breakfast had like eleven tiny dishes
+<reset>ead of the train we took a bus to Osaka, which was cheaper	ead of the train we took a bus to Osaka, which was cheaper	fragment of instead
+<reset>Kyoto in November is gorgeous, the maples are all red now	Kyoto in November is gorgeous, the maples are all red now
+<reset>grup project meeting moved to Thursday at 4	group project meeting moved to Thursday at 4
+<reset>Hte rubric says we need at least five peer-reviewed sources	The rubric says we need at least five peer-reviewed sources
+<reset>ment for the course project is due at midnight	ment for the course project is due at midnight	fragment of assignment
+<reset>presentaion slides are in the shared drive, please add your part by Sunday	presentation slides are in the shared drive, please add your part by Sunday
+<reset>our group still hasn't picked a dataset for the final projcet	our group still hasn't picked a dataset for the final project
+<reset>Proffesor Lin wants a draft of the methods section by Friday	Professor Lin wants a draft of the methods section by Friday
+<reset>ure we can fit the user study into two weeks?	ure we can fit the user study into two weeks?	fragment of sure
+<reset>Honsetly the hardest part of the whole course project was getting five people with totally diffrent schedules to agree on one meeting time every week	Honestly the hardest part of the whole course project was getting five people with totally different schedules to agree on one meeting time every week	long
+<reset>Lecture notes from week 6 are missing, does anyone have them?	Lecture notes from week 6 are missing, does anyone have them?
+<reset>finaly beat the last boss after like forty tries	finally beat the last boss after like forty tries
+<reset>ight the new season drops at 6pm, who's in?	ight the new season drops at 6pm, who's in?	fragment of tonight
+<reset>contoller drift is back, my guy keeps walking left on his own	controller drift is back, my guy keeps walking left on his own
+<reset>anybody up for ranked tonight? we need a fifth	anybody up for ranked tonight? we need a fifth
+<reset>queing for twenty minutes just to get kicked, unreal	queuing|queueing for twenty minutes just to get kicked, unreal
+<reset>ience with the new update has been rough, it crashes on load	ience with the new update has been rough, it crashes on load	fragment of experience
+<reset>adn then the whole server crashed mid raid lol	and then the whole server crashed mid raid lol
+<reset>speedrun attempt number 300 and I still can't hit the skip	speedrun attempt number 300 and I still can't hit the skip
+<reset>cta knocked my coffee off the desk again	cat knocked my coffee off the desk again
+<reset>ould probably take him to the vet if he keeps limping	ould probably take him to the vet if he keeps limping	fragment of should
+<reset>hamsetr escaped overnight and we found him in a sock drawer	hamster escaped overnight and we found him in a sock drawer
+<reset>Biscuit ate a whole sock and the vet says we just wait and see	Biscuit ate a whole sock and the vet says we just wait and see
+<reset>form now on the dog sleeps in his own bed	from now on the dog sleeps in his own bed	realword
+<reset>ically the cat refuses any food that isn't salmon	ically the cat refuses any food that isn't salmon	fragment of basically
+<reset>untill the vet calls back we're keeping him inside	until the vet calls back we're keeping him inside
+<reset>parrot learned to copy the microwave beep, send help	parrot learned to copy the microwave beep, send help
+<reset>appointmnet with Dr. Okafor got moved to 2:30	appointment with Dr. Okafor got moved to 2:30
+<reset>eople at the clinic were really kind about the wait	eople at the clinic were really kind about the wait	fragment of people
+<reset>persciption is ready for pickup at the pharmacy on Elm	prescription is ready for pickup at the pharmacy on Elm
+<reset>Bloood pressure was a bit high, so she wants me back in a month	Blood pressure was a bit high, so she wants me back in a month
+<reset>waiting room is packed, might be here a while	waiting room is packed, might be here a while
+<reset>symtoms started last Tuesday, mostly a dry cough and headches	symptoms started last Tuesday, mostly a dry cough and headaches
+<reset>ernal medicine referral should come through by Friday	ernal medicine referral should come through by Friday	fragment of internal
+<reset>excercise is fine, the doctor said, just nothing too intense for now	exercise is fine, the doctor said, just nothing too intense for now
+<reset>X-ray came back normal, so that's a releif	X-ray came back normal, so that's a relief
+<reset>ough rest is the main thing, she said, and lots of fluids	ough rest is the main thing, she said, and lots of fluids	fragment of enough
+<reset>Investers seemed to like the demo but asked a lot about chrun	Investors seemed to like the demo but asked a lot about churn
+<reset>vestors want to see three months of retnetion data first	vestors want to see three months of retention data first	fragment of investors
+<reset>revnue slide needs the updated numbers from October	revenue slide needs the updated numbers from October
+<reset>pitch went well! they want a follow up call next wek	pitch went well! they want a follow up call next week
+<reset>ourpitch deck is 22 slides, way too long for a five minute slot	our␣pitch deck is 22 slides, way too long for a five minute slot	space insertion
+<reset>uation is too high for a seed round, according to Marcus	uation is too high for a seed round, according to Marcus	fragment of valuation
+<reset>Runway is about nine months if we don't hire anyone new	Runway is about nine months if we don't hire anyone new
+<reset>tomatos are finally turning red, about time	tomatoes are finally turning red, about time
+<reset>dening is the only thing keeping me sane this fall	dening is the only thing keeping me sane this fall	fragment of gardening
+<reset>sqirrels dug up half the tulip bulbs again	squirrels dug up half the tulip bulbs again
+<reset>planted three rows of kale and some garlic yesterday	planted three rows of kale and some garlic yesterday
+<reset>compst pile smells awful, I think it needs more dry leaves	compost pile smells awful, I think it needs more dry leaves
+<reset>tilizer bag says once every two weeks for the peppers	tilizer bag says once every two weeks for the peppers	fragment of fertilizer
+<reset>Prunning the roses now or should I wait until February?	Pruning the roses now or should I wait until February?
+<reset>basil is bolting already, shoud I just pinch the flowers off?	basil is bolting already, should I just pinch the flowers off?
+<reset>Opneing act was better than the headliner honestly	Opening act was better than the headliner honestly
+<reset>tlights were so bright I couldn't see the stage for a minute	tlights were so bright I couldn't see the stage for a minute	fragment of spotlights
+<reset>encroe went on for almost half an hour	encore went on for almost half an hour
+<reset>setlist had every song from the first album!!	setlist had every song from the first album!!
+<reset>Earplgus were a lifesaver, the bass was insane	Earplugs were a lifesaver, the bass was insane
+<reset>chandise line was longer than the line to get in	chandise line was longer than the line to get in	fragment of merchandise
+<reset>venu doors open at 7 but the band won't go on till 9	venue doors open at 7 but the band won't go on till 9
+<reset>Hw was the concert last night?	How was the concert last night?
+<reset>tickets are 85 each plus fees, which is kind of insane	tickets are 85 each plus fees, which is kind of insane
+<reset>surpise party for Dana is Saturday, DO NOT tell her	surprise party for Dana is Saturday, DO NOT tell her
+<reset>thday dinner is at 7 at Lucy's place, bring a dish	thday dinner is at 7 at Lucy's place, bring a dish	fragment of birthday
+<reset>evryone chip in 15 for the cake and decorations?	everyone chip in 15 for the cake and decorations?
+<reset>okay so cake from the Korean bakery or the one near the station?	okay so cake from the Korean bakery or the one near the station?
+<reset>resturant can only fit twelve of us, so RSVP fast	restaurant can only fit twelve of us, so RSVP fast
+<reset>orations are in the garage, someone grab them Firday	orations are in the garage, someone grab them Friday	fragment of decorations
+<reset>THanks for all the birthday wishes, you guys are the best	Thanks for all the birthday wishes, you guys are the best	shift held
+<reset>Dana thinks we all forgot her birthday, perfect	Dana thinks we all forgot her birthday, perfect
+<reset>refesh token expires after five minutes instead of an hour	refresh token expires after five minutes instead of an hour
+<reset>ugging this session timeout has eaten my whole aftrenoon	ugging this session timeout has eaten my whole afternoon	fragment of debugging
+<reset>Consle shows a CORS error on every request to the staging API	Console shows a CORS error on every request to the staging API
+<reset>staging works fine but production throws a null pointer on checkout	staging works fine but production throws a null pointer on checkout
+<reset>endpiont returns 500 whenever the cart is emtpy	endpoint returns 500 whenever the cart is empty
+<reset>ction handler never fires when the form is submitted	ction handler never fires when the form is submitted	fragment of action
+<reset>deploymnet failed again, something about a missing env variable	deployment failed again, something about a missing env variable
+<reset>cleared the cache, restarted the server, still the same eror	cleared the cache, restarted the server, still the same error
+<reset>databse migration ran twice and now we have duplicate rows in orders	database migration ran twice and now we have duplicate rows in orders
+<reset>ndency conflict between React 18 and the old router package	ndency conflict between React 18 and the old router package	fragment of dependency
+<reset>electorde impedance was way too high on channels 12 thorugh 16	electrode impedance was way too high on channels 12 through 16
+<reset>rons in layer 5 fired way more during the task	rons in layer 5 fired way more during the task	fragment of neurons
+<reset>sigal to noise ratio dropped after we moved the rig	signal to noise ratio dropped after we moved the rig
+<reset>Channel 7 looks noisy again, probably the grounding wire	Channel 7 looks noisy again, probably the grounding wire
+<reset>Expermient 4 needs to be rerun with the new headstage	Experiment 4 needs to be rerun with the new headstage
+<reset>ording quality dropped after the cable swpa	ording quality dropped after the cable swap	fragment of recording
+<reset>anesthsia depth might explain the weird bursts in session 3	anesthesia depth might explain the weird bursts in session 3
+<reset>firing rates went up during the reward period, which is what we expected	firing rates went up during the reward period, which is what we expected
+<reset>atleast three mice showed the same theta pattern	at␣least three mice showed the same theta pattern	space insertion
+<reset>also the spike sorting for mouse 4 needs another pass befroe Friday	also the spike sorting for mouse 4 needs another pass before Friday

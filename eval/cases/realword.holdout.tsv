@@ -1,0 +1,126 @@
+# realword.holdout.tsv - real-word slips (a valid word typed for another valid word), holdout split: coursework/club messages, support and scheduling email, product feedback, texting about plans/food/travel
+# format: typed<TAB>expected<TAB>note; note = left|right (does the text before the slip already give it away) then typed->meant; two-slip lines list both, separated by "; "
+I got an email form the registrar about my spring enrollment.	I got an email from the registrar about my spring enrollment.	left form->from
+Did the instructors say the would post the midterm grades tonight?	Did the instructors say they would post the midterm grades tonight?	right the->they
+Can you send me you notes from Tuesday's lecture?	Can you send me your notes from Tuesday's lecture?	left you->your
+Please visit out club website for the updated practice schedule.	Please visit our club website for the updated practice schedule.	left out->our
+Let me know of you can cover my slot at the club booth.	Let me know if you can cover my slot at the club booth.	right of->if
+We went though every slide twice before the presentation.	We went through every slide twice before the presentation.	left though->through
+do you know were the study group is meeting tonight?	do you know where the study group is meeting tonight?	left were->where
+i tired to register but the class was already full	i tried to register but the class was already full	left tired->tried
+The library is really quite on Friday afternoons, let's study there.	The library is really quiet on Friday afternoons, let's study there.	right quite->quiet
+The world limit for the reflection essay is 800, right?	The word limit for the reflection essay is 800, right?	right world->word
+what time dose the review session start tomorrow?	what time does the review session start tomorrow?	left dose->does
+Is the filed trip to the observatory still happening on the 14th?	Is the field trip to the observatory still happening on the 14th?	right filed->field
+The new treasurer is way better then I expected at tracking receipts.	The new treasurer is way better than I expected at tracking receipts.	left then->than
+We voted on the budget and than ordered pizza for everyone.	We voted on the budget and then ordered pizza for everyone.	left than->then
+I don't want to loose points for a late submission again.	I don't want to lose points for a late submission again.	left loose->lose
+Will missing one quiz effect my final grade?	Will missing one quiz affect my final grade?	left effect->affect
+The only think left to write is the bibliography.	The only thing left to write is the bibliography.	left think->thing
+Is he same room booked for Friday's rehearsal?	Is the same room booked for Friday's rehearsal?	right he->the
+I convinced then to extend the deadline by two days.	I convinced them to extend the deadline by two days.	left then->them
+My shirt at the tutoring center starts at nine tomorrow.	My shift at the tutoring center starts at nine tomorrow.	right shirt->shift
+I want to lean more about the exchange program in Kyoto.	I want to learn more about the exchange program in Kyoto.	right lean->learn
+i made a pool so we can pick a time for the officer meeting	i made a poll so we can pick a time for the officer meeting	right pool->poll
+The sign-up from closes at midnight, so fill it out today.	The sign-up form closes at midnight, so fill it out today.	left from->form
+Our advisor wants is to submit the event budget by Friday.	Our advisor wants us to submit the event budget by Friday.	left is->us
+We own the debate tournament 3-1 last night!	We won the debate tournament 3-1 last night!	right own->won
+the meeting ran a lot longer than i though	the meeting ran a lot longer than i thought	left though->thought
+Does anyone now of the quiz is open notes?	Does anyone know if the quiz is open notes?	left now->know; right of->if
+The lab is neat the north gate, so do no use the main entrance.	The lab is near the north gate, so do not use the main entrance.	right neat->near; right no->not
+Thank you for you patience while we look into this.	Thank you for your patience while we look into this.	left you->your
+My order as not arrived and the tracking page is blank.	My order has not arrived and the tracking page is blank.	left as->has
+Please let me now which time works best for your team.	Please let me know which time works best for your team.	left now->know
+We ran our of stock sooner than expected and apologize for the delay.	We ran out of stock sooner than expected and apologize for the delay.	right our->out
+Would Tuesday of Wednesday afternoon work for a short call?	Would Tuesday or Wednesday afternoon work for a short call?	left of->or
+Your replacement should arrive in there to five business days.	Your replacement should arrive in three to five business days.	left there->three
+Could you conform the delivery address before we ship the order?	Could you confirm the delivery address before we ship the order?	right conform->confirm
+Our office is close on public holidays, so please call back Tuesday.	Our office is closed on public holidays, so please call back Tuesday.	right close->closed
+I would also like too update the email on my account.	I would also like to update the email on my account.	left too->to
+Do you have an availability on the morning of the 12th?	Do you have any availability on the morning of the 12th?	right an->any
+I can met at 2 pm on Thursday if that suits you.	I can meet at 2 pm on Thursday if that suits you.	left met->meet
+I'll follow up latter this week with the signed form.	I'll follow up later this week with the signed form.	left latter->later
+I am still waiting in a reply from your billing team.	I am still waiting on a reply from your billing team.	right in->on
+I got and order confirmation email but no tracking number.	I got an order confirmation email but no tracking number.	left and->an
+Please reply buy Friday so we can hold your reservation.	Please reply by Friday so we can hold your reservation.	left buy->by
+I an out of the office until Monday, could we meet Tuesday?	I am out of the office until Monday, could we meet Tuesday?	left an->am
+Thank you for the advise, the router works now.	Thank you for the advice, the router works now.	left advise->advice
+I am now sure whether the refund went through, could you check?	I am not sure whether the refund went through, could you check?	right now->not
+Unfortunately the 3 pm slot is now longer available.	Unfortunately the 3 pm slot is no longer available.	right now->no
+Please forward the signed contract to is.	Please forward the signed contract to us.	left is->us
+Can you team call me back when the have an answer?	Can your team call me back when they have an answer?	right you->your; right the->they
+Please sing both pages an return them by Friday.	Please sign both pages and return them by Friday.	right sing->sign; left an->and
+Thanks or the quick reply, I'll send the from back today.	Thanks for the quick reply, I'll send the form back today.	left or->for; left from->form
+I absolutely live the new dark mode, it's so much easier on my eyes.	I absolutely love the new dark mode, it's so much easier on my eyes.	right live->love
+The app crashes very time I open the camera.	The app crashes every time I open the camera.	right very->every
+I found a big in the checkout flow on Android.	I found a bug in the checkout flow on Android.	right big->bug
+The front is too small to read on my phone.	The font is too small to read on my phone.	right front->font
+Search is much faster not, great job on the update.	Search is much faster now, great job on the update.	left not->now
+The export took is broken since version 3.2.	The export tool is broken since version 3.2.	right took->tool
+It would be mice to have keyboard shortcuts for tagging.	It would be nice to have keyboard shortcuts for tagging.	left mice->nice
+Can I sue the same license on two computers?	Can I use the same license on two computers?	right sue->use
+The onboarding is quit confusing for first-time users.	The onboarding is quite confusing for first-time users.	left quit->quite
+Please ad an option to export as PDF.	Please add an option to export as PDF.	left ad->add
+The free tire has no export feature, so I can't really test the product.	The free tier has no export feature, so I can't really test the product.	right tire->tier
+I'd pay for a pan with offline maps included.	I'd pay for a plan with offline maps included.	right pan->plan
+love the redesign, bit the calendar view is slower now	love the redesign, but the calendar view is slower now	left bit->but
+It's had to tell which filters are active.	It's hard to tell which filters are active.	right had->hard
+The price went up but the features are the sane.	The price went up but the features are the same.	left sane->same
+The strap feels lose after a week of use.	The strap feels loose after a week of use.	left lose->loose
+The good was cold when it arrived and the fries were soggy.	The food was cold when it arrived and the fries were soggy.	right good->food
+Did the last update fox the login loop?	Did the last update fix the login loop?	left fox->fix
+The search bar should be at the tip of the screen.	The search bar should be at the top of the screen.	right tip->top
+one or the best budgeting apps i've tried	one of the best budgeting apps i've tried	right or->of
+My free trail ended yesterday but I was charged a week ago.	My free trial ended yesterday but I was charged a week ago.	left trail->trial
+The app is great, I use it every say.	The app is great, I use it every day.	left say->day
+I thing the new update is slower then the last one.	I think the new update is slower than the last one.	left thing->think; left then->than
+The knew version looks great on my tablet.	The new version looks great on my tablet.	left knew->new
+It tool me a while to fine the export button.	It took me a while to find the export button.	left tool->took; left fine->find
+The order arrived tow days late and one if the cups was cracked.	The order arrived two days late and one of the cups was cracked.	left tow->two; left if->of
+we arrived her around noon and the line was already huge	we arrived here around noon and the line was already huge	left her->here
+is that you car parked outside or someone else's?	is that your car parked outside or someone else's?	right you->your
+i'll text your when my train gets in	i'll text you when my train gets in	right your->you
+The desert was amazing, I had two slices of the cheesecake.	The dessert was amazing, I had two slices of the cheesecake.	right desert->dessert
+my light got delayed two hours so don't rush to the airport	my flight got delayed two hours so don't rush to the airport	right light->flight
+My plan lands at 6:40, can you still pick me up?	My plane lands at 6:40, can you still pick me up?	right plan->plane
+how was your tip to Osaka? send pics!	how was your trip to Osaka? send pics!	right tip->trip
+i'd love to come buy i have work until nine	i'd love to come but i have work until nine	right buy->but
+i let my umbrella at your place, can you bring it tomorrow?	i left my umbrella at your place, can you bring it tomorrow?	right let->left
+it too us three hours to get through security	it took us three hours to get through security	right too->took
+i'll bring my cat so we can all drive up together	i'll bring my car so we can all drive up together	right cat->car
+we had lunch and the we walked along the river for an hour	we had lunch and then we walked along the river for an hour	right the->then
+i told the we would be there by eight	i told them we would be there by eight	right the->them
+how may people are coming to the barbecue?	how many people are coming to the barbecue?	right may->many
+it's quiet a long drive, so let's leave early	it's quite a long drive, so let's leave early	right quiet->quite
+i think its going to rain, bring a jacket	i think it's going to rain, bring a jacket	right its->it's
+i gave a dentist appointment at three, can we do four?	i have a dentist appointment at three, can we do four?	right gave->have
+can you ring the cooler and some ice?	can you bring the cooler and some ice?	right ring->bring
+wait right her, i'll be down in ten	wait right here, i'll be down in ten	left her->here
+do you want to grab diner after the movie?	do you want to grab dinner after the movie?	left diner->dinner
+sounds food to me, see you at 7	sounds good to me, see you at 7	left food->good
+i need to but train tickets before prices go up	i need to buy train tickets before prices go up	left but->buy
+let's go put for sushi tonight, my treat	let's go out for sushi tonight, my treat	right put->out
+i are way too much at the buffet	i ate way too much at the buffet	left are->ate
+turn eight after the bridge and the cafe is on the corner	turn right after the bridge and the cafe is on the corner	left eight->right
+the hiking trial was muddy but the view was worth it	the hiking trail was muddy but the view was worth it	left trial->trail
+we walked for hours and them found the cutest noodle shop	we walked for hours and then found the cutest noodle shop	left them->then
+even tough it rained, the festival was great	even though it rained, the festival was great	left tough->though
+which on do you want, the spicy or the mild?	which one do you want, the spicy or the mild?	left on->one
+the restaurant changed it's menu again	the restaurant changed its menu again	left it's->its
+the weather us perfect for a picnic	the weather is perfect for a picnic	left us->is
+ok heading out the door right not	ok heading out the door right now	left not->now
+the pizza place closes a ten so we should hurry	the pizza place closes at ten so we should hurry	left a->at
+i night be a little late, the bus is stuck	i might be a little late, the bus is stuck	left night->might
+i my be a few minutes late	i may be a few minutes late	left my->may
+it cold rain later so bring a jacket	it could rain later so bring a jacket	left cold->could
+we go there ever summer with my cousins	we go there every summer with my cousins	left ever->every
+thanks do much for dinner last night!	thanks so much for dinner last night!	left do->so
+i'll he there in five, order me a latte	i'll be there in five, order me a latte	left he->be
+i'll all you when i get to the hotel	i'll call you when i get to the hotel	left all->call
+that rooftop bar is so cook	that rooftop bar is so cool	left cook->cool
+i hot us a table for for at 7:30	i got us a table for four at 7:30	left hot->got; left for->four
+we where going to walk but its raining, so let's take the bus	we were going to walk but it's raining, so let's take the bus	left where->were; right its->it's
+do you know were we ate meeting for dinner?	do you know where we are meeting for dinner?	left were->where; right ate->are
+we got of the train one stop to early	we got off the train one stop too early	left of->off; right to->too
+i'm so tried, can we met an hour later?	i'm so tired, can we meet an hour later?	left tried->tired; left met->meet
+ok see you very son, i'm almost there	ok see you very soon, i'm almost there	left son->soon

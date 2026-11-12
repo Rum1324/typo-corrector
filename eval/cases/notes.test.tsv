@@ -1,0 +1,132 @@
+# notes.test.tsv - technical study notes, Set B topics
+# format: typed<TAB>expected<TAB>optional note
+- standup moved to 10am, need to updtae the sprint boatd before then	- standup moved to 10am, need to update the sprint board before then
+- reread the attenttion paper, the softmax scaling part finally makes snese	- reread the attention paper, the softmax scaling part finally makes sense
+- manager wnats a short summry of the GPU budget by Friday	- manager wants a short summary of the GPU budget by Friday
+- meeting notes: we agreed to freeze the config until the deml is done	- meeting notes: we agreed to freeze the config until the demo is done
+- ask Tom whether the staging server is stil running on localhost:8080	- ask Tom whether the staging server is still running on localhost:8080
+- retro: too many meetimgs, not enough focus time	- retro: too many meetings, not enough focus time
+- the quarterly review got pushed back again, honestly fine by me	- the quarterly review got pushed back again, honestly fine by me
+- need to schdule a call with the vendor about the yaml schema	- need to schedule a call with the vendor about the yaml schema
+- Priya said the onboarding docs are outdatd and kind of confusinh	- Priya said the onboarding docs are outdated and kind of confusing
+- don't forget to reply to the recruiter abuot the internshhip	- don't forget to reply to the recruiter about the internship
+- grocery list: oat milk, eggs, spinsch, bananas, coffe filters	- grocery list: oat milk, eggs, spinach, bananas, coffee filters
+- need a new USB-C cable, the old one only charges at weird angles	- need a new USB-C cable, the old one only charges at weird angles
+- compsre prices for the standing desk before the sale ends	- compare prices for the standing desk before the sale ends
+- returned the headphones, the refund should show up in 5-7 bussiness days	- returned the headphones, the refund should show up in 5-7 business days
+- buy a second monitor? would help with debuging but it's expensivr	- buy a second monitor? would help with debugging but it's expensive
+- shampoo, toothpaste, laundry detergemt, trash bags	- shampoo, toothpaste, laundry detergent, trash bags
+- the mechanical keyboard I orderwd is backordred until December	- the mechanical keyboard I ordered is backordered until December
+- found a cheap secondhand chair, picking it up tomoorow	- found a cheap secondhand chair, picking it up tomorrow
+watched Arrival again, the linguistics angle still holds up	watched Arrival again, the linguistics angle still holds up
+- that soundtrack is perfect for deep work, add it to the focus playliist	- that soundtrack is perfect for deep work, add it to the focus playlist
+- movie night lisst: Her, Ex Machina, and maybe somthing lighter	- movie night list: Her, Ex Machina, and maybe something lighter
+- the concert tickets sold out in like four minuets	- the concert tickets sold out in like four minutes	realword
+- listening to lo-fi while coding is basicaly my whole personalitu now	- listening to lo-fi while coding is basically my whole personality now
+- the documentary on memory consolidation was surprisingly good, recommend it to Sam since he keeps asking about sleep and the hippocampus	- the documentary on memory consolidation was surprisingly good, recommend it to Sam since he keeps asking about sleep and the hippocampus
+- album reviiew for the blog, need to fnish the draft by Sunday	- album review for the blog, need to finish the draft by Sunday
+- slept 5 hours agin, my sleep routien is a mess	- slept 5 hours again, my sleep routine is a mess
+- dentist appointment at 3pm, bring the insueance card	- dentist appointment at 3pm, bring the insurance card
+- started running 3x a week, knees are a bit sorre	- started running 3x a week, knees are a bit sore
+- doctor said my vitamin D is low, take supplements with breakfasr	- doctor said my vitamin D is low, take supplements with breakfast
+- caffeine after 4pm wrecjs my sleep, cut it out completly	- caffeine after 4pm wrecks my sleep, cut it out completely
+- physio exerrcises: 3 sets of 12, focus on posture and breahting	- physio exercises: 3 sets of 12, focus on posture and breathing
+- headaches might be from screen time, try the 20-20-20 rule	- headaches might be from screen time, try the 20-20-20 rule
+- drink more water, I keep forgeting during long coding sessions	- drink more water, I keep forgetting during long coding sessions
+- moving checklist: boxes, tape, label everything by roon	- moving checklist: boxes, tape, label everything by room
+- call the utility company to transfet the electricty account	- call the utility company to transfer the electricity account
+the new apartment is closer to the lab, maybe 15 minutes by bike	the new apartment is closer to the lab, maybe 15 minutes by bike
+- landlord wants the depposit and first month upfrnot	- landlord wants the deposit and first month upfront
+- need to update my adress on the bank app and with the univrsity	- need to update my address on the bank app and with the university
+- packed the books and the desktop, still need to dismanntle the bed frame	- packed the books and the desktop, still need to dismantle the bed frame
+- internet installation is scheduled for next weke	- internet installation is scheduled for next week
+- ask Jordan if I can borrw their car for the hwavy boxes	- ask Jordan if I can borrow their car for the heavy boxes
+- the kitchen is tiny but the natural light is amazinf	- the kitchen is tiny but the natural light is amazing
+- hackathon idea: a tokenizer visualizer that shows how BPE merges work	- hackathon idea: a tokenizer visualizer that shows how BPE merges work
+- team of four, I'm on the backkend and Sam does the fronted	- team of four, I'm on the backend and Sam does the frontend	realword
+- need to set up the repo and the CI pipeline beforw kickoff	- need to set up the repo and the CI pipeline before kickoff
+- the demo crashed becuase the async handler never awaited the respone	- the demo crashed because the async handler never awaited the response
+- judges liked the embeddings expkorer but said the UI was clutterd	- judges liked the embeddings explorer but said the UI was cluttered
+- slept 3 hours, ate way too much pizza, still the best wekend in months	- slept 3 hours, ate way too much pizza, still the best weekend in months
+- post-mortem: we spent too lonng on auth, should have used a mock servr	- post-mortem: we spent too long on auth, should have used a mock server
+- won second place! prize is a gift card and some cloud credits	- won second place! prize is a gift card and some cloud credits
+- clean up the hackathon code and write a proper READNE before archiving	- clean up the hackathon code and write a proper README before archiving
+- paper on Hebbian plasticity in recurrent nets, the derivation in section 3 is dense	- paper on Hebbian plasticity in recurrent nets, the derivation in section 3 is dense
+- the authprs claim the dendrite model outperfroms the baseline but n is tiny	- the authors claim the dendrite model outperforms the baseline but n is tiny
+- reading group pickd a paper on synaptic puning for next week	- reading group picked a paper on synaptic pruning for next week
+- figure 4 is confusing, the y axis is in mV but the caption says spikes per second	- figure 4 is confusing, the y axis is in mV but the caption says spikes per second
+- the related work section is basically a list of LSTM variants, skimmed it quickky	- the related work section is basically a list of LSTM variants, skimmed it quickly
+- key idea: backprop through time is too expensive for long sequnces, so they truncatte it	- key idea: backprop through time is too expensive for long sequences, so they truncate it
+- the supplemntary materail has the full hyperparameters table	- the supplementary material has the full hyperparameters table
+- citation for the axon conduction velocity claim is missinf, check the orignal source	- citation for the axon conduction velocity claim is missing, check the original source
+- reproduced figure 2 in PyTorch, nuumbers are close but not identicl	- reproduced figure 2 in PyTorch, numbers are close but not identical
+- question for the authors: why ReLU instead of a smoother nonlinarity?	- question for the authors: why ReLU instead of a smoother nonlinearity?
+- bruch with Maya and Leo on Saturday, somewhere neat the farmers market	- brunch with Maya and Leo on Saturday, somewhere near the farmers market	realword
+- hiking trip is still on if the weather coopperates	- hiking trip is still on if the weather cooperates
+- Leo's birthdsy is coming up, get him a board game or a nice notbook	- Leo's birthday is coming up, get him a board game or a nice notebook
+- game night at my place, need snacks and extra chaors	- game night at my place, need snacks and extra chairs
+told Maya I'd help her move next weekend, so no lab work then	told Maya I'd help her move next weekend, so no lab work then
+- weekend plan: launddry, gym, finish the novel, call my parnets	- weekend plan: laundry, gym, finish the novel, call my parents
+- the escape room was hard, we got out with two minutes to sparw	- the escape room was hard, we got out with two minutes to spare
+- maybe go to the beach if it's warm enougj	- maybe go to the beach if it's warm enough
+- shift at the cafe tomorrow 7-12, set an alarm for 6	- shift at the cafe tomorrow 7-12, set an alarm for 6
+- manager asked if I can cover extra hours during finals, probaly not	- manager asked if I can cover extra hours during finals, probably not
+- tutoring session: explained recursiom with a stack diagram, the student finaly got it	- tutoring session: explained recursion with a stack diagram, the student finally got it
+- timesheet due every other Friday and I keep missing the deadlinee	- timesheet due every other Friday and I keep missing the deadline
+- the register sofrware froze twice today, told the supervisor	- the register software froze twice today, told the supervisor
+- paychecck was short by two hours, need to emial HR about it	- paycheck was short by two hours, need to email HR about it
+- grading for the intro CS class: 40 submissions, most fail the regex questiom	- grading for the intro CS class: 40 submissions, most fail the regex question
+- hackathon backend: FastAPI on localhost, json respnses, cache the embeddigs	- hackathon backend: FastAPI on localhost, json responses, cache the embeddings
+- the tokenizer splits "neuroscience" into three pieces, wierd but fine	- the tokenizer splits "neuroscience" into three pieces, weird but fine
+- learning rate 3e-4, batch size 64, dropout 0.1 - those hyperparameters wroked best	- learning rate 3e-4, batch size 64, dropout 0.1 - those hyperparameters worked best
+- GPU memory keeps running out, try grsdient checkpointing or a smaler batch	- GPU memory keeps running out, try gradient checkpointing or a smaller batch
+- the softmax outputs are all near uniform, probably a bug in the masking logix	- the softmax outputs are all near uniform, probably a bug in the masking logic
+- membrane potential rests around -70 mV, spike threshold roughly -55 mV	- membrane potential rests around -70 mV, spike threshold roughly -55 mV
+- firing rate peakeed at 40 Hz during the stimlus window	- firing rate peaked at 40 Hz during the stimulus window
+- e.g. an LSTM forgets long range dependencies unless you tune the forget gate bais	- e.g. an LSTM forgets long range dependencies unless you tune the forget gate bias
+- config lives in config.yaml, secrets in .env, never commit the latter	- config lives in config.yaml, secrets in .env, never commit the latter
+- the data loader is doing way too much in one functiin	- the data loader is doing way too much in one function
+- regex for the log parser: match the timestamps, then grab the request id	- regex for the log parser: match the timestamps, then grab the request id
+- PyTorch version mismatcch broke everything, pinned it in the requirments file	- PyTorch version mismatch broke everything, pinned it in the requirements file
+- the axon initial segment is where action potentiald usually intiate	- the axon initial segment is where action potentials usually initiate
+- Hebbian rule: cells that fire togther wire together, i.e. correlation strenghtens synapses	- Hebbian rule: cells that fire together wire together, i.e. correlation strengthens synapses
+- remind myself to back up the vault before reorganizing the folders	- remind myself to back up the vault before reorganizing the folders
+- Obsidian sync is acting up again, the graph view shows duplicate notess	- Obsidian sync is acting up again, the graph view shows duplicate notes
+- moved all the paper notes under [[Reading]] and tagged them #toread	- moved all the paper notes under [[Reading]] and tagged them #toread
+- [[Hackathon 2026]] retro: xommunication was good, scope was way too ambitous	- [[Hackathon 2026]] retro: communication was good, scope was way too ambitious
+- link this to [[Synaptic Plasticity]] and teh #neuro tag when I have tiem	- link this to [[Synaptic Plasticity]] and the #neuro tag when I have time
+- #health tryign to walk 8k steps a day, so far so good	- #health trying to walk 8k steps a day, so far so good
+- #moving the movers quoted way more than expected, might just rent a vam	- #moving the movers quoted way more than expected, might just rent a van
+- #work wekly sync notes are in [[Meetings/2026-11]], need to clena them up	- #work weekly sync notes are in [[Meetings/2026-11]], need to clean them up
+- reading list for the break: two neuroscience books and one sci-fi noveel	- reading list for the break: two neuroscience books and one sci-fi novel
+weekend: farmers market, then helping Sam assemble his IKEA shelf	weekend: farmers market, then helping Sam assemble his IKEA shelf
+THe new office has standing desks and terrible coffee	The new office has standing desks and terrible coffee	caps slip
+- WHy does the backprop step take 10x longer on the laptop than on the server?	- Why does the backprop step take 10x longer on the laptop than on the server?	caps slip
+- totally blanked on LSTM gates in the interview. NExt time review first	- totally blanked on LSTM gates in the interview. Next time review first	caps slip
+- need to buy a lamp forthe new bedroom	- need to buy a lamp for␣the new bedroom	merged words
+<reset>the async worker retries three times andthen gives up silently	the async worker retries three times and␣then gives up silently	merged words
+- meet the team atthe library at noon to finish the slides	- meet the team at␣the library at noon to finish the slides	merged words
+- tell Jordan I can't make it, I have a shift form 5 to 9	- tell Jordan I can't make it, I have a shift from 5 to 9	realword
+- the cafe hired two new peple so my hours might get cut, witch is fine	- the cafe hired two new people so my hours might get cut, which is fine	realword
+Teh line for the concert was massive last tine, get there early	The line for the concert was massive last time, get there early	realword
+- the landlord finally sent the lease, need to read the fine print	- the landlord finally sent the lease, need to read the fine print
+- apratmnet viewing at 6, bring ID and proof of income	- apartment viewing at 6, bring ID and proof of income
+- the presntaiton for lab meeting is on spike sorting, keep it under 15 minutes and leave time for questions at the end	- the presentation for lab meeting is on spike sorting, keep it under 15 minutes and leave time for questions at the end
+- need to find acomodation for the conference in March	- need to find accommodation for the conference in March
+- the comitee wants a one page summary of the projct	- the committee wants a one page summary of the project
+- watched a tuotrail on writing custom autograd functions	- watched a tutorial on writing custom autograd functions
+- set the hyperparamtres in the yaml file instead of hardcoding them	- set the hyperparameters in the yaml file instead of hardcoding them
+- is the GPU node even avialabe this week?	- is the GPU node even available this week?
+such an intrestign talk on grid cells today	such an interesting talk on grid cells today
+- the resturnat near the new place does great ramen	- the restaurant near the new place does great ramen
+- lost the reciet for the desk lamp, hope they still take returns	- lost the receipt for the desk lamp, hope they still take returns
+- the documetnaiton for the tokenizer library is basically nonexistent	- the documentation for the tokenizer library is basically nonexistent
+- need to buy frunitrue for the living room, start with a couch	- need to buy furniture for the living room, start with a couch
+- ran the expreimnet twice and got different results, set the random seed	- ran the experiment twice and got different results, set the random seed
+- the neccesary forms for the visa renewal are in the shared folder	- the necessary forms for the visa renewal are in the shared folder
+- pay rent	- pay rent
+- call the dentsit	- call the dentist
+<reset>and the spike train looks way noisier after filtering, which is odd	and the spike train looks way noisier after filtering, which is odd
+<reset>but the json parser chokes on trailing commas, need a quick fix	but the json parser chokes on trailing commas, need a quick fix
+<reset>the fridge, the washing machine, and the microwave are all included	the fridge, the washing machine, and the microwave are all included
+- Sam recommended an ambient album that's perfect for focused readign	- Sam recommended an ambient album that's perfect for focused reading

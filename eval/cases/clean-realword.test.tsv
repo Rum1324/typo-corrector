@@ -1,0 +1,162 @@
+# clean-realword.test.tsv - correct sentences using words that look like real-word slips (no typos; any change is a false correction), test split: notes and to-do lists, journal, technical Q&A, code review
+# format: typed<TAB>expected<TAB>note; typed == expected, note = the word being tested
+Print the consent form and sign it before the appointment on Tuesday.	Print the consent form and sign it before the appointment on Tuesday.	form
+The feedback form from the workshop is still open until Friday.	The feedback form from the workshop is still open until Friday.	form
+Each form field needs a label so screen readers can announce it.	Each form field needs a label so screen readers can announce it.	form
+Does the form submit twice if the user double clicks the button?	Does the form submit twice if the user double clicks the button?	form
+Clouds form over the ridge every afternoon around three.	Clouds form over the ridge every afternoon around three.	form
+The values range from zero to one after scaling.	The values range from zero to one after scaling.	from
+I hope you find your keys before the taxi arrives.	I hope you find your keys before the taxi arrives.	you
+This gives you control over how the jobs are scheduled.	This gives you control over how the jobs are scheduled.	you
+I sent you feedback on the second draft this morning.	I sent you feedback on the second draft this morning.	you
+I'll send you the notes after I clean them up tonight.	I'll send you the notes after I clean them up tonight.	you
+Did you get your results back from the lab yet?	Did you get your results back from the lab yet?	your
+Thank you for your help with the migration script.	Thank you for your help with the migration script.	your
+we ran out of coffee again, add it to the list	we ran out of coffee again, add it to the list	out
+Take out the trash and the recycling before eight.	Take out the trash and the recycling before eight.	out
+Move the constant out of the loop and into our config module.	Move the constant out of the loop and into our config module.	out
+Sort out our travel insurance before booking the flights.	Sort out our travel insurance before booking the flights.	our
+It turned out our cache key ignored the locale.	It turned out our cache key ignored the locale.	our
+We set our alarm for five to catch the first ferry.	We set our alarm for five to catch the first ferry.	our
+Mix the dry ingredients first, then add the milk slowly.	Mix the dry ingredients first, then add the milk slowly.	then
+We had more time then, and far fewer meetings.	We had more time then, and far fewer meetings.	then
+I would rather walk than wait twenty minutes for the bus.	I would rather walk than wait twenty minutes for the bus.	than
+Other than the typo in the heading, the page looks ready.	Other than the typo in the heading, the page looks ready.	than
+They said the delivery would come between noon and four.	They said the delivery would come between noon and four.	they
+do they still sell the oat bread at the corner bakery?	do they still sell the oat bread at the corner bakery?	they
+I asked the reviewers whether they had seen the earlier thread.	I asked the reviewers whether they had seen the earlier thread.	they
+Tell them the meeting moved to Thursday at ten.	Tell them the meeting moved to Thursday at ten.	them
+I gave them the spare key and the alarm code.	I gave them the spare key and the alarm code.	them
+put the mugs back where you found them	put the mugs back where you found them	them
+The longer the test runs, the more memory it uses.	The longer the test runs, the more memory it uses.	the
+There are three open issues left in the milestone.	There are three open issues left in the milestone.	three
+Is there a reason their tests are skipped on Windows?	Is there a reason their tests are skipped on Windows?	their
+Their dog barks every time there is a delivery.	Their dog barks every time there is a delivery.	there
+We got there three hours early and the gate was still closed.	We got there three hours early and the gate was still closed.	there
+All three workers read from the same queue.	All three workers read from the same queue.	three
+Sign here and here, then initial the last page.	Sign here and here, then initial the last page.	here
+Her notes are here on the shared drive under planning.	Her notes are here on the shared drive under planning.	her
+I think her approach here is cleaner than mine.	I think her approach here is cleaner than mine.	her
+I told her here was fine for the drop-off.	I told her here was fine for the drop-off.	here
+It was quite quiet in the library for a Saturday.	It was quite quiet in the library for a Saturday.	quiet
+The fan is quiet enough that I forget it is running.	The fan is quiet enough that I forget it is running.	quiet
+That is quite a lot of memory for such a small model.	That is quite a lot of memory for such a small model.	quite
+The results are not quite what I expected from the paper.	The results are not quite what I expected from the paper.	quite
+The trail was muddy, so we turned back at the second bridge.	The trail was muddy, so we turned back at the second bridge.	trail
+The audit trail shows who changed the record and when.	The audit trail shows who changed the record and when.	trail
+The trial period ends on the 30th, cancel before then.	The trial period ends on the 30th, cancel before then.	trial
+Each trial uses a different random seed and learning rate.	Each trial uses a different random seed and learning rate.	trial
+Where were you when the build broke last night?	Where were you when the build broke last night?	were
+I was not sure where we were supposed to park.	I was not sure where we were supposed to park.	where
+If I were you I would run the tests before pushing.	If I were you I would run the tests before pushing.	were
+we're almost out of stamps, add them to the list	we're almost out of stamps, add them to the list	we're
+They were worried that we're moving too fast on the rewrite.	They were worried that we're moving too fast on the rewrite.	we're
+The tool keeps its cache in the home directory.	The tool keeps its cache in the home directory.	its
+It's only slow the first time, before its cache is warm.	It's only slow the first time, before its cache is warm.	its
+I think it's time to archive the old repository.	I think it's time to archive the old repository.	it's
+The estimate is off by a factor of two.	The estimate is off by a factor of two.	off
+Took Friday off to finish painting the hallway.	Took Friday off to finish painting the hallway.	off
+Half of the tests take most of the time.	Half of the tests take most of the time.	of
+The fix depends on whether the flag is on in production.	The fix depends on whether the flag is on in production.	on
+Log in on the staging server and check the disk usage.	Log in on the staging server and check the disk usage.	in
+Only run the migration if it is safe to retry.	Only run the migration if it is safe to retry.	if
+What if it rains on the day of the move?	What if it rains on the day of the move?	if
+The problem is us, not the tooling.	The problem is us, not the tooling.	us
+Let us know if the instructions are unclear.	Let us know if the instructions are unclear.	us
+Most of us think the deadline is realistic.	Most of us think the deadline is realistic.	us
+I know now why the cron job never fired.	I know now why the cron job never fired.	now
+It is not ready now, but it will be by Friday.	It is not ready now, but it will be by Friday.	not
+There is no way to know without profiling it.	There is no way to know without profiling it.	no
+not now, we are in the middle of a deploy	not now, we are in the middle of a deploy	not
+I now know better than to deploy on a Friday.	I now know better than to deploy on a Friday.	know
+It is too early to tell whether the two runs differ.	It is too early to tell whether the two runs differ.	too
+Give the two of them time to settle in too.	Give the two of them time to settle in too.	two
+Send it to the two reviewers on the infra team.	Send it to the two reviewers on the infra team.	two
+The first thing I think about in the morning is coffee.	The first thing I think about in the morning is coffee.	thing
+I do not think that thing has ever worked.	I do not think that thing has ever worked.	think
+I thought it through, though, and the simpler option still wins.	I thought it through, though, and the simpler option still wins.	through
+Even though it passed, I thought the test was too weak.	Even though it passed, I thought the test was too weak.	though
+We drove through the night to get there by morning.	We drove through the night to get there by morning.	through
+A thought: could we skip the cache for small inputs?	A thought: could we skip the cache for small inputs?	thought
+We might lose the connection if the tunnel is long.	We might lose the connection if the tunnel is long.	lose
+The lid is loose, so keep the jar upright.	The lid is loose, so keep the jar upright.	loose
+A loose cable was the whole problem.	A loose cable was the whole problem.	loose
+It took an hour and a half to find an off-by-one error.	It took an hour and a half to find an off-by-one error.	an
+Add an index and an explicit sort order.	Add an index and an explicit sort order.	and
+She has as much context on this as anyone.	She has as much context on this as anyone.	as
+It was as bad as I had feared.	It was as bad as I had feared.	was
+The build has passed twice, as expected.	The build has passed twice, as expected.	has
+He said she would call back after lunch.	He said she would call back after lunch.	she
+She told me he had already left for the airport.	She told me he had already left for the airport.	he
+We cannot make a causal claim from observational data alone.	We cannot make a causal claim from observational data alone.	causal
+He started martial arts classes on Tuesday evenings.	He started martial arts classes on Tuesday evenings.	martial
+Cut out dairy for two weeks and see if the headaches stop.	Cut out dairy for two weeks and see if the headaches stop.	dairy
+Wrote in my diary for the first time since June.	Wrote in my diary for the first time since June.	diary
+We drove through the desert at dawn to avoid the heat.	We drove through the desert at dawn to avoid the heat.	desert
+Skip dessert tonight, there is birthday cake tomorrow.	Skip dessert tonight, there is birthday cake tomorrow.	dessert
+Top the tree with the paper angel Mia made at school.	Top the tree with the paper angel Mia made at school.	angel
+The camera angle hides the crack in the wall.	The camera angle hides the crack in the wall.	angle
+Do not sever the connection until the buffer is flushed.	Do not sever the connection until the buffer is flushed.	sever
+I tied the tarp down before the storm came through.	I tied the tarp down before the storm came through.	tied
+I tried the fix on a clean checkout and it still fails.	I tried the fix on a clean checkout and it still fails.	tried
+Too tired to cook, so we ordered soup from the place downstairs.	Too tired to cook, so we ordered soup from the place downstairs.	tired
+He grew a beard over the winter break and nobody recognized him.	He grew a beard over the winter break and nobody recognized him.	beard
+pick up bread and a dozen eggs after the gym	pick up bread and a dozen eggs after the gym	bread
+Wipe the screen with a dry cloth, not paper towels.	Wipe the screen with a dry cloth, not paper towels.	cloth
+Pick up a six pack of lager for the barbecue on Saturday.	Pick up a six pack of lager for the barbecue on Saturday.	lager
+Report the median latency, not the mean, because of the outliers.	Report the median latency, not the mean, because of the outliers.	median
+The moral of the story is to back up before upgrading.	The moral of the story is to back up before upgrading.	moral
+Team morale picked up after the release finally shipped.	Team morale picked up after the release finally shipped.	morale
+I was in a food coma for two hours after Thanksgiving dinner.	I was in a food coma for two hours after Thanksgiving dinner.	coma
+The trailing comma is allowed here, so the diff stays small.	The trailing comma is allowed here, so the diff stays small.	comma
+We let the kids wander around the market for an hour.	We let the kids wander around the market for an hour.	wander
+I wonder if the cache is the real culprit here.	I wonder if the cache is the real culprit here.	wonder
+The old oak in the yard is sacred to the family.	The old oak in the yard is sacred to the family.	sacred
+We had clam chowder by the harbor and watched the boats.	We had clam chowder by the harbor and watched the boats.	clam
+Untie the boat before starting the motor.	Untie the boat before starting the motor.	untie
+Run it on bare metal to rule out the hypervisor.	Run it on bare metal to rule out the hypervisor.	bare
+The bottom pane shows the diff and the top one shows the log.	The bottom pane shows the diff and the top one shows the log.	pane
+Take the second dose with food, around eight in the evening.	Take the second dose with food, around eight in the evening.	dose
+a moth got in through the bathroom window again	a moth got in through the bathroom window again	moth
+He sings tenor in the community choir on Thursdays.	He sings tenor in the community choir on Thursdays.	tenor
+The bank holds a lien on the car until the loan is paid off.	The bank holds a lien on the car until the loan is paid off.	lien
+Plot the sine of the angle over one full period.	Plot the sine of the angle over one full period.	sine
+baked cod with lemon and potatoes for dinner	baked cod with lemon and potatoes for dinner	cod
+Grab a pint of blueberries at the market on the way back.	Grab a pint of blueberries at the market on the way back.	pint
+The tread on the front tires is nearly gone.	The tread on the front tires is nearly gone.	tread
+Weigh the flour instead of measuring it in cups.	Weigh the flour instead of measuring it in cups.	weigh
+The doorbell rang twice while I was on a call.	The doorbell rang twice while I was on a call.	rang
+fruit flies in the kitchen again, set a vinegar trap tonight	fruit flies in the kitchen again, set a vinegar trap tonight	flies
+I filed the expense report on Monday and it was approved today.	I filed the expense report on Monday and it was approved today.	filed
+My cousin works as a rescue diver on the coast.	My cousin works as a rescue diver on the coast.	diver
+The gradient is sparse, so a sparse optimizer should help.	The gradient is sparse, so a sparse optimizer should help.	sparse
+A mere two lines fixed the memory leak.	A mere two lines fixed the memory leak.	mere
+I am fond of small pull requests with one clear purpose.	I am fond of small pull requests with one clear purpose.	fond
+Results vary a lot between seeds, so run at least five.	Results vary a lot between seeds, so run at least five.	vary
+still recovering from a bout of flu, so no gym this week	still recovering from a bout of flu, so no gym this week	bout
+Thanks for the thorough review, I fixed everything you flagged.	Thanks for the thorough review, I fixed everything you flagged.	thorough
+It is a cautionary tale about caching too early.	It is a cautionary tale about caching too early.	tale
+Breakfast at the diner near the station, then the museum.	Breakfast at the diner near the station, then the museum.	diner
+The rear brake squeaks whenever it rains.	The rear brake squeaks whenever it rains.	brake
+The full test suite takes about nine minutes on my laptop.	The full test suite takes about nine minutes on my laptop.	suite
+Of the two designs, I prefer the latter.	Of the two designs, I prefer the latter.	latter
+A herd of deer crossed the road at dusk.	A herd of deer crossed the road at dusk.	herd
+A broad except clause hides the real errors.	A broad except clause hides the real errors.	broad
+Do not alter the input list in place, return a copy.	Do not alter the input list in place, return a copy.	alter
+just a sliver of cake for me, thanks	just a sliver of cake for me, thanks	sliver
+I wore the green jacket and was still cold.	I wore the green jacket and was still cold.	wore
+The basil will wither if nobody waters it this week.	The basil will wither if nobody waters it this week.	wither
+Cite the dataset paper in the README.	Cite the dataset paper in the README.	cite
+I owe Daniel twenty dollars for lunch last week.	I owe Daniel twenty dollars for lunch last week.	owe
+We ate at the counter because the tables were full.	We ate at the counter because the tables were full.	ate
+The key is hashed and thus never stored in plain text.	The key is hashed and thus never stored in plain text.	thus
+I hid the presents behind the winter coats.	I hid the presents behind the winter coats.	hid
+We need to devise a better retry strategy for the uploader.	We need to devise a better retry strategy for the uploader.	devise
+Breathe out slowly for a count of six.	Breathe out slowly for a count of six.	breathe
+I chose the smaller model because latency matters more here.	I chose the smaller model because latency matters more here.	chose
+She led the retro and kept it to thirty minutes.	She led the retro and kept it to thirty minutes.	led
+Do not rely on dictionary order in the older runtime.	Do not rely on dictionary order in the older runtime.	rely
+The modal closes when you press escape.	The modal closes when you press escape.	modal
+It threw an error on the third row of the file.	It threw an error on the third row of the file.	threw
+Trim the excess padding around the card.	Trim the excess padding around the card.	excess
+They agreed to waive the late fee this once.	They agreed to waive the late fee this once.	waive

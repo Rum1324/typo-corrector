@@ -1,0 +1,122 @@
+# omissions.dev.tsv - every typo is an omission: dropped letter, missing half of a doubled pair, truncated ending, dropped vowel
+# columns: typed<TAB>expected<TAB>note (optional)
+I have a probem with my laptop again, it keeps freezng.	I have a problem with my laptop again, it keeps freezing.
+We need aditional samples before Friday.	We need additional samples before Friday.
+Tomorow is my mom's birthday, so I'm baking a choclate cake.	Tomorrow is my mom's birthday, so I'm baking a chocolate cake.
+Is it necesary to reserve seats on the Shinkansen?	Is it necessary to reserve seats on the Shinkansen?
+ok see you at the staton	ok see you at the station
+The ramen place near Kyoto Station was amazing.	The ramen place near Kyoto Station was amazing.
+I completly forgot to submit my assignmnt last night	I completely forgot to submit my assignment last night
+Can you sen me the slides from today's lectre?	Can you send me the slides from today's lecture?
+the test fails becaus the mock server never starts	the test fails because the mock server never starts	truncation
+My grandmoter makes the best miso soup.	My grandmother makes the best miso soup.
+We lost 2-1 but the coch said we played well.	We lost 2-1 but the coach said we played well.
+Our flight to Osaka was delayed by two hours.	Our flight to Osaka was delayed by two hours.
+Running the centrifge at 4000 rpm for ten minutes.	Running the centrifuge at 4000 rpm for ten minutes.
+Please merg the feature brach into main after review.	Please merge the feature branch into main after review.
+I realy want to try the matcha parfait in Uji.	I really want to try the matcha parfait in Uji.
+lol that was so embarassing	lol that was so embarrassing
+I'll be home late tonigt, don't wait for dinner.	I'll be home late tonight, don't wait for dinner.
+Dad says the car needs new tires before winter.	Dad says the car needs new tires before winter.
+The reviewer asked for more experments in the suplementary section.	The reviewer asked for more experiments in the supplementary section.
+I'm studing at the libary until it closes.	I'm studying at the library until it closes.
+Do you know were the ticket machines are?	Do you know where the ticket machines are?	realword
+It's my fist time in Hokkaido!	It's my first time in Hokkaido!	realword
+Can we move the meting to 3pm?	Can we move the meeting to 3pm?	realword
+Thanks for the help, I owe you one.	Thanks for the help, I owe you one.
+and then we wen to the beach	and then we went to the beach
+I'm so tird after practce today.	I'm so tired after practice today.
+The databse migration broke the login page.	The database migration broke the login page.
+I definitly recomend the eel bowl if you go to Nagoya.	I definitely recommend the eel bowl if you go to Nagoya.
+Hopefuly the weather clears up for the hike tomorrow.	Hopefully the weather clears up for the hike tomorrow.
+Let's grab lunch after the sprint review.	Let's grab lunch after the sprint review.
+Apparenty someone ordered the wrong reagnt again	Apparently someone ordered the wrong reagent again
+my sister is studying chemisty at a diffrent university	my sister is studying chemistry at a different university
+Can you add a timout to the HTTP client?	Can you add a timeout to the HTTP client?
+Who's picking up the kids from socer practice?	Who's picking up the kids from soccer practice?
+I can't belive how good the convenence store food is here.	I can't believe how good the convenience store food is here.
+Please don't push directly to main.	Please don't push directly to main.
+The temle in Nara was full of deer.	The temple in Nara was full of deer.
+Make sure the varible names are consistent acros modules.	Make sure the variable names are consistent across modules.
+Can you grab some vegtables and eggs on your way home?	Can you grab some vegetables and eggs on your way home?
+Our pitcher threw nine strong innigs yesterday.	Our pitcher threw nine strong innings yesterday.
+Profesor Tanaka extended the deadine to Monday.	Professor Tanaka extended the deadline to Monday.
+Unfortunatly the museum is closed on Mondays.	Unfortunately the museum is closed on Mondays.
+Mom wants everyone home for New Year's this year.	Mom wants everyone home for New Year's this year.
+I don't now what time the last train leaves	I don't know what time the last train leaves	realword
+We should calibrte the pipettes before the next run.	We should calibrate the pipettes before the next run.
+I'm making curry tonight, do we have any onins and potatos left?	I'm making curry tonight, do we have any onions and potatoes left?
+The swiming pool at the gym is closed for maintenace.	The swimming pool at the gym is closed for maintenance.
+My nephew turns five next week and wants a dinosur cake.	My nephew turns five next week and wants a dinosaur cake.
+The hypothsis was wrong but the data is still intresting.	The hypothesis was wrong but the data is still interesting.
+Got lost in Shibuya again lol	Got lost in Shibuya again lol
+Have you finished the vocabulry list for the quiz?	Have you finished the vocabulary list for the quiz?
+The most convenent option from Narita is the limousine bus.	The most convenient option from Narita is the limousine bus.
+I usualy go for a run before breakfst.	I usually go for a run before breakfast.
+I spent three hous debugging a missing semicolon.	I spent three hours debugging a missing semicolon.	hous: hours not house
+We ate so much sush at Tsukiji that I could barely walk.	We ate so much sushi at Tsukiji that I could barely walk.	truncation
+The incubtor alarm went off again at 2am.	The incubator alarm went off again at 2am.
+Do we need to buy a JR Pass before arriving in Japan?	Do we need to buy a JR Pass before arriving in Japan?
+Coud you call me back in a few minuts?	Could you call me back in a few minutes?
+the build is faling on CI but passes locally	the build is failing on CI but passes locally
+I have an appointmnt with the dentist on Wednsday.	I have an appointment with the dentist on Wednesday.
+The results were not statisticaly significant.	The results were not statistically significant.
+The temprature in the cold room should stay at 4 degrees.	The temperature in the cold room should stay at 4 degrees.
+We need to refactor this fuction before adding more featues.	We need to refactor this function before adding more features.
+Befor the exam I always review my flashcards one last time.	Before the exam I always review my flashcards one last time.
+Did you remember to feed the cat?	Did you remember to feed the cat?
+Our team finaly won a match this seson!	Our team finally won a match this season!
+Can you look at my pull requst when you have time?	Can you look at my pull request when you have time?
+Congratultions on passing the bar exam!	Congratulations on passing the bar exam!
+Rember to bring your student ID to the exam.	Remember to bring your student ID to the exam.
+We're out of milk and cofee.	We're out of milk and coffee.
+Our paper got acepted to the workshop!	Our paper got accepted to the workshop!
+My cousn is visiting from Fukuoka with her famly next week.	My cousin is visiting from Fukuoka with her family next week.
+Let's write unit tests for the parser first.	Let's write unit tests for the parser first.
+Alredy pushed the fix, can you pull and check?	Already pushed the fix, can you pull and check?
+My uncle started his own busness after retiring.	My uncle started his own business after retiring.
+The lab meeting was canceled since the PI is at a conferece.	The lab meeting was canceled since the PI is at a conference.
+I'm so exited for the festival this weekend!	I'm so excited for the festival this weekend!	realword
+This restaurnt only takes cash, just so you know.	This restaurant only takes cash, just so you know.
+Test coverage dropped after the last comit.	Test coverage dropped after the last commit.
+We're having grilled fish and rice for diner.	We're having grilled fish and rice for dinner.	realword
+I think I'm getting a cold, my throat is sore.	I think I'm getting a cold, my throat is sore.
+Wich platform does the Narita Express leave from?	Which platform does the Narita Express leave from?
+The questons on the midterm were way harder than the practice ones.	The questions on the midterm were way harder than the practice ones.
+I left my umbrela on the train in Kyoto.	I left my umbrella on the train in Kyoto.
+Please label every tube with the date and samle ID.	Please label every tube with the date and sample ID.
+Can you keep the recyclables seprate from the burnable trash?	Can you keep the recyclables separate from the burnable trash?
+The goalkeper made three incredble saves.	The goalkeeper made three incredible saves.
+Grandpa fell asleep during the movie again.	Grandpa fell asleep during the movie again.
+Bring your camra, the autumn leaves are beutiful right now.	Bring your camera, the autumn leaves are beautiful right now.
+Did you keep the receit for the headphones?	Did you keep the receipt for the headphones?
+Our grant renewal is due at the end of Febuary.	Our grant renewal is due at the end of February.
+The API retuns a 500 eror when the token expires.	The API returns a 500 error when the token expires.
+We stayed at a ryokan with an amzing outdoor bath.	We stayed at a ryokan with an amazing outdoor bath.
+I came in tird in the 100m today!	I came in third in the 100m today!	tird: third not tired here
+The spectrometer needs to warm up for thirty minutes.	The spectrometer needs to warm up for thirty minutes.
+I need to finish this esay by midnight.	I need to finish this essay by midnight.
+My parents are flying in on Saturday mornig, so I'm cleaning evrything.	My parents are flying in on Saturday morning, so I'm cleaning everything.
+the server keeps crashing with an out of memry error	the server keeps crashing with an out of memory error
+I'm trying to eat healthier, so no more snaks after dinner.	I'm trying to eat healthier, so no more snacks after dinner.
+Still waiting for the resul from the second run.	Still waiting for the results|result from the second run.	truncation
+Our dog chewed up my son's homwork, literally.	Our dog chewed up my son's homework, literally.
+Turn of the stove before you leave.	Turn off the stove before you leave.	realword
+I need to memorize forty kanji by Thursday.	I need to memorize forty kanji by Thursday.
+I'm almost ther, save me a seat	I'm almost there, save me a seat	truncation
+that sounds grea, count me in	that sounds great, count me in	truncation
+What's the fastest way to get to the airpor from here?	What's the fastest way to get to the airport from here?	truncation
+but the new protocol didn't wor at all	but the new protocol didn't work at all	truncation
+What time does the match star on Sunday?	What time does the match start on Sunday?	realword
+I still need to finish the repor and the slids tonight.	I still need to finish the report and the slides tonight.
+My husband is picking up the kids today.	My husband is picking up the kids today.
+It's really importan to back up your data.	It's really important to back up your data.	truncation
+let me kno when you land	let me know when you land	truncation
+I'll send you the detai later.	I'll send you the details|detail later.	truncation
+This branch needs more tes before we release it.	This branch needs more testing|tests before we release it.	truncation
+I though you were coming to the game tonight.	I thought you were coming to the game tonight.	realword
+My phone batter is almost dead.	My phone battery is almost dead.	realword
+I always forget to water the plants.	I always forget to water the plants.
+Please see the attache file for the full schedule.	Please see the attached file for the full schedule.	realword
+We're planning a trip to Hiroshim next spring.	We're planning a trip to Hiroshima next spring.	truncation
+so we pushed the release to next week	so we pushed the release to next week

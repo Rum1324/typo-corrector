@@ -1,0 +1,122 @@
+# misspellings.dev.tsv - cognitive/phonetic spelling mistakes (ie/ei, doubled letters, -ance/-ence, silent letters, schwa vowels), Set A
+# columns: typed<TAB>expected<TAB>note ; about 21% famous misspellings, the rest less famous or technical
+The landlord said I should recieve a reciept for the deposit at my new adress.	The landlord said I should receive a receipt for the deposit at my new address.
+My laundary has been sitting in the machine since this morning.	My laundry has been sitting in the machine since this morning.
+Can you pick up a new umbrela on your way home?	Can you pick up a new umbrella on your way home?
+I need to move my dentist appointmant to next Wensday.	I need to move my dentist appointment to next Wednesday.
+The furnature in the new aparment is surprisingly comfortible.	The furniture in the new apartment is surprisingly comfortable.
+What a wierd day.	What a weird day.
+Tommorow I have to clean the vaccum filter.	Tomorrow I have to clean the vacuum filter.
+Our nieghbor complained about the alledged noise from our place.	Our neighbor|neighbour complained about the alleged noise from our place.
+I keep forgeting to buy batteries untill the remote dies.	I keep forgetting to buy batteries until the remote dies.
+The rent goes up in Febuary, which is anoying.	The rent goes up in February, which is annoying.
+Honestly I was embarassed when my card got declined at the store.	Honestly I was embarrassed when my card got declined at the store.
+I put the calender on the fridge so nobody forgets the garbage days.	I put the calendar on the fridge so nobody forgets the garbage days.	realword
+I definitely received the separate invoice yesterday.	I definitely received the separate invoice yesterday.	clean
+It's a priviledge to have such quiet neighbors.	It's a privilege to have such quiet neighbors.
+Basicly I just need some liesure time this weekend.	Basically I just need some leisure time this weekend.
+We ordered spagetti and a ceasar salad to share.	We ordered spaghetti and a Caesar|caesar salad to share.
+This recipie needs a pinch of cinammon and some nutmeg.	This recipe needs a pinch of cinnamon and some nutmeg.
+The restaraunt near the station has really delicous ramen.	The restaurant near the station has really delicious ramen.
+I'm vegeterian, so I get my protien from tofu and beans.	I'm vegetarian, so I get my protein from tofu and beans.
+Add two tomatos, three potatos, and a splash of vinagar.	Add two tomatoes, three potatoes, and a splash of vinegar.
+Can you grab an avacado and some zuccini from the market?	Can you grab an avocado and some zucchini from the market?
+He always orders an esspresso after lunch.	He always orders an espresso after lunch.
+The chocolate cake we had for desert was amazing.	The chocolate cake we had for dessert was amazing.	realword
+Mix the mayonaise with a little lemon juice.	Mix the mayonnaise with a little lemon juice.
+Is tumeric the ingrediant that makes curry yellow?	Is turmeric the ingredient that makes curry yellow?
+I made a sandwhich with leftover chicken and the extra garlic was very noticable.	I made a sandwich with leftover chicken and the extra garlic was very noticeable.
+Broccolli is surprisingly nutricious.	Broccoli is surprisingly nutritious.
+I like my pasta with plenty of parmesean on top.	I like my pasta with plenty of parmesan|Parmesan on top.
+We roasted marshmellows over the campfire.	We roasted marshmallows over the campfire.
+The miso soup and grilled mackerel were perfect for breakfast.	The miso soup and grilled mackerel were perfect for breakfast.	clean
+I definately need to review the grammer chapter before the exam.	I definitely need to review the grammar chapter before the exam.
+My calculas profesor posted the exam schedual online.	My calculus professor posted the exam schedule online.
+The chemestry lab report is due Friday at noon.	The chemistry lab report is due Friday at noon.
+She got a scolarship that covers her tution, so she can persue a master's degree.	She got a scholarship that covers her tuition, so she can pursue a master's degree.
+Plagerism is never acceptable.	Plagiarism is never acceptable.
+I still need to finish the bibliografy for my history essay.	I still need to finish the bibliography for my history essay.
+Our exam preperation group meets in the libary every Thursday.	Our exam preparation group meets in the library every Thursday.
+Mathmatics was never my strong subject, but statistics is fun.	Mathematics was never my strong subject, but statistics is fun.
+Knowlege of the curriculm helps a lot when you write the essay questions, so read the syllabus carefully before the midterm.	Knowledge of the curriculum helps a lot when you write the essay questions, so read the syllabus carefully before the midterm.
+I forgot to submit the assigment.	I forgot to submit the assignment.
+Is it neccessary to bring a calculator?	Is it necessary to bring a calculator?
+The vocabulery quiz was harder than I expected.	The vocabulary quiz was harder than I expected.
+My philosophy essay questions the existance of free will.	My philosophy essay questions the existence of free will.
+Our teacher gave us extra excercises on irregular verbs.	Our teacher gave us extra exercises on irregular verbs.
+I passed the final exam, which was necessary for the scholarship.	I passed the final exam, which was necessary for the scholarship.	clean
+The athelete trained for the marathon all winter.	The athlete trained for the marathon all winter.
+Our team made it to the semifinals of the tournement.	Our team made it to the semifinals of the tournament.
+The referree gave him a yellow card for that tackle.	The referee gave him a yellow card for that tackle.
+Her endurence has improved a lot since she added resistence training.	Her endurance has improved a lot since she added resistance training.
+It was a really competetive match against a tough oponent, and we only won because our keeper saved a penalty in the final minute.	It was a really competitive match against a tough opponent, and we only won because our keeper saved a penalty in the final minute.
+I play vollyball on Sundays with some freinds from work.	I play volleyball on Sundays with some friends from work.
+He lost his rythm.	He lost his rhythm.
+The new gym equiptment finally arrived yesterday.	The new gym equipment finally arrived yesterday.
+Stretching before you run is definitly a good idea.	Stretching before you run is definitely a good idea.
+It was a huge sucess for the club and our most succesful season yet.	It was a huge success for the club and our most successful season yet.
+Our coach demands a lot of disipline from the younger players.	Our coach demands a lot of discipline from the younger players.
+The goalkeeper's preformance was outstanding.	The goalkeeper's performance was outstanding.
+Did you see that incredible manouver in the last lap?	Did you see that incredible maneuver|manoeuvre in the last lap?
+I joined the tennis club becuase my brother plays there.	I joined the tennis club because my brother plays there.
+The stadium was packed and the atmosphere was exhilerating.	The stadium was packed and the atmosphere was exhilarating.
+Our itinerery includes Kyoto, Nara, and two nights in Osaka.	Our itinerary includes Kyoto, Nara, and two nights in Osaka.
+I bought a few souveniers at the shrine near our hotel.	I bought a few souvenirs at the shrine near our hotel.
+The accomodation in Hakone had a private hot spring.	The accommodation in Hakone had a private hot spring.
+Most convinience stores accept foriegn credit cards.	Most convenience stores accept foreign credit cards.
+The etiquete for bowing is more subtle than I thought.	The etiquette for bowing is more subtle than I thought.
+We watched a tea cerimony in Kanazawa, which was facinating.	We watched a tea ceremony in Kanazawa, which was fascinating.
+Should we exchange currancy at the airport or in the city?	Should we exchange currency at the airport or in the city?
+The architechture of the old castle was breathtaking.	The architecture of the old castle was breathtaking.
+I loved the hospitallity of the staff at the ryokan accross from the station.	I loved the hospitality of the staff at the ryokan across from the station.
+Climbing Mount Fuji overnight to watch the sunrise from the summit was an unforgetable experiance, even though my legs hurt for days afterward.	Climbing Mount Fuji overnight to watch the sunrise from the summit was an unforgettable experience, even though my legs hurt for days afterward.
+I reccomend getting a rail pass if you plan to travel a lot.	I recommend getting a rail pass if you plan to travel a lot.
+The calligrafy class in Asakusa was a lot of fun.	The calligraphy class in Asakusa was a lot of fun.
+Our lugage was sent ahead. Unfortunatly it arrived a day late.	Our luggage was sent ahead. Unfortunately it arrived a day late.	capital after period
+The pilgrimmage route in Kumano is beautifull in autumn.	The pilgrimage route in Kumano is beautiful in autumn.
+I was dissapointed that the museum was closed on Monday.	I was disappointed that the museum was closed on Monday.
+The labratory will be closed for maintainance next week.	The laboratory will be closed for maintenance next week.
+Our hypothosis was not supported by the data.	Our hypothesis was not supported by the data.
+Please calibrate the aparatus before each mesurement.	Please calibrate the apparatus before each measurement.
+The effect was apparant, but the results were not statisticaly signifigant.	The effect was apparent, but the results were not statistically significant.
+We need to repeat the experiement with a fresh reagant.	We need to repeat the experiment with a fresh reagent.
+I refered to the reveiwer comments when revising the manuscript.	I referred to the reviewer comments when revising the manuscript.
+The specimin was stored at minus eighty degrees.	The specimen was stored at minus eighty degrees.
+There is a strong correllation between temperature and yield.	There is a strong correlation between temperature and yield.
+Our protocal says to check the pressure guage on the nitrogen tank daily.	Our protocol says to check the pressure gauge on the nitrogen tank daily.
+The occurence of contamination dropped after we replaced the incubater.	The occurrence of contamination dropped after we replaced the incubator.
+Is the fluorescense signal consistant across all samples?	Is the fluorescence signal consistent across all samples?
+The emperical evidence is still weak, and until another group confirms it, I would not call these results reproducable or even robust.	The empirical evidence is still weak, and until another group confirms it, I would not call these results reproducible or even robust.
+The commitee approved it.	The committee approved it.
+I beleive the centrifuge needs servicing.	I believe the centrifuge needs servicing.
+Our supervisor wants a liason with the goverment health agency.	Our supervisor wants a liaison with the government health agency.
+The asynchonous handler drops requests under load and the errors just dissapear from the logs.	The asynchronous handler drops requests under load and the errors just disappear from the logs.
+Pass the timeout paramter to the client constructor.	Pass the timeout parameter to the client constructor.
+We removed an old dependancy to fix the compatability issue.	We removed an old dependency to fix the compatibility issue.
+The new algorithim improves search efficency by about thirty percent.	The new algorithm improves search efficiency by about thirty percent.
+The class hierachy is getting too deep.	The class hierarchy is getting too deep.
+Store the session token in persistant storage, never in a publically readable file.	Store the session token in persistent storage, never in a publicly readable file.
+Make sure the enviroment variables are set before you run the tests.	Make sure the environment variables are set before you run the tests.
+The function recieves an arguement and returns a seperate copy, so callers can mutate the result without affecting the original list.	The function receives an argument and returns a separate copy, so callers can mutate the result without affecting the original list.
+Initalize the cache before the first request.	Initialize the cache before the first request.
+Excecute the migration from the begining if it fails halfway.	Execute the migration from the beginning if it fails halfway.
+The implimentation is not thread safe, so concurency bugs are likely.	The implementation is not thread safe, so concurrency bugs are likely.
+This API is depricated and will be removed in the next release.	This API is deprecated and will be removed in the next release.
+I added the relevent infomation about data goverance to the README.	I added the relevant information about data governance to the README.
+The comparision function should handle arbitary input.	The comparison function should handle arbitrary input.
+Latency spikes occured whenever the threshhold was exceeded.	Latency spikes occurred whenever the threshold was exceeded.
+My neice and her little brother are coming over for dinner tonight.	My niece and her little brother are coming over for dinner tonight.
+We celebrated my parents' anniversery at a small restaurant.	We celebrated my parents' anniversary at a small restaurant.
+Wellcome home, Grandpa!	Welcome home, Grandpa!
+Their marraige has lasted over forty years.	Their marriage has lasted over forty years.
+I am so gratefull for everything my mom has done.	I am so grateful for everything my mom has done.
+Honestly we truely enjoyed the family reunion this year.	Honestly we truly enjoyed the family reunion this year.
+My brother is independant now and runs a small buisness from home.	My brother is independent now and runs a small business from home.
+Dad still talks about the millenium celebrations.	Dad still talks about the millennium celebrations.
+It was a suprise party for my aunt's fiftieth birthday.	It was a surprise party for my aunt's fiftieth birthday.
+My little brother is very concious of his height lately.	My little brother is very conscious of his height lately.
+We reminised about old family trips while my grandaughter flipped through the photo album.	We reminisced about old family trips while my granddaughter flipped through the photo album.
+Grandpa's hearing is getting worse, so be patient with him.	Grandpa's hearing is getting worse, so be patient with him.	clean
+My sister's engagement anouncement was a lovely occassion, and the whole family flew in from three different cities to celebrate together.	My sister's engagement announcement was a lovely occasion, and the whole family flew in from three different cities to celebrate together.
+Mom says my brother has a tendancy to avoid chores and needs to be more responsable.	Mom says my brother has a tendency to avoid chores and needs to be more responsible.
+Grandma left me her piano, my most treasured posession.	Grandma left me her piano, my most treasured possession.

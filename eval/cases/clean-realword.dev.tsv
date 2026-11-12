@@ -1,0 +1,162 @@
+# clean-realword.dev.tsv - correct sentences (no typos) built around words that look like real-word slips, dev split: casual chat, work email, AI-assistant prompts
+# format: typed<TAB>expected<TAB>note; typed and expected are identical, note = the word under test (it is correct and must be left alone)
+Please return the signed form to the front desk by noon on Friday.	Please return the signed form to the front desk by noon on Friday.	form
+did you get the form from the school office yet?	did you get the form from the school office yet?	form
+Create a registration form with fields for name, email and phone number.	Create a registration form with fields for name, email and phone number.	form
+What is the plural form of the word cactus?	What is the plural form of the word cactus?	form
+her running form looks so much better since she got a coach	her running form looks so much better since she got a coach	form
+I received the form from Daniel and forwarded it to payroll.	I received the form from Daniel and forwarded it to payroll.	from
+let me know when you order so i can add mine	let me know when you order so i can add mine	you
+I appreciate you taking the time to meet with us yesterday.	I appreciate you taking the time to meet with us yesterday.	you
+How do you address a letter to someone whose name you do not know?	How do you address a letter to someone whose name you do not know?	you
+Please thank your team for the quick turnaround on the samples.	Please thank your team for the quick turnaround on the samples.	your
+how are your parents doing after the move?	how are your parents doing after the move?	your
+Rewrite this in your own words and keep it under 100 words.	Rewrite this in your own words and keep it under 100 words.	your
+love your new haircut, where did you get it done?	love your new haircut, where did you get it done?	your
+I will find out who approved the change and let you know.	I will find out who approved the change and let you know.	out
+How do I turn off notifications on my phone at night?	How do I turn off notifications on my phone at night?	off
+Help me work out a monthly budget on a salary of 3,200 dollars.	Help me work out a monthly budget on a salary of 3,200 dollars.	out
+Suggest a name for our book club that sounds friendly but not silly.	Suggest a name for our book club that sounds friendly but not silly.	our
+they turned our street into a bus route, so annoying	they turned our street into a bus route, so annoying	our
+check our group chat, Aiko posted the photos from the trip	check our group chat, Aiko posted the photos from the trip	our
+i had one more coffee, then went back to the library	i had one more coffee, then went back to the library	then
+Sales were lower in May and then recovered in June.	Sales were lower in May and then recovered in June.	then
+Write a function that sorts the list and then removes duplicates.	Write a function that sorts the list and then removes duplicates.	then
+Is a kilometer shorter than a mile?	Is a kilometer shorter than a mile?	than
+better late than never, see you at eight	better late than never, see you at eight	than
+if it's cheaper than the train, then let's just drive	if it's cheaper than the train, then let's just drive	then
+the kids said they loved the aquarium	the kids said they loved the aquarium	they
+Why do cats purr when they are being petted?	Why do cats purr when they are being petted?	they
+i told them then and there that we couldn't afford it	i told them then and there that we couldn't afford it	them
+Did the review go well this morning?	Did the review go well this morning?	the
+Their office is right there, next to the pharmacy.	Their office is right there, next to the pharmacy.	there
+is there room in their car for one more?	is there room in their car for one more?	their
+There are three bugs in this code, can you find them?	There are three bugs in this code, can you find them?	three
+i gave her the keys when she got here	i gave her the keys when she got here	her
+Hana will be here on Tuesday, so please send her the agenda.	Hana will be here on Tuesday, so please send her the agenda.	here
+My sister is moving here next month, what should I help her prepare?	My sister is moving here next month, what should I help her prepare?	here
+it's quite a long walk from the station	it's quite a long walk from the station	quite
+The office has been quiet since the holidays began.	The office has been quiet since the holidays began.	quiet
+I'm quite sure this integral is wrong, can you check my steps?	I'm quite sure this integral is wrong, can you check my steps?	quite
+Recommend a quiet neighborhood in Lisbon for a week in May.	Recommend a quiet neighborhood in Lisbon for a week in May.	quiet
+the trail was longer than we expected but so worth it	the trail was longer than we expected but so worth it	trail
+Explain how a clinical trial is designed, in simple terms.	Explain how a clinical trial is designed, in simple terms.	trial
+Please keep a paper trail of every approval for the auditors.	Please keep a paper trail of every approval for the auditors.	trail
+my free trial ended and they charged me already	my free trial ended and they charged me already	trial
+where were you last night? we waited for an hour	where were you last night? we waited for an hour	were
+We're still waiting on the figures from the Nagoya branch.	We're still waiting on the figures from the Nagoya branch.	we're
+we're almost there, save us a table	we're almost there, save us a table	we're
+The files were where you said they would be.	The files were where you said they would be.	where
+Where were the first modern Olympic Games held?	Where were the first modern Olympic Games held?	were
+The company moved its headquarters to Austin last year.	The company moved its headquarters to Austin last year.	its
+Is it true that a starfish can regrow its arms?	Is it true that a starfish can regrow its arms?	its
+I think it's best to wait until the board has its say.	I think it's best to wait until the board has its say.	it's
+i got off work early so i'm heading over now	i got off work early so i'm heading over now	off
+Please take 20 percent off the list price for this order.	Please take 20 percent off the list price for this order.	off
+The alarm went off at 4 am, and none of us could sleep after.	The alarm went off at 4 am, and none of us could sleep after.	us
+it kind of makes sense if you think about it	it kind of makes sense if you think about it	of
+What happens if the interest rate goes up by one percent?	What happens if the interest rate goes up by one percent?	if
+The decision is up to us, according to the regional director.	The decision is up to us, according to the regional director.	us
+it's just us two tonight, everyone else bailed	it's just us two tonight, everyone else bailed	us
+is it on the table or in the drawer?	is it on the table or in the drawer?	on
+The figures in the appendix are based on last year's survey.	The figures in the appendix are based on last year's survey.	in
+i know now why she was upset	i know now why she was upset	now
+We do not know yet whether the shipment has cleared customs.	We do not know yet whether the shipment has cleared customs.	know
+There is no need to reply now, since nothing is due until June.	There is no need to reply now, since nothing is due until June.	no
+I know no Spanish at all, where should I start?	I know no Spanish at all, where should I start?	no
+Why is the sky not blue at sunset?	Why is the sky not blue at sunset?	not
+oh no, not the printer again, i just fixed it	oh no, not the printer again, i just fixed it	not
+me too, i have to be up at six	me too, i have to be up at six	too
+I have two questions to add to the agenda too.	I have two questions to add to the agenda too.	two
+Give me two ways to say thank you in Japanese.	Give me two ways to say thank you in Japanese.	two
+The quote was too high, so we went to two other suppliers.	The quote was too high, so we went to two other suppliers.	too
+Is it too early to plant tomatoes in April?	Is it too early to plant tomatoes in April?	too
+the thing is, i think he already knows	the thing is, i think he already knows	thing
+What do you think is the first thing a new manager should learn?	What do you think is the first thing a new manager should learn?	think
+it's fine though, i got through it	it's fine though, i got through it	though
+Even though sales dipped, we came through the quarter in good shape.	Even though sales dipped, we came through the quarter in good shape.	though
+i thought it through and i'm going to take the job	i thought it through and i'm going to take the job	thought
+On second thought, let's keep the original wording.	On second thought, let's keep the original wording.	thought
+I read through the whole manual and still can't find the reset button.	I read through the whole manual and still can't find the reset button.	through
+these jeans are way too loose now	these jeans are way too loose now	loose
+How can I lose five kilos without giving up rice?	How can I lose five kilos without giving up rice?	lose
+There are a few loose ends to tie up before the handover.	There are a few loose ends to tie up before the handover.	loose
+we'll lose our table if we're not there by eight	we'll lose our table if we're not there by eight	lose
+he has an exam and a job interview tomorrow	he has an exam and a job interview tomorrow	an
+As an alternative, we could ship half now and half in May.	As an alternative, we could ship half now and half in May.	as
+she was as surprised as i was	she was as surprised as i was	was
+Has an AI ever passed the bar exam?	Has an AI ever passed the bar exam?	has
+he said the meeting was moved to three	he said the meeting was moved to three	he
+She has the report and will share it after lunch.	She has the report and will share it after lunch.	she
+it hurts a bit but i'm fine	it hurts a bit but i'm fine	bit
+We will buy the licenses in bulk, but only after the pilot.	We will buy the licenses in bulk, but only after the pilot.	buy
+my brother started martial arts classes last month	my brother started martial arts classes last month	martial
+i'm cutting out dairy for a month to see if it helps	i'm cutting out dairy for a month to see if it helps	dairy
+save room for dessert, i made tiramisu	save room for dessert, i made tiramisu	dessert
+you're an angel, thanks for picking up my shift	you're an angel, thanks for picking up my shift	angel
+i'm too tired to cook, let's order something	i'm too tired to cook, let's order something	tired
+i tried the new bakery and the croissants are amazing	i tried the new bakery and the croissants are amazing	tried
+can you pick up some bread on your way home?	can you pick up some bread on your way home?	bread
+he grew a beard over the summer and i barely recognized him	he grew a beard over the summer and i barely recognized him	beard
+i'll have a lager, what are you getting?	i'll have a lager, what are you getting?	lager
+i ate so much i'm in a food coma	i ate so much i'm in a food coma	coma
+let's just wander around the old town and see what we find	let's just wander around the old town and see what we find	wander
+no wonder you're exhausted, you've been up since four	no wonder you're exhausted, you've been up since four	wonder
+my bike's rear brake is squeaking again	my bike's rear brake is squeaking again	brake
+take a deep breath, you'll do great	take a deep breath, you'll do great	breath
+time flies, i can't believe it's november already	time flies, i can't believe it's november already	flies
+i booked a massage for saturday, my back is killing me	i booked a massage for saturday, my back is killing me	massage
+my car broke down and i'm waiting for the tow truck	my car broke down and i'm waiting for the tow truck	tow
+there's a huge moth in the bathroom, please help	there's a huge moth in the bathroom, please help	moth
+the cat just stared at me for a full minute	the cat just stared at me for a full minute	stared
+The form asks for your marital status and date of birth.	The form asks for your marital status and date of birth.	marital
+We decided to sever ties with the supplier after the third late delivery.	We decided to sever ties with the supplier after the third late delivery.	sever
+The team lunch gave morale a real lift after a hard month.	The team lunch gave morale a real lift after a hard month.	morale
+Please advise whether the invoice has been paid.	Please advise whether the invoice has been paid.	advise
+Thank you for the advice on the lease terms.	Thank you for the advice on the lease terms.	advice
+The truck was stationary when the forklift clipped it.	The truck was stationary when the forklift clipped it.	stationary
+The principal reason for the delay was a customs hold.	The principal reason for the delay was a customs hold.	principal
+Only authorized personnel may enter the server room.	Only authorized personnel may enter the server room.	personnel
+Do we need to insure the equipment while it is in transit?	Do we need to insure the equipment while it is in transit?	insure
+We accept all major cards except prepaid ones.	We accept all major cards except prepaid ones.	except
+Of the two options, I prefer the latter.	Of the two options, I prefer the latter.	latter
+The grant will fund two research positions for three years.	The grant will fund two research positions for three years.	fund
+Each unit ships with a printed warranty card.	Each unit ships with a printed warranty card.	unit
+Our net income rose four percent last quarter.	Our net income rose four percent last quarter.	net
+It is worth noting that costs fell in every region.	It is worth noting that costs fell in every region.	noting
+The poll closes at noon tomorrow, so please vote today.	The poll closes at noon tomorrow, so please vote today.	poll
+The suite on the fourth floor is booked for the client.	The suite on the fourth floor is booked for the client.	suite
+The vendor missed two deadlines, and thus we ended the contract.	The vendor missed two deadlines, and thus we ended the contract.	thus
+I should warn you that the venue has no parking.	I should warn you that the venue has no parking.	warn
+Her law firm handles most of our contracts.	Her law firm handles most of our contracts.	firm
+She led the migration project from start to finish last year.	She led the migration project from start to finish last year.	led
+Could you explain the rationale behind the new pricing?	Could you explain the rationale behind the new pricing?	rationale
+Delivery times vary by region, so please check the table below.	Delivery times vary by region, so please check the table below.	vary
+Investors remain wary of the new tariffs.	Investors remain wary of the new tariffs.	wary
+Explain the difference between a causal link and a simple correlation.	Explain the difference between a causal link and a simple correlation.	causal
+Write a diary entry from the point of view of a lighthouse keeper.	Write a diary entry from the point of view of a lighthouse keeper.	diary
+What animals can survive in the Sahara desert for weeks without water?	What animals can survive in the Sahara desert for weeks without water?	desert
+How do I clean a microfiber cloth without ruining it?	How do I clean a microfiber cloth without ruining it?	cloth
+Calculate the median salary from this list of numbers.	Calculate the median salary from this list of numbers.	median
+What is the moral of the story of the tortoise and the hare?	What is the moral of the story of the tortoise and the hare?	moral
+Do I need a comma before which in this sentence?	Do I need a comma before which in this sentence?	comma
+Suggest a wine to complement a spicy seafood stew.	Suggest a wine to complement a spicy seafood stew.	complement
+Write a short fable about a fox and a crow.	Write a short fable about a fox and a crow.	fox
+Can a tenant sue a landlord for not returning a deposit?	Can a tenant sue a landlord for not returning a deposit?	sue
+What is a safe dose of ibuprofen for an adult?	What is a safe dose of ibuprofen for an adult?	dose
+Suggest lean protein sources for a vegetarian athlete.	Suggest lean protein sources for a vegetarian athlete.	lean
+I found a bug in my sorting function, can you help me trace it?	I found a bug in my sorting function, can you help me trace it?	bug
+Pick a theme for a retirement party at the office.	Pick a theme for a retirement party at the office.	theme
+How do I reset my router to factory settings?	How do I reset my router to factory settings?	reset
+Why is the Ganges considered a sacred river?	Why is the Ganges considered a sacred river?	sacred
+Write a short tale about a baker who cannot sleep.	Write a short tale about a baker who cannot sleep.	tale
+How do I cite a podcast in MLA format?	How do I cite a podcast in MLA format?	cite
+Give me ideas for a photo collage for my grandmother's birthday.	Give me ideas for a photo collage for my grandmother's birthday.	collage
+Summarize the main goals of wildlife conservation in one paragraph.	Summarize the main goals of wildlife conservation in one paragraph.	conservation
+How do I sew a button back onto a wool coat?	How do I sew a button back onto a wool coat?	sew
+Describe daily life in Japan during the Edo era.	Describe daily life in Japan during the Edo era.	era
+What is the best tool for removing the background from a photo?	What is the best tool for removing the background from a photo?	tool
+Draft a polite reminder that an invoice is two weeks overdue.	Draft a polite reminder that an invoice is two weeks overdue.	overdue
+Write a compliment I can give a coworker after a great presentation.	Write a compliment I can give a coworker after a great presentation.	compliment
+Explain what a sole proprietorship is and who should choose one.	Explain what a sole proprietorship is and who should choose one.	sole
+In principle, how does a heat pump move heat from cold air?	In principle, how does a heat pump move heat from cold air?	principle

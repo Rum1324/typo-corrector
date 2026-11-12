@@ -1,0 +1,153 @@
+# clean-names.dev.tsv - correctly typed sentences full of names, places, brands, romaji and foreign words (Set A)
+# CLEAN file: typed == expected on every line; measures false corrections
+# format: typed<TAB>expected<TAB>note
+Yuta is picking up groceries at Muji after class.	Yuta is picking up groceries at Muji after class.	clean daily
+Yuki said the new Uniqlo in Shibuya opens at ten.	Yuki said the new Uniqlo in Shibuya opens at ten.	clean daily
+Running late, grabbing onigiri at the konbini first.	Running late, grabbing onigiri at the konbini first.	clean daily
+Haruto left his umbrella at the cafe again.	Haruto left his umbrella at the cafe again.	clean daily
+Can you ask Aoi if she wants to come to the izakaya tonight?	Can you ask Aoi if she wants to come to the izakaya tonight?	clean daily
+otsukaresama, see you all on Monday	otsukaresama, see you all on Monday	clean daily
+Ren just texted me from Shinjuku station.	Ren just texted me from Shinjuku station.	clean daily
+I bought a matcha latte on the way home.	I bought a matcha latte on the way home.	clean daily
+Priya and Siobhan are moving to Oakland next month.	Priya and Siobhan are moving to Oakland next month.	clean daily
+Thanks for the ride, Takumi, arigatou!	Thanks for the ride, Takumi, arigatou!	clean daily
+Hinata looks so kawaii in that yukata photo.	Hinata looks so kawaii in that yukata photo.	clean daily
+Gomen, I overslept and missed the train.	Gomen, I overslept and missed the train.	clean daily
+Ciao Dmitri, see you at the gym later.	Ciao Dmitri, see you at the gym later.	clean daily
+Picked up a new hoodie at Uniqlo in Emeryville.	Picked up a new hoodie at Uniqlo in Emeryville.	clean daily
+Saoirse lent me her bike while mine is in the shop.	Saoirse lent me her bike while mine is in the shop.	clean daily
+Laundry, groceries, then Todoist says I have to call Watanabe.	Laundry, groceries, then Todoist says I have to call Watanabe.	clean daily
+Salut Aoife, are you free for coffee on Thursday?	Salut Aoife, are you free for coffee on Thursday?	clean daily
+Nguyen is hosting game night at his place in Berkeley.	Nguyen is hosting game night at his place in Berkeley.	clean daily
+Daijoubu, I found my keys in the other bag.	Daijoubu, I found my keys in the other bag.	clean daily
+Watashi wa Yuta desu, nice to meet you all.	Watashi wa Yuta desu, nice to meet you all.	clean daily
+and then Yamamoto said the demo was sugoi	and then Yamamoto said the demo was sugoi	clean daily
+Let's get gyoza and karaage near Kichijoji station.	Let's get gyoza and karaage near Kichijoji station.	clean food
+I tried natto for breakfast and it was honestly sugoi.	I tried natto for breakfast and it was honestly sugoi.	clean food
+The oden at the konbini is surprisingly good in winter.	The oden at the konbini is surprisingly good in winter.	clean food
+We ordered pho, banh mi, and two iced coffees.	We ordered pho, banh mi, and two iced coffees.	clean food
+Joaquin made tapas with chorizo and grilled peppers.	Joaquin made tapas with chorizo and grilled peppers.	clean food
+Kimchi fried rice and bulgogi for lunch today.	Kimchi fried rice and bulgogi for lunch today.	clean food
+itadakimasu! The katsu curry smells amazing.	itadakimasu! The katsu curry smells amazing.	clean food
+Gomen, I ate the last onigiri in the fridge.	Gomen, I ate the last onigiri in the fridge.	clean food
+The matcha tiramisu at that cafe in Fitzroy was perfect.	The matcha tiramisu at that cafe in Fitzroy was perfect.	clean food
+Mom packed onigiri with umeboshi for the trip.	Mom packed onigiri with umeboshi for the trip.	clean food
+Ordering Grubhub tonight, does anyone want ramen?	Ordering Grubhub tonight, does anyone want ramen?	clean food
+Haruto knows an izakaya in Shinjuku with amazing karaage.	Haruto knows an izakaya in Shinjuku with amazing karaage.	clean food
+Gracias for the empanadas, Joaquin, they were delicious.	Gracias for the empanadas, Joaquin, they were delicious.	clean food
+Tanaka brought homemade gyoza to the potluck.	Tanaka brought homemade gyoza to the potluck.	clean food
+The naive approach is to just order everything on the menu.	The naive approach is to just order everything on the menu.	clean food
+Pho for dinner again because it is raining in Oakland.	Pho for dinner again because it is raining in Oakland.	clean food
+Priya made dal and Zhao brought dumplings.	Priya made dal and Zhao brought dumplings.	clean food
+Danke for the pretzels, Dmitri!	Danke for the pretzels, Dmitri!	clean food
+We should try the banh mi place on Telegraph.	We should try the banh mi place on Telegraph.	clean food
+Yuki thinks natto tastes better with mustard and green onion.	Yuki thinks natto tastes better with mustard and green onion.	clean food
+Kimchi jjigae is the best thing to eat after a long run.	Kimchi jjigae is the best thing to eat after a long run.	clean food
+matcha and two onigiri from the konbini	matcha and two onigiri from the konbini	clean food
+Nakamura-sensei moved the midterm to Thursday.	Nakamura-sensei moved the midterm to Thursday.	clean study
+Studying for the JLPT with Watanabe at the library.	Studying for the JLPT with Watanabe at the library.	clean study
+Oluwaseun shared his organic chemistry notes on Notion.	Oluwaseun shared his organic chemistry notes on Notion.	clean study
+I made kanji flashcards in Obsidian last night.	I made kanji flashcards in Obsidian last night.	clean study
+Zhao is tutoring me for the linear algebra final.	Zhao is tutoring me for the linear algebra final.	clean study
+Daijoubu, the exam was easier than I expected.	Daijoubu, the exam was easier than I expected.	clean study
+Ishikawa got a perfect score on the statistics quiz.	Ishikawa got a perfect score on the statistics quiz.	clean study
+Asked ChatGPT to quiz me on the Krebs cycle before the exam.	Asked ChatGPT to quiz me on the Krebs cycle before the exam.	clean study
+Suzuki-senpai said the professor always reuses old problems.	Suzuki-senpai said the professor always reuses old problems.	clean study
+Study group at the Berkeley library, Priya is bringing snacks.	Study group at the Berkeley library, Priya is bringing snacks.	clean study
+My Todoist is full of problem sets due this week.	My Todoist is full of problem sets due this week.	clean study
+Aoi and I compared answers after the physics midterm.	Aoi and I compared answers after the physics midterm.	clean study
+The final covers chapters six through ten, according to Yamamoto.	The final covers chapters six through ten, according to Yamamoto.	clean study
+Siobhan is writing her thesis in Obsidian with a Zotero plugin.	Siobhan is writing her thesis in Obsidian with a Zotero plugin.	clean study
+Ganbatte on your exam tomorrow, Hinata!	Ganbatte on your exam tomorrow, Hinata!	clean study
+otsukaresama to everyone who finished finals today	otsukaresama to everyone who finished finals today	clean study
+I uploaded the lecture notes to the shared Notion page.	I uploaded the lecture notes to the shared Notion page.	clean study
+Dmitri explained eigenvalues better than our textbook does.	Dmitri explained eigenvalues better than our textbook does.	clean study
+Sugoi, you finished the whole problem set already?	Sugoi, you finished the whole problem set already?	clean study
+because Nakamura-sensei never posts the answer key	because Nakamura-sensei never posts the answer key	clean study
+Yamamoto scored twice in the futsal match last night.	Yamamoto scored twice in the futsal match last night.	clean sports
+Aoife runs the Oakland half marathon every spring.	Aoife runs the Oakland half marathon every spring.	clean sports
+Saoirse and Nguyen are on the same rowing crew.	Saoirse and Nguyen are on the same rowing crew.	clean sports
+Watching the Yokohama BayStars game with Tanaka tonight.	Watching the Yokohama BayStars game with Tanaka tonight.	clean sports
+Suzuki hit a walk-off home run in the ninth inning.	Suzuki hit a walk-off home run in the ninth inning.	clean sports
+Takumi joined the kendo club this semester.	Takumi joined the kendo club this semester.	clean sports
+Ren and Haruto are playing tennis at the courts near Kichijoji.	Ren and Haruto are playing tennis at the courts near Kichijoji.	clean sports
+The Melbourne Cup is on Tuesday, are you watching?	The Melbourne Cup is on Tuesday, are you watching?	clean sports
+Joaquin thinks the Warriors will win tonight.	Joaquin thinks the Warriors will win tonight.	clean sports
+Hinata made the varsity volleyball team!	Hinata made the varsity volleyball team!	clean sports
+Morning run around Lake Merritt with Priya and Oluwaseun.	Morning run around Lake Merritt with Priya and Oluwaseun.	clean sports
+Ishikawa is training for the sumo tournament in Ryogoku.	Ishikawa is training for the sumo tournament in Ryogoku.	clean sports
+Yuki and I went bouldering in Emeryville after work.	Yuki and I went bouldering in Emeryville after work.	clean sports
+Watanabe-senpai says soccer practice is cancelled because of rain.	Watanabe-senpai says soccer practice is cancelled because of rain.	clean sports
+Sugoi game, the Fitzroy club came back from twelve points down.	Sugoi game, the Fitzroy club came back from twelve points down.	clean sports
+Tracking my runs in Notion now instead of a spreadsheet.	Tracking my runs in Notion now instead of a spreadsheet.	clean sports
+Dmitri swims laps at the Berkeley pool every morning before class, then heads straight to the lab with a matcha.	Dmitri swims laps at the Berkeley pool every morning before class, then heads straight to the lab with a matcha.	clean sports
+Nguyen, Priya, and Zhao	Nguyen, Priya, and Zhao	clean sports
+Took the Yamanote line from Shibuya to Shinjuku.	Took the Yamanote line from Shibuya to Shinjuku.	clean travel
+Day trip to Yokohama for the ramen museum and Chinatown.	Day trip to Yokohama for the ramen museum and Chinatown.	clean travel
+Kichijoji has the best park for a picnic.	Kichijoji has the best park for a picnic.	clean travel
+Booked a ryokan in Hakone for the long weekend.	Booked a ryokan in Hakone for the long weekend.	clean travel
+Our JR Pass covers the shinkansen to Kyoto and Osaka.	Our JR Pass covers the shinkansen to Kyoto and Osaka.	clean travel
+The izakaya in Golden Gai only seats eight people.	The izakaya in Golden Gai only seats eight people.	clean travel
+Staying near Shibuya crossing so we can walk everywhere.	Staying near Shibuya crossing so we can walk everywhere.	clean travel
+Is the konbini near our hotel open all night?	Is the konbini near our hotel open all night?	clean travel
+Siobhan bought so much stuff at Muji in Ginza.	Siobhan bought so much stuff at Muji in Ginza.	clean travel
+Arigatou gozaimasu, the hotel staff in Shinjuku were so kind.	Arigatou gozaimasu, the hotel staff in Shinjuku were so kind.	clean travel
+We visited Sensoji in Asakusa early to avoid the crowds.	We visited Sensoji in Asakusa early to avoid the crowds.	clean travel
+Haruto recommended a karaage stand right outside Yokohama station.	Haruto recommended a karaage stand right outside Yokohama station.	clean travel
+Lost my Suica card somewhere between Shibuya and Kichijoji.	Lost my Suica card somewhere between Shibuya and Kichijoji.	clean travel
+Priya wants to see the deer in Nara on Saturday.	Priya wants to see the deer in Nara on Saturday.	clean travel
+Uniqlo in Ginza has twelve floors, which is wild.	Uniqlo in Ginza has twelve floors, which is wild.	clean travel
+Yamamoto-san showed us around Shimokitazawa and its vintage shops.	Yamamoto-san showed us around Shimokitazawa and its vintage shops.	clean travel
+The vending machines in Japan sell hot corn soup, sugoi.	The vending machines in Japan sell hot corn soup, sugoi.	clean travel
+Joaquin got lost in Shinjuku station for almost an hour.	Joaquin got lost in Shinjuku station for almost an hour.	clean travel
+We had otsukaresama drinks with Tanaka-san at an izakaya near Shinjuku.	We had otsukaresama drinks with Tanaka-san at an izakaya near Shinjuku.	clean travel
+Next time I want to try the karaoke place in Shibuya with the private rooms, and maybe the gyoza spot in Kichijoji too.	Next time I want to try the karaoke place in Shibuya with the private rooms, and maybe the gyoza spot in Kichijoji too.	clean travel
+at the izakaya near Shinjuku with Tanaka	at the izakaya near Shinjuku with Tanaka	clean travel
+Yamamoto-san presented the calcium imaging results at lab meeting.	Yamamoto-san presented the calcium imaging results at lab meeting.	clean lab
+Siobhan is running the spike sorting pipeline overnight.	Siobhan is running the spike sorting pipeline overnight.	clean lab
+Dr. Nakamura wants the figures in Figma by Friday.	Dr. Nakamura wants the figures in Figma by Friday.	clean lab
+I logged the mouse behavior sessions in Notion.	I logged the mouse behavior sessions in Notion.	clean lab
+Priya fixed the analysis script and pushed it to GitHub.	Priya fixed the analysis script and pushed it to GitHub.	clean lab
+The confocal is booked by Zhao until three.	The confocal is booked by Zhao until three.	clean lab
+Asked ChatGPT to summarize the dendritic integration paper.	Asked ChatGPT to summarize the dendritic integration paper.	clean lab
+Oluwaseun is presenting his rotation project at the Berkeley retreat.	Oluwaseun is presenting his rotation project at the Berkeley retreat.	clean lab
+Ishikawa-sensei wants us to replicate the Suzuki lab results first.	Ishikawa-sensei wants us to replicate the Suzuki lab results first.	clean lab
+Aoife set up the two-photon rig with help from Dmitri.	Aoife set up the two-photon rig with help from Dmitri.	clean lab
+Haruto and Ren are annotating hippocampal recordings this week.	Haruto and Ren are annotating hippocampal recordings this week.	clean lab
+Watanabe sent the draft to our collaborators in Melbourne.	Watanabe sent the draft to our collaborators in Melbourne.	clean lab
+The Obsidian vault has all our protocols and meeting notes.	The Obsidian vault has all our protocols and meeting notes.	clean lab
+My senpai in the lab is Ishikawa, and she is incredibly patient.	My senpai in the lab is Ishikawa, and she is incredibly patient.	clean lab
+Gomen, the incubator alarm went off and I had to run back to the lab.	Gomen, the incubator alarm went off and I had to run back to the lab.	clean lab
+Our PI Tanaka thinks the result is sugoi but wants another cohort before we write it up.	Our PI Tanaka thinks the result is sugoi but wants another cohort before we write it up.	clean lab
+but Siobhan already pushed it to GitHub	but Siobhan already pushed it to GitHub	clean lab
+Deployed the landing page to Vercel this morning.	Deployed the landing page to Vercel this morning.	clean software
+The Raycast extension for Todoist finally works on macOS.	The Raycast extension for Todoist finally works on macOS.	clean software
+Opened a pull request on GitHub for the Obsidian plugin.	Opened a pull request on GitHub for the Obsidian plugin.	clean software
+The Dia browser crashed twice during the demo.	The Dia browser crashed twice during the demo.	clean software
+Testing the new Anthropic model with a Raycast script.	Testing the new Anthropic model with a Raycast script.	clean software
+Figma for the mockups and Notion for the spec.	Figma for the mockups and Notion for the spec.	clean software
+The iPhone build fails on CI but works locally.	The iPhone build fails on CI but works locally.	clean software
+Ren is writing the Swift parser for the macOS app.	Ren is writing the Swift parser for the macOS app.	clean software
+Grubhub order tracking is broken in the Android emulator.	Grubhub order tracking is broken in the Android emulator.	clean software
+Partiful invites for the hackathon went out last night.	Partiful invites for the hackathon went out last night.	clean software
+Yamamoto pushed a fix for the Vercel build cache issue.	Yamamoto pushed a fix for the Vercel build cache issue.	clean software
+Can someone review my PR on GitHub before Yuki merges it?	Can someone review my PR on GitHub before Yuki merges it?	clean software
+I asked ChatGPT and it suggested the same naive solution.	I asked ChatGPT and it suggested the same naive solution.	clean software
+Zhao migrated our notes from Notion to Obsidian over the weekend.	Zhao migrated our notes from Notion to Obsidian over the weekend.	clean software
+Aoi found a memory leak in the macOS menu bar app.	Aoi found a memory leak in the macOS menu bar app.	clean software
+Dia keeps asking for permissions every time I restart.	Dia keeps asking for permissions every time I restart.	clean software
+Sugoi, the app launches in under a second now.	Sugoi, the app launches in under a second now.	clean software
+Pairing with Joaquin on the Partiful clone this afternoon.	Pairing with Joaquin on the Partiful clone this afternoon.	clean software
+Todoist and Raycast together make my mornings so much easier.	Todoist and Raycast together make my mornings so much easier.	clean software
+because the Vercel deploy failed again	because the Vercel deploy failed again	clean software
+Okaasan is visiting from Yokohama next week.	Okaasan is visiting from Yokohama next week.	clean family
+My sister Hinata just started university in Melbourne.	My sister Hinata just started university in Melbourne.	clean family
+Grandpa Yamamoto turns ninety on Sunday.	Grandpa Yamamoto turns ninety on Sunday.	clean family
+Mom made karaage and miso soup for dinner.	Mom made karaage and miso soup for dinner.	clean family
+Video call with Aoi and the kids in Parramatta tonight.	Video call with Aoi and the kids in Parramatta tonight.	clean family
+Dad keeps asking how to set up his new iPhone.	Dad keeps asking how to set up his new iPhone.	clean family
+Ojiichan still makes the best gyoza in the family.	Ojiichan still makes the best gyoza in the family.	clean family
+Yuki and her husband are flying in from Melbourne for New Year.	Yuki and her husband are flying in from Melbourne for New Year.	clean family
+Hola abuela, gracias for the birthday card!	Hola abuela, gracias for the birthday card!	clean family
+My cousin Haruto lives near Kichijoji with his two cats.	My cousin Haruto lives near Kichijoji with his two cats.	clean family
+Merci, Saoirse, the kids loved the books you sent.	Merci, Saoirse, the kids loved the books you sent.	clean family

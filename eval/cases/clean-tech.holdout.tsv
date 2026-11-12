@@ -1,0 +1,154 @@
+# clean-tech.holdout.tsv - correctly typed technical chat/notes (identifiers, commands, paths, URLs, jargon, abbreviations), Set C topics
+# CLEAN file: typed == expected on every line; measures false corrections
+# format: typed<TAB>expected<TAB>optional note
+wrote a tiny recipe_scaler.py that converts cups to grams, approx 120g per cup of flour	wrote a tiny recipe_scaler.py that converts cups to grams, approx 120g per cup of flour
+the sourdough_v3 branch of my bread notes is finally rising properly lol	the sourdough_v3 branch of my bread notes is finally rising properly lol
+oven temp in the README says 220C but my oven runs hot, so I use 210	oven temp in the README says 220C but my oven runs hot, so I use 210
+keeping all my recipes in a git repo now, ~/recipes/mains/katsu-curry.md is the latest	keeping all my recipes in a git repo now, ~/recipes/mains/katsu-curry.md is the latest
+pressure cooker: 25 min on high, then natural release for approx 10 min	pressure cooker: 25 min on high, then natural release for approx 10 min
+dashi ratio is 1L water, 10g kombu, 20g katsuobushi per my notes.md	dashi ratio is 1L water, 10g kombu, 20g katsuobushi per my notes.md
+made a Notion db w/ tags like #weeknight #vegan #freezer-friendly	made a Notion db w/ tags like #weeknight #vegan #freezer-friendly
+ingredients.json has a prep_time_min field now, kinda proud of that schema	ingredients.json has a prep_time_min field now, kinda proud of that schema
+tonight: miso salmon, rice, and whatever's left in the fridge	tonight: miso salmon, rice, and whatever's left in the fridge
+switched the grocery list script to argparse so I can pass --servings 4	switched the grocery list script to argparse so I can pass --servings 4
+booked the Kyoto ryokan, confirmation went to kenji.travel@example.com	booked the Kyoto ryokan, confirmation went to kenji.travel@example.com
+itinerary.md has Fushimi Inari on day 2 and Dotonbori on day 4	itinerary.md has Fushimi Inari on day 2 and Dotonbori on day 4
+JR pass info is at https://www.japan-guide.com/e/e2357.html if you want the details	JR pass info is at https://www.japan-guide.com/e/e2357.html if you want the details
+saved all the ramen spots here: maps.app.goo.gl/xK29PqT	saved all the ramen spots here: maps.app.goo.gl/xK29PqT
+my eSIM gives 20GB for 15 days, should be plenty for Slack and Maps	my eSIM gives 20GB for 15 days, should be plenty for Slack and Maps
+shinkansen from Kyoto to Shin-Osaka is only ~15 min	shinkansen from Kyoto to Shin-Osaka is only ~15 min
+wrote a yen_to_usd() helper in the trip sheet, rate is hardcoded at 0.0067	wrote a yen_to_usd() helper in the trip sheet, rate is hardcoded at 0.0067
+packing list: adapter, 20000mAh power bank, umbrella, passport, IC card	packing list: adapter, 20000mAh power bank, umbrella, passport, IC card
+dumping photos into ~/Pictures/japan-2026/osaka as RAW + JPEG	dumping photos into ~/Pictures/japan-2026/osaka as RAW + JPEG
+Nishiki Market opens around 9am, Arashiyama is better before 8	Nishiki Market opens around 9am, Arashiyama is better before 8
+the airport express from KIX is the Haruka, grab the ICOCA bundle	the airport express from KIX is the Haruka, grab the ICOCA bundle
+#kyoto2026 album is shared w/ everyone in the fam chat	#kyoto2026 album is shared w/ everyone in the fam chat
+TA said the final report has to be under 8 pages in NeurIPS format, LaTeX only	TA said the final report has to be under 8 pages in NeurIPS format, LaTeX only
+run pip install -r requirements.txt before you touch train.py	run pip install -r requirements.txt before you touch train.py
+refactored data_loader.py so batch_size is read from config.yaml	refactored data_loader.py so batch_size is read from config.yaml
+can someone review PR #12? it adds early stopping and a learning_rate scheduler	can someone review PR #12? it adds early stopping and a learning_rate scheduler
+milestone 2 is due Fri 11:59pm, rubric is in docs/rubric.pdf	milestone 2 is due Fri 11:59pm, rubric is in docs/rubric.pdf
+val accuracy went from 71.3% to 84.9% after we normalized the inputs	val accuracy went from 71.3% to 84.9% after we normalized the inputs
+Professor Okafor wants a 5 min demo, no slides, just the Jupyter notebook	Professor Okafor wants a 5 min demo, no slides, just the Jupyter notebook
+pls don't commit .ipynb_checkpoints, I added it to .gitignore	pls don't commit .ipynb_checkpoints, I added it to .gitignore
+we're on torch 2.4 and CUDA 12.1 on the department cluster	we're on torch 2.4 and CUDA 12.1 on the department cluster
+sbatch run_sweep.sh is queued, ETA approx 3 hrs	sbatch run_sweep.sh is queued, ETA approx 3 hrs
+dividing tasks for the writeup: Wei does EDA and plots, Ana owns the baseline model, and I'll handle eval, ablations and the final README	dividing tasks for the writeup: Wei does EDA and plots, Ana owns the baseline model, and I'll handle eval, ablations and the final README
+GG, that last round was rough, my ping spiked to 180ms	GG, that last round was rough, my ping spiked to 180ms
+modded Stardew w/ SMAPI 4.1, just drop the mod folders into Mods/ and relaunch	modded Stardew w/ SMAPI 4.1, just drop the mod folders into Mods/ and relaunch
+the speedrun timer is LiveSplit, my splits are saved as any_percent.lss	the speedrun timer is LiveSplit, my splits are saved as any_percent.lss
+patch notes for v2.7.1 nerfed the shotgun again, devs pls	patch notes for v2.7.1 nerfed the shotgun again, devs pls
+my Steam Deck is on SteamOS 3.6 and Proton GE runs it at 60fps	my Steam Deck is on SteamOS 3.6 and Proton GE runs it at 60fps
+found a bug where the boss hitbox desyncs at 144Hz, filed it on their Discord	found a bug where the boss hitbox desyncs at 144Hz, filed it on their Discord
+our Minecraft server runs Paper 1.21 on a $6/mo VPS, IP is pinned in #server-info	our Minecraft server runs Paper 1.21 on a $6/mo VPS, IP is pinned in #server-info
+queue up at 9? @jaybird and @nova_77 are in	queue up at 9? @jaybird and @nova_77 are in
+wrote a Lua script for the Factorio mod but the onTick handler is too slow tho	wrote a Lua script for the Factorio mod but the onTick handler is too slow tho
+2.5k hours in and I still can't do the frame-perfect jump	2.5k hours in and I still can't do the frame-perfect jump
+Mochi's vet appt is Tue 4:30pm, adding it to my calendar	Mochi's vet appt is Tue 4:30pm, adding it to my calendar
+bought a smart feeder, it has a REST API and I'm already writing a cron job for it	bought a smart feeder, it has a REST API and I'm already writing a cron job for it
+cat weighs 4.8kg now, vet says aim for 4.5	cat weighs 4.8kg now, vet says aim for 4.5
+the dog cam streams over RTSP and I pipe it through ffmpeg to save clips	the dog cam streams over RTSP and I pipe it through ffmpeg to save clips
+new kitten pics in #pets, her name is Tofu	new kitten pics in #pets, her name is Tofu
+feeding_schedule.csv says 7am 40g dry, 6pm half a can of wet	feeding_schedule.csv says 7am 40g dry, 6pm half a can of wet
+the litter box sensor fires a webhook to Home Assistant every time it's used	the litter box sensor fires a webhook to Home Assistant every time it's used
+Biscuit ate a sock again, vet visit was $340, ugh	Biscuit ate a sock again, vet visit was $340, ugh
+made a tiny Flask app so my roommate can log walks, it runs at walks.local:5000	made a tiny Flask app so my roommate can log walks, it runs at walks.local:5000
+doctor appt moved to 10:15am Thu, Dr. Patel's office emailed me	doctor appt moved to 10:15am Thu, Dr. Patel's office emailed me
+BP was 118/76, resting HR 62 bpm, all normal	BP was 118/76, resting HR 62 bpm, all normal
+got my bloodwork back in MyChart, vitamin D is a bit low	got my bloodwork back in MyChart, vitamin D is a bit low
+she prescribed 1000 IU daily and a follow-up in 3 months	she prescribed 1000 IU daily and a follow-up in 3 months
+took the afternoon off, will be async on Slack after 2pm	took the afternoon off, will be async on Slack after 2pm
+FYI I'm OOO tomorrow morning for a dentist appt, ping me if prod breaks	FYI I'm OOO tomorrow morning for a dentist appt, ping me if prod breaks
+logging my sleep w/ a Python script that pulls from the Oura API, avg 6.9 hrs	logging my sleep w/ a Python script that pulls from the Oura API, avg 6.9 hrs
+allergist said no shellfish until the skin test, so no ebi in Osaka I guess	allergist said no shellfish until the skin test, so no ebi in Osaka I guess
+pitch deck v4 is in Figma, link is in #fundraising	pitch deck v4 is in Figma, link is in #fundraising
+our MVP is a Next.js frontend w/ a FastAPI backend on Fly.io	our MVP is a Next.js frontend w/ a FastAPI backend on Fly.io
+investor asked about CAC vs LTV, our LTV:CAC is approx 3.2	investor asked about CAC vs LTV, our LTV:CAC is approx 3.2
+MRR hit $12.4k this month, up 18% MoM	MRR hit $12.4k this month, up 18% MoM
+demo day is Nov 21, we get 3 min on stage + 2 min Q&A	demo day is Nov 21, we get 3 min on stage + 2 min Q&A
+the B2B SaaS angle tested better than the consumer one	the B2B SaaS angle tested better than the consumer one
+cofounder wants to pivot to an LLM-powered copilot and I'm skeptical	cofounder wants to pivot to an LLM-powered copilot and I'm skeptical
+data room is /Shared/Fundraising/2026-Seed, NDAs go in /legal	data room is /Shared/Fundraising/2026-Seed, NDAs go in /legal
+TAM slide says $4B but I'd rather show a bottoms-up SAM	TAM slide says $4B but I'd rather show a bottoms-up SAM
+deploying the landing page to Vercel, domain is getpebble.io	deploying the landing page to Vercel, domain is getpebble.io
+send the one-pager to angels@example.com before EOD please	send the one-pager to angels@example.com before EOD please
+tomato seedlings are 6 inches tall, moving them outside this weekend	tomato seedlings are 6 inches tall, moving them outside this weekend
+built a soil moisture sensor w/ an ESP32 and MQTT, readings every 15 min	built a soil moisture sensor w/ an ESP32 and MQTT, readings every 15 min
+MOISTURE_MIN is 420 in config.h, below that the pump kicks on	MOISTURE_MIN is 420 in config.h, below that the pump kicks on
+pH of the raised bed is 6.4, basil and peppers seem happy	pH of the raised bed is 6.4, basil and peppers seem happy
+the Grafana dashboard for the garden is at grafana.home.arpa/d/garden	the Grafana dashboard for the garden is at grafana.home.arpa/d/garden
+planted garlic in October, harvest around late June	planted garlic in October, harvest around late June
+compost bin hit 140F, apparently that's the sweet spot	compost bin hit 140F, apparently that's the sweet spot
+drip_irrigation.yaml runs at 6:30am daily for 12 min	drip_irrigation.yaml runs at 6:30am daily for 12 min
+aphids on the kale again, trying neem oil	aphids on the kale again, trying neem oil
+seed wishlist: Cherokee Purple, Sungold, shishito, Thai basil	seed wishlist: Cherokee Purple, Sungold, shishito, Thai basil
+tix for the Japanese Breakfast show are $45 + fees, Fri 8pm	tix for the Japanese Breakfast show are $45 + fees, Fri 8pm
+doors at 7, opener at 7:45, headliner around 9	doors at 7, opener at 7:45, headliner around 9
+wrote a scraper that watches for resale drops, it polls every 60s and pings my phone via ntfy	wrote a scraper that watches for resale drops, it polls every 60s and pings my phone via ntfy
+setlist.fm already has last night's setlist lol	setlist.fm already has last night's setlist lol
+bringing earplugs, the venue hit 105 dB last time	bringing earplugs, the venue hit 105 dB last time
+venmo me $52 for the ticket, my handle is @example-user	venmo me $52 for the ticket, my handle is @example-user
+meet at the merch table after the encore?	meet at the merch table after the encore?
+recorded a 4K clip on my phone, 2.1GB, will AirDrop it later	recorded a 4K clip on my phone, 2.1GB, will AirDrop it later
+Sam's bday is Sat the 14th, who's in for karaoke?	Sam's bday is Sat the 14th, who's in for karaoke?
+made a Google Form for RSVPs, responses go to a Sheet w/ a COUNTIF formula	made a Google Form for RSVPs, responses go to a Sheet w/ a COUNTIF formula
+budget is approx $30 per person, cake from the bakery on 5th St	budget is approx $30 per person, cake from the bakery on 5th St
+I'll start a playlist, add songs here: open.spotify.com/playlist/3vXk9Lq	I'll start a playlist, add songs here: open.spotify.com/playlist/3vXk9Lq
+surprise party, do NOT mention it in the main group chat	surprise party, do NOT mention it in the main group chat
+Lina is on decorations, Marco is on drinks, I've got the cake	Lina is on decorations, Marco is on drinks, I've got the cake
+reservation at 7:30pm for 9 ppl under Kim	reservation at 7:30pm for 9 ppl under Kim
+can someone Venmo request everyone? I'm bad at that	can someone Venmo request everyone? I'm bad at that
+card is on the counter, everyone sign it before Fri	card is on the counter, everyone sign it before Fri
+use #samturns30 for the pics	use #samturns30 for the pics
+getting a CORS error on localhost:3000 when hitting /api/login	getting a CORS error on localhost:3000 when hitting /api/login
+the useEffect runs twice in dev because of React StrictMode, not a bug	the useEffect runs twice in dev because of React StrictMode, not a bug
+TypeError: Cannot read properties of undefined (reading 'map') in UserList.tsx	TypeError: Cannot read properties of undefined (reading 'map') in UserList.tsx
+turns out NEXT_PUBLIC_API_URL wasn't set in the prod env	turns out NEXT_PUBLIC_API_URL wasn't set in the prod env
+git bisect says the regression came in at commit a3f9c21	git bisect says the regression came in at commit a3f9c21
+nuked node_modules and ran npm i again and now it works, classic	nuked node_modules and ran npm i again and now it works, classic
+the session cookie needs SameSite=None; Secure for the iframe flow	the session cookie needs SameSite=None; Secure for the iframe flow
+added console.log(res.status) and it's a 401, so the auth middleware is rejecting it	added console.log(res.status) and it's a 401, so the auth middleware is rejecting it
+Postgres throws a deadlock on the orders table under load	Postgres throws a deadlock on the orders table under load
+bumped Node to 20.11 in .nvmrc, CI should pick it up	bumped Node to 20.11 in .nvmrc, CI should pick it up
+the bug only repros in Safari 17, Chrome and Firefox are fine	the bug only repros in Safari 17, Chrome and Firefox are fine
+Lighthouse score dropped to 62 after we added the hero video	Lighthouse score dropped to 62 after we added the hero video
+hydration mismatch because Date.now() differs between server and client	hydration mismatch because Date.now() differs between server and client
+rewrote the fetch wrapper with async/await and exponential backoff	rewrote the fetch wrapper with async/await and exponential backoff
+the JWT expires after 15 min but the refresh token logic never fires	the JWT expires after 15 min but the refresh token logic never fires
+Sentry shows 312 ECONNRESET events from the payments service since 3am	Sentry shows 312 ECONNRESET events from the payments service since 3am
+checked the Network tab in DevTools and the preflight OPTIONS request is 404ing	checked the Network tab in DevTools and the preflight OPTIONS request is 404ing
+docker compose up -d, then tail it w/ docker logs -f web	docker compose up -d, then tail it w/ docker logs -f web
+lab mtg moved to 2pm, Ines is presenting the Neuropixels data	lab mtg moved to 2pm, Ines is presenting the Neuropixels data
+spike sorting w/ Kilosort 4 took approx 6 hrs per session on the A100	spike sorting w/ Kilosort 4 took approx 6 hrs per session on the A100
+sampling rate is 30 kHz, we bandpass 300 Hz to 6 kHz before sorting	sampling rate is 30 kHz, we bandpass 300 Hz to 6 kHz before sorting
+raw .bin files are on the NAS under /data/neuro/2026-10-28/mouse_M14	raw .bin files are on the NAS under /data/neuro/2026-10-28/mouse_M14
+Phy curation is done for 3 of 5 sessions, ~140 good units so far	Phy curation is done for 3 of 5 sessions, ~140 good units so far
+the LFP shows clear theta at 7-8 Hz during running bouts	the LFP shows clear theta at 7-8 Hz during running bouts
+PI wants PSTHs aligned to stimulus onset w/ 10 ms bins	PI wants PSTHs aligned to stimulus onset w/ 10 ms bins
+pushed the spikeinterface pipeline changes, branch is feat/drift-correction	pushed the spikeinterface pipeline changes, branch is feat/drift-correction
+the calcium imaging folks use Suite2p, we might borrow their ROI code	the calcium imaging folks use Suite2p, we might borrow their ROI code
+reminder: rsync -avh everything to the cluster before you wipe the SSD	reminder: rsync -avh everything to the cluster before you wipe the SSD
+firing rate dropped from 12 Hz to 3 Hz after muscimol, as expected	firing rate dropped from 12 Hz to 3 Hz after muscimol, as expected
+GLM fits are in analysis/glm_fit.ipynb, cross-validated R2 is about 0.31	GLM fits are in analysis/glm_fit.ipynb, cross-validated R2 is about 0.31
+need IACUC approval before the next cohort, deadline is Dec 1	need IACUC approval before the next cohort, deadline is Dec 1
+lgtm, ship it	lgtm, ship it
+brew install jq	brew install jq
+npm run dev	npm run dev
+read CONTRIBUTING.md first	read CONTRIBUTING.md first
+works w/o the --force flag	works w/o the --force flag
+kwargs aren't forwarded to the inner func	kwargs aren't forwarded to the inner func
+switched to JSON5 so I can leave comments in the config	switched to JSON5 so I can leave comments in the config
+my public key is ~/.ssh/id_ed25519.pub	my public key is ~/.ssh/id_ed25519.pub
+snake_case for Python, camelCase for JS, kebab-case for CSS classes	snake_case for Python, camelCase for JS, kebab-case for CSS classes
+the tokenizer splits "don't" into 3 tokens, weird	the tokenizer splits "don't" into 3 tokens, weird
+finetune run on 8 GPUs, lr 3e-5, warmup 500 steps	finetune run on 8 GPUs, lr 3e-5, warmup 500 steps
+impl detail: ctx gets passed to every handler and req/res are wrapped	impl detail: ctx gets passed to every handler and req/res are wrapped
+a mutex around the cache map fixed the race condition	a mutex around the cache map fixed the race condition
+added enum Status { active, paused, done } to Models.swift	added enum Status { active, paused, done } to Models.swift
+swift build -c release took 41s on my M3	swift build -c release took 41s on my M3
+git rebase -i HEAD~3 and squash the fixups	git rebase -i HEAD~3 and squash the fixups
+my dotfiles are at github.com/example-user/dotfiles if anyone wants the zsh config	my dotfiles are at github.com/example-user/dotfiles if anyone wants the zsh config
+monorepo codegen step is in scripts/gen-types.sh, run it after editing schema.graphql	monorepo codegen step is in scripts/gen-types.sh, run it after editing schema.graphql
+misc: prev sprint's linter config lives in tmp/ until we move it to src/lib	misc: prev sprint's linter config lives in tmp/ until we move it to src/lib
+the OAuth flow breaks if params and args both contain the redirect_uri	the OAuth flow breaks if params and args both contain the redirect_uri
+etc. etc., you get the idea	etc. etc., you get the idea

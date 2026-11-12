@@ -1,0 +1,152 @@
+# clean rare words (Set C, holdout): correctly typed text with rare but legitimate words (literary, scientific, legal, archaic, hobby)
+# every line is typed correctly; typed == expected; measures false corrections of rare words near common ones
+I seared the lamb chops in the cast iron pan my late wife bought in 1979, and the whole kitchen filled with smoke.	I seared the lamb chops in the cast iron pan my late wife bought in 1979, and the whole kitchen filled with smoke.	seared
+Let the stock simmer till the marrow renders, then skim the scum off the top.	Let the stock simmer till the marrow renders, then skim the scum off the top.	till, skim, scum
+The dough was too slack, so I let it rest ere shaping the loaves.	The dough was too slack, so I let it rest ere shaping the loaves.	slack, ere
+Nary a crumb was left of the treacle tart by Sunday evening.	Nary a crumb was left of the treacle tart by Sunday evening.	nary, treacle
+I keep my grandmother's tome of preserves beside the bread box.	I keep my grandmother's tome of preserves beside the bread box.	tome
+The roux must not scorch, or the whole gumbo goes awry.	The roux must not scorch, or the whole gumbo goes awry.	roux, scorch, awry
+Blanch the fava beans, then slip them from their skins one by one.	Blanch the fava beans, then slip them from their skins one by one.	blanch, fava
+Oft I add a whit more salt than the recipe calls for.	Oft I add a whit more salt than the recipe calls for.	oft, whit
+Dredge the cutlets in seasoned flour and fry them in lard.	Dredge the cutlets in seasoned flour and fry them in lard.	dredge, lard
+Hew the squash into wedges with the heavy cleaver.	Hew the squash into wedges with the heavy cleaver.	hew, cleaver
+He shrugged ruefully when the cake collapsed in the oven.	He shrugged ruefully when the cake collapsed in the oven.	ruefully
+My rye starter has begun to wane, so I fed it twice today.	My rye starter has begun to wane, so I fed it twice today.	wane
+Sear it hard.	Sear it hard.	sear
+Chowder with oyster crackers is the only supper that truly sates me.	Chowder with oyster crackers is the only supper that truly sates me.	sates
+We wended our way up the steps to Kiyomizu-dera at dawn.	We wended our way up the steps to Kiyomizu-dera at dawn.	wended
+The gates at Fushimi Inari climb the hillside in a vermilion spine.	The gates at Fushimi Inari climb the hillside in a vermilion spine.	vermilion
+The moss garden was serene, with nary a voice above a whisper.	The moss garden was serene, with nary a voice above a whisper.	nary
+In Osaka we ate takoyaki from a stall in Dotonbori until sated.	In Osaka we ate takoyaki from a stall in Dotonbori until sated.	sated
+A heron stood stock still in the shallows of the Kamo River.	A heron stood stock still in the shallows of the Kamo River.	heron
+The tea master moved with a calm mien and spoke but rarely.	The tea master moved with a calm mien and spoke but rarely.	mien
+Yon pagoda at Toji is the tallest wooden tower in Japan.	Yon pagoda at Toji is the tallest wooden tower in Japan.	yon
+The ryokan served supper on lacquered trays of teal and gold.	The ryokan served supper on lacquered trays of teal and gold.	teal, lacquered
+The great bell at Chion-in is struck with a hewn log swung by monks.	The great bell at Chion-in is struck with a hewn log swung by monks.	hewn
+The deer at Nara bowed politely, then rived the map from my hand.	The deer at Nara bowed politely, then rived the map from my hand.	rived
+The joiner in Kyoto cut every tenon by hand and used not a single nail.	The joiner in Kyoto cut every tenon by hand and used not a single nail.	tenon
+In Nishijin we watched an old weaver throw the shuttle through warp and weft for an hour, never once glancing at her hands.	In Nishijin we watched an old weaver throw the shuttle through warp and weft for an hour, never once glancing at her hands.	warp, weft
+The loom's heddles were strung with silk as fine as hair.	The loom's heddles were strung with silk as fine as hair.	heddles
+but the heddle eyes keep snagging the cotton	but the heddle eyes keep snagging the cotton	heddle
+Our team's report on glacial tarns is due Friday at noon.	Our team's report on glacial tarns is due Friday at noon.	tarns
+We sampled sedge and rush along the fen margin for the ecology project.	We sampled sedge and rush along the fen margin for the ecology project.	sedge, fen
+The scree slope was too loose to survey without helmets.	The scree slope was too loose to survey without helmets.	scree
+Our poster compares the lichens on two tors in Dartmoor.	Our poster compares the lichens on two tors in Dartmoor.	tors
+We keyed each specimen to phylum and then to order.	We keyed each specimen to phylum and then to order.	phylum, keyed
+The meadow had gone sere by August, which skewed our biomass estimates.	The meadow had gone sere by August, which skewed our biomass estimates.	sere
+For the furniture course I routed a dado across each shelf side.	For the furniture course I routed a dado across each shelf side.	dado, routed
+My grandson fired his first pot in the college kiln last week.	My grandson fired his first pot in the college kiln last week.	kiln
+The astronomy project asks us to track a comet for three nights.	The astronomy project asks us to track a comet for three nights.	comet
+Each codon maps to one amino acid, save for the three stop signals.	Each codon maps to one amino acid, save for the three stop signals.	codon, save
+Two phyla dominate our soil samples, which surprised the TA.	Two phyla dominate our soil samples, which surprised the TA.	phyla
+My grandson taught me a game where you hew timber and build a keep.	My grandson taught me a game where you hew timber and build a keep.	hew, keep
+Quell the wraith before the torches gutter out.	Quell the wraith before the torches gutter out.	quell, wraith, gutter
+The bard's lute buffs the whole party's morale for thirty seconds.	The bard's lute buffs the whole party's morale for thirty seconds.	bard, lute
+A lich guards the crypt beneath the tor.	A lich guards the crypt beneath the tor.	lich, tor
+"Thou shalt not pass," quoth the troll, so I paid his toll.	"Thou shalt not pass," quoth the troll, so I paid his toll.	thou, quoth
+I spent the evening forging a glaive from mithril and oak.	I spent the evening forging a glaive from mithril and oak.	glaive, mithril
+Players of that ilk, who camp the spawn point, vex me greatly.	Players of that ilk, who camp the spawn point, vex me greatly.	ilk, vex
+My halberd is waning in durability, so I must find a smithy.	My halberd is waning in durability, so I must find a smithy.	halberd, waning, smithy
+The map marks a cairn atop the ridge where the relic lies.	The map marks a cairn atop the ridge where the relic lies.	cairn
+gg, that parry timing was a whit too early	gg, that parry timing was a whit too early	whit, parry
+so the rogue rives the shield in two and we win	so the rogue rives the shield in two and we win	rives
+Our old spaniel has gone grizzled about the muzzle.	Our old spaniel has gone grizzled about the muzzle.	grizzled
+The cat sleeps curled at the foot of the newel post.	The cat sleeps curled at the foot of the newel post.	newel
+Biscuit trots to and fro along the fence, barking at the gulls.	Biscuit trots to and fro along the fence, barking at the gulls.	fro
+I scratched the nape of the terrier's neck, and he sighed.	I scratched the nape of the terrier's neck, and he sighed.	nape
+The kitten moved lithely across the top of the bookshelf.	The kitten moved lithely across the top of the bookshelf.	lithely
+My parrot squawks if I don't uncover his cage ere seven.	My parrot squawks if I don't uncover his cage ere seven.	ere
+The ferret stows bottle caps in a cache beneath the sofa.	The ferret stows bottle caps in a cache beneath the sofa.	stows, cache
+The lurcher dozes on the hearth, twitching as he dreams of hares.	The lurcher dozes on the hearth, twitching as he dreams of hares.	lurcher, hares
+The vet said the cockatiel's molt is quite normal for autumn.	The vet said the cockatiel's molt is quite normal for autumn.	molt
+Pip rues every bath as if it were a prison sentence.	Pip rues every bath as if it were a prison sentence.	rues
+The cat sleeps on the gunwale of the dinghy while I bail.	The cat sleeps on the gunwale of the dinghy while I bail.	gunwale, bail
+The doctor palpated my spleen and pronounced it unremarkable.	The doctor palpated my spleen and pronounced it unremarkable.	palpated
+My knee has a dull ache that waxes and wanes with the weather.	My knee has a dull ache that waxes and wanes with the weather.	waxes, wanes
+She prescribed a salve for the rash on my shin.	She prescribed a salve for the rash on my shin.	salve
+The rheumatologist suspects gout, given the tophi on my knuckles.	The rheumatologist suspects gout, given the tophi on my knuckles.	tophi
+A slight tremor in my right hand has vexed me since spring.	A slight tremor in my right hand has vexed me since spring.	vexed
+The pharmacist warned that the tincture might sear going down.	The pharmacist warned that the tincture might sear going down.	tincture, sear
+My blood work showed mild anemia, nothing to rue.	My blood work showed mild anemia, nothing to rue.	rue
+I was told to eschew salt and take a brisk walk daily.	I was told to eschew salt and take a brisk walk daily.	eschew
+Ellen smiled wanly from the hospital bed and asked for her knitting.	Ellen smiled wanly from the hospital bed and asked for her knitting.	wanly
+Sinus trouble is oft caused by dust, the specialist said.	Sinus trouble is oft caused by dust, the specialist said.	oft
+and the nurse said my pulse was a bit thready	and the nurse said my pulse was a bit thready	thready
+Our founder delivered the pitch with considerable aplomb.	Our founder delivered the pitch with considerable aplomb.	aplomb
+Asking for that valuation in the first meeting seemed gauche.	Asking for that valuation in the first meeting seemed gauche.	gauche
+We must cede some equity to close the seed round.	We must cede some equity to close the seed round.	cede
+The deck promised to shake up an industry of a rather staid sort.	The deck promised to shake up an industry of a rather staid sort.	staid
+The investors' ardor cooled once they saw the burn rate.	The investors' ardor cooled once they saw the burn rate.	ardor
+They eked out eighteen months of runway by giving up the office lease.	They eked out eighteen months of runway by giving up the office lease.	eked
+Her cofounder is a dour fellow but a brilliant engineer.	Her cofounder is a dour fellow but a brilliant engineer.	dour
+A seasoned angel investor will brook no hand-waving about margins, churn, or the vague promise that growth will somehow fix everything later.	A seasoned angel investor will brook no hand-waving about margins, churn, or the vague promise that growth will somehow fix everything later.	brook
+The pivot was a feint; they never meant to leave hardware.	The pivot was a feint; they never meant to leave hardware.	feint
+Their moat is a trove of loom data from forty textile mills.	Their moat is a trove of loom data from forty textile mills.	moat, trove, loom
+Our startup sells a jig that cuts a dovetail joint in one pass.	Our startup sells a jig that cuts a dovetail joint in one pass.	jig, dovetail
+The landlord served a writ of possession on the defunct startup.	The landlord served a writ of possession on the defunct startup.	writ
+which is why we ceded the board seat	which is why we ceded the board seat	ceded
+I sowed the sweet peas along the lath trellis by the shed.	I sowed the sweet peas along the lath trellis by the shed.	sowed, lath
+Fork in the compost until the bed has a fine, crumbly tilth.	Fork in the compost until the bed has a fine, crumbly tilth.	tilth
+Deadhead the dahlias weekly or they will flag by September.	Deadhead the dahlias weekly or they will flag by September.	deadhead, flag
+Sedges grow thick around the pond, and the moorhens nest among them.	Sedges grow thick around the pond, and the moorhens nest among them.	sedges, moorhens
+I set the espaliered pear against the south wall to catch the warmth.	I set the espaliered pear against the south wall to catch the warmth.	espaliered
+A blight has struck the tomatoes; their leaves are mottled and limp.	A blight has struck the tomatoes; their leaves are mottled and limp.	blight, mottled
+I mulched the asparagus crowns with well-rotted manure.	I mulched the asparagus crowns with well-rotted manure.	mulched
+Lop back the bramble before it swallows the compost heap.	Lop back the bramble before it swallows the compost heap.	lop, bramble
+The dibber is the handiest tool in my potting shed.	The dibber is the handiest tool in my potting shed.	dibber
+The wisteria twines up the pergola faster than I can prune it.	The wisteria twines up the pergola faster than I can prune it.	twines, pergola
+The raised bed's corners are joined with mortise and tenon, pegged with oak.	The raised bed's corners are joined with mortise and tenon, pegged with oak.	mortise, tenon
+The cellist played the Elgar with such pathos that I wept.	The cellist played the Elgar with such pathos that I wept.	pathos
+The choir's diction was crisp, every sibilant clear to the back row.	The choir's diction was crisp, every sibilant clear to the back row.	sibilant
+The soprano's vibrato was a touch too wide for Handel.	The soprano's vibrato was a touch too wide for Handel.	vibrato
+The encore was a lilting air from the Hebrides.	The encore was a lilting air from the Hebrides.	lilting, air
+Just as the overture began, a phone trilled somewhere in row J.	Just as the overture began, a phone trilled somewhere in row J.	trilled
+The fiddler rosined his bow till it smoked under the lights.	The fiddler rosined his bow till it smoked under the lights.	rosined
+Their new album is a dirge from start to finish, and I mean that kindly.	Their new album is a dirge from start to finish, and I mean that kindly.	dirge
+The lutenist tuned for ages, but the galliard was worth the wait.	The lutenist tuned for ages, but the galliard was worth the wait.	lutenist, galliard
+Margot turns forty on Saturday, so let's not be tardy.	Margot turns forty on Saturday, so let's not be tardy.	tardy
+I'll bring her a teal scarf, she adores that shade	I'll bring her a teal scarf, she adores that shade	teal
+Who's ordering the cake? Last year's was a sodden mess.	Who's ordering the cake? Last year's was a sodden mess.	sodden
+Mum's the word; she mustn't catch wind of the plan.	Mum's the word; she mustn't catch wind of the plan.	mum's, mustn't
+Thou art all invited to my cottage for cider afterward.	Thou art all invited to my cottage for cider afterward.	thou, art
+Let's chip in for a lathe, Margot has been turning bowls lately.	Let's chip in for a lathe, Margot has been turning bowls lately.	lathe
+Kofi says he can eke out an hour after his shift.	Kofi says he can eke out an hour after his shift.	eke
+lol nary a soul will notice if the candles are crooked	lol nary a soul will notice if the candles are crooked	nary
+I thank thee all for the birthday wishes, my dears.	I thank thee all for the birthday wishes, my dears.	thee
+Gifts are optional, but her ilk do love a handwritten card.	Gifts are optional, but her ilk do love a handwritten card.	ilk
+wait, is the party by the tarn or at the cottage?	wait, is the party by the tarn or at the cottage?	tarn
+The CSS grid goes awry in Safari when the sidebar collapses.	The CSS grid goes awry in Safari when the sidebar collapses.	awry
+The login form throws a vexing error whenever the cookie is stale.	The login form throws a vexing error whenever the cookie is stale.	vexing
+That race condition is a wily beast that appears but once a week.	That race condition is a wily beast that appears but once a week.	wily
+Our tooltips render askew in Firefox; the arrow points at nothing.	Our tooltips render askew in Firefox; the arrow points at nothing.	askew
+The header uses a mauve accent that clashes with the warning banner.	The header uses a mauve accent that clashes with the warning banner.	mauve
+My granddaughter says the bug is a whit of stray state in the reducer.	My granddaughter says the bug is a whit of stray state in the reducer.	whit
+The webhook fires twice, as is its wont, whenever the queue backs up.	The webhook fires twice, as is its wont, whenever the queue backs up.	wont
+After an hour of toil, the culprit was a lone trailing comma.	After an hour of toil, the culprit was a lone trailing comma.	toil
+the stack trace is a tome, I'm not reading all of that	the stack trace is a tome, I'm not reading all of that	tome
+The fix was so terse it fit on a single line, yet it took a fortnight.	The fix was so terse it fit on a single line, yet it took a fortnight.	terse, fortnight
+The spike sorter split one unit in twain, so we merged them by hand.	The spike sorter split one unit in twain, so we merged them by hand.	twain
+Most of the units Priya isolated sat in layer five, close to the pyramidal soma, which matches what the histology showed last month.	Most of the units Priya isolated sat in layer five, close to the pyramidal soma, which matches what the histology showed last month.	soma
+Glia may explain the slow drift in the local field potential.	Glia may explain the slow drift in the local field potential.	glia
+The electrode tract ran along the gyri and dipped into two sulci.	The electrode tract ran along the gyri and dipped into two sulci.	gyri, sulci
+Axonal spikes are narrower than somatic ones, so we sort by width.	Axonal spikes are narrower than somatic ones, so we sort by width.	axonal, somatic
+The tetrode wires frayed, and the recording waned after day nine.	The tetrode wires frayed, and the recording waned after day nine.	frayed, waned
+Dr. Okonkwo asked us to cull any unit with refractory violations.	Dr. Okonkwo asked us to cull any unit with refractory violations.	cull
+A faint hum at sixty hertz besets every channel near the rig.	A faint hum at sixty hertz besets every channel near the rig.	besets
+We quelled the ground loop by rerouting the shield.	We quelled the ground loop by rerouting the shield.	quelled
+The whiskers were trimmed save for a single row.	The whiskers were trimmed save for a single row.	save
+Theta waxes during running and ebbs at rest.	Theta waxes during running and ebbs at rest.	waxes, ebbs
+Oocytes from the same clutch were imaged on day three.	Oocytes from the same clutch were imaged on day three.	oocytes, clutch
+so the glial signal lags by half a second	so the glial signal lags by half a second	glial
+The lease is void ab initio, as the landlord never held title.	The lease is void ab initio, as the landlord never held title.	ab initio
+Hereto annexed is a schedule of fixtures, including the kiln and both lathes.	Hereto annexed is a schedule of fixtures, including the kiln and both lathes.	hereto, lathes
+The tenant shall not affix any sign or bracket to the joists or lintels of the barn without the written consent of the landlord.	The tenant shall not affix any sign or bracket to the joists or lintels of the barn without the written consent of the landlord.	joists, lintels
+Tie a bight in the line and drop it over the cleat.	Tie a bight in the line and drop it over the cleat.	bight, cleat
+Sit on the forward thwart and keep your weight low.	Sit on the forward thwart and keep your weight low.	thwart
+then ease the sheet off the cleats slowly	then ease the sheet off the cleats slowly	cleats
+The new joist is sistered to the old one with carriage bolts.	The new joist is sistered to the old one with carriage bolts.	joist, sistered
+Halley's comet won't come back till 2061, so I shan't see it.	Halley's comet won't come back till 2061, so I shan't see it.	comet, shan't
+The mother lode of old chisels turned up at a yard sale in Bath.	The mother lode of old chisels turned up at a yard sale in Bath.	lode
+The tomes on the top shelf are first editions of Trollope.	The tomes on the top shelf are first editions of Trollope.	tomes
+Fare thee well.	Fare thee well.	thee
+Wend home slowly.	Wend home slowly.	wend

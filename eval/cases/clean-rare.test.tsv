@@ -1,0 +1,151 @@
+# clean rare-word text, set B: every line is typed correctly, typed == expected (measures false corrections on rare but legitimate words)
+As is her wont, the director arrived late to standup and left before the demo.	As is her wont, the director arrived late to standup and left before the demo.	wont
+The quarterly review went awry when the projector died mid-slide.	The quarterly review went awry when the projector died mid-slide.	awry
+Not a whit of progress was made on the budget today.	Not a whit of progress was made on the budget today.	whit
+He tried to quell the panic before the all-hands call.	He tried to quell the panic before the all-hands call.	quell
+Ere the meeting ended, she had ceded the floor to the intern twice.	Ere the meeting ended, she had ceded the floor to the intern twice.	ere, ceded
+my manager keeps a calm mien even when the release slips	my manager keeps a calm mien even when the release slips	mien
+Nary a complaint from the client this week, which is suspicious.	Nary a complaint from the client this week, which is suspicious.	nary
+We managed to eke out a small discount on the renewal.	We managed to eke out a small discount on the renewal.	eke
+Her aplomb during the investor pitch impressed the whole room.	Her aplomb during the investor pitch impressed the whole room.	aplomb
+Replying all to the layoff email was a bit gauche.	Replying all to the layoff email was a bit gauche.	gauche
+Interest in the reorg waned after lunch.	Interest in the reorg waned after lunch.	waned
+The deadline is nigh, so let's skip the icebreaker.	The deadline is nigh, so let's skip the icebreaker.	nigh
+That point is moot now that the client signed.	That point is moot now that the client signed.	moot
+Let's mete out the tasks fairly this sprint.	Let's mete out the tasks fairly this sprint.	mete
+He tried to wrest control of the agenda from the facilitator.	He tried to wrest control of the agenda from the facilitator.	wrest
+The pith of her proposal was buried on slide nine.	The pith of her proposal was buried on slide nine.	pith
+Lest we forget, the offsite deposit is due Monday.	Lest we forget, the offsite deposit is due Monday.	lest
+which, to be frank, felt like a sop to the sales team	which, to be frank, felt like a sop to the sales team	sop
+The objections were quelled once finance shared the numbers.	The objections were quelled once finance shared the numbers.	quelled
+Very droll, Kevin.	Very droll, Kevin.	droll, short
+If the vendor insists on renegotiating again, we should hew to the original terms and let legal draft a firm reply.	If the vendor insists on renegotiating again, we should hew to the original terms and let legal draft a firm reply.	hew, long
+Our legal team says two writs were served on the contractor last month.	Our legal team says two writs were served on the contractor last month.	writs
+Picked up a teal throw and two linen napkins at the market.	Picked up a teal throw and two linen napkins at the market.	teal
+The secondhand bookshop had a leather-bound tome on falconry.	The secondhand bookshop had a leather-bound tome on falconry.	tome
+I finally bought a small kiln for glazing at home.	I finally bought a small kiln for glazing at home.	kiln
+Found a used lathe on the classifieds for ninety bucks.	Found a used lathe on the classifieds for ninety bucks.	lathe
+The yarn store sells warp and weft thread by the cone.	The yarn store sells warp and weft thread by the cone.	warp, weft
+The fabric shop had sedge-green tweed on clearance.	The fabric shop had sedge-green tweed on clearance.	sedge
+bought new cleats for the dinghy and a coil of braided line	bought new cleats for the dinghy and a coil of braided line	cleats
+Do they stock spare heddles for a rigid heddle loom?	Do they stock spare heddles for a rigid heddle loom?	heddles
+The candle smelled of seared cedar and woodsmoke.	The candle smelled of seared cedar and woodsmoke.	seared
+The grocer had quinces, medlars, and a crate of damsons.	The grocer had quinces, medlars, and a crate of damsons.	medlars, damsons
+That jacket in ochre or the russet one?	That jacket in ochre or the russet one?	ochre, russet
+Sate your sweet tooth at the new patisserie on Elm Street.	Sate your sweet tooth at the new patisserie on Elm Street.	sate
+A stray mote of glitter is still stuck to my receipt.	A stray mote of glitter is still stuck to my receipt.	mote
+The antique dealer had a dovecote and a brass sextant.	The antique dealer had a dovecote and a brass sextant.	dovecote, sextant
+Whet your appetite at the cheese counter first.	Whet your appetite at the cheese counter first.	whet
+Teal or navy?	Teal or navy?	teal, short
+The lithe lead dancer stole every scene in the second act.	The lithe lead dancer stole every scene in the second act.	lithe
+That ballad about a comet always makes me rue my twenties.	That ballad about a comet always makes me rue my twenties.	comet, rue
+The score swells as the hero wends his way home through the snow.	The score swells as the hero wends his way home through the snow.	wends
+Yon castle in the opening shot is actually a matte painting.	Yon castle in the opening shot is actually a matte painting.	yon
+The actor paused and asked, Wherefore art thou so pale?	The actor paused and asked, Wherefore art thou so pale?	thou, wherefore
+thee and thou show up constantly in that period drama	thee and thou show up constantly in that period drama	thee, thou
+The director's oft-quoted line about silence is overrated.	The director's oft-quoted line about silence is overrated.	oft
+The soundtrack uses a lone fiddle over the windswept tor.	The soundtrack uses a lone fiddle over the windswept tor.	tor
+The plot vexed me, but the cinematography was gorgeous.	The plot vexed me, but the cinematography was gorgeous.	vexed
+The fop in the costume drama wears an absurd powdered wig.	The fop in the costume drama wears an absurd powdered wig.	fop
+A baby mewled two rows behind us for the whole first reel.	A baby mewled two rows behind us for the whole first reel.	mewled
+They meet for a tryst at the boathouse in the final chapter.	They meet for a tryst at the boathouse in the final chapter.	tryst
+The bassist quaffed a pint between sets.	The bassist quaffed a pint between sets.	quaffed
+Days of yore, as the old folk song goes, were no kinder.	Days of yore, as the old folk song goes, were no kinder.	yore
+the hero smote the wyrm with a borrowed blade	the hero smote the wyrm with a borrowed blade	smote, wyrm
+She pirouetted lithely across the stage in the encore.	She pirouetted lithely across the stage in the encore.	lithely
+Her voice turned sere and brittle in the final aria.	Her voice turned sere and brittle in the final aria.	sere
+The physio worked on the nape of my neck for ten minutes.	The physio worked on the nape of my neck for ten minutes.	nape
+My doctor said the rash should wane within a week.	My doctor said the rash should wane within a week.	wane
+Drinking more water should help allay the headaches.	Drinking more water should help allay the headaches.	allay
+I felt sated after the hospital's surprisingly decent soup.	I felt sated after the hospital's surprisingly decent soup.	sated
+She looked wan after the night shift at the clinic.	She looked wan after the night shift at the clinic.	wan
+The neurologist said the gyri and sulci looked normal on the scan.	The neurologist said the gyri and sulci looked normal on the scan.	gyri, sulci
+Axonal damage can take months to heal, the surgeon warned.	Axonal damage can take months to heal, the surgeon warned.	axonal
+She carries one allele for the condition but has no symptoms.	She carries one allele for the condition but has no symptoms.	allele
+The clinic can freeze an oocyte before chemotherapy begins.	The clinic can freeze an oocyte before chemotherapy begins.	oocyte
+A single codon change can alter the whole protein.	A single codon change can alter the whole protein.	codon
+My pharmacist was loth to refill it without a new prescription.	My pharmacist was loth to refill it without a new prescription.	loth
+Gird yourself, the dentist found three more cavities.	Gird yourself, the dentist found three more cavities.	gird
+Glia are not just glue; they actively prune synapses.	Glia are not just glue; they actively prune synapses.	glia
+The bruise on my shin has gone a lurid shade of puce.	The bruise on my shin has gone a lurid shade of puce.	lurid, puce
+The inspector flagged a cracked joist under the kitchen floor.	The inspector flagged a cracked joist under the kitchen floor.	joist
+Old lath and plaster crumbled when we pulled the shelves down.	Old lath and plaster crumbled when we pulled the shelves down.	lath
+The dado rail in the hallway needs a fresh coat of paint.	The dado rail in the hallway needs a fresh coat of paint.	dado
+Movers carried boxes to and fro all afternoon.	Movers carried boxes to and fro all afternoon.	fro
+The new flat overlooks a small fen behind the station.	The new flat overlooks a small fen behind the station.	fen
+The lease mentions a lien on the deposit if rent is late.	The lease mentions a lien on the deposit if rent is late.	lien
+We had to rive the old stump apart before the van arrived.	We had to rive the old stump apart before the van arrived.	rive
+Our new place is a short walk from a tarn where locals swim.	Our new place is a short walk from a tarn where locals swim.	tarn
+My dad cut a tenon to fix the wobbly table leg before the move.	My dad cut a tenon to fix the wobbly table leg before the move.	tenon
+The cottage has hand-hewn beams and an inglenook fireplace.	The cottage has hand-hewn beams and an inglenook fireplace.	hewn, inglenook
+The sheep next door were shorn the week we moved in.	The sheep next door were shorn the week we moved in.	shorn
+A vole has dug tunnels across the new lawn.	A vole has dug tunnels across the new lawn.	vole
+Ere long, the movers had emptied the van and left.	Ere long, the movers had emptied the van and left.	ere
+The oak's bole is too wide for three of us to hug.	The oak's bole is too wide for three of us to hug.	bole
+The forecast does not bode well for moving day.	The forecast does not bode well for moving day.	bode
+plus the joists in the attic are sagging badly	plus the joists in the attic are sagging badly	joists
+The tenant shall indemnify the landlord against all claims arising herefrom.	The tenant shall indemnify the landlord against all claims arising herefrom.	legal, herefrom
+Said premises shall be vacated forthwith upon termination of the lease.	Said premises shall be vacated forthwith upon termination of the lease.	legal, forthwith
+When the movers finally left, we sat on the bare floor among the boxes, ate cold noodles, and watched the light wane over the fen.	When the movers finally left, we sat on the bare floor among the boxes, ate cold noodles, and watched the light wane over the fen.	wane, fen, long
+Hackers of that ilk never sleep before a demo.	Hackers of that ilk never sleep before a demo.	ilk
+We named the bot Lode because it mines old issue threads.	We named the bot Lode because it mines old issue threads.	Lode
+Our scraper treats the forum archive as a lode of untapped bug reports.	Our scraper treats the forum archive as a lode of untapped bug reports.	lode
+The judges were nonplussed by our lack of a pitch deck.	The judges were nonplussed by our lack of a pitch deck.	nonplussed
+Thou shalt not push to main, read the sign above the snack table.	Thou shalt not push to main, read the sign above the snack table.	thou, shalt
+The winning team mapped scree slopes from drone photos.	The winning team mapped scree slopes from drone photos.	scree
+The keynote speaker had a laconic, wry sense of humor.	The keynote speaker had a laconic, wry sense of humor.	laconic, wry
+Our team name was Comet, which felt apt at four in the morning.	Our team name was Comet, which felt apt at four in the morning.	Comet
+The mentor told us to hew closely to the judging rubric.	The mentor told us to hew closely to the judging rubric.	hew
+we pivoted to a soma segmentation tool for microscope images	we pivoted to a soma segmentation tool for microscope images	soma
+The API returns a cryptic error, which vexes me to no end.	The API returns a cryptic error, which vexes me to no end.	vexes
+Don't vex the organizers, they control the pizza.	Don't vex the organizers, they control the pizza.	vex
+so the demo crashed, but nary a judge noticed	so the demo crashed, but nary a judge noticed	nary
+We wended back to the hotel at dawn, bleary and triumphant.	We wended back to the hotel at dawn, bleary and triumphant.	wended
+The paper measures somata across all six cortical layers.	The paper measures somata across all six cortical layers.	somata
+Glial cells were labeled with a fluorescent marker.	Glial cells were labeled with a fluorescent marker.	glial
+Synonymous codons were excluded from the analysis.	Synonymous codons were excluded from the analysis.	codons
+Each phylum was represented by at least three species.	Each phylum was represented by at least three species.	phylum
+The phyla differ markedly in gut microbiome diversity.	The phyla differ markedly in gut microbiome diversity.	phyla
+Alleles at this locus segregate in a Mendelian fashion.	Alleles at this locus segregate in a Mendelian fashion.	alleles, locus
+Oocytes were collected on day fourteen and fixed overnight.	Oocytes were collected on day fourteen and fixed overnight.	oocytes
+Sulcal depth correlated with age in the older cohort.	Sulcal depth correlated with age in the older cohort.	sulcal
+The authors model each gyrus as a folded sheet of cortex.	The authors model each gyrus as a folded sheet of cortex.	gyrus
+The review is a weighty tome, but its methods section is thin.	The review is a weighty tome, but its methods section is thin.	tome
+Whence the discrepancy between figures two and four remains unclear.	Whence the discrepancy between figures two and four remains unclear.	whence
+Microglia engulf synaptic debris after axonal injury.	Microglia engulf synaptic debris after axonal injury.	microglia, axonal
+Allelic frequencies drifted over forty generations in the island population.	Allelic frequencies drifted over forty generations in the island population.	allelic
+Sulci deepen with age, the authors argue, though the effect is modest.	Sulci deepen with age, the authors argue, though the effect is modest.	sulci
+Want to hike up to the tor on Saturday?	Want to hike up to the tor on Saturday?	tor
+We could camp by the loch and fish at dawn.	We could camp by the loch and fish at dawn.	loch
+Let's wend our way to the farmers market after brunch.	Let's wend our way to the farmers market after brunch.	wend
+Bring a fleece, the fells get cold after sunset.	Bring a fleece, the fells get cold after sunset.	fells
+He rued skipping the gig once he saw the setlist.	He rued skipping the gig once he saw the setlist.	rued
+We tied off at the cleat beside the jetty.	We tied off at the cleat beside the jetty.	cleat
+Mind the thwart when you climb into the canoe.	Mind the thwart when you climb into the canoe.	thwart
+Water sloshed over the gunwale as we turned into the wind.	Water sloshed over the gunwale as we turned into the wind.	gunwale
+Make a loop in the bight of the rope, then pass the end through.	Make a loop in the bight of the rope, then pass the end through.	bight
+Prithee, pass the crisps, said Lena in her best Shakespeare voice.	Prithee, pass the crisps, said Lena in her best Shakespeare voice.	prithee
+The game master described a wyvern circling yon tower.	The game master described a wyvern circling yon tower.	wyvern, yon
+Hie thee to the bakery before the croissants sell out.	Hie thee to the bakery before the croissants sell out.	hie, thee
+The lake teems with perch in late spring.	The lake teems with perch in late spring.	teems
+Rime coated every branch on the ridge this morning.	Rime coated every branch on the ridge this morning.	rime
+The river roils after heavy rain upstream, so no swimming.	The river roils after heavy rain upstream, so no swimming.	roils
+and then we picked our way down the scree in the dark	and then we picked our way down the scree in the dark	scree
+The trail passes three tarns and a waterfall.	The trail passes three tarns and a waterfall.	tarns
+Belay me from that ledge while I clip the next bolt.	Belay me from that ledge while I clip the next bolt.	belay
+The sedge warbler sang from the reeds at the edge of the fen.	The sedge warbler sang from the reeds at the edge of the fen.	sedge, fen
+I unload the kilns every Thursday at the pottery studio.	I unload the kilns every Thursday at the pottery studio.	kilns
+The woodshop pays me to sweep sawdust from under the lathes.	The woodshop pays me to sweep sawdust from under the lathes.	lathes
+My shift at the bookshop involves shelving tomes nobody buys.	My shift at the bookshop involves shelving tomes nobody buys.	tomes
+I teach kids to weave on small looms with cotton warp.	I teach kids to weave on small looms with cotton warp.	warp
+Raise the heddle, pass the shuttle, then beat the weft.	Raise the heddle, pass the shuttle, then beat the weft.	heddle, weft
+The till jammed again and my manager sighed with weary forbearance.	The till jammed again and my manager sighed with weary forbearance.	forbearance
+At the cafe I sear the halloumi and plate the salads.	At the cafe I sear the halloumi and plate the salads.	sear
+The garden center has me potting sedges and ferns.	The garden center has me potting sedges and ferns.	sedges
+The owner hews to a strict no-phones policy behind the counter.	The owner hews to a strict no-phones policy behind the counter.	hews
+Learned the whole menu by rote during my first week.	Learned the whole menu by rote during my first week.	rote
+At the frame shop I cut the mortise first, then pare the tenon to fit.	At the frame shop I cut the mortise first, then pare the tenon to fit.	mortise, tenon
+My supervisor lathed a walnut bowl and oiled it twice.	My supervisor lathed a walnut bowl and oiled it twice.	lathed
+so I'll cede my Saturday shift to Priya before exams	so I'll cede my Saturday shift to Priya before exams	cede
+Hither came the courier, and thence he drove north with our boxes.	Hither came the courier, and thence he drove north with our boxes.	hither, thence
+Hie thee hence.	Hie thee hence.	hie, thee, short

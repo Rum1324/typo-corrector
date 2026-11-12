@@ -1,0 +1,155 @@
+# clean-tech.dev.tsv - correctly typed developer chat/notes (identifiers, commands, paths, URLs, jargon); typed == expected
+# measures false corrections: nothing here should change (Set A topics)
+# format: typed<TAB>expected<TAB>optional note
+pushed the fix to main, can you pull and run npm i again?	pushed the fix to main, can you pull and run npm i again?
+the bug was in parse_config, it ignored the env var	the bug was in parse_config, it ignored the env var
+try git rebase -i HEAD~3 and squash the WIP commits	try git rebase -i HEAD~3 and squash the WIP commits
+brew install jq first, then pipe the JSON through it	brew install jq first, then pipe the JSON through it
+pip install torch fails on my M2, any ideas?	pip install torch fails on my M2, any ideas?
+swift build -c release takes about 40s on my laptop	swift build -c release takes about 40s on my laptop
+updated notes.md with the meeting summary	updated notes.md with the meeting summary
+train.py now reads the batch size from config.yaml	train.py now reads the batch size from config.yaml
+Package.swift still pins the old version of swift-argument-parser	Package.swift still pins the old version of swift-argument-parser
+the binary ends up in /usr/local/bin after install	the binary ends up in /usr/local/bin after install
+cloned it into ~/code last night	cloned it into ~/code last night
+my config is at github.com/user/repo if you want to copy it	my config is at github.com/user/repo if you want to copy it
+this page explains lookaheads well: https://docs.python.org/3/library/re.html	this page explains lookaheads well: https://docs.python.org/3/library/re.html
+watch this before the talk youtu.be/dQw4w9 lol	watch this before the talk youtu.be/dQw4w9 lol
+the old link example.com/path/to-page returns 404 now	the old link example.com/path/to-page returns 404 now
+send the slides to kenji.sato@example.com before Friday	send the slides to kenji.sato@example.com before Friday
+bumped the version to v1.2.3 and tagged the release	bumped the version to v1.2.3 and tagged the release
+does it still build on macOS 15 with Xcode 16?	does it still build on macOS 15 with Xcode 16?
+#til git switch -c is the same as git checkout -b	#til git switch -c is the same as git checkout -b
+@yuki can you review my PR before lunch?	@yuki can you review my PR before lunch?
+## TODO: refactor auth, add tests, update README	## TODO: refactor auth, add tests, update README
+- [ ] fix the flaky test in test_tokenizer.py	- [ ] fix the flaky test in test_tokenizer.py
+the model is 7B params, roughly 14 GB in fp16	the model is 7B params, roughly 14 GB in fp16
+we use JWT for sessions and OAuth for the GitHub login	we use JWT for sessions and OAuth for the GitHub login
+honestly it's just a CRUD app with a REST API on top	honestly it's just a CRUD app with a REST API on top
+the LLM keeps inventing function names during codegen	the LLM keeps inventing function names during codegen
+made the handler async so it stops blocking the event loop	made the handler async so it stops blocking the event loop
+kubectl get pods -n staging shows two pods in CrashLoopBackOff	kubectl get pods -n staging shows two pods in CrashLoopBackOff
+the regex was too greedy, switched to .*? and it works	the regex was too greedy, switched to .*? and it works
+no need for sudo if you install it via brew	no need for sudo if you install it via brew
+grep -rn TODO src/ gives about 40 hits	grep -rn TODO src/ gives about 40 hits
+moved the settings from config.toml to one yaml file	moved the settings from config.toml to one yaml file
+nginx returns 502 whenever the backend restarts	nginx returns 502 whenever the backend restarts
+the webhook fires twice on every push	the webhook fires twice on every push
+changed the enum to a struct with static constants	changed the enum to a struct with static constants
+init runs before main in Go, that tripped me up	init runs before main in Go, that tripped me up
+added a mutex around the cache and the race is gone	added a mutex around the cache and the race is gone
+the linter complains about unused imports in lib/utils.ts	the linter complains about unused imports in lib/utils.ts
+we switched to a monorepo with pnpm workspaces last month	we switched to a monorepo with pnpm workspaces last month
+my dotfiles are a mess, cleaning them up this weekend	my dotfiles are a mess, cleaning them up this weekend
+the tokenizer splits emoji into weird byte tokens	the tokenizer splits emoji into weird byte tokens
+planning to finetune a small model on our lab notes	planning to finetune a small model on our lab notes
+I mostly do backend, Mika handles the frontend	I mostly do backend, Mika handles the frontend
+some deps are outdated, e.g. requests and numpy	some deps are outdated, e.g. requests and numpy
+w/ the new cache it's approx 3x faster	w/ the new cache it's approx 3x faster
+ran it w/o the GPU and it took forever	ran it w/o the GPU and it took forever
+more info in docs/setup.md	more info in docs/setup.md
+misc fixes, the prev commit broke CI	misc fixes, the prev commit broke CI
+the impl looks fine but tmp files never get deleted	the impl looks fine but tmp files never get deleted
+having both src/ and lib/ on the path is confusing	having both src/ and lib/ on the path is confusing
+that pkg is only needed in dev, not prod	that pkg is only needed in dev, not prod
+pass ctx first, then req and res	pass ctx first, then req and res
+log the params, args and kwargs before the call	log the params, args and kwargs before the call
+remind me to bump deps in the repo tomorrow	remind me to bump deps in the repo tomorrow
+lunch at the ramen place near the lab, back by 1pm	lunch at the ramen place near the lab, back by 1pm
+ordering pizza for the hackathon, any allergies?	ordering pizza for the hackathon, any allergies?
+made curry tonight and wrote the migration script after the kids went to bed	made curry tonight and wrote the migration script after the kids went to bed
+coffee first, then I'll look at the failing GitHub Actions job	coffee first, then I'll look at the failing GitHub Actions job
+bento from 7-Eleven again, deadline week is rough	bento from 7-Eleven again, deadline week is rough
+the bakery app finally has dark mode lol	the bakery app finally has dark mode lol
+exam on OS tomorrow: mutex, semaphore, deadlock, paging	exam on OS tomorrow: mutex, semaphore, deadlock, paging
+studying Big-O for the algorithms midterm, O(n log n) everywhere	studying Big-O for the algorithms midterm, O(n log n) everywhere
+finished the linear algebra problem set, uploaded it as hw3.pdf	finished the linear algebra problem set, uploaded it as hw3.pdf
+our DB course uses PostgreSQL 16 and pgAdmin	our DB course uses PostgreSQL 16 and pgAdmin
+the TA said to submit via the course repo, not email	the TA said to submit via the course repo, not email
+flashcards for the networking final: TCP, UDP, DNS, NAT	flashcards for the networking final: TCP, UDP, DNS, NAT
+does anyone have notes on dynamic programming from lecture 9?	does anyone have notes on dynamic programming from lecture 9?
+ran 10 km this morning, then fixed the CI	ran 10 km this morning, then fixed the CI
+the gym app logs sets as JSON, kind of nice for scripting	the gym app logs sets as JSON, kind of nice for scripting
+built a tiny dashboard for our futsal team stats	built a tiny dashboard for our futsal team stats
+watching the Giants game, will reply after the 7th inning	watching the Giants game, will reply after the 7th inning
+my Garmin exports .fit files, need a parser for them	my Garmin exports .fit files, need a parser for them
+swim practice at 6, I'll push the branch before I leave	swim practice at 6, I'll push the branch before I leave
+taking the Shinkansen to Kyoto tomorrow morning, so I'll be offline for approx 2h, ping me on LINE if the deploy breaks	taking the Shinkansen to Kyoto tomorrow morning, so I'll be offline for approx 2h, ping me on LINE if the deploy breaks
+hotel wifi in Osaka blocks port 22, ssh over 443 works	hotel wifi in Osaka blocks port 22, ssh over 443 works
+bought a Suica card, works with Apple Pay too	bought a Suica card, works with Apple Pay too
+the JR app says the Nozomi is 5 min late	the JR app says the Nozomi is 5 min late
+Kanazawa was amazing, the photos are in the shared album	Kanazawa was amazing, the photos are in the shared album
+anyone know a good coworking spot near Shibuya station?	anyone know a good coworking spot near Shibuya station?
+I'm in Tokyo until the 20th, timezone is JST (UTC+9)	I'm in Tokyo until the 20th, timezone is JST (UTC+9)
+used Google Translate on the menu, ordered katsu by accident	used Google Translate on the menu, ordered katsu by accident
+the lab server runs Ubuntu 22.04 now, so ssh in with your usual user and rebuild the conda env before you launch any jobs	the lab server runs Ubuntu 22.04 now, so ssh in with your usual user and rebuild the conda env before you launch any jobs
+please don't run jobs on gpu01, it's reserved for Prof. Tanaka	please don't run jobs on gpu01, it's reserved for Prof. Tanaka
+the venv is broken again, I'll rebuild it from requirements.txt	the venv is broken again, I'll rebuild it from requirements.txt
+results are in /data/shared/exp42, see results.csv	results are in /data/shared/exp42, see results.csv
+lab meeting moved to Thursday 3pm, room B204	lab meeting moved to Thursday 3pm, room B204
+the reviewer wants an ablation without the attention layer	the reviewer wants an ablation without the attention layer
+plotted the loss curves with matplotlib and posted them in the Slack channel	plotted the loss curves with matplotlib and posted them in the Slack channel
+the cluster queue is full, my SLURM job is stuck at PENDING	the cluster queue is full, my SLURM job is stuck at PENDING
+citations are in refs.bib, use the BibTeX keys from Zotero	citations are in refs.bib, use the BibTeX keys from Zotero
+dataset is about 120k samples, 80/10/10 split	dataset is about 120k samples, 80/10/10 split
+accuracy went from 0.81 to 0.86 after the fix	accuracy went from 0.81 to 0.86 after the fix
+my mom asked me to set up her new iPad	my mom asked me to set up her new iPad
+helped my dad reset his router, the admin page was at 192.168.1.1	helped my dad reset his router, the admin page was at 192.168.1.1
+the kids want a Minecraft server, maybe on a Raspberry Pi	the kids want a Minecraft server, maybe on a Raspberry Pi
+family photos are backed up to the NAS every night via rsync	family photos are backed up to the NAS every night via rsync
+my sister is learning Python, I recommended Automate the Boring Stuff	my sister is learning Python, I recommended Automate the Boring Stuff
+grandma finally uses LINE, she sends stickers all day	grandma finally uses LINE, she sends stickers all day
+the API returns 429 if you call it more than 60 times per minute	the API returns 429 if you call it more than 60 times per minute
+set MAX_RETRIES to 5 and TIMEOUT_MS to 3000	set MAX_RETRIES to 5 and TIMEOUT_MS to 3000
+OPENAI_API_KEY goes in .env, never commit that file	OPENAI_API_KEY goes in .env, never commit that file
+renamed fetchUserData to loadUserProfile for clarity	renamed fetchUserData to loadUserProfile for clarity
+isLoading never flips back to false in the useEffect	isLoading never flips back to false in the useEffect
+the branch is feature/dark-mode-toggle	the branch is feature/dark-mode-toggle
+the CSS class is nav-bar--collapsed, BEM style	the CSS class is nav-bar--collapsed, BEM style
+get_user_by_id returns None when the row is missing	get_user_by_id returns None when the row is missing
+HTTP_PROXY was set globally, that's why curl hung	HTTP_PROXY was set globally, that's why curl hung
+`npm run dev` starts it on localhost:3000	`npm run dev` starts it on localhost:3000
+wrap it in **bold** and it renders fine in GitHub markdown	wrap it in **bold** and it renders fine in GitHub markdown
+see [the RFC](https://example.com/rfc/42) for the full proposal	see [the RFC](https://example.com/rfc/42) for the full proposal
+> note: this only works on Node 20 or newer	> note: this only works on Node 20 or newer
+1. clone the repo 2. run make 3. open the app	1. clone the repo 2. run make 3. open the app
+the image is 1920x1080, compressed it to 240 KB	the image is 1920x1080, compressed it to 240 KB
+latency dropped from 180 ms to 45 ms after adding Redis	latency dropped from 180 ms to 45 ms after adding Redis
+the container needs at least 4 GB of RAM	the container needs at least 4 GB of RAM
+the battery lasts about 9 hrs w/ the screen dimmed	the battery lasts about 9 hrs w/ the screen dimmed
+SSD is almost full, 12 GB left out of 512 GB	SSD is almost full, 12 GB left out of 512 GB
+upload speed is 50 Mbps at home, 8 Mbps at the cafe	upload speed is 50 Mbps at home, 8 Mbps at the cafe
+we should add rate limiting to the /api/v2/users endpoint	we should add rate limiting to the /api/v2/users endpoint
+the SDK docs are outdated, the method is now called createSession	the SDK docs are outdated, the method is now called createSession
+writing a CLI in Rust with clap, it's surprisingly pleasant	writing a CLI in Rust with clap, it's surprisingly pleasant
+tried Bun instead of Node, cold start is way faster	tried Bun instead of Node, cold start is way faster
+the PR has 42 files changed, can we split it?	the PR has 42 files changed, can we split it?
+LGTM, just rename tmp_dir to cache_dir	LGTM, just rename tmp_dir to cache_dir
+nit: use const instead of let here	nit: use const instead of let here
+merged, closing #318	merged, closing #318
+CI is green, deploying to staging now	CI is green, deploying to staging now
+rollback prod, the migration dropped a column	rollback prod, the migration dropped a column
+the Dockerfile copies node_modules, add it to .dockerignore	the Dockerfile copies node_modules, add it to .dockerignore
+let's pair on the refactor tomorrow, 10am JST?	let's pair on the refactor tomorrow, 10am JST?
+the config lives in ~/.config/nvim/init.lua	the config lives in ~/.config/nvim/init.lua
+I aliased gs to git status in my .zshrc	I aliased gs to git status in my .zshrc
+vim or VS Code? I use both depending on the repo	vim or VS Code? I use both depending on the repo
+the cron job runs at 0 3 * * * which is 3am UTC	the cron job runs at 0 3 * * * which is 3am UTC
+regex for emails is never perfect, just check for @	regex for emails is never perfect, just check for @
+UUIDs as primary keys made the index huge	UUIDs as primary keys made the index huge
+the GraphQL schema has 30 types, mostly CRUD	the GraphQL schema has 30 types, mostly CRUD
+turns out the bug was a timezone issue, UTC vs JST again	turns out the bug was a timezone issue, UTC vs JST again
+the iOS build fails with a signing error, probably the provisioning profile	the iOS build fails with a signing error, probably the provisioning profile
+SwiftUI previews crash whenever I touch the @State var	SwiftUI previews crash whenever I touch the @State var
+using SQLite for now, can switch to Postgres later	using SQLite for now, can switch to Postgres later
+the PDF parser chokes on scanned pages, need OCR	the PDF parser chokes on scanned pages, need OCR
+sorry, I meant the dev branch, not main	sorry, I meant the dev branch, not main
+the README needs a section on env vars	the README needs a section on env vars
+ok so the YAML indentation was off by two spaces	ok so the YAML indentation was off by two spaces
+hit 1k stars on GitHub today, wild	hit 1k stars on GitHub today, wild
+the kids are finally asleep, so I have maybe two hours to debug the WebSocket reconnect logic before I need to sleep myself	the kids are finally asleep, so I have maybe two hours to debug the WebSocket reconnect logic before I need to sleep myself
+approx 30 min to build the Docker image from scratch	approx 30 min to build the Docker image from scratch
+the tokenizer config has vocab_size 32000 and max_len 2048	the tokenizer config has vocab_size 32000 and max_len 2048
+will finish the refactor after dinner, misc cleanup only	will finish the refactor after dinner, misc cleanup only
+the onsen ryokan in Hakone had better wifi than our office	the onsen ryokan in Hakone had better wifi than our office
+the frontend calls /auth/refresh every 15 min to renew the token	the frontend calls /auth/refresh every 15 min to renew the token

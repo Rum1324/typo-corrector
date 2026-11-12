@@ -1,0 +1,162 @@
+# clean-realword.holdout.tsv - correct sentences (no typos) whose words look like real-word slips, holdout split: coursework/club messages, support and scheduling email, product feedback, texting about plans/food/travel
+# format: typed<TAB>expected<TAB>note; typed == expected; note = the word being tested; first 90 cases use common slip results, last 70 use a rarer word with a much more common near-neighbour
+Please fill out the form before Friday and email it back to me.	Please fill out the form before Friday and email it back to me.	form
+I got the form from the registrar this morning.	I got the form from the registrar this morning.	form
+can you send the sign-up form to the group chat?	can you send the sign-up form to the group chat?	form
+The reply from support came two days later.	The reply from support came two days later.	from
+I'll send you your ticket as soon as the booking goes through.	I'll send you your ticket as soon as the booking goes through.	your
+Did you book your flight yet or should I wait?	Did you book your flight yet or should I wait?	your
+Can I ask you a question about problem four?	Can I ask you a question about problem four?	you
+is that you in the photo from the ski trip?	is that you in the photo from the ski trip?	you
+Let me know what you need from me for the handoff.	Let me know what you need from me for the handoff.	you
+We sold out of the club hoodies in two days.	We sold out of the club hoodies in two days.	out
+Our treasurer is out of town until the 9th.	Our treasurer is out of town until the 9th.	out
+Check out our new menu before you come in.	Check out our new menu before you come in.	our
+we ran our first workshop yesterday and it went really well	we ran our first workshop yesterday and it went really well	our
+Let's eat out tonight, I'm too tired to cook.	Let's eat out tonight, I'm too tired to cook.	out
+Finish the reading first, then start the problem set.	Finish the reading first, then start the problem set.	then
+The new plan costs more than the old one.	The new plan costs more than the old one.	than
+If Tuesday doesn't work, then let's try Thursday.	If Tuesday doesn't work, then let's try Thursday.	then
+we got there later than planned, then waited an hour for a table	we got there later than planned, then waited an hour for a table	than
+I asked the front desk and they said checkout is at eleven.	I asked the front desk and they said checkout is at eleven.	they
+Tell them the package arrived damaged.	Tell them the package arrived damaged.	them
+I told the driver to wait outside the terminal.	I told the driver to wait outside the terminal.	the
+They said the refund would take about a week.	They said the refund would take about a week.	the
+I emailed them the slides and then the handout.	I emailed them the slides and then the handout.	them
+Is there a later train, or is that the last one?	Is there a later train, or is that the last one?	there
+Their office is closed on weekends, so call on Monday.	Their office is closed on weekends, so call on Monday.	their
+There are three sections of the course this term.	There are three sections of the course this term.	three
+They left their bags there while they went to eat.	They left their bags there while they went to eat.	their
+The three of us are sharing a room at the hostel.	The three of us are sharing a room at the hostel.	three
+I gave her the notes after class.	I gave her the notes after class.	her
+Her flight gets in at noon, so I'll be here by eleven.	Her flight gets in at noon, so I'll be here by eleven.	here
+Is Maya here yet, or is her bus late again?	Is Maya here yet, or is her bus late again?	here
+can you tell her i'm here and waiting outside?	can you tell her i'm here and waiting outside?	her
+The exam was quite hard, but at least the room was quiet.	The exam was quite hard, but at least the room was quiet.	quite
+It's quite a walk from the station to the hostel.	It's quite a walk from the station to the hostel.	quite
+We need a quiet room for the interviews on Friday.	We need a quiet room for the interviews on Friday.	quiet
+The fan on the new model is very quiet, which I love.	The fan on the new model is very quiet, which I love.	quiet
+The trail was steeper than I thought, but the view was great.	The trail was steeper than I thought, but the view was great.	trail
+My free trial ends on Friday, can I extend it?	My free trial ends on Friday, can I extend it?	trial
+We hiked the coastal trail before breakfast.	We hiked the coastal trail before breakfast.	trail
+The mock trial team meets on Wednesdays at six.	The mock trial team meets on Wednesdays at six.	trial
+I saved the whole email trail about my refund.	I saved the whole email trail about my refund.	trail
+Where were you when I called this morning?	Where were you when I called this morning?	were
+We were waiting where you told us to.	We were waiting where you told us to.	where
+We're almost there, where should we park?	We're almost there, where should we park?	we're
+If I were you, I'd email the professor tonight.	If I were you, I'd email the professor tonight.	were
+The app lost its settings after the update.	The app lost its settings after the update.	its
+It's lost its charm since the redesign, honestly.	It's lost its charm since the redesign, honestly.	it's
+I think it's fine, but its battery could be better.	I think it's fine, but its battery could be better.	its
+I get off work at six, so dinner at seven?	I get off work at six, so dinner at seven?	off
+Take ten percent off the total if you order today.	Take ten percent off the total if you order today.	off
+Most of us are off campus this weekend.	Most of us are off campus this weekend.	off
+Let me know of any changes to the schedule.	Let me know of any changes to the schedule.	of
+I'm not sure of the exact time, sorry.	I'm not sure of the exact time, sorry.	of
+I don't know if any of them are coming.	I don't know if any of them are coming.	if
+Is it on the second floor or in the basement?	Is it on the second floor or in the basement?	on
+She's in on Monday but out on Tuesday.	She's in on Monday but out on Tuesday.	in
+The problem is us not reading the syllabus carefully.	The problem is us not reading the syllabus carefully.	us
+It took us an hour to find parking near the venue.	It took us an hour to find parking near the venue.	us
+Send us the invoice and we'll pay it this week.	Send us the invoice and we'll pay it this week.	us
+I'm now sure about the date, it's the 14th.	I'm now sure about the date, it's the 14th.	now
+I know now is not a great time, but can we talk?	I know now is not a great time, but can we talk?	now
+There's no way to know until they reply.	There's no way to know until they reply.	no
+It's not working now, but it was fine this morning.	It's not working now, but it was fine this morning.	not
+I do not know the answer to number six.	I do not know the answer to number six.	know
+no, not now, maybe after the meeting	no, not now, maybe after the meeting	not
+I want to go too, save me a ticket.	I want to go too, save me a ticket.	too
+It's too far to walk, so let's take the bus.	It's too far to walk, so let's take the bus.	too
+We have two tickets to the show on Saturday.	We have two tickets to the show on Saturday.	two
+The best thing about the update is the search.	The best thing about the update is the search.	thing
+I think the only thing missing is a dark mode.	I think the only thing missing is a dark mode.	think
+Even though it rained, we walked through the old town.	Even though it rained, we walked through the old town.	though
+the ramen was a bit salty, i thought it was good though	the ramen was a bit salty, i thought it was good though	though
+I read through the syllabus and thought of a few questions.	I read through the syllabus and thought of a few questions.	through
+Thanks for the thought, though I already have one.	Thanks for the thought, though I already have one.	thought
+The screws on the handle came loose after a month.	The screws on the handle came loose after a month.	loose
+I always lose my place when the page reloads.	I always lose my place when the page reloads.	lose
+I had an egg and toast for breakfast.	I had an egg and toast for breakfast.	an
+She has an early class and a lab on Mondays.	She has an early class and a lab on Mondays.	has
+As soon as he has the keys we can leave.	As soon as he has the keys we can leave.	as
+It was as good as the reviews said.	It was as good as the reviews said.	was
+He said the bus leaves at nine.	He said the bus leaves at nine.	he
+Is he meeting us at the restaurant or at the station?	Is he meeting us at the restaurant or at the station?	he
+I love that you live so close to campus now.	I love that you live so close to campus now.	live
+The food was good but the service was slow.	The food was good but the service was slow.	good
+I might buy it, but not at that price.	I might buy it, but not at that price.	but
+A table for four, for seven thirty please.	A table for four, for seven thirty please.	for
+Which one is on sale this week?	Which one is on sale this week?	on
+It's the best curry I've ever had, every single time.	It's the best curry I've ever had, every single time.	ever
+Give me five minutes to find my keys.	Give me five minutes to find my keys.	five
+We won our first match, so we're in the finals.	We won our first match, so we're in the finals.	won
+Correlation alone does not prove a causal link between the two variables.	Correlation alone does not prove a causal link between the two variables.	causal
+He teaches a martial arts class at the rec center on Tuesdays.	He teaches a martial arts class at the rec center on Tuesdays.	martial
+The form asks for my marital status, which seems unnecessary.	The form asks for my marital status, which seems unnecessary.	marital
+I'm cutting back on dairy, so oat milk in my latte please.	I'm cutting back on dairy, so oat milk in my latte please.	dairy
+We drove through the desert at sunrise and it was unreal.	We drove through the desert at sunrise and it was unreal.	desert
+don't desert me at this party, i only know you	don't desert me at this party, i only know you	desert
+Measure the angle between the two vectors in question three.	Measure the angle between the two vectors in question three.	angle
+You're an angel for covering my shift on Saturday.	You're an angel for covering my shift on Saturday.	angel
+I had to sever ties with the old vendor after the third late delivery.	I had to sever ties with the old vendor after the third late delivery.	sever
+I'm tired of resetting my password every week.	I'm tired of resetting my password every week.	tired
+He grew a beard over the summer and I barely recognized him.	He grew a beard over the summer and I barely recognized him.	beard
+Wipe the lens with a soft cloth, not a paper towel.	Wipe the lens with a soft cloth, not a paper towel.	cloth
+I'll have a pint of lager and the fish tacos.	I'll have a pint of lager and the fish tacos.	lager
+The median score on the midterm was 71.	The median score on the midterm was 71.	median
+Team morale has been low since the schedule change.	Team morale has been low since the schedule change.	morale
+The moral of the story is to always back up your files.	The moral of the story is to always back up your files.	moral
+There's a missing comma after the second clause.	There's a missing comma after the second clause.	comma
+i was in a food coma after that buffet	i was in a food coma after that buffet	coma
+I wonder if the bakery is still open.	I wonder if the bakery is still open.	wonder
+We like to wander around the old town without a map.	We like to wander around the old town without a map.	wander
+Just a sliver of cake for me, thanks.	Just a sliver of cake for me, thanks.	sliver
+The soup has barley and mushrooms in it.	The soup has barley and mushrooms in it.	barley
+We made a photo collage for the club's anniversary.	We made a photo collage for the club's anniversary.	collage
+Meet me by the statue in front of the library.	Meet me by the statue in front of the library.	statue
+Take a deep breath before you start the presentation.	Take a deep breath before you start the presentation.	breath
+The eggs come in a carton of twelve.	The eggs come in a carton of twelve.	carton
+Our team bore the brunt of the server outage.	Our team bore the brunt of the server outage.	brunt
+There's a 24-hour diner two blocks from the dorm.	There's a 24-hour diner two blocks from the dorm.	diner
+The pharmacist said one dose every eight hours.	The pharmacist said one dose every eight hours.	dose
+The sine of thirty degrees is one half.	The sine of thirty degrees is one half.	sine
+The temple is a sacred site, so dress modestly.	The temple is a sacred site, so dress modestly.	sacred
+I'll have the fried rice with no egg, please.	I'll have the fried rice with no egg, please.	fried
+Add two cups of flour and a pinch of salt.	Add two cups of flour and a pinch of salt.	flour
+Bring plates, cups, napkins and so forth.	Bring plates, cups, napkins and so forth.	forth
+Grate the cheese over the pasta right before serving.	Grate the cheese over the pasta right before serving.	grate
+I want to hone my interview skills before recruiting starts.	I want to hone my interview skills before recruiting starts.	hone
+Can we hop on a quick call at three?	Can we hop on a quick call at three?	hop
+I starred the email so I wouldn't forget to reply.	I starred the email so I wouldn't forget to reply.	starred
+I prefer the latter option, the one with free shipping.	I prefer the latter option, the one with free shipping.	latter
+Squeeze some lime over the tacos.	Squeeze some lime over the tacos.	lime
+The tour ends at an old manor house with a garden.	The tour ends at an old manor house with a garden.	manor
+I booked a massage at the hotel spa for Sunday.	I booked a massage at the hotel spa for Sunday.	massage
+The meditation session starts at seven in room 12.	The meditation session starts at seven in room 12.	meditation
+The oven in our hostel kitchen takes forever to heat up.	The oven in our hostel kitchen takes forever to heat up.	oven
+You can copy and paste the link into your browser.	You can copy and paste the link into your browser.	paste
+We need two more peer reviews before submitting.	We need two more peer reviews before submitting.	peer
+Let's watch the sunset from the pier.	Let's watch the sunset from the pier.	pier
+He's the guy in the plaid shirt by the door.	He's the guy in the plaid shirt by the door.	plaid
+Her prose is clear, but the argument needs more evidence.	Her prose is clear, but the argument needs more evidence.	prose
+The pep rally starts at four in the main gym.	The pep rally starts at four in the main gym.	rally
+Send me the recipe for that curry when you get a chance.	Send me the recipe for that curry when you get a chance.	recipe
+Try a factory reset if the screen stays frozen.	Try a factory reset if the screen stays frozen.	reset
+I had a scone and tea at the station cafe.	I had a scone and tea at the station cafe.	scone
+The seam on the left sleeve came apart after one wash.	The seam on the left sleeve came apart after one wash.	seam
+The sole of my boot is peeling off after two weeks.	The sole of my boot is peeling off after two weeks.	sole
+I ordered the steak medium rare, not well done.	I ordered the steak medium rare, not well done.	steak
+We booked a suite with a kitchen for the team retreat.	We booked a suite with a kitchen for the team retreat.	suite
+Thanks for the thorough review of my draft.	Thanks for the thorough review of my draft.	thorough
+The free tier only allows three projects.	The free tier only allows three projects.	tier
+Prices vary by season, so check before you book.	Prices vary by season, so check before you book.	vary
+They agreed to waive the late fee this once.	They agreed to waive the late fee this once.	waive
+I'm a bit wary of booking through that site.	I'm a bit wary of booking through that site.	wary
+Add a sprig of thyme to the roast.	Add a sprig of thyme to the roast.	thyme
+Enter the serial number from the bottom of the device.	Enter the serial number from the bottom of the device.	serial
+The scenic route adds twenty minutes but it's worth it.	The scenic route adds twenty minutes but it's worth it.	route
+Take the tram to the old harbor, it's faster.	Take the tram to the old harbor, it's faster.	tram
+The lightning delayed our flight by an hour.	The lightning delayed our flight by an hour.	lightning
+Come over for supper on Sunday if you're free.	Come over for supper on Sunday if you're free.	supper
+The rationale for the fee increase wasn't explained anywhere.	The rationale for the fee increase wasn't explained anywhere.	rationale
+Our discrete math homework is due Monday at noon.	Our discrete math homework is due Monday at noon.	discrete

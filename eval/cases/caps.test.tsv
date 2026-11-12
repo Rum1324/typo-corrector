@@ -1,0 +1,111 @@
+# caps set B: sentence-start typos, shift held too long, typos after a period, names/brands kept, lowercase pronoun i
+Teh standup got moved to ten tomorrow.	The standup got moved to ten tomorrow.	cap first word
+Thsi receipt says I paid twice for the oat milk.	This receipt says I paid twice for the oat milk.	cap first word
+Waht did you think of the ending of Past Lives?	What did you think of the ending of Past Lives?	cap first word
+Becuase the lease ends in March and the agent wants the carpets cleaned profesionally, we should probably book the cleaners and the removalists this week.	Because the lease ends in March and the agent wants the carpets cleaned professionally, we should probably book the cleaners and the removalists this week.	cap first word, long
+Somtimes my knee clicks when I take the stairs.	Sometimes my knee clicks when I take the stairs.	cap first word
+Tommorow is the last day to submit our hackathon demo video.	Tomorrow is the last day to submit our hackathon demo video.	cap first word
+Pleaes send me the slides before the client call.	Please send me the slides before the client call.	cap first word
+Thier paper uses a much smaller dataset than ours.	Their paper uses a much smaller dataset than ours.	cap first word
+Recieved the boxes from the removalist this morning.	Received the boxes from the removalist this morning.	cap first word
+Unfortunatly the shift swap fell through, so I'm working Sunday.	Unfortunately the shift swap fell through, so I'm working Sunday.	cap first word
+Anyhting you want from the shops?	Anything you want from the shops?	cap first word
+Definately worth watching.	Definitely worth watching.	cap first word, short
+Wich abstract did you end up submitting?	Which abstract did you end up submitting?	cap first word
+Hopefuly the new flat has decent water pressure.	Hopefully the new flat has decent water pressure.	cap first word
+Actualy, let's push the retro to Friday.	Actually, let's push the retro to Friday.	cap first word
+Bascially the judges want a working demo, not slides.	Basically the judges want a working demo, not slides.	cap first word
+Yesterady I finally watched Perfect Days and loved it.	Yesterday I finally watched Perfect Days and loved it.	cap first word
+Rememebr to grab bin bags and packing tape at Bunnings.	Remember to grab bin bags and packing tape at Bunnings.	cap first word
+Shoudl I bring anything to the barbecue on Saturday?	Should I bring anything to the barbecue on Saturday?	cap first word
+Alot of the interview questions were about the till system.	A␣lot of the interview questions were about the till system.	cap first word, space insert
+Untill the blood results come back, the doctor said to rest.	Until the blood results come back, the doctor said to rest.	cap first word
+Wierd, the playlist keeps skipping the second track.	Weird, the playlist keeps skipping the second track.	cap first word
+Runnign late, sorry!	Running late, sorry!	cap first word, short
+teh new manager starts on Monday.	the new manager starts on Monday.	lowercase first word
+becasue the courier never showed up	because the courier never showed up	lowercase first word
+wnat to grab lunch after the lecture?	want to grab lunch after the lecture?	lowercase first word
+though the revews were pretty mixed	though the reviews were pretty mixed	lowercase start
+and then i realised the venue had no projector	and then i|I realised the venue had no projector	lowercase start, pronoun i
+THe printer on level three is jammed again.	The printer on level three is jammed again.	shift held
+WHat time does the hardware store close on Sundays?	What time does the hardware store close on Sundays?	shift held
+ANd don't forget the extension cord for the projector.	And don't forget the extension cord for the projector.	shift held
+THis cough has lasted almost two weeks now.	This cough has lasted almost two weeks now.	shift held
+WHen are the removalists supposed to arrive?	When are the removalists supposed to arrive?	shift held
+THat soundtrack has been stuck in my head all day.	That soundtrack has been stuck in my head all day.	shift held
+THey moved my shift to the closing slot again.	They moved my shift to the closing slot again.	shift held
+THere are four papers on the reading list this week.	There are four papers on the reading list this week.	shift held
+WHere did we leave the spare keys for the new place?	Where did we leave the spare keys for the new place?	shift held
+WHich team is presenting first?	Which team is presenting first?	shift held
+MAybe we can catch the late session of Dune instead.	Maybe we can catch the late session of Dune instead.	shift held
+ALso, the pharmacy closes early on public holidays.	Also, the pharmacy closes early on public holidays.	shift held
+SOrry I missed your call, I was stocking shelves.	Sorry I missed your call, I was stocking shelves.	shift held
+THanks, see you.	Thanks, see you.	shift held, short
+HOw much was the couch in the end?	How much was the couch in the end?	shift held
+WHy does the venue Wi-Fi keep dropping?	Why does the venue Wi-Fi keep dropping?	shift held
+ACtually the deadline got extended to Thursday.	Actually the deadline got extended to Thursday.	shift held
+PLease review my pull request before lunch.	Please review my pull request before lunch.	shift held
+BUt the authors never ran the ablation.	But the authors never ran the ablation.	shift held
+DId you book the physio for next week?	Did you book the physio for next week?	shift held
+WHo is bringing the speaker to the park?	Who is bringing the speaker to the park?	shift held
+THier manager approved the roster changes.	Their manager approved the roster changes.	shift held + transposition
+Great demo. THe judges loved the live part.	Great demo. The judges loved the live part.	shift held after period
+Got the job! WHen do you want to celebrate?	Got the job! When do you want to celebrate?	shift held after period
+I tried it on. THe jacket was too tight in the shoulders.	I tried it on. The jacket was too tight in the shoulders.	shift held after period
+CAn you send the invoice to accounts?	Can you send the invoice to accounts?	shift held
+HOpefully the scan results come back before the weekend.	Hopefully the scan results come back before the weekend.	shift held
+The meeting ran long. Afterwrads I went straight home.	The meeting ran long. Afterwards I went straight home.	after period
+Bought the paint. neext we tackle the bedroom walls.	Bought the paint. next we tackle the bedroom walls.	after period, lowercase
+Finished my shift. aftre that i went to the gym.	Finished my shift. after that i|I went to the gym.	after period, lowercase, pronoun i
+The paper is dense. honestyl the appendix is clearer than the intro.	The paper is dense. honestly the appendix is clearer than the intro.	after period, lowercase
+Pharmacy was closed. luckly the one near work had it.	Pharmacy was closed. luckily the one near work had it.	after period, lowercase
+Lovely dinner tonight. we should do it agian soon.	Lovely dinner tonight. we should do it again soon.	after period
+Server crashed at 2am. evertyhing is back up now.	Server crashed at 2am. everything is back up now.	after period, lowercase
+Saw the new Wes Anderson film. visualy it was stunning.	Saw the new Wes Anderson film. visually it was stunning.	after period, lowercase
+The box is heavy. carefull with the lamp inside.	The box is heavy. careful with the lamp inside.	after period, lowercase
+We won second place! seriosuly did not expect that.	We won second place! seriously did not expect that.	after exclamation, lowercase
+Doctor said it's just a sprain. relaly relieved.	Doctor said it's just a sprain. really relieved.	after period, lowercase
+Rent is due Friday. Dont forget to transfer your half.	Rent is due Friday. Dont forget to transfer your half.	after period, apostrophe-less kept
+The coffee machine broke. Somone already filed a ticket.	The coffee machine broke. Someone already filed a ticket.	after period
+Got the tickets. Concret starts at eight.	Got the tickets. Concert starts at eight.	after period
+Lease signed. Movng day is the fourteenth.	Lease signed. Moving day is the fourteenth.	after period
+Okay, see you then. Brign the charger please.	Okay, see you then. Bring the charger please.	after period
+Long day at the cafe. Mangaer wants me in early tomorrow.	Long day at the cafe. Manager wants me in early tomorrow.	after period
+That talk was great. Wondr if the slides are online.	That talk was great. Wonder if the slides are online.	after period
+Lunch is on me. Whre do you want to go?	Lunch is on me. Where do you want to go?	after period
+Just so everyone knows. i moved the client sync to Thursday at three, and Yuta will take notes since i have a dentist appointmnet before.	Just so everyone knows. i|I moved the client sync to Thursday at three, and Yuta will take notes since i|I have a dentist appointment before.	after period, pronoun i, long
+Yuta and I are pairing on the backend tonight.	Yuta and I are pairing on the backend tonight.	name kept
+Yamamoto sensei recomended a paper on diffusion models.	Yamamoto sensei recommended a paper on diffusion models.	name kept
+We're flying to Melbourne for the conference in Febuary.	We're flying to Melbourne for the conference in February.	name kept
+Just pushed the fix to GitHub, can you take a look?	Just pushed the fix to GitHub, can you take a look?	brand kept
+My iPhone screen cracked when the box fell off the trolley.	My iPhone screen cracked when the box fell off the trolley.	brand kept
+Ask Yuta if he still has the HDMI adaptor.	Ask Yuta if he still has the HDMI adaptor.	name kept
+Priya said the Figma file is ready for reveiw.	Priya said the Figma file is ready for review.	name kept
+Siobhan is hosting games night in Fitzroy on Saturday.	Siobhan is hosting games night in Fitzroy on Saturday.	name kept
+I found a cheaper couch on Facebook Marketplace.	I found a cheaper couch on Facebook Marketplace.	brand kept
+The new Radiohead pressing sounds even better on vinyl.	The new Radiohead pressing sounds even better on vinyl.	name kept
+Niamh and Oisin are helping us move on Sunday mornign.	Niamh and Oisin are helping us move on Sunday morning.	name kept
+Our hackathon project uses PyTorch and a tiny Supabase backend.	Our hackathon project uses PyTorch and a tiny Supabase backend.	brand kept
+Did you see the Miyazaki retrospective at ACMI?	Did you see the Miyazaki retrospective at ACMI?	name kept
+Thandiwe booked us a table at that place in Brunswick.	Thandiwe booked us a table at that place in Brunswick.	name kept
+The new iPad arrives on Wedensday.	The new iPad arrives on Wednesday.	brand kept
+Yamamoto-san wants the draft on Overleaf by tonight.	Yamamoto-san wants the draft on Overleaf by tonight.	name kept
+Uploaded the preprint to arXiv this afternon.	Uploaded the preprint to arXiv this afternoon.	brand kept
+Joaquin from IKEA said the wardrobe is back in stock.	Joaquin from IKEA said the wardrobe is back in stock.	name kept
+Yuta Yamamoto is listed as second author on the paper.	Yuta Yamamoto is listed as second author on the paper.	name kept
+We played Kendrick on Spotify the whole drive to Geelong.	We played Kendrick on Spotify the whole drive to Geelong.	name kept
+Grab me a flat white from Seven Seeds if you pass by.	Grab me a flat white from Seven Seeds if you pass by.	name kept
+i think the standup could be shorter	i|I think the standup could be shorter	pronoun i
+sorry i coudnt make it tonight, my shift got extended	sorry i|I couldnt|couldn't make it tonight, my shift got extended	pronoun i
+do you know if i need a referral for the scan?	do you know if i|I need a referral for the scan?	pronoun i
+i genuinly liked the second half of the talk	i|I genuinely liked the second half of the talk	pronoun i
+when i get the keys i will measure the bedroom windows	when i|I get the keys i|I will measure the bedroom windows	pronoun i
+i'm heading to the shops, need anything?	i'm|I'm heading to the shops, need anything?	pronoun i
+tbh i barely understood section four of that paper	tbh i|I barely understood section four of that paper	pronoun i
+i booked the room for the retro but forgot the snakcs	i|I booked the room for the retro but forgot the snacks	pronoun i
+if i finish the deck early i'll join you at the cinema	if i|I finish the deck early i'll|I'll join you at the cinema	pronoun i
+i alwyas forget my reusable bags at home	i|I always forget my reusable bags at home	pronoun i
+my flatmate and i are splitting the cost of the new fridge	my flatmate and i|I are splitting the cost of the new fridge	pronoun i
+honestly i think we should demo the offline mode	honestly i|I think we should demo the offline mode	pronoun i
+i havent taken my vitamins in a week	i|I havent taken my vitamins in a week	pronoun i, apostrophe-less kept
+Yes i can cover your Saturday shift.	Yes i|I can cover your Saturday shift.	pronoun i

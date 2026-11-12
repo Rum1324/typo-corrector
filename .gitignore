@@ -1,0 +1,13 @@
+.build/
+*.xcodeproj
+.DS_Store
+training/.venv/
+training/.cache/
+training/runs/
+training/*.log
+__pycache__/
+*.pyc
+eval/reports/
+eval/cases/real-user.*
+scripts/local.env
+dist/

@@ -1,0 +1,152 @@
+# clean rare words (Set A): correctly typed sentences with rare but legitimate words (literary, scientific, legal, archaic, hobby)
+# every line is typed correctly; typed == expected; measures false corrections of rare words near common ones
+The cat paced to and fro by the door all morning.	The cat paced to and fro by the door all morning.	fro
+My grandmother keeps a leather tome of recipes on the kitchen shelf.	My grandmother keeps a leather tome of recipes on the kitchen shelf.	tome
+Nary a cloud in the sky today, so I hung the laundry outside.	Nary a cloud in the sky today, so I hung the laundry outside.	nary
+The sun burned the nape of my neck while I weeded the garden.	The sun burned the nape of my neck while I weeded the garden.	nape
+As is his wont, Kenji arrived ten minutes early with coffee for everyone.	As is his wont, Kenji arrived ten minutes early with coffee for everyone.	wont
+I painted the hallway a deep teal and it looks better than I expected.	I painted the hallway a deep teal and it looks better than I expected.	teal
+Our weekend plans went awry when the train was cancelled.	Our weekend plans went awry when the train was cancelled.	awry
+Her enthusiasm for running began to wane after the first month.	Her enthusiasm for running began to wane after the first month.	wane
+A cup of chamomile helps quell my nerves before bed.	A cup of chamomile helps quell my nerves before bed.	quell
+Honestly I don't care a whit about the new phone.	Honestly I don't care a whit about the new phone.	whit
+The neighbors' barking dog vexed us all summer.	The neighbors' barking dog vexed us all summer.	vexed
+Don't let small setbacks vex you.	Don't let small setbacks vex you.	vex
+Sear the tuna for thirty seconds on each side and slice it thin.	Sear the tuna for thirty seconds on each side and slice it thin.	sear
+We ate grilled eel and pickled ginger until we were thoroughly sated.	We ate grilled eel and pickled ginger until we were thoroughly sated.	sated
+The chef seared the scallops in brown butter with a pinch of sumac.	The chef seared the scallops in brown butter with a pinch of sumac.	seared
+A bowl of miso soup with tofu is enough to sate me at night.	A bowl of miso soup with tofu is enough to sate me at night.	sate
+She ekes out the last of the saffron for special occasions.	She ekes out the last of the saffron for special occasions.	ekes
+Use a mandoline to slice the shallots into thin rings.	Use a mandoline to slice the shallots into thin rings.	mandoline
+The sommelier mentioned firm tannins and a hint of the lees.	The sommelier mentioned firm tannins and a hint of the lees.	lees
+Braise the shanks with leeks, thyme, and a splash of verjuice.	Braise the shanks with leeks, thyme, and a splash of verjuice.	verjuice
+The custard curdled because I let the heat creep too high.	The custard curdled because I let the heat creep too high.
+I memorized every codon in the table before the biology exam.	I memorized every codon in the table before the biology exam.	codon
+The textbook places each phylum below kingdom and above class.	The textbook places each phylum below kingdom and above class.	phylum
+An allele is a variant form of a gene at a given locus.	An allele is a variant form of a gene at a given locus.	allele
+Our neuroanatomy quiz asked us to label the gyri and sulci of the frontal lobe.	Our neuroanatomy quiz asked us to label the gyri and sulci of the frontal lobe.	gyri sulci
+The professor lectured with such aplomb that nobody noticed the slides were missing.	The professor lectured with such aplomb that nobody noticed the slides were missing.	aplomb
+I rue the day I signed up for organic chemistry at eight in the morning.	I rue the day I signed up for organic chemistry at eight in the morning.	rue
+The primary oocyte stays arrested in prophase until puberty.	The primary oocyte stays arrested in prophase until puberty.	oocyte
+Glia outnumber neurons in some regions of the brain.	Glia outnumber neurons in some regions of the brain.	glia
+My notes on axonal transport were a mess, so I rewrote them on index cards.	My notes on axonal transport were a mess, so I rewrote them on index cards.	axonal
+For the essay, compare the mien of the two sisters in the final chapter.	For the essay, compare the mien of the two sisters in the final chapter.	mien
+The poem describes sere leaves drifting across a frozen tarn.	The poem describes sere leaves drifting across a frozen tarn.	sere tarn
+Annelids and arthropods belong to different phyla.	Annelids and arthropods belong to different phyla.	phyla
+She eked out a passing grade on the statistics final.	She eked out a passing grade on the statistics final.	eked
+I ruefully admitted that I had studied the wrong chapter.	I ruefully admitted that I had studied the wrong chapter.	ruefully
+The climbers picked their way over loose scree below the ridge.	The climbers picked their way over loose scree below the ridge.	scree
+He moved lithely across the mat and pinned his opponent in seconds.	He moved lithely across the mat and pinned his opponent in seconds.	lithely
+Our captain handled the press conference with remarkable aplomb.	Our captain handled the press conference with remarkable aplomb.	aplomb
+We paddled past the sedge at the edge of the fen.	We paddled past the sedge at the edge of the fen.	sedge fen
+Tie the bow line to the cleat and leave a little slack.	Tie the bow line to the cleat and leave a little slack.	cleat
+She braced her feet against the thwart and pulled hard on the oars.	She braced her feet against the thwart and pulled hard on the oars.	thwart
+Water slopped over the gunwale as the canoe rounded the bend.	Water slopped over the gunwale as the canoe rounded the bend.	gunwale
+The team's momentum waned in the second half.	The team's momentum waned in the second half.	waned
+A quick tack let us round the buoy ahead of the fleet.	A quick tack let us round the buoy ahead of the fleet.	tack
+His second serve went awry and clipped the tape.	His second serve went awry and clipped the tape.	awry
+The goalkeeper refused to cede an inch of the box.	The goalkeeper refused to cede an inch of the box.	cede
+We hiked up to the tor and ate lunch on the granite slabs.	We hiked up to the tor and ate lunch on the granite slabs.	tor
+We wended our way through the narrow lanes of Gion at dusk.	We wended our way through the narrow lanes of Gion at dusk.	wended
+The ryokan served grilled sweetfish and chilled sake with dinner.	The ryokan served grilled sweetfish and chilled sake with dinner.	ryokan
+After soaking in the onsen, we wandered to the night market in yukata.	After soaking in the onsen, we wandered to the night market in yukata.	onsen yukata
+The path to the shrine was lined with stone lanterns and moss.	The path to the shrine was lined with stone lanterns and moss.
+From the ridge we could see yon peak, still capped with snow.	From the ridge we could see yon peak, still capped with snow.	yon
+We stayed up late in Hokkaido hoping to glimpse the comet.	We stayed up late in Hokkaido hoping to glimpse the comet.	comet
+A potter in Mashiko let us watch him load his kiln.	A potter in Mashiko let us watch him load his kiln.	kiln
+The weaver in Kyoto showed us how warp and weft interlace on the loom.	The weaver in Kyoto showed us how warp and weft interlace on the loom.	warp weft
+In Kanazawa I bought a lacquered tray and a small tea caddy.	In Kanazawa I bought a lacquered tray and a small tea caddy.	caddy
+Snow monkeys bathed in the steaming pool while we watched from the bank.	Snow monkeys bathed in the steaming pool while we watched from the bank.
+Our guide explained how each tenon in the temple fits without a single nail.	Our guide explained how each tenon in the temple fits without a single nail.	tenon
+The sere grasses of the Aso caldera rippled in the wind.	The sere grasses of the Aso caldera rippled in the wind.	sere
+The tarn near Kamikochi mirrored the autumn maples perfectly.	The tarn near Kamikochi mirrored the autumn maples perfectly.	tarn
+We stained the cultures to distinguish glia from neurons.	We stained the cultures to distinguish glia from neurons.	glia
+The soma of each pyramidal cell was traced by hand.	The soma of each pyramidal cell was traced by hand.	soma
+Axonal degeneration was evident three days after the lesion.	Axonal degeneration was evident three days after the lesion.	axonal
+A point mutation in this codon swaps a single residue in the binding pocket.	A point mutation in this codon swaps a single residue in the binding pocket.	codon
+Each mouse was genotyped for the mutant allele before testing.	Each mouse was genotyped for the mutant allele before testing.	allele
+The oocytes were injected with mRNA and incubated overnight.	The oocytes were injected with mRNA and incubated overnight.	oocytes
+Somata were counted in every fifth section through the hippocampus.	Somata were counted in every fifth section through the hippocampus.	somata
+Pipette ten microliters of lysate into each well and vortex briefly.	Pipette ten microliters of lysate into each well and vortex briefly.	lysate
+Please aliquot the antibody to avoid repeated freeze-thaw cycles.	Please aliquot the antibody to avoid repeated freeze-thaw cycles.	aliquot
+The gyri appear flattened in the patient scans relative to controls.	The gyri appear flattened in the patient scans relative to controls.	gyri
+Deep sulci made registration across subjects difficult.	Deep sulci made registration across subjects difficult.	sulci
+Whole-genome sequencing revealed a rare allele in the proband.	Whole-genome sequencing revealed a rare allele in the proband.	allele proband
+We isolated nuclei on a sucrose cushion with a gentle spin.	We isolated nuclei on a sucrose cushion with a gentle spin.
+The phylum Cnidaria includes jellyfish, corals, and sea anemones.	The phylum Cnidaria includes jellyfish, corals, and sea anemones.	phylum
+Our postdoc quelled the panic by finding the backup samples in the other freezer.	Our postdoc quelled the panic by finding the backup samples in the other freezer.	quelled
+Glial scarring was minimal around the electrode track.	Glial scarring was minimal around the electrode track.	glial
+The legacy module is a tome of nested callbacks nobody wants to touch.	The legacy module is a tome of nested callbacks nobody wants to touch.	tome
+The migration went awry when the staging database ran out of disk.	The migration went awry when the staging database ran out of disk.	awry
+Interest in the old framework has waned among contributors.	Interest in the old framework has waned among contributors.	waned
+We hewed closely to the original spec to avoid scope creep.	We hewed closely to the original spec to avoid scope creep.	hewed
+The flaky integration tests continue to vex the whole team.	The flaky integration tests continue to vex the whole team.	vex
+I wrote a thin shim so the old client can talk to the new API.	I wrote a thin shim so the old client can talk to the new API.	shim
+The deploy script must be idempotent so retries are harmless.	The deploy script must be idempotent so retries are harmless.	idempotent
+We will not cede control of the release schedule to the vendor.	We will not cede control of the release schedule to the vendor.	cede
+Nary a test failed after the refactor, which made me suspicious.	Nary a test failed after the refactor, which made me suspicious.	nary
+I have little patience for build tools of that ilk.	I have little patience for build tools of that ilk.	ilk
+lol my thesis draft is basically a tome at this point	lol my thesis draft is basically a tome at this point	tome
+My father turned a walnut bowl on his lathe last weekend.	My father turned a walnut bowl on his lathe last weekend.	lathe
+Grandpa nailed lath across the joists before plastering the ceiling.	Grandpa nailed lath across the joists before plastering the ceiling.	lath joists
+My uncle cut a dado in each side panel to hold the shelves.	My uncle cut a dado in each side panel to hold the shelves.	dado
+She glued the tenon into the mortise and clamped the chair overnight.	She glued the tenon into the mortise and clamped the chair overnight.	tenon mortise
+My aunt fires her pottery in a small electric kiln in the garage.	My aunt fires her pottery in a small electric kiln in the garage.	kiln
+Mom taught me to thread the heddles before I wove my first scarf.	Mom taught me to thread the heddles before I wove my first scarf.	heddles
+My brother and his ilk spend every weekend at the climbing gym.	My brother and his ilk spend every weekend at the climbing gym.	ilk
+Grandma's stern mien softened the moment she held the baby.	Grandma's stern mien softened the moment she held the baby.	mien
+We rued not visiting more often while she was still well.	We rued not visiting more often while she was still well.	rued
+Dad hewed the log into a rough beam with an old adze.	Dad hewed the log into a rough beam with an old adze.	hewed adze
+The moor lay silent beneath a waning moon.	The moor lay silent beneath a waning moon.	moor waning
+Ere the bells rang twice, the stranger had vanished into the fog.	Ere the bells rang twice, the stranger had vanished into the fog.	ere
+The lithe dancer seemed to float across the stage.	The lithe dancer seemed to float across the stage.	lithe
+Her mien was calm, though her hands trembled.	Her mien was calm, though her hands trembled.	mien
+Oft have I wandered by the shore at twilight.	Oft have I wandered by the shore at twilight.	oft
+A comet streaked across the winter sky above the sleeping village.	A comet streaked across the winter sky above the sleeping village.	comet
+Grief may rive the heart, yet time will mend it.	Grief may rive the heart, yet time will mend it.	rive
+The miners followed the silver lode deep into the mountain.	The miners followed the silver lode deep into the mountain.	lode
+They wend their way homeward as the light begins to fade.	They wend their way homeward as the light begins to fade.	wend
+Rue and rosemary grew wild along the churchyard wall.	Rue and rosemary grew wild along the churchyard wall.	rue
+The fen stretched for miles, broken only by clumps of sedge.	The fen stretched for miles, broken only by clumps of sedge.	fen sedge
+A kestrel hovered above the tor, then dropped like a stone.	A kestrel hovered above the tor, then dropped like a stone.	tor
+The old oak stood riven by lightning, its heartwood bare.	The old oak stood riven by lightning, its heartwood bare.	riven
+The court issued a writ of habeas corpus on Tuesday.	The court issued a writ of habeas corpus on Tuesday.	writ
+The plaintiff seeks a writ of mandamus compelling the agency to act.	The plaintiff seeks a writ of mandamus compelling the agency to act.	writ mandamus
+The defendant is estopped from denying the terms of the lease.	The defendant is estopped from denying the terms of the lease.	estopped
+The easement runs with the land and binds all subsequent owners.	The easement runs with the land and binds all subsequent owners.	easement
+The lessor shall cede the adjoining parcel upon completion of the survey.	The lessor shall cede the adjoining parcel upon completion of the survey.	cede lessor
+The doctrine of laches bars claims brought after unreasonable delay.	The doctrine of laches bars claims brought after unreasonable delay.	laches
+Any lien on the chattel shall be disclosed prior to closing.	Any lien on the chattel shall be disclosed prior to closing.	lien chattel
+The aforesaid parties hereby agree to the terms set forth herein.	The aforesaid parties hereby agree to the terms set forth herein.	aforesaid
+Counsel filed several writs, all of which were denied.	Counsel filed several writs, all of which were denied.	writs
+Wherefore art thou weeping, child?	Wherefore art thou weeping, child?	thou
+I thank thee for thy kindness.	I thank thee for thy kindness.	thee thy
+Hast thou seen the shepherd on yon hill?	Hast thou seen the shepherd on yon hill?	hast yon
+Nay, I shall not tarry here.	Nay, I shall not tarry here.	nay tarry
+Get thee hence ere the sun goes down.	Get thee hence ere the sun goes down.	thee ere
+Keep the warp threads taut so the weft packs evenly.	Keep the warp threads taut so the weft packs evenly.	warp weft
+Throw a bight over the cleat and pull it snug.	Throw a bight over the cleat and pull it snug.	bight cleat
+Pare the tenon until it slides into the mortise with light pressure.	Pare the tenon until it slides into the mortise with light pressure.	pare tenon
+The joists sit sixteen inches apart, so the subfloor screws must line up.	The joists sit sixteen inches apart, so the subfloor screws must line up.	joists
+A stacked dado blade cuts clean grooves for shelf supports.	A stacked dado blade cuts clean grooves for shelf supports.	dado
+Wedge the clay thoroughly before you center it on the wheel.	Wedge the clay thoroughly before you center it on the wheel.	wedge
+A bisque firing takes about eight hours in my kiln.	A bisque firing takes about eight hours in my kiln.	bisque kiln
+I replaced the heddle on my rigid loom with a finer one.	I replaced the heddle on my rigid loom with a finer one.	heddle
+We crossed the scree toward the tarn below the col.	We crossed the scree toward the tarn below the col.	scree tarn col
+Keep the gouge steady and let the lathe do the work.	Keep the gouge steady and let the lathe do the work.	gouge lathe
+Sand the gunwales smooth before brushing on the varnish.	Sand the gunwales smooth before brushing on the varnish.	gunwales
+Coil the halyard and hang the bights on the cleats.	Coil the halyard and hang the bights on the cleats.	halyard bights cleats
+Nary a word.	Nary a word.	nary
+Ere long, dawn.	Ere long, dawn.	ere
+Quell the noise.	Quell the noise.	quell
+Thou art kind.	Thou art kind.	thou
+Sear, then rest.	Sear, then rest.	sear
+Rue the day.	Rue the day.	rue
+Awry again, sadly.	Awry again, sadly.	awry
+And then the warp snapped twice before lunch.	And then the warp snapped twice before lunch.	warp
+That is why the tenons need to be cut first.	That is why the tenons need to be cut first.	tenons
+As was her wont, she said nothing at dinner.	As was her wont, she said nothing at dinner.	wont
+The alleles segregate independently in this cross.	The alleles segregate independently in this cross.	alleles
+Ere we reached the summit, the fog rolled in.	Ere we reached the summit, the fog rolled in.	ere
+Joists, lath, and plaster, in that order.	Joists, lath, and plaster, in that order.	joists lath
+Sated and sleepy, we caught the last train back to Osaka.	Sated and sleepy, we caught the last train back to Osaka.	sated

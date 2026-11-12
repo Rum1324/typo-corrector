@@ -1,0 +1,122 @@
+# misspellings.holdout.tsv - cognitive/phonetic spelling mistakes (ie/ei, doubled letters, -ible/-able, -ance/-ence, silent letters, schwa vowels), Set C (holdout)
+# columns: typed<TAB>expected<TAB>note ; about 22% famous misspellings, the rest less famous, everyday or technical
+I finally tried the braised short ribs, but the marinade needed more vinager.	I finally tried the braised short ribs, but the marinade needed more vinegar.
+Add a pinch of cinamon and let the sauce simmer untill it thickens.	Add a pinch of cinnamon and let the sauce simmer until it thickens.
+The recipe calls for parsely, cumin and a tablespoon of corriander.	The recipe calls for parsley, cumin and a tablespoon of coriander.
+I always burn the garlic, the temprature on this old stove is unpredictible.	I always burn the garlic, the temperature on this old stove is unpredictable.
+We had zuchini fritters with a yogurt dip for dinner.	We had zucchini fritters with a yogurt dip for dinner.
+Measure the flour by wieght, not by cups.	Measure the flour by weight, not by cups.
+and the guage on the pressure cooker never moved past zero	and the gauge on the pressure cooker never moved past zero
+Defrost the salmon in the fridge, not on the counter, or it gets mushy and unsanitery.	Defrost the salmon in the fridge, not on the counter, or it gets mushy and unsanitary.
+Recieved the cast iron pan today, already seasoned it twice.	Received the cast iron pan today, already seasoned it twice.	first word
+That stew was truely worth the six hours.	That stew was truly worth the six hours.
+We visited Fushimi Inari early to avoid the crowds, and the scenary was gorgeous.	We visited Fushimi Inari early to avoid the crowds, and the scenery was gorgeous.
+Our itinery for Osaka includes Dotonbori, the aquarium and the castle.	Our itinerary for Osaka includes Dotonbori, the aquarium and the castle.
+Keep your passport in your posession at all times.	Keep your passport in your possession at all times.
+The Shinkansen was so punctual, it was honestly remarkible.	The Shinkansen was so punctual, it was honestly remarkable.
+I bought a few momentos for the neighbors at Nishiki Market.	I bought a few mementos for the neighbors at Nishiki Market.
+Takoyaki from a street stall was more memorible than any fancy dinner.	Takoyaki from a street stall was more memorable than any fancy dinner.
+The hotel staff were incredibly curteous and helped us carry our luggage up three flights of stairs.	The hotel staff were incredibly courteous and helped us carry our luggage up three flights of stairs.	long
+Is the bamboo grove in Arashiyama accessable by train?	Is the bamboo grove in Arashiyama accessible by train?
+which was a nice coincidance since it was our anniversary	which was a nice coincidence since it was our anniversary
+Can the ryokan accomodate a late check in?	Can the ryokan accommodate a late check in?
+Our group project on renewable energy is due Friday and nobody has started the glossery.	Our group project on renewable energy is due Friday and nobody has started the glossary.
+Professor Hale wants a two page summery of our methodology.	Professor Hale wants a two page summary of our methodology.	realword
+I volunteered to find an analagous case study for the conclusion.	I volunteered to find an analogous case study for the conclusion.
+Lena's analysis was really thurough, she deserves most of the credit.	Lena's analysis was really thorough, she deserves most of the credit.
+I'm worried the presentation will run over the alloted time.	I'm worried the presentation will run over the allotted time.
+Please don't plagerize anything, even accidentally.	Please don't plagiarize anything, even accidentally.
+Honestly the grading criterea are pretty vague.	Honestly the grading criteria are pretty vague.
+Wierd, the citation tool keeps formatting the dates wrong.	Weird, the citation tool keeps formatting the dates wrong.	first word
+We have tons of data, infact too much, but no clear conclusion yet.	We have tons of data, in␣fact too much, but no clear conclusion yet.	space insert
+I want to persue a minor in urban planning after this course.	I want to pursue a minor in urban planning after this course.
+that boss fight was ridiculus, took me like forty tries	that boss fight was ridiculous, took me like forty tries
+the new patch nerfed my favorite charachter again	the new patch nerfed my favorite character again
+finally unlocked the legandary sword after grinding all weekend	finally unlocked the legendary sword after grinding all weekend
+their team was so agressive we couldnt even reach the objective	their team was so aggressive we couldnt even reach the objective
+anyone want to join a raid tonight? need a healer with good rythm for the mechanics	anyone want to join a raid tonight? need a healer with good rhythm for the mechanics
+the graphics are insane but the frame drops are really noticable in big fights	the graphics are insane but the frame drops are really noticeable in big fights
+he keeps abusing a glich in the third level	he keeps abusing a glitch in the third level
+saving my gems for the next banner since its a garanteed pull	saving my gems for the next banner since its a guaranteed pull
+gg everyone, that comeback was epic, no exagerration	gg everyone, that comeback was epic, no exaggeration
+we play eachother in the semifinals on Sunday	we play each␣other in the semifinals on Sunday	space insert
+Our cat has been lethargic since her vacinations yesterday.	Our cat has been lethargic since her vaccinations yesterday.
+The vet said Biscuit needs a special diet because of his alergies.	The vet said Biscuit needs a special diet because of his allergies.
+My puppy chewed through the leash again, he is so mischevious.	My puppy chewed through the leash again, he is so mischievous.
+We adopted a rabbit from the shelter and she is already so affectionite.	We adopted a rabbit from the shelter and she is already so affectionate.
+Does anyone have a reccomendation for a groomer near Elm Street?	Does anyone have a recommendation for a groomer near Elm Street?
+The parrot keeps copying the microwave beep, and the kids find it irresistable.	The parrot keeps copying the microwave beep, and the kids find it irresistible.
+Our old dog is gradualy losing his hearing, so we use hand signals now.	Our old dog is gradually losing his hearing, so we use hand signals now.
+The hamster escaped and hid behind the refridgerator for two days.	The hamster escaped and hid behind the refrigerator for two days.
+Is chocolate really that poisenous for dogs?	Is chocolate really that poisonous for dogs?
+My freind is fostering three kittens this month.	My friend is fostering three kittens this month.
+Dr. Patel perscribed an antibiotic and told me to rest for a week.	Dr. Patel prescribed an antibiotic and told me to rest for a week.
+I have an appointment with the dermotologist on Tuesday at nine.	I have an appointment with the dermatologist on Tuesday at nine.
+The nurse checked my blood presure and it was slightly high.	The nurse checked my blood pressure and it was slightly high.
+The doctor said the rash is not contagous, so I can go back to work.	The doctor said the rash is not contagious, so I can go back to work.
+My knee pain is cronic, so they refered me to a physical therapist.	My knee pain is chronic, so they referred me to a physical therapist.
+Possible side effects include drowsyness and mild nausea.	Possible side effects include drowsiness and mild nausea.
+I was embarassed to bring it up, but the doctor was very kind about it.	I was embarrassed to bring it up, but the doctor was very kind about it.
+Take the tablets twice a day, preferrably with food.	Take the tablets twice a day, preferably with food.
+The x-ray showed a hairline fracture in my rist.	The x-ray showed a hairline fracture in my wrist.	silent letter
+I was barely concious when the anesthesia started wearing off.	I was barely conscious when the anesthesia started wearing off.
+Our platform helps small bakeries reduce waste and manage inventery.	Our platform helps small bakeries reduce waste and manage inventory.
+We need an investor who beleives in sustainable packaging.	We need an investor who believes in sustainable packaging.
+The market oppurtunity is roughly two billion dollars a year.	The market opportunity is roughly two billion dollars a year.
+Our main competitor charges a subscribtion fee, while we take a small comission.	Our main competitor charges a subscription fee, while we take a small commission.
+We have three first time entrepeneurs on the founding team.	We have three first time entrepreneurs on the founding team.
+The deck needs a clearer slide on revenue and long term viablity.	The deck needs a clearer slide on revenue and long term viability.
+Investors kept asking about scalibility and customer aquisition costs.	Investors kept asking about scalability and customer acquisition costs.
+We're already profitible in two cities.	We're already profitable in two cities.
+I think we came across as too confidant during the Q and A.	I think we came across as too confident during the Q and A.	realword
+Our buisness model relies on recurring revenue from cafes.	Our business model relies on recurring revenue from cafes.
+The tomatoes need more sun, so I moved them next to the fense.	The tomatoes need more sun, so I moved them next to the fence.
+I planted lavendar along the path to attract bees.	I planted lavender along the path to attract bees.
+Aphids are destroying my roses, is there a good organic pestiside?	Aphids are destroying my roses, is there a good organic pesticide?
+We should fertalize the lawn before the rain this weekend.	We should fertilize the lawn before the rain this weekend.
+The hydrangias turned blue after I added coffee grounds.	The hydrangeas turned blue after I added coffee grounds.
+Compost takes a while, but it is worth the patiance.	Compost takes a while, but it is worth the patience.
+Prunning the apple tree in late winter encourages new growth.	Pruning the apple tree in late winter encourages new growth.	first word
+Perrenials are so low maintenance.	Perennials are so low maintenance.	first word
+I think the bed by the shed has poor drainige.	I think the bed by the shed has poor drainage.
+The squirels dug up every single tulip bulb I planted in October.	The squirrels dug up every single tulip bulb I planted in October.
+The concert was phenominal, the drummer was on another level.	The concert was phenomenal, the drummer was on another level.
+We got there early for a good spot and the atmosfere was electric.	We got there early for a good spot and the atmosphere was electric.
+Their encore was a stripped down version with just a ukalele.	Their encore was a stripped down version with just a ukulele.
+The orchestra's rendition of the second movement was magnificant.	The orchestra's rendition of the second movement was magnificent.
+Tickets sold out in minutes, the demand was unbeleivable.	Tickets sold out in minutes, the demand was unbelievable.
+The opening act was a local band with a lot of potencial.	The opening act was a local band with a lot of potential.
+The lights and the sound were perfectly sincronized.	The lights and the sound were perfectly synchronized.
+Best night of the millenium honestly.	Best night of the millennium honestly.
+ok so for Maya's party someone needs to destract her until 7	ok so for Maya's party someone needs to distract her until 7
+who's bringing the cake? I can do decorations and baloons	who's bringing the cake? I can do decorations and balloons
+I'll book the karaoke room, its cheeper on weekdays	I'll book the karaoke room, its cheaper on weekdays
+can everyone send me $15 for the gift? its a personalized necklase	can everyone send me $15 for the gift? its a personalized necklace
+should we invite her roomates too or just close friends	should we invite her roommates too or just close friends
+the bistro confirmed our reservasion for 12 people	the bistro confirmed our reservation for 12 people
+the playlist is amazing, Jordan you're a genious	the playlist is amazing, Jordan you're a genius
+dont forget the candels lol	dont forget the candles lol
+what a perfect occassion to finally use the fancy glasses	what a perfect occasion to finally use the fancy glasses
+see you tommorow!	see you tomorrow!	short
+The login page throws an exeption whenever the session token expires.	The login page throws an exception whenever the session token expires.
+I think the bug is in the request interseptor.	I think the bug is in the request interceptor.
+The response is undefined because the fetch call is asynchronus and nobody awaits it, so the component renders before the data arrives.	The response is undefined because the fetch call is asynchronous and nobody awaits it, so the component renders before the data arrives.	long
+Can you check whether the enviroment variables are loaded in production?	Can you check whether the environment variables are loaded in production?
+The dropdown breaks on Safari, probably some browser inconsistancy with flexbox.	The dropdown breaks on Safari, probably some browser inconsistency with flexbox.
+We should add pagenation so the table doesn't load ten thousand rows.	We should add pagination so the table doesn't load ten thousand rows.
+The build failed because of an obsolite Node version.	The build failed because of an obsolete Node version.
+Please add a fallback for when the paramater is null.	Please add a fallback for when the parameter is null.
+The error message is too vauge to be useful.	The error message is too vague to be useful.
+Becuase of the CORS error, the request never even reaches the server.	Because of the CORS error, the request never even reaches the server.	first word
+The crash only occured after the latest deploy.	The crash only occurred after the latest deploy.
+We recorded from the hipocampus in four mice using silicon probes.	We recorded from the hippocampus in four mice using silicon probes.
+The spike sorting looks noisy, maybe the electrode impedence was too high.	The spike sorting looks noisy, maybe the electrode impedance was too high.
+Dr. Okafor suggested increasing the sampling frequancy to reduce aliasing.	Dr. Okafor suggested increasing the sampling frequency to reduce aliasing.
+The theta oscilations were stronger during exploration.	The theta oscillations were stronger during exploration.
+Our preliminery data suggest a correlation between firing rate and speed.	Our preliminary data suggest a correlation between firing rate and speed.
+The field potential amplitude decreased after the drug was administred.	The field potential amplitude decreased after the drug was administered.
+Neurons in layer five kept firing after stimulus offset, which suggests a recurrent mechanizm.	Neurons in layer five kept firing after stimulus offset, which suggests a recurrent mechanism.
+The calender for the lab meeting rotation is on the shared drive.	The calendar for the lab meeting rotation is on the shared drive.
+but the existance of a second population is still speculative	but the existence of a second population is still speculative
+The goverment grant covers two more years of recordings.	The government grant covers two more years of recordings.
+Priya is our liason with the imaging core.	Priya is our liaison with the imaging core.

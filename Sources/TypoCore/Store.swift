@@ -100,6 +100,19 @@ public final class Store {
         return out
     }
 
+    public struct PairEvent { public let typo: String; public let fix: String; public let source: FixSource }
+
+    /// Every fix event, oldest first, in lower case (automatic fixes are stored as typed).
+    public func pairEvents() throws -> [PairEvent] {
+        var out: [PairEvent] = []
+        try run("SELECT typo, fix, source FROM fixes ORDER BY id") { s in   // insertion order; ts can jump with the clock
+            if let src = FixSource(rawValue: self.text(s, 2)) {
+                out.append(PairEvent(typo: self.text(s, 0).lowercased(), fix: self.text(s, 1).lowercased(), source: src))
+            }
+        }
+        return out
+    }
+
     public func recent(_ limit: Int, source: FixSource? = nil) throws -> [FixRecord] {
         var out: [FixRecord] = []
         let sql = "SELECT id, ts, app, typo, fix, before_ctx, after_ctx, source FROM fixes " +

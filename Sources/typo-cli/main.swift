@@ -95,6 +95,8 @@ for kv in (flag("--cfg") ?? "").split(separator: ",") {
     case "ctxattested": config.contextAttestedMinProbability = v > 0 ? v : nil
     case "ctxromaji": config.contextRomajiNameMinProbability = v
     case "ctxapos": config.contextAddsApostrophes = v != 0
+    case "loose": config.contextLooseness = v
+    case "contr": config.fixContractions = v != 0
     default: FileHandle.standardError.write("unknown --cfg key \(k)\n".data(using: .utf8)!); exit(1)
     }
 }

@@ -148,7 +148,21 @@ public struct CorrectorConfig {
     /// When the rules (which do not see the sentence) would make the same replacement on their own,
     /// this lower probability is enough: two independent judgements agree. nil turns the rule off.
     public var contextAgreeMinProbability: Double? = 0.7
+    /// How far the context path's bars above are lowered, in log-odds. 0 keeps them as tuned;
+    /// 1 turns 90% into 77% and 97% into 92%. The name bar moves half as far, the romaji-name bar
+    /// not at all. The app's menu sets this ("How eagerly to correct").
+    public var contextLooseness = 0.0
+    /// "doesnt" -> "doesn't", "im" -> "I'm": a fixed list of contractions whose bare form is not a
+    /// word of its own (`Corrector.contractions`). Off here because the chat test sets treat the
+    /// bare forms as a style; the app turns it on from its menu.
+    public var fixContractions = false
     public init() {}
+
+    /// The probability bar `p` after `contextLooseness` (times `weight`) is taken off its log-odds.
+    public func loosened(_ p: Double, by weight: Double = 1) -> Double {
+        guard contextLooseness != 0, p > 0, p < 1 else { return p }
+        return 1 / (1 + exp(-(log(p / (1 - p)) - weight * contextLooseness)))
+    }
 
     /// The engine as it was before the accuracy suite (for comparisons).
     public static var legacy: CorrectorConfig {
@@ -223,7 +237,9 @@ public final class Corrector {
            !Self.acronymSuffixes.contains(String(chars.dropFirst(2))),
            lexicon.frequency(lower) >= config.shiftSlipMinFrequency {
             if personal.neverCorrect(lower) { return skip("user accepted word") }
-            let normalized = String(chars[0]) + String(chars.dropFirst()).lowercased()
+            // "DOnt": the slip and the missing apostrophe are fixed together, the word is not seen again.
+            let contraction = config.fixContractions ? Self.contractions[lower] : nil
+            let normalized = contraction.map { recase($0, like: word) } ?? String(chars[0]) + String(chars.dropFirst()).lowercased()
             return Analysis(word: word, candidates: [], decision: Correction(original: word, replacement: normalized, confidence: 1, reason: "shift slip"), note: "shift slip")
         }
 
@@ -238,6 +254,13 @@ public final class Corrector {
 
         if let fix = personal.autoFix(for: lower, isDictionaryWord: known) {
             return Analysis(word: word, candidates: [], decision: Correction(original: word, replacement: recase(fix, like: word), confidence: 1, reason: "learned"), note: "learned pair")
+        }
+        // Not a capitalised word inside a sentence ("Jony Ive", "Mr. Cant" are names), and not a
+        // pair the user has taken back without usually keeping it ("im" as a variable, German "im").
+        if config.fixContractions, let fix = Self.contractions[lower],
+           !(capitalized && (!sentenceStart || positionUnknown)),
+           personal.undoPenalty(typo: lower, candidate: fix.lowercased()) < 1.5 {
+            return Analysis(word: word, candidates: [], decision: Correction(original: word, replacement: recase(fix, like: word), confidence: 1, reason: "contraction"), note: "contraction")
         }
         if config.skipElongations, Self.hasTripleLetter(bytes) { return skip("elongation") }
         let listedNameSafe = config.listedIgnoresCapitalization && misspellings[lower] != nil
@@ -357,6 +380,22 @@ public final class Corrector {
         }
         return Analysis(word: word, candidates: cands, decision: decision, note: note)
     }
+
+    /// Contractions typed without the apostrophe, where the bare form is not an English word of its
+    /// own (or, for "cant" and "wont", one almost nobody types). Left out on purpose because the bare
+    /// form is a common word: its, were, well, ill, hell, shell, wed, shed, id, lets, whose/whos.
+    public static let contractions: [String: String] = [
+        "aint": "ain't", "arent": "aren't", "cant": "can't", "couldnt": "couldn't", "couldve": "could've",
+        "didnt": "didn't", "doesnt": "doesn't", "dont": "don't", "hadnt": "hadn't", "hasnt": "hasn't",
+        "havent": "haven't", "heres": "here's", "hes": "he's", "hows": "how's", "im": "I'm", "isnt": "isn't",
+        "itd": "it'd", "itll": "it'll", "ive": "I've", "mightve": "might've", "mustnt": "mustn't",
+        "mustve": "must've", "neednt": "needn't", "oclock": "o'clock", "shes": "she's", "shouldnt": "shouldn't",
+        "shouldve": "should've", "thatll": "that'll", "thats": "that's", "theres": "there's", "theyd": "they'd",
+        "theyll": "they'll", "theyre": "they're", "theyve": "they've", "wasnt": "wasn't", "werent": "weren't",
+        "weve": "we've", "whats": "what's", "wheres": "where's", "wont": "won't", "wouldnt": "wouldn't",
+        "wouldve": "would've", "yall": "y'all", "youd": "you'd", "youll": "you'll", "youre": "you're",
+        "youve": "you've",
+    ]
 
     func recase(_ fix: String, like original: String) -> String {
         guard let f = original.first, f.isUppercase, let c = fix.first else { return fix }

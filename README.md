@@ -6,7 +6,7 @@ own typos from the way you fix them. Everything runs and stays on your Mac.
 ```
 you type:  "I recieve teh message␣"
 you see:   "I receive the message "
-backspace right after a fix → the original word comes back, and that fix is never made again
+delete a fix and type your own word again → it stays, and Typo holds that fix back next time
 ```
 
 ## How it works
@@ -16,7 +16,7 @@ backspace right after a fix → the original word comes back, and that fix is ne
 | Event tap | Sees every keystroke and mouse click system-wide; swallows the space/return that ends a misspelled word and re-posts it after the fix | `Sources/Typo/KeyTap.swift`, `Engine.swift` |
 | Policy | Which finished words are analysed at all (trigger keys, first word after a click, links/paths/identifiers), shared by the app and the accuracy suite | `AutocorrectPolicy.swift` |
 | Text tracker | Rebuilds the current line from keystrokes, notices when you delete a word and retype it differently (a manual fix) | `Sources/TypoCore/TextTracker.swift` |
-| Personal model | Counts your (typo → fix) pairs, undone corrections, and non-dictionary words you type on purpose. Two identical fixes become an automatic correction; two backspace-undos block a word for good | `PersonalModel.swift`, `Store.swift` (SQLite) |
+| Personal model | Counts your (typo → fix) pairs, undone corrections, and non-dictionary words you type on purpose. Two identical fixes become an automatic correction. Each pair keeps a running tally of fixes you kept and fixes you undid (newer ones weigh more): undos hold a fix back in proportion to their share, and block a word only while they outnumber the kept fixes | `PersonalModel.swift`, `Store.swift` (SQLite) |
 | Candidate generation | SymSpell delete-index over 80k English words (wordfreq), distance ≤ 2 | `SymSpell.swift` |
 | Ranking | `log P(word)` + keyboard-aware edit cost + neural pair score + personal boost, softmax over the candidates **and** "keep the word as typed", confidence threshold. Also offers splits of merged words (`inthe` → `in the`) and fixes shift slips (`THe` → `The`) | `Corrector.swift`, `EditDistance.swift` |
 | Context language model | 7.8M-parameter word transformer over the lexicon, trained from scratch on 450M words (subtitles, Wikipedia, Stack Exchange, email, arXiv). Says how well each candidate fits the words before it on the line. Inference is hand-written Swift, about 2.7 ms per finished word | `ContextLM.swift`, `ContextTokenizer.swift`, `training/lm.py` |
@@ -46,8 +46,30 @@ The context path's own rails (thresholds in `CorrectorConfig`, tuned on dev):
 - when the rules would make the same replacement on their own, 0.70 is enough (two independent
   judgements agree);
 - a word the curated dictionary lists, or a regular inflection of a known word, needs ≥ 0.98;
-- apostrophes are never added (`dont`, `im`, `its` stay as typed), and stretched words (`sooo`)
-  are left to the decider, which has seen them as intended.
+- the decider never adds an apostrophe (`its` stays as typed), a lone `i` is never changed, and
+  stretched words (`sooo`) are left to the decider, which has seen them as intended.
+
+Two settings in the menu change this (both are off in `CorrectorConfig`, which the tests and the
+tables below use):
+- **How eagerly to correct** lowers every bar above except the romaji one by a number of
+  log-odds (`contextLooseness`; the name bar moves half as far). Test split, 2026-11-12, with
+  apostrophes on; "correct words changed" is over all 49,228 correct words and leaves apostrophe
+  fixes out:
+
+  | Level | Looseness | Real typing fixed | Classic sets fixed | Real-word slips fixed | Wrong fixes (5,756 typos) | Correct words changed |
+  |---|---|---|---|---|---|---|
+  | Careful | 0 | 55.7% | 84.8% | 18.6% | 50 | 16 |
+  | Balanced | 0.5 | 58.9% | 87.1% | 23.4% | 63 | 20 |
+  | Eager (the app's default) | 1.0 | 61.5% | 88.9% | 29.0% | 83 | 31 |
+  | Very eager | 1.5 | 64.2% | 89.6% | 35.2% | 92 | 44 |
+  | Maximum | 2.0 | 66.2% | 90.4% | 39.3% | 116 | 74 |
+
+  The levels were picked on dev and only read off on test. Any value can be set with
+  `defaults write <bundle id> looseness -float 0.75`.
+- **Add missing apostrophes** (on in the app) fixes a fixed list of 47 contractions whose bare
+  form is not a word of its own (`doesnt` → `doesn't`, `im` → `I'm`; `Corrector.contractions`),
+  without asking the models. `its`, `were`, `well`, `ill` and the like are not on the list. The
+  chat test sets count these fixes as errors, because they treat `dont` as a style.
 
 ### Safety rails against wrong corrections
 - Dictionary words are only "typos" if they are on the curated misspelling list (3,921 entries
@@ -83,9 +105,23 @@ The context path's own rails (thresholds in `CorrectorConfig`, tuned on dev):
   Accessibility; if the app's own autocorrect already changed the word, Typo leaves it alone.
 - Tracking pauses while a composing input method (Japanese, Chinese, Korean) is active; the
   Roman/ABC mode of those IMEs is treated as Latin.
-- Any backspace within 15 s of a correction undoes it and records the rejection; two rejections
-  of the same word stop it being corrected for good. Return is not undoable (in chat apps the
-  message has already been sent). Retyping over an automatic fix also counts as a rejection.
+- Rejecting a fix: delete it and type something else, or type your own word back (that word is
+  then left alone, not fixed again). "Backspace undoes the last fix" in the menu is off by
+  default; when on, any backspace within 15 s of a correction puts the typed word back, and it
+  counts as a rejection only if the next key types a character (another backspace means you were
+  rewriting, and nothing is learned). It is off because a backspace meant to go back and fix the
+  word by hand looks the same. Return is never undoable (in chat apps the message has already
+  been sent).
+- What a rejection does (`PersonalModel.swift`): each (typed word → fix) pair has a tally of kept
+  and undone fixes in which every new outcome shrinks the older ones by 0.85. An undo or a fix
+  made by hand counts 1; an automatic fix that was not undone counts 0.5, because a rejection
+  after a click or a shortcut goes unseen. The fix loses 3 × undone² / (undone + kept + 1) from
+  its score: 1.5 for one undo with no history (it then needs about 98% confidence instead of
+  90%), about 0.6 for one undo after many kept fixes. A word is left alone only while its undone
+  tally is at least 1.5 (two undos in a row) and at least its kept tally: a fix undone a third of
+  the time ends up blocked, one undone a fifth of the time does not. Fixing the word by hand
+  brings it back. A learned fix of a real word (form → from) stops being applied without looking
+  at the sentence after one undo, until about five more fixes have been kept.
 
 ## Accuracy
 
@@ -101,10 +137,10 @@ the case files gave identical counts.)
 | holdout | classic sets | 900 | 79.2% → **87.1%** | 9 → 1 | 10 → 8 of 16,336 |
 | holdout | real-word slips | 137 | 0% → 21.9% | 0 → 0 | 0 → 1 of 2,603 |
 | test | classic sets | 1,298 | 79.4% → 84.8% | 18 → 13 | 14 → 17 of 19,955 |
-| test | real typing | 4,313 | 35.4% → **54.8%** | 72 → 32 | 0 → 0 of 26,274 |
+| test | real typing | 4,313 | 35.4% → **54.6%** | 72 → 32 | 0 → 0 of 26,274 |
 | test | real-word slips | 145 | 0% → 18.6% | 0 → 0 | 0 → 0 of 2,999 |
 | dev | classic sets | 1,291 | 82.6% → 86.7% | 6 → 7 | 18 → 12 of 18,752 |
-| dev | real typing | 4,723 | 35.2% → 53.4% | 86 → 42 | 1 → 2 of 29,265 |
+| dev | real typing | 4,723 | 35.2% → 53.2% | 86 → 42 | 1 → 2 of 29,265 |
 | dev | real-word slips | 141 | 0% → 26.2% | 0 → 0 | 0 → 0 of 2,813 |
 
 New sets:
@@ -123,8 +159,9 @@ Honest caveats:
   model learned to doubt such fixes; the set over-represents them.
 - Real-word slips are fixed only when the words *before* them give them away and the decider is
   very sure: about one in five. Nothing wrong was put in their place.
-- `cant`, `dont`, `im` are not given apostrophes (143 of the dev real-typing misses): in chat
-  they are typed on purpose.
+- In these tables `cant`, `dont`, `im` are not given apostrophes (143 of the dev real-typing
+  misses): in chat they are often typed on purpose. The app adds them from a fixed list unless
+  "Add missing apostrophes" is turned off.
 - False fixes are at the old level, not below it (test: 17 vs 14).
 - On a private set of 29 typos from the author's own typing (`real-user.test`, counted in the
   test rows above but not included in this repository): 51.7% → 58.6% fixed, wrong 13.8% → 10.3%.
@@ -320,11 +357,13 @@ It answers in four steps.
    every option a probability. Typo changes the word only when one option is far ahead: 90% sure
    for a word that is not in the dictionary, 97% for a real word such as `form` that you may have
    meant. Otherwise it leaves your typing alone. A typo left in costs little. A word changed
-   against your will costs a lot.
+   against your will costs a lot. How sure it has to be is yours to set: "How eagerly to
+   correct" in the menu has five levels, from careful to maximum.
 
 When it does change a word, it deletes what you typed and types the fix, faster than you can
-see. Press backspace right after and your original word comes back. Do that twice for the same
-word and Typo never touches it again.
+see. If you did mean what you typed, delete the fix and type your word again: it stays. Typo
+weighs the fixes you keep against the ones you take back, so one stray rejection of a fix you
+usually want changes little, and a fix you reject every time stops after two.
 
 It also learns from you. When you delete a word and retype it, Typo remembers the pair, and
 after two identical fixes it makes that fix for you. Words you keep typing that are not in the

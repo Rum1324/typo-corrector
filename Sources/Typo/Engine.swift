@@ -38,6 +38,10 @@ final class Engine {
         let time: Date
     }
     private var lastCorrection: LastCorrection?
+    /// A backspace-undo that has not been counted as a rejection yet. It counts once the next key
+    /// types a character (the restored word was meant); another Delete, a click or a shortcut means
+    /// the user was rewriting, and nothing is learned.
+    private var unconfirmedUndo: (typo: String, fix: String)?
     /// Set when undo swallowed a Delete press: its release is swallowed too, so the app never sees
     /// a key-up without a key-down.
     private var swallowKeyUp: Int64?
@@ -94,6 +98,7 @@ final class Engine {
             guard let self else { return }
             self.tracker.reset()
             self.lastCorrection = nil
+            self.unconfirmedUndo = nil
             self.pendingFix = nil
             Log.write("input source → \(self.inputSource.sourceID) latin=\(self.inputSource.isLatin)")
             self.onChange?()
@@ -116,6 +121,7 @@ final class Engine {
         frontPID = app?.processIdentifier ?? 0
         tracker.reset()
         lastCorrection = nil
+        unconfirmedUndo = nil
         pendingFix = nil
         focus.track(pid: frontPID)
         settings.reloadBlocklistIfStale()
@@ -132,6 +138,7 @@ final class Engine {
         Log.write("event tap was disabled by the system (\(type == .tapDisabledByTimeout ? "timeout" : "user input")) and re-enabled; the pending key went through unmodified")
         tracker.reset()
         lastCorrection = nil
+        unconfirmedUndo = nil
         pendingFix = nil
         injector.reset()
     }
@@ -191,9 +198,11 @@ final class Engine {
             return pass
         }
         guard type == .keyDown else {
-            tracker.reset(); lastCorrection = nil; pendingFix = nil
+            tracker.reset(); lastCorrection = nil; unconfirmedUndo = nil; pendingFix = nil
             return pass
         }
+        let undone = unconfirmedUndo      // counted below only if this key types a character
+        unconfirmedUndo = nil
 
         // The WindowServer stamps each event with the pid it is headed for. Trust that over the
         // activation notification, which can arrive late or not at all (Spotlight-style panels).
@@ -225,12 +234,13 @@ final class Engine {
         }
         switch keyCode {
         case 51: // delete
-            if let lc = lastCorrection, Date().timeIntervalSince(lc.time) < Self.undoWindow {
+            if settings.backspaceUndo, let lc = lastCorrection, Date().timeIntervalSince(lc.time) < Self.undoWindow {
                 stage = "undo"
                 undo(lc)
                 swallowKeyUp = 51
                 return nil
             }
+            lastCorrection = nil
             swallowKeyUp = nil
             tracker.feed(.backspace)
             return pass
@@ -255,6 +265,10 @@ final class Engine {
             accentMenuMayBeOpen = true
             return pass
         }
+        if let u = undone {
+            // Typing went on after the undo: the restored word was meant, so the fix was wrong.
+            recordRejection(typo: u.typo, fix: u.fix)
+        }
         if let p = pending, AutocorrectPolicy.confirmsDeferred(ch) {
             stage = "deferred fix"
             if applyDeferred(p, boundaryEvent: event, ch: ch, started: started) { return nil }
@@ -273,6 +287,14 @@ final class Engine {
 
         stage = "learn"
         learn(from: commit)
+        if commit.pair == nil, let rejected = commit.rejectedFix {
+            // The user deleted our fix and typed their own word back: it is meant. Fixing it again
+            // would trap them in a loop, so leave it and count the rejection.
+            recordRejection(typo: commit.word, fix: rejected)
+            noteUnknown(commit.word)
+            Log.write("kept \(commit.word): typed back over the fix \(rejected)")
+            return pass
+        }
 
         stage = "analyze"
         let decision = AutocorrectPolicy.decide(commit, with: corrector)
@@ -352,6 +374,7 @@ final class Engine {
     private func recordAuto(word: String, correction: Correction, context: [String]) {
         let app = frontBundleID ?? ""
         let fix = correction.replacement
+        personal.addApplied(typo: word.lowercased(), fix: fix.lowercased())   // kept, unless an undo follows
         storeQueue.async { [store] in
             try? store.recordFix(typo: word, fix: fix, app: app, before: context, after: [], source: .auto)
         }
@@ -373,7 +396,7 @@ final class Engine {
             tracker.reset()
         }
         lastCorrection = nil
-        recordRejection(typo: lc.typo, fix: lc.fix)
+        unconfirmedUndo = (lc.typo, lc.fix)
         Log.write("undo \(lc.fix) → \(lc.typo)")
     }
 

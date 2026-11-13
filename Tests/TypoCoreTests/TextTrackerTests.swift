@@ -89,6 +89,66 @@ final class TextTrackerTests: XCTestCase {
         XCTAssertEqual(c.rejectedFix, "word")
     }
 
+    func testTypingTheOriginalWordBackOverAFixIsARejectionWithNothingToLearn() {
+        let t = TextTracker()
+        _ = type(t, "I teh ")
+        t.replaceLastWord(with: "the", original: "teh")
+        for _ in 0..<4 { t.feed(.backspace) }
+        let c = type(t, "teh ").first!
+        XCTAssertEqual(c.word, "teh")
+        XCTAssertNil(c.pair)
+        XCTAssertEqual(c.rejectedFix, "the", "the engine must leave the word alone, not fix it again")
+    }
+
+    func testTypingTheOriginalBackIsSeenAfterALaterWordWasErasedToo() {
+        let t = TextTracker()
+        _ = type(t, "yuu ")
+        t.replaceLastWord(with: "you", original: "yuu")
+        _ = type(t, "are ")                             // noticed the fix one word late
+        for _ in 0..<8 { t.feed(.backspace) }
+        let c = type(t, "yuu ").first!
+        XCTAssertNil(c.pair)
+        XCTAssertEqual(c.rejectedFix, "you")
+    }
+
+    func testAFixReplacedAfterALaterWordWasErasedIsLearned() {
+        let t = TextTracker()
+        _ = type(t, "I wrod ")
+        t.replaceLastWord(with: "word", original: "wrod")
+        _ = type(t, "is ")
+        for _ in 0..<8 { t.feed(.backspace) }
+        let c = type(t, "world ").first!
+        XCTAssertEqual(c.pair, LearnedPair(typo: "wrod", fix: "world"))
+        XCTAssertEqual(c.rejectedFix, "word")
+    }
+
+    func testAFixStaysKnownAfterItsSpaceIsDeletedAndTypedAgain() {
+        let t = TextTracker()
+        _ = type(t, "I teh ")
+        t.replaceLastWord(with: "the", original: "teh")
+        t.feed(.backspace)
+        XCTAssertEqual(type(t, " ").first?.context, ["I"], "the word is not listed twice")
+        for _ in 0..<4 { t.feed(.backspace) }
+        let c = type(t, "teh ").first!
+        XCTAssertNil(c.pair)
+        XCTAssertEqual(c.rejectedFix, "the")
+    }
+
+    func testRetypingTheFixOrOnlyItsSpaceIsNotARejection() {
+        let t = TextTracker()
+        _ = type(t, "I teh ")
+        t.replaceLastWord(with: "the", original: "teh")
+        t.feed(.backspace)                              // reached back, saw it was already fixed
+        var c = type(t, " ").first!
+        XCTAssertEqual(c.word, "the")
+        XCTAssertNil(c.pair)
+        XCTAssertNil(c.rejectedFix)
+        for _ in 0..<4 { t.feed(.backspace) }
+        c = type(t, "the ").first!
+        XCTAssertNil(c.pair)
+        XCTAssertNil(c.rejectedFix)
+    }
+
     func testUndoRestoreDoesNotReportRejection() {
         let t = TextTracker()
         _ = type(t, "I teh ")

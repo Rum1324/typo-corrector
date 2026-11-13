@@ -73,6 +73,117 @@ final class EngineTests: XCTestCase {
         XCTAssertTrue(p.neverCorrect("hte"))
     }
 
+    func testOneUndoWithNoHistoryHoldsTheFixBackButDoesNotBlock() {
+        let p = PersonalModel()
+        p.addApplied(typo: "yuu", fix: "you"); p.addUndo(typo: "yuu", fix: "you")
+        XCTAssertEqual(p.evidence(typo: "yuu", fix: "you"), .init(kept: 0, undone: 1), "an undone fix is not also counted as kept")
+        XCTAssertEqual(p.undoPenalty(typo: "yuu", candidate: "you"), 1.5, accuracy: 1e-9)
+        XCTAssertEqual(p.undoPenalty(typo: "yuu", candidate: "your"), 0)
+        XCTAssertFalse(p.neverCorrect("yuu"))
+    }
+
+    func testTwoUndosWithNothingKeptBlockUntilTheUserMakesTheFixByHand() {
+        let p = PersonalModel()
+        for _ in 0..<2 { p.addApplied(typo: "yuu", fix: "you"); p.addUndo(typo: "yuu", fix: "you") }
+        XCTAssertTrue(p.neverCorrect("yuu"))
+        p.addManual(typo: "yuu", fix: "you")
+        XCTAssertTrue(p.neverCorrect("yuu"), "one hand-made fix against two undos is not enough")
+        p.addManual(typo: "yuu", fix: "you")
+        XCTAssertFalse(p.neverCorrect("yuu"))
+    }
+
+    func testAFixThatIsUsuallyKeptSurvivesStrayUndos() {
+        let p = PersonalModel()
+        for _ in 0..<10 { p.addApplied(typo: "teh", fix: "the") }
+        p.addApplied(typo: "teh", fix: "the"); p.addUndo(typo: "teh", fix: "the")
+        XCTAssertFalse(p.neverCorrect("teh"))
+        XCTAssertLessThan(p.undoPenalty(typo: "teh", candidate: "the"), 0.8)
+        for _ in 0..<5 { p.addApplied(typo: "teh", fix: "the") }
+        p.addApplied(typo: "teh", fix: "the"); p.addUndo(typo: "teh", fix: "the")
+        XCTAssertFalse(p.neverCorrect("teh"), "two undos among many kept fixes do not block the word")
+        XCTAssertLessThan(p.undoPenalty(typo: "teh", candidate: "the"), 1.5)
+    }
+
+    func testUndoingEveryTimeOutweighsAnOldHabit() {
+        let p = PersonalModel()
+        for _ in 0..<10 { p.addApplied(typo: "teh", fix: "the") }
+        var penalties: [Double] = []
+        for _ in 0..<2 {
+            p.addApplied(typo: "teh", fix: "the"); p.addUndo(typo: "teh", fix: "the")
+            penalties.append(p.undoPenalty(typo: "teh", candidate: "the"))
+        }
+        XCTAssertFalse(p.neverCorrect("teh"))
+        p.addApplied(typo: "teh", fix: "the"); p.addUndo(typo: "teh", fix: "the")
+        penalties.append(p.undoPenalty(typo: "teh", candidate: "the"))
+        XCTAssertEqual(penalties, penalties.sorted(), "each further undo costs the fix more")
+        XCTAssertGreaterThan(penalties[2], 2.5)
+        XCTAssertTrue(p.neverCorrect("teh"), "three undos in a row outweigh ten kept fixes")
+    }
+
+    func testAFixUndoneOneTimeInThreeEndsUpBlockedButOneInFiveDoesNot() {
+        let third = PersonalModel(), fifth = PersonalModel()
+        for cycle in 1...2 {
+            for _ in 0..<2 { third.addApplied(typo: "teh", fix: "the") }
+            third.addApplied(typo: "teh", fix: "the"); third.addUndo(typo: "teh", fix: "the")
+            XCTAssertEqual(third.neverCorrect("teh"), cycle == 2)
+        }
+        for _ in 1...8 {
+            for _ in 0..<4 { fifth.addApplied(typo: "teh", fix: "the") }
+            fifth.addApplied(typo: "teh", fix: "the"); fifth.addUndo(typo: "teh", fix: "the")
+            XCTAssertFalse(fifth.neverCorrect("teh"))
+        }
+        XCTAssertLessThan(fifth.undoPenalty(typo: "teh", candidate: "the"), 2.0)
+    }
+
+    func testALearnedFixOfARealWordGoesBackToTheContextAfterOneUndo() {
+        let p = PersonalModel()
+        for _ in 0..<4 { p.addManual(typo: "form", fix: "from") }
+        XCTAssertEqual(p.autoFix(for: "form", isDictionaryWord: true), "from")
+        p.addApplied(typo: "form", fix: "from"); p.addUndo(typo: "form", fix: "from")
+        XCTAssertNil(p.autoFix(for: "form", isDictionaryWord: true), "\"form\" was meant once: stop replacing it without looking")
+        for _ in 0..<4 { p.addApplied(typo: "form", fix: "from") }
+        XCTAssertNil(p.autoFix(for: "form", isDictionaryWord: true))
+        p.addApplied(typo: "form", fix: "from")
+        XCTAssertEqual(p.autoFix(for: "form", isDictionaryWord: true), "from", "five kept fixes later the habit is trusted again")
+    }
+
+    func testUndosOfOneFixDoNotBlockAWordWhoseOtherFixIsKept() {
+        let p = PersonalModel()
+        for _ in 0..<8 { p.addApplied(typo: "wnat", fix: "want") }
+        for _ in 0..<2 { p.addApplied(typo: "wnat", fix: "what"); p.addUndo(typo: "wnat", fix: "what") }
+        XCTAssertFalse(p.neverCorrect("wnat"))
+        XCTAssertGreaterThan(p.undoPenalty(typo: "wnat", candidate: "what"), 3)
+        XCTAssertEqual(p.undoPenalty(typo: "wnat", candidate: "want"), 0)
+    }
+
+    func testTypingOverAnEarlierFixTakesItsKeptCountBack() {
+        let p = PersonalModel()
+        p.addApplied(typo: "form", fix: "from")
+        p.addApplied(typo: "teh", fix: "the")          // another fix in between: the undo below is not of the latest one
+        p.addUndo(typo: "form", fix: "from")
+        XCTAssertEqual(p.evidence(typo: "form", fix: "from"), .init(kept: 0, undone: 1))
+        XCTAssertEqual(p.evidence(typo: "teh", fix: "the"), .init(kept: p.appliedWeight, undone: 0))
+    }
+
+    func testEvidenceIsRebuiltFromTheStoreInOrder() throws {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent("typo-test-\(UUID()).sqlite")
+        defer { try? FileManager.default.removeItem(at: url) }
+        let s = try Store(url: url)
+        let live = PersonalModel()
+        for _ in 0..<3 {
+            try s.recordFix(typo: "Teh", fix: "The", app: "test", before: [], after: [], source: .auto)   // stored as typed
+            live.addApplied(typo: "teh", fix: "the")
+        }
+        try s.recordFix(typo: "teh", fix: "the", app: "test", before: [], after: [], source: .undo)
+        live.addUndo(typo: "teh", fix: "the")
+        try s.recordFix(typo: "teh", fix: "the", app: "test", before: [], after: [], source: .manual)
+        live.addManual(typo: "teh", fix: "the")
+        let p = PersonalModel(store: s)
+        XCTAssertEqual(p.evidence(typo: "teh", fix: "the"), live.evidence(typo: "teh", fix: "the"))
+        XCTAssertEqual(p.evidence(typo: "teh", fix: "the").undone, 0.85, accuracy: 1e-9)
+        XCTAssertEqual(p.manualCount(typo: "teh", fix: "the"), 1)
+    }
+
     func testAutoFixTieIsAmbiguous() {
         let p = PersonalModel()
         p.addManual(typo: "wnat", fix: "want"); p.addManual(typo: "wnat", fix: "want")

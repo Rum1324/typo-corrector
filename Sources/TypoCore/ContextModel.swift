@@ -163,6 +163,8 @@ extension Corrector {
     /// the slip is, and "keep" must lose clearly before anything is changed.
     func contextAnalysis(word: String, lower: String, bytes: [UInt8], capitalized: Bool, sentenceStart: Bool, positionUnknown: Bool,
                          freq: Double, known: Bool, real: Bool, hits allHits: [SymSpell.Hit], model: ContextModel, state makeState: () -> LMState) -> Analysis {
+        // A lone "i" is the pronoun typed without shift; next to it, "it", "in" and "is" always look likely.
+        if lower == "i" { return Analysis(word: word, candidates: [], decision: nil, note: "kept (pronoun)") }
         var hits = allHits.filter {
             lexicon.frequency(id: $0.id) >= config.minCandidateFrequency || personal.manualCount(typo: lower, fix: lexicon.strings[Int($0.id)]) > 0
         }
@@ -275,14 +277,15 @@ extension Corrector {
         let best = cands[0]
         var decision: Correction? = nil
         var note = "ok"
-        var needed = known ? config.contextKnownMinProbability : config.contextMinProbability
-        if positionUnknown { needed = max(needed, config.contextUnknownStartMinProbability) }
+        // Every bar but the romaji-name one comes down with `contextLooseness` (the menu's setting).
+        var needed = config.loosened(known ? config.contextKnownMinProbability : config.contextMinProbability)
+        if positionUnknown { needed = max(needed, config.loosened(config.contextUnknownStartMinProbability)) }
         // A capitalised word that is not in the lexicon, or any capitalised word inside a sentence, may be a name.
-        if capitalized && (!known || (!sentenceStart && !positionUnknown)) { needed = max(needed, config.contextNameMinProbability) }
+        if capitalized && (!known || (!sentenceStart && !positionUnknown)) { needed = max(needed, config.loosened(config.contextNameMinProbability, by: 0.5)) }
         // The counts (larger word list, corpus) also hold common misspellings, so they stay evidence for
         // the decider; only the curated dictionary and regular inflections count as "this word exists".
         let attested = !known && (shared[9] > 0 || stem != nil)
-        if attested, let bar = config.contextAttestedMinProbability { needed = max(needed, bar) }
+        if attested, let bar = config.contextAttestedMinProbability { needed = max(needed, config.loosened(bar)) }
         let romajiName = capitalized && shared[22] > 0
         if romajiName { needed = max(needed, config.contextRomajiNameMinProbability) }
         let fix = recase(best.word, like: word)
@@ -291,7 +294,7 @@ extension Corrector {
             decision = Correction(original: word, replacement: fix, confidence: best.probability,
                                   reason: known ? "another word fits the sentence" : "unknown word")
         } else if !(attested && config.contextAttestedMinProbability != nil), !romajiName,
-                  let agree = config.contextAgreeMinProbability, best.probability >= agree,
+                  let agree = config.contextAgreeMinProbability, best.probability >= config.loosened(agree),
                   let rules = analyze(word, sentenceStart: sentenceStart, positionUnknown: positionUnknown, line: nil, state: nil, rulesOnly: true).decision,
                   rules.replacement == fix {
             decision = Correction(original: word, replacement: fix, confidence: best.probability, reason: rules.reason)

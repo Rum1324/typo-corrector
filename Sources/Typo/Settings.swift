@@ -47,6 +47,38 @@ final class Settings {
         set { defaults.set(newValue, forKey: "minProbability") }
     }
 
+    /// How far the context path's confidence bars are lowered (`CorrectorConfig.contextLooseness`).
+    /// The menu offers `eagernessLevels`; any number can be set with
+    /// `defaults write <bundle id> looseness -float 0.75`.
+    static let defaultLooseness = 1.0
+    /// The menu's levels ("How eagerly to correct"). The details are test-split results of
+    /// 2026-11-12 with apostrophes on: the share of real-typing typos fixed, and how often a
+    /// correct word was changed over all sets (apostrophe fixes not counted).
+    static let eagernessLevels: [(title: String, value: Double, detail: String)] = [
+        ("Careful", 0.0, "fixes 56% of typos, changes 1 correct word in 3,100"),
+        ("Balanced", 0.5, "fixes 59%, changes 1 in 2,500"),
+        ("Eager", 1.0, "fixes 62%, changes 1 in 1,600"),
+        ("Very eager", 1.5, "fixes 64%, changes 1 in 1,100"),
+        ("Maximum", 2.0, "fixes 66%, changes 1 in 670"),
+    ]
+    var looseness: Double {
+        get { defaults.object(forKey: "looseness") as? Double ?? Settings.defaultLooseness }
+        set { defaults.set(newValue, forKey: "looseness") }
+    }
+
+    /// "doesnt" -> "doesn't", "im" -> "I'm" (`Corrector.contractions`).
+    var fixContractions: Bool {
+        get { defaults.object(forKey: "fixContractions") as? Bool ?? true }
+        set { defaults.set(newValue, forKey: "fixContractions") }
+    }
+
+    /// Backspace right after a fix puts the typed word back. Off by default: a backspace meant to
+    /// go back and fix the word by hand looks the same, and would undo a fix the user wanted.
+    var backspaceUndo: Bool {
+        get { defaults.bool(forKey: "backspaceUndo") }
+        set { defaults.set(newValue, forKey: "backspaceUndo") }
+    }
+
     /// `defaults write <bundle id> debugInjection -bool YES` logs every injected event.
     var debugInjection: Bool { defaults.bool(forKey: "debugInjection") }
 

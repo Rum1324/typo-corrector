@@ -19,6 +19,7 @@ public struct Commit: Equatable {
     /// (what the user originally typed → what they retyped), when a delete-and-retype was seen.
     public let pair: LearnedPair?
     /// An automatic correction the user replaced by retyping (evidence that correction was wrong).
+    /// With no `pair`, the user typed their original word back: it is meant, and must not be fixed again.
     public let rejectedFix: String?
     public let context: [String]
     public let sentenceStart: Bool
@@ -41,6 +42,8 @@ public final class TextTracker {
     private struct Slot { var text: String; var start: Int; var original: String? }
     private var committed: [Slot] = []
     private var eroded: Slot?
+    /// Automatic fixes that backspaces removed after `eroded` was already taken, by start position.
+    private var erodedFixes: [Int: Slot] = [:]
     private var erodedCurrent: String?
     private let maxLine = 600
     /// Whether the character before `line[0]` is known to be a non-word character (true right after
@@ -96,6 +99,8 @@ public final class TextTracker {
                         if e.text != word, !isTruncation(e.original ?? e.text, word) {
                             pair = LearnedPair(typo: e.original ?? e.text, fix: word)
                             if e.original != nil { rejected = e.text }
+                        } else if let original = e.original, e.text != word, original.lowercased() == word.lowercased() {
+                            rejected = e.text      // typed their own word back over our fix: nothing to learn, but leave it
                         }
                         eroded = nil
                     } else if start > e.start {
@@ -104,7 +109,23 @@ public final class TextTracker {
                 } else if let ec = erodedCurrent, ec != word, !isTruncation(ec, word) {
                     pair = LearnedPair(typo: ec, fix: word)
                 }
-                committed.append(Slot(text: word, start: start, original: nil))
+                // A fix erased together with later words ("yuu are" -> "you are", both deleted):
+                // `eroded` holds the later word, so the fix is looked up by where it stood.
+                if let fx = erodedFixes.removeValue(forKey: start), let original = fx.original,
+                   pair == nil, rejected == nil, fx.text != word {
+                    if original.lowercased() == word.lowercased() {
+                        rejected = fx.text
+                    } else if !isTruncation(original, word) {
+                        pair = LearnedPair(typo: original, fix: word)
+                        rejected = fx.text
+                    }
+                }
+                if let last = committed.last, last.start == start {
+                    // The boundary was deleted and typed again: still the same word, and still our fix.
+                    committed[committed.count - 1] = Slot(text: word, start: start, original: last.text == word ? last.original : nil)
+                } else {
+                    committed.append(Slot(text: word, start: start, original: nil))
+                }
             }
             erodedCurrent = nil
             let ctx = committed.dropLast().suffix(3).map { $0.text }
@@ -130,7 +151,7 @@ public final class TextTracker {
                 return nil
             }
             if let slot = committed.last, slot.start + slot.text.count == line.count {
-                if eroded == nil { eroded = slot }
+                if eroded == nil { eroded = slot } else if slot.original != nil { erodedFixes[slot.start] = slot }
                 committed.removeLast()
             } else if !Self.isWordChar(last) {
                 erodedCurrent = nil            // leaving the current word: its snapshot is stale
@@ -140,6 +161,7 @@ public final class TextTracker {
             }
             line.removeLast()
             if let e = eroded, line.count < e.start - 12 { eroded = nil }
+            if !erodedFixes.isEmpty { erodedFixes = erodedFixes.filter { line.count >= $0.key - 12 } }
             return nil
         }
     }
@@ -191,6 +213,7 @@ public final class TextTracker {
         line.removeAll(keepingCapacity: true)
         committed.removeAll(keepingCapacity: true)
         eroded = nil
+        erodedFixes.removeAll()
         erodedCurrent = nil
         lineStartKnown = false
     }
@@ -202,6 +225,11 @@ public final class TextTracker {
         line.removeFirst(drop)
         committed = committed.compactMap { $0.start >= drop ? Slot(text: $0.text, start: $0.start - drop, original: $0.original) : nil }
         if let e = eroded { eroded = e.start >= drop ? Slot(text: e.text, start: e.start - drop, original: e.original) : nil }
+        if !erodedFixes.isEmpty {
+            var moved: [Int: Slot] = [:]
+            for (start, s) in erodedFixes where start >= drop { moved[start - drop] = Slot(text: s.text, start: start - drop, original: s.original) }
+            erodedFixes = moved
+        }
     }
 }
 

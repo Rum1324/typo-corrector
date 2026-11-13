@@ -52,6 +52,37 @@ final class StatusMenu: NSObject, NSMenuDelegate {
         let toggle = NSMenuItem(title: engine.settings.enabled ? "Disable corrections" : "Enable corrections", action: #selector(toggleEnabled), keyEquivalent: "")
         toggle.target = self
         menu.addItem(toggle)
+        let undo = NSMenuItem(title: "Backspace undoes the last fix", action: #selector(toggleBackspaceUndo), keyEquivalent: "")
+        undo.target = self
+        undo.state = engine.settings.backspaceUndo ? .on : .off
+        undo.toolTip = "On: backspace within 15 seconds of a fix puts your word back; Typo learns from it only if you then keep typing. Off: delete the fix and type your word again to keep it."
+        menu.addItem(undo)
+
+        let eagerness = NSMenuItem(title: "How eagerly to correct", action: nil, keyEquivalent: "")
+        let levels = NSMenu()
+        let current = engine.settings.looseness
+        var matched = false
+        for (i, level) in Settings.eagernessLevels.enumerated() {
+            let mi = NSMenuItem(title: "\(level.title): \(level.detail)", action: #selector(pickEagerness(_:)), keyEquivalent: "")
+            mi.target = self
+            mi.tag = i
+            if abs(level.value - current) < 0.01 { mi.state = .on; matched = true }
+            levels.addItem(mi)
+        }
+        if !matched {
+            let custom = disabled(String(format: "Custom: %.2f (set with defaults write)", current))
+            custom.state = .on
+            levels.addItem(custom)
+        }
+        levels.addItem(.separator())
+        levels.addItem(disabled("Each step lowers how sure Typo must be before it changes a word"))
+        eagerness.submenu = levels
+        menu.addItem(eagerness)
+        let apostrophes = NSMenuItem(title: "Add missing apostrophes (dont → don't)", action: #selector(toggleContractions), keyEquivalent: "")
+        apostrophes.target = self
+        apostrophes.state = engine.settings.fixContractions ? .on : .off
+        apostrophes.toolTip = "A fixed list of contractions whose bare form is not a word: doesnt, im, thats, youre… Never its, were, well or ill."
+        menu.addItem(apostrophes)
 
         if !engine.recent.isEmpty {
             let sub = NSMenu()
@@ -103,6 +134,25 @@ final class StatusMenu: NSObject, NSMenuDelegate {
         engine.settings.enabled.toggle()
         engine.tracker.reset()
         refreshIcon()
+    }
+
+    @objc private func toggleBackspaceUndo() {
+        engine.settings.backspaceUndo.toggle()
+    }
+
+    // The key tap runs on the main run loop, like the menu: the engine never reads a half-set config.
+    @objc private func pickEagerness(_ sender: NSMenuItem) {
+        guard Settings.eagernessLevels.indices.contains(sender.tag) else { return }
+        let level = Settings.eagernessLevels[sender.tag]
+        engine.settings.looseness = level.value
+        engine.corrector.config.contextLooseness = level.value
+        Log.write("eagerness → \(level.title) (looseness \(level.value))")
+    }
+
+    @objc private func toggleContractions() {
+        engine.settings.fixContractions.toggle()
+        engine.corrector.config.fixContractions = engine.settings.fixContractions
+        Log.write("apostrophes → \(engine.settings.fixContractions ? "on" : "off")")
     }
 
     @objc private func trainNow() {

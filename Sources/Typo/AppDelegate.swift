@@ -20,6 +20,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 let store = try Store(url: Paths.database)
                 var config = CorrectorConfig()
                 config.minProbability = Settings.shared.minProbability
+                config.contextLooseness = Settings.shared.looseness
+                config.fixContractions = Settings.shared.fixContractions
                 let corrector = try Corrector.loadDefault(store: store, config: config)
                 DispatchQueue.main.async { self.finishSetup(store: store, corrector: corrector) }
             } catch {
